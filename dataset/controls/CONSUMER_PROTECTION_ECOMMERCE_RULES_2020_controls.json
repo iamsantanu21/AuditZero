@@ -1,0 +1,504 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+  "regulator": "MoCA",
+  "controls": [
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-001",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "Section",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Section 101 of the Consumer Protection Act, 2019 (35 of 2019), the Central",
+      "plain_english": "Government hereby makes the following rules, namely—\n\n1. Short title and commencement.—(1) These rules may be called the\nConsumer Protection (E-Commerce) Rules, 2020.",
+      "original_text": "Government hereby makes the following rules, namely—\n\n1. Short title and commencement.—(1) These rules may be called the\nConsumer Protection (E-Commerce) Rules, 2020.\n\n(2) They shall come into force on the date of their publication in the Official\nGazette.\n\n2. Scope and Applicability —(1) Save as otherwise expressly provided by the\nCentral Government by notification, these rules shall apply to:\n\n(a) all goods and services bought or sold over digital or electronic network\nincluding digital products;\n\n(6) all models of e-commerce, including marketplace and inventory models\nof e-commerce;\n\n(c) all e-commerce retail, including multi-channel single brand retailers and\nsingle brand retailers in single or multiple formats; and\n\n(d) all forms of unfair trade practices across all models of e-commerce:\n\nProvided that these rules shall not apply to any activity of a\n\nnatural person carried out in a personal capacity not being part of\nany professional or commercial activity undertaken on a regular",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation come into force on the date of their publication in the Official\nGazette?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Section 101 of the Consumer Protection Act, 2019 (35 of 2019), the Central.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "tags": [
+        "breach_notification",
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Section 101 of the Consumer Protection Act, 2019 (35 of 2019), the Central.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 3(i)"
+      ]
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-002",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "[PAGE 3]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 3]",
+      "plain_english": "R.4] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 81\n\n(e) “information” shall have the same meaning as to it clause (v) of\nsub-section (1) of Section 2 of the Information Technology Act, 2000\n(21 of 2000);\n\n(f) “inventory e-commerce entity means an e-commerce entity which owns\nthe inventory of goods or services and sells such goods or services\ndirectly to the consumers and shall include single bra",
+      "original_text": "R.4] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 81\n\n(e) “information” shall have the same meaning as to it clause (v) of\nsub-section (1) of Section 2 of the Information Technology Act, 2000\n(21 of 2000);\n\n(f) “inventory e-commerce entity means an e-commerce entity which owns\nthe inventory of goods or services and sells such goods or services\ndirectly to the consumers and shall include single brand retailers and\nmulti-channel single brand retailers;\n\n(g) “marketplace e-commerce entity” means an e-commerce entity which\nprovides an information technology platform on a digital or electronic\nnetwork to facilitate transactions between buyers and sellers;\n\n(h) “PAN” means Permanent Account Number as under Section 139-A of\nthe Income Tax Act, 1961 (43 of 1961);\n\n(i) “platform” means an online interface in the form of any software\nincluding a website or a part thereof and applications including mobile\napplications;\n\n(Gj) “ranking” means the relative prominence or relevance given to the\ngoods ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have the same meaning as to it clause (v) of\nsub-section (1) of Section 2 of the Information Technology Act, 2000\n(21 o?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 3].",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consumer_protection",
+        "data_localisation",
+        "ecommerce",
+        "governance",
+        "marketplace",
+        "vendor_management"
+      ],
+      "tags": [
+        "consumer_protection",
+        "data_localisation",
+        "ecommerce",
+        "governance",
+        "marketplace",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 3].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 2",
+        "Section 139",
+        "Section 2",
+        "Section 2",
+        "Section 2"
+      ]
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-003",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "[PAGE 4]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 4]",
+      "plain_english": "82 CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.4\n\nfunctionary who is resident in India, to ensure compliance with the provisions of\nthe Act or the rules made under it. ]\n\n(2) Every e-commerce entity shall provide the following information in a clear\nand accessible manner on its platform, displayed prominently to its users, namely—\n\n(a) legal name of the e-commerce entity;\n\n(6) principal geog",
+      "original_text": "82 CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.4\n\nfunctionary who is resident in India, to ensure compliance with the provisions of\nthe Act or the rules made thereunder. ]\n\n(2) Every e-commerce entity shall provide the following information in a clear\nand accessible manner on its platform, displayed prominently to its users, namely—\n\n(a) legal name of the e-commerce entity;\n\n(6) principal geographic address of its headquarters and all branches;\n\n(c) name and details of its website; and\n\n(d) contact details like e-mail address, fax, landline and mobile numbers of\ncustomer care as well as of grievance officer.\n\n(3) No e-commerce entity shall adopt any unfair trade practice, whether in the\ncourse of business on its platform or otherwise.\n\n(4) Every e-commerce entity shall establish an adequate grievance redressal\nmechanism having regard to the number of grievances ordinarily received by such\nentity from India, and shall appoint a grievance officer for consumer grievance\nredressal, and",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation provide the following information in a clear\nand accessible manner on its platform, displayed prominently to its users,?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 4].",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "licence_revocation"
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "tags": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 4].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-004",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "[PAGE 5]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 5]",
+      "plain_english": "R. 5] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 83\n\ncircumstances under which the good or service is offered, and any\nother relevant consideration in determining whether the price charged is\njustified;\n\n(b) discriminate between consumers of the same class or make any arbitrary\nclassification of consumers affecting their rights under the Act.",
+      "original_text": "R. 5] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 83\n\ncircumstances under which the good or service is offered, and any\nother relevant consideration in determining whether the price charged is\njustified;\n\n(b) discriminate between consumers of the same class or make any arbitrary\nclassification of consumers affecting their rights under the Act.\n\n5. Liabilities of marketplace e-commerce entities—(1) A marketplace\ne-commerce entity which seeks to avail the exemption from liability under\nsub-section (1) of Section 79 of the Information Technology Act, 2000 (21 of 2000)\nshall comply with sub-sections (2) and (3) of that section, including the provisions\nof the Information Technology (Intermediary Guidelines) Rules, 2011.\n\n(2) Every marketplace e-commerce entity shall require sellers through an\nundertaking to ensure that descriptions, images, and other content pertaining to\ngoods or services on their platform is accurate and corresponds directly with the\nappearance, nature, quality, purpose",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation comply with sub-secti?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 5].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "tags": [
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 5].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 79",
+        "Rule 6"
+      ]
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-005",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "84",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.6",
+      "plain_english": "(f an explanation of the main parameters which, individually or\ncollectively, are most significant in determining the ranking of goods\nor sellers on its platform and the relative importance of those main\nparameters through an easily and publicly available description drafted\nin plain and intelligible language. (4) Every marketplace e-commerce entity shall include in its terms and\nconditions genera",
+      "original_text": "(f an explanation of the main parameters which, individually or\ncollectively, are most significant in determining the ranking of goods\nor sellers on its platform and the relative importance of those main\nparameters through an easily and publicly available description drafted\nin plain and intelligible language.\n\n(4) Every marketplace e-commerce entity shall include in its terms and\nconditions generally governing its relationship with sellers on its platform, a\ndescription of any differentiated treatment which it gives or might give between\ngoods or services or sellers of the same category.\n\n(5) Every marketplace e-commerce entity shall take reasonable efforts to\nmaintain a record of relevant information allowing for the identification of all\nsellers who have repeatedly offered goods or services that have previously been\nremoved or access to which has previously been disabled under the Copyright Act,\n1957 (14 of 1957), the Trade Marks Act, 1999 (47 of 1999) or the Information\nTechnology ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation include in its terms and\nconditions generally governing its relationship with sellers on its platform, a\ndescription of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.6.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "tags": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.6.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-006",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "[PAGE 7]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 7]",
+      "plain_english": "R7] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 85\n\n(c) ensure that the advertisements for marketing of goods or services are\nconsistent with the actual characteristics, access and usage conditions of\nsuch goods or services,\n\n(@) provide to the e-commerce entity its legal name, principal geographic\naddress of its headquarters and all branches, the name and details of its\nwebsite, its e-mail addre",
+      "original_text": "R7] CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 85\n\n(c) ensure that the advertisements for marketing of goods or services are\nconsistent with the actual characteristics, access and usage conditions of\nsuch goods or services,\n\n(@) provide to the e-commerce entity its legal name, principal geographic\naddress of its headquarters and all branches, the name and details of its\nwebsite, its e-mail address, customer care contact details such as fax,\nlandline, and mobile numbers and where applicable, its GSTIN and PAN\ndetails.\n\n(5) Any seller offering goods or services through a marketplace e-commerce\nentity shall provide the following information to the e-commerce entity to be\ndisplayed on its platform or website:\n\n(a) all contractual information required to be disclosed by law;\n\n(b) total price in single figure of any good or service, along with the\nbreakup price for the good or service, showing all the compulsory\nand voluntary charges such as delivery charges, postage and handling\ncharges, ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation provide the following information to the e-commerce entity to be\ndisplayed on its platform or website:\n\n(a) all contrac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 7].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "tags": [
+        "consumer_protection",
+        "ecommerce",
+        "governance",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 7].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020-007",
+      "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+      "section_ref": "86",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.8",
+      "plain_english": "Methods, any fees or charges payable by users, charge back options, —\nif any, and the contact information of the relevant payment service\nprovider;\n\n(d) all contractual information required to be disclosed by law;\n\n(e) total price in single figure of any good or service along with the\nbreakup price for the good or service, showing all the compulsory\nand voluntary charges, such as delivery charges,",
+      "original_text": "methods, any fees or charges payable by users, charge back options, —\nif any, and the contact information of the relevant payment service\nprovider;\n\n(d) all contractual information required to be disclosed by law;\n\n(e) total price in single figure of any good or service along with the\nbreakup price for the good or service, showing all the compulsory\nand voluntary charges, such as delivery charges, postage and handling\ncharges, conveyance charges and the applicable tax; and\n\n(f) aticket number for each complaint lodged, through which the consumer\ncan track the status of their complaint.\n\n(2) No inventory e-commerce entity shall falsely represent itself as a consumer\nand post reviews about goods and services or misrepresent the quality or the\nfeatures of any goods or services.\n\n(3) Every inventory e-commerce entity shall ensure that the advertisements for\nmarketing of goods or services are consistent with the actual characteristics, access\nand usage conditions of such goods or services;\n",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation falsely represent itself as a consumer\nand post reviews about goods and services or misrepresent the quality or the\nfea?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.8.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "tags": [
+        "consent",
+        "consumer_protection",
+        "ecommerce",
+        "marketplace"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: CONSUMER PROTECTION (E-COMMERCE) RULES, 2020 [R.8.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

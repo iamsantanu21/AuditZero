@@ -1,0 +1,3930 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "PMLA_AML_CFT",
+  "regulator": "FIU-IND",
+  "controls": [
+    {
+      "control_id": "PMLA_AML_CFT-001",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "Preamble",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Preamble",
+      "plain_english": "RBI/2014-15/92\nRPCD.RRB.RCB.AML.BC.No. 02 /07.51.018/2014-15\n\n                                                                                                                                      July 01, 2014\n\nThe Chairmen/Chief Executive Officers\nAll Regional Rural Banks (RRBs)/\nState / Central Cooperative Banks (StCBs/CCBs)\n\nMadam / Dear Sir,\n\n\nMaster Circular – Know Your Customer (KYC) norms /",
+      "original_text": "RBI/2014-15/92\nRPCD.RRB.RCB.AML.BC.No. 02 /07.51.018/2014-15\n\n                                                                                                                                      July 01, 2014\n\nThe Chairmen/Chief Executive Officers\nAll Regional Rural Banks (RRBs)/\nState / Central Cooperative Banks (StCBs/CCBs)\n\nMadam / Dear Sir,\n\n\nMaster Circular – Know Your Customer (KYC) norms / Anti-Money Laundering\n(AML) standards / Combating of Financing of Terrorism (CFT) / Obligation of Banks\nunder PMLA, 2002\n\nPlease find enclosed our Master Circular consolidating instructions/guidelines issued to\nRegional Rural Banks (RRBs), State / Central Cooperative Banks (StCBs/CCBs) on Know\nYour Customer (KYC) norms /Anti-Money Laundering (AML) standards/Combating of\nFinancing of Terrorism (CFT)/ Obligation of banks under PMLA, 2002, up to June 30,\n2014.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: preamble?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Preamble.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-002",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The Master Circular has been placed on the RBI website: (http://www.rbi.org.in )",
+      "plain_english": "Yours faithfully,\n\n\n\n(A. Udgata)\nPrincipal Chief General Manager\n\n\n\n\n            गर्ामीण आयोजना और ऋण िवभाग,कदर्ीय कायार्लय, 10व मंिज़ल, कदर्ीय कायार्लय भवन,शहीद भगत िसह मागर्.पो.बा.सं.10014, मुंबई 400 001\n                        टेलीफोन:Tel: 022-22601000 फै क्स Fax: 91-22-22621011/22610948 ईमेल E-mail: cgmicrpcd@rbi.org.in\n  Rural Planning & Credit Department,Central Office, 10th Floor, Central Of",
+      "original_text": "Yours faithfully,\n\n\n\n(A. Udgata)\nPrincipal Chief General Manager\n\n\n\n\n            गर्ामीण आयोजना और ऋण िवभाग,कदर्ीय कायार्लय, 10व मंिज़ल, कदर्ीय कायार्लय भवन,शहीद भगत िसह मागर्.पो.बा.सं.10014, मुंबई 400 001\n                        टेलीफोन:Tel: 022-22601000 फै क्स Fax: 91-22-22621011/22610948 ईमेल E-mail: cgmicrpcd@rbi.org.in\n  Rural Planning & Credit Department,Central Office, 10th Floor, Central Office Building, S. B. S. Marg,P. Box No.10014, Mumbai 400001\n     चेतावनी:   िरज़वर् बैंक द्वारा ई-मेल, डाक, एसएमएस या फोन कॉल के जिरए िकसी की भी व्यिक्तगत जानकारी जैसे बैंक के खाते का ब्यौरा, पासवडर् आिद\n      नहीं मांगी जाती है । यह धन रखने या दे ने का ूःताव भी नहीं करता है । ऐसे ूःतावों का िकसी भी तरीके से जवाब मत दीिजए।\n           Caution: RBI never sends mails, SMSs or makes calls asking for personal information like bank account details, passwords,\n      etc. It never keeps or offers funds to anyone. Please do not respond in any manner to such offers.\n\f                                   Ma",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the master circular has been placed on the rbi website: (http://www.rbi.org.in )?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Master Circular has been placed on the RBI website: (http://www.rbi.org.in ).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Master Circular has been placed on the RBI website: (http://www.rbi.org.in ).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-003",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2002",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Master Circular has been placed on the RBI website (http://www.rbi.org.in).",
+      "plain_english": "Previous instructions\n\nA list of circulars issued in this regard is given in Annex – VII\n\nApplication\n\ni) The instructions, contained in the master circular, are applicable to Regional Rural\nBanks (RRBs) and State and Central Cooperative Banks (StCBs/CCBs). ii) These guidelines are issued under Section 35A of the Banking Regulation Act,\n1949 read with Section 56 of the Act ibid and Rule 7 of Preve",
+      "original_text": "Previous instructions\n\nA list of circulars issued in this regard is given in Annex – VII\n\nApplication\n\ni) The instructions, contained in the master circular, are applicable to Regional Rural\nBanks (RRBs) and State and Central Cooperative Banks (StCBs/CCBs).\n\nii) These guidelines are issued under Section 35A of the Banking Regulation Act,\n1949 read with Section 56 of the Act ibid and Rule 7 of Prevention of Money-\n\n\n\n\fLaundering (Maintenance of Records) Rules, 2005. Any contravention thereof or non-\ncompliance shall attract penalties under Banking Regulation Act.\n\niii) This Master Circular consolidates all the circulars issued on the subject up to June\n30, 2014.\n\n\n\n\n\f                                INDEX\n\n1      Introduction",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation attract penalties under banking regulation act?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Master Circular has been placed on the RBI website (http://www.rbi.org.in)..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Master Circular has been placed on the RBI website (http://www.rbi.org.in)..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 35A",
+        "Section 56",
+        "Rule 7"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-004",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "1.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Know Your Customer (KYC) Norms/Anti-Money Laundering (AML)",
+      "plain_english": "Measures/Combating of Financing of Terrorism (CFT)/Obligations of Banks\nunder PMLA, 2002\n\nThe objective of KYC/AML/CFT guidelines is to prevent banks from being used,\nintentionally or unintentionally, by criminal elements for money laundering or terrorist\nfinancing activities. KYC procedures also enable banks to know/understand their\ncustomers and their financial dealings better which in turn help",
+      "original_text": "Measures/Combating of Financing of Terrorism (CFT)/Obligations of Banks\nunder PMLA, 2002\n\nThe objective of KYC/AML/CFT guidelines is to prevent banks from being used,\nintentionally or unintentionally, by criminal elements for money laundering or terrorist\nfinancing activities. KYC procedures also enable banks to know/understand their\ncustomers and their financial dealings better which in turn help them manage their\nrisks prudently.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: know your customer (kyc) norms/anti-money laundering (aml)?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Know Your Customer (KYC) Norms/Anti-Money Laundering (AML).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Know Your Customer (KYC) Norms/Anti-Money Laundering (AML).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-005",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "1.2",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Definition of Customer",
+      "plain_english": "For the purpose of KYC policy, a ‘Customer’ is defined as:\n\n\n   • a person or entity that maintains an account and/or has a business relationship\n      with the bank;\n\n   • one on whose behalf the account is maintained (that is, the beneficial owner);\n\n\n   • beneficiaries of transactions conducted by professional intermediaries, such as\n      Stock Brokers, Chartered Accountants, Solicitors etc.",
+      "original_text": "For the purpose of KYC policy, a ‘Customer’ is defined as:\n\n\n   • a person or entity that maintains an account and/or has a business relationship\n      with the bank;\n\n   • one on whose behalf the account is maintained (i.e. the beneficial owner);\n\n\n   • beneficiaries of transactions conducted by professional intermediaries, such as\n      Stock Brokers, Chartered Accountants, Solicitors etc. as permitted under the\n      law; and\n\n   • any person or entity connected with a financial transaction which can pose\n      significant reputational or other risks to the bank, say, a wire transfer or issue of\n      a high value demand draft as a single transaction.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Definition of Customer' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definition of Customer.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Add 'Definition of Customer' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-006",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "General",
+      "plain_english": "(i) (a) Banks should keep in mind that the information collected from the customer\n       for the purpose of opening of an account is to be treated as confidential and\n       details of it are not to be divulged for cross selling or any other like\n       purposes. Banks should, therefore, ensure that information sought from the\n\n\f       customer is relevant to the perceived risk, is not intrusiv",
+      "original_text": "(i) (a) Banks should keep in mind that the information collected from the customer\n       for the purpose of opening of an account is to be treated as confidential and\n       details thereof are not to be divulged for cross selling or any other like\n       purposes. Banks should, therefore, ensure that information sought from the\n\n\f       customer is relevant to the perceived risk, is not intrusive, and is in conformity\n       with the guidelines issued in this regard.\n\n       (b) It has come to the notice of Reserve Bank that banks are seeking personal\n       information/details like number of dependents, the names of sons and\n       daughters, lifestyle, number of foreign visits undertaken during the last three\n       years, details of family members/relatives settled abroad, assets and liabilities,\n       name and date of birth of spouse, wedding date, investments, etc,. from\n       customers which are not mandatory and relevant to perceive risk of a\n       prospective customer whil",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: general?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: General.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "consent",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "consent",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: General.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-007",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "KYC Policy",
+      "plain_english": "Banks should frame their KYC policies incorporating the following four key elements:\n\n   (a) Customer Acceptance Policy;\n\n\n\f   (b) Customer Identification Procedure;\n   (c) Monitoring of Transactions; and\n   (d) Risk Management.",
+      "original_text": "Banks should frame their KYC policies incorporating the following four key elements:\n\n   (a) Customer Acceptance Policy;\n\n\n\f   (b) Customer Identification Procedure;\n   (c) Monitoring of Transactions; and\n   (d) Risk Management.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: kyc policy?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: KYC Policy.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: KYC Policy.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-008",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Customer Acceptance Policy (CAP)",
+      "plain_english": "(a) Every bank should develop a clear Customer Acceptance Policy laying down\nexplicit criteria for acceptance of customers. The Customer Acceptance Policy must\nensure that explicit guidelines are in place on the following aspects of customer\nrelationship in the bank:\n\n   (i) No account is opened in anonymous or fictitious/benami name(s);\n\n   (ii) Parameters of risk perception are clearly defined i",
+      "original_text": "(a) Every bank should develop a clear Customer Acceptance Policy laying down\nexplicit criteria for acceptance of customers. The Customer Acceptance Policy must\nensure that explicit guidelines are in place on the following aspects of customer\nrelationship in the bank:\n\n   (i) No account is opened in anonymous or fictitious/benami name(s);\n\n   (ii) Parameters of risk perception are clearly defined in terms of the nature of\n        business activity, location of customer and his clients, mode of payments,\n        volume of turnover, social and financial status etc. to enable categorisation of\n        customers into low, medium and high risk (banks may choose any suitable\n        nomenclature viz. level I, level II and level III). Customers requiring very high\n        level of monitoring, e.g. Politically Exposed Persons (PEPs) may, if\n        considered necessary, be categorised even higher;\n\n  (iii) Documentation requirements and other information to be collected in respect of\n       dif",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that explicit guidelines are in place on the following aspects of customer\nrelationship in the bank:\n\n   (i) No?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Acceptance Policy (CAP).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Acceptance Policy (CAP).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-009",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.4 (Part 1)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Customer Identification Procedure (CIP)",
+      "plain_english": "(a) The policy approved by the Board of banks should clearly spell out the Customer\nIdentification Procedure to be carried out at different stages that is, while establishing a\nbanking relationship, carrying out a financial transaction or when the bank has a doubt\nabout the authenticity/veracity or the adequacy of the previously obtained customer\nidentification data.",
+      "original_text": "(a) The policy approved by the Board of banks should clearly spell out the Customer\nIdentification Procedure to be carried out at different stages i.e. while establishing a\nbanking relationship, carrying out a financial transaction or when the bank has a doubt\nabout the authenticity/veracity or the adequacy of the previously obtained customer\nidentification data. Customer identification means identifying the customer and\nverifying his/her identity by using reliable, independent source documents, data or\ninformation. Banks need to obtain sufficient information necessary to establish, to their\nsatisfaction, the identity of each new customer, whether regular or occasional, and the\npurpose of the intended nature of the banking relationship. Being satisfied means that\nthe bank must be able to satisfy the competent authorities that due diligence was\nobserved based on the risk profile of the customer in compliance with the extant\nguidelines in place. Such risk based approach is considered nec",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Customer Identification Procedure (CIP)' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Procedure (CIP).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Add 'Customer Identification Procedure (CIP)' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-010",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.4 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Customer Identification Procedure (CIP)",
+      "plain_english": "(e) Banks should introduce a system of periodical updation of customer identification\ndata (including photograph/s) after the account is opened. Full KYC exercise will be\nrequired to be done at least every two years for high risk individuals and entities.",
+      "original_text": "(e) Banks should introduce a system of periodical updation of customer identification\ndata (including photograph/s) after the account is opened. Full KYC exercise will be\nrequired to be done at least every two years for high risk individuals and entities. Full\nKYC exercise will be required to be done at least every ten years for low risk and at\nleast every eight years for medium risk individuals and entities. Such verification\nshould be done irrespective of whether the account has been transferred from one\nbranch to another and banks are required to also maintain records of transactions as\nprescribed. Positive confirmation (obtaining KYC related updates through e-mail /\nletter / telephonic conversation / forms / interviews / visits, etc.) will be required to be\ncompleted at least every two years for medium risk and at least every three years for\nlow risk individuals and entities. Fresh photographs have to be obtained from minor\ncustomers on becoming majors.\n\n(f) An indicative list of t",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation also maintain records of transactions as\nprescribed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Procedure (CIP).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "children",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "children",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Identification Procedure (CIP).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-011",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.4 (Part 3)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Customer Identification Procedure (CIP)",
+      "plain_english": "(ii) In order to reduce the risk of identity fraud, document forgery and have\n      paperless KYC verification, UIDAI has launched its e-KYC service. Accordingly, it has been decided to accept e-KYC service as a valid process\n      for KYC verification under Prevention of Money Laundering (Maintenance of\n      Records) Rules, 2005.",
+      "original_text": "\f   (ii) In order to reduce the risk of identity fraud, document forgery and have\n      paperless KYC verification, UIDAI has launched its e-KYC service.\n      Accordingly, it has been decided to accept e-KYC service as a valid process\n      for KYC verification under Prevention of Money Laundering (Maintenance of\n      Records) Rules, 2005. Further, the information containing demographic details\n      and photographs made available from UIDAI as a result of e-KYC process\n      (“which is in an electronic form and accessible so as to be usable for a\n      subsequent reference”) may be treated as an ‘Officially Valid Document’ under\n      PML Rules. While using e-KYC service of UIDAI, the individual user has to\n      authorize the UIDAI, by explicit consent, to release her or his identity/address\n      through    biometric   authentication      to   the   bank   branches/business\n      correspondents (BCs). The UIDAI then transfers the data of the individual\n      comprising name, age, ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: customer identification procedure (cip)?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Procedure (CIP).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "aml",
+        "audit_log",
+        "cft",
+        "consent",
+        "governance",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "audit_log",
+        "cft",
+        "consent",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Identification Procedure (CIP).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-012",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.5 (Part 1)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Customer Identification Requirements – Indicative Guidelines",
+      "plain_english": "(i)   Trust/Nominee or Fiduciary Accounts\n\n\fThere exists the possibility that trust/nominee or fiduciary accounts can be used to\ncircumvent the customer identification procedures. Banks should determine whether\nthe customer is acting on behalf of another person as trustee/nominee or any other\nintermediary.",
+      "original_text": "(i)   Trust/Nominee or Fiduciary Accounts\n\n\fThere exists the possibility that trust/nominee or fiduciary accounts can be used to\ncircumvent the customer identification procedures. Banks should determine whether\nthe customer is acting on behalf of another person as trustee/nominee or any other\nintermediary. If so, banks should insist on receipt of satisfactory evidence of the\nidentity of the intermediaries and of the persons on whose behalf they are acting, as\nalso obtain details of the nature of the trust or other arrangements in place. While\nopening an account for a trust, banks should take reasonable precautions to verify the\nidentity of the trustees and the settlers of trust (including any person settling assets\ninto the trust), grantors, protectors, beneficiaries and signatories. Beneficiaries should\nbe identified when they are defined. In the case of a 'foundation', steps should be\ntaken to verify the founder managers/ directors and the beneficiaries, if defined.\n\n(ii)   Accounts ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be identified?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Requirements – Indicative Guidelines.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Identification Requirements – Indicative Guidelines.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-013",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.5 (Part 2)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Customer Identification Requirements – Indicative Guidelines",
+      "plain_english": "Explanation : Control through other means can be exercised through\n                  voting rights, agreement, arrangements, etc. (iii)    Where no natural person is identified under (i) or (ii) above, the identity\n          of the relevant natural person who holds the position of senior managing\n          official.",
+      "original_text": "                  Explanation : Control through other means can be exercised through\n                  voting rights, agreement, arrangements, etc.\n\n          (iii)    Where no natural person is identified under (i) or (ii) above, the identity\n          of the relevant natural person who holds the position of senior managing\n          official.\n\n     B.   Where the client is a trust, the banking company and financial institution, as\n     the case may be, shall identify the beneficial owners of the client and take\n     reasonable measures to verify the identity of such persons, through the identity\n     of the settler of the trust, the trustee, the protector, the beneficiaries with 15% or\n     more interest in the trust and any other natural person exercising ultimate\n     effective control over the trust through a chain of control or ownership.\n\n     C.   Where the client or the owner of the controlling interest is a company listed\n     on a stock exchange, or is a majority-owned subsi",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Customer Identification Requirements – Indicative Guidelines' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Requirements – Indicative Guidelines.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "data_localisation",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "data_localisation",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Add 'Customer Identification Requirements – Indicative Guidelines' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-014",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.5 (Part 3)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Customer Identification Requirements – Indicative Guidelines",
+      "plain_english": "It has been brought to our notice that for opening bank accounts of salaried\nemployees some banks rely on a certificate / letter issued by the employer as\nthe only KYC document for the purposes of certification of identity as well as\naddress proof. Such a practice is open to misuse and fraught with risk.",
+      "original_text": "It has been brought to our notice that for opening bank accounts of salaried\nemployees some banks rely on a certificate / letter issued by the employer as\nthe only KYC document for the purposes of certification of identity as well as\naddress proof. Such a practice is open to misuse and fraught with risk. It is, therefore,\nclarified that with a view to containing the risk of fraud, banks need to rely on such\ncertification only from corporates and other entities of repute and should be aware of\nthe competent authority designated by the concerned employer to issue such\ncertificate/letter. Further, in addition to the certificate from the employer, banks should\ninsist on at least one of the officially valid documents as provided in the Prevention of\nMoney Laundering Rules (viz. passport, driving licence, PAN card, Voter’s Identity\ncard etc.) or utility bills for KYC purposes for opening bank accounts of salaried\nemployees of corporates and other entities.\n\n(viii) Accounts of Foreign Student",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: customer identification requirements – indicative guidelines?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Requirements – Indicative Guidelines.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "30 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Identification Requirements – Indicative Guidelines.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-015",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.5 (Part 4)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Customer Identification Requirements – Indicative Guidelines",
+      "plain_english": "Securities and Exchange Board of India (SEBI) has rationalised the KYC norms for\nentry of FPIs. SEBI has categorised FPIs based on their perceived risk profile (Annex\nVI-A).",
+      "original_text": "Securities and Exchange Board of India (SEBI) has rationalised the KYC norms for\nentry of FPIs. SEBI has categorised FPIs based on their perceived risk profile (Annex\nVI-A). FPIs who have been duly registered in accordance with SEBI guidelines and\nhave undergone the required KYC due diligence/verification prescribed by SEBI\nthrough a Custodian / Intermediary regulated by SEBI may approach Authorised\nDealer (AD) Category-I StCBs for opening a bank account for the purpose of\ninvestment under Portfolio Investment Scheme (PIS) for which KYC documents\nprescribed by RBI (Annex VI-B) would be required. For this purpose, StCBs may rely\non the KYC verification done by the third party (i.e. the Custodian/SEBI Regulated\nIntermediary) subject to the conditions laid down in Rule 9(2)(a) to (e) of the\nPrevention of Money Laundering (Maintenance of Records) Rules, 2005. StCBs may\nobtain a set of hard copies of the relevant KYC documents furnished by the FPIs to\nthe Custodians/Regulated Intermediaries",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: customer identification requirements – indicative guidelines?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Identification Requirements – Indicative Guidelines.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Identification Requirements – Indicative Guidelines.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 9(2)(a)"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-016",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "Annex IV",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Annex IV of this circular.",
+      "plain_english": "(a) In terms of Rule 2 clause (fb) of the Notification 'small account' means a savings\naccount in a banking company where-\n\n   (i) the aggregate of all credits in a financial year does not exceed Rupees one\n       lakh;\n\n   (ii) the aggregate of all withdrawals and transfers in a month does not exceed\n       Rupees ten thousand; and\n\n   (iii) the balance at any point of time does not exceed Rupees",
+      "original_text": "(a) In terms of Rule 2 clause (fb) of the Notification 'small account' means a savings\naccount in a banking company where-\n\n   (i) the aggregate of all credits in a financial year does not exceed Rupees one\n       lakh;\n\n   (ii) the aggregate of all withdrawals and transfers in a month does not exceed\n       Rupees ten thousand; and\n\n   (iii) the balance at any point of time does not exceed Rupees fifty thousand.\n\n(b) Rule (2A) of the Notification lays down the detailed procedure for opening 'small\n   accounts'. Banks are advised to ensure adherence to the procedure provided in\n   the Rules for opening of small accounts.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: annex iv of this circular.?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annex IV of this circular..",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": [
+        "Rule 2"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-017",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.7",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Operation of Bank Accounts and Money Mules",
+      "plain_english": "(a) It has been brought to our notice that “Money Mules” can be used to launder the\nproceeds of fraud schemes (for example, , phishing and identity theft) by criminals who gain\nillegal access to deposit accounts by recruiting third parties to act as “money mules.”\nIn some cases these third parties may be innocent while in others they may be having\ncomplicity with the criminals. (b) In a money mule",
+      "original_text": "(a) It has been brought to our notice that “Money Mules” can be used to launder the\nproceeds of fraud schemes (e.g., phishing and identity theft) by criminals who gain\nillegal access to deposit accounts by recruiting third parties to act as “money mules.”\nIn some cases these third parties may be innocent while in others they may be having\ncomplicity with the criminals.\n\n\f(b) In a money mule transaction, an individual with a bank account is recruited to\nreceive cheque deposits or wire transfers and then transfer these funds to accounts\nheld on behalf of another person or to other individuals, minus a certain commission\npayment. Money mules may be recruited by a variety of methods, including spam e-\nmails, advertisements on genuine recruitment web sites, social networking sites,\ninstant messaging and advertisements in newspapers. When caught, these money\nmules often have their bank accounts suspended, causing inconvenience and\npotential financial loss, apart from facing likely legal acti",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: operation of bank accounts and money mules?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Operation of Bank Accounts and Money Mules.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Operation of Bank Accounts and Money Mules.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-018",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.8",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Monitoring of Transactions",
+      "plain_english": "(a) Ongoing monitoring is an essential element of effective KYC procedures. Banks\ncan effectively control and reduce their risk only if they have an understanding of the\nnormal and reasonable activity of the customer so that they have the means of\nidentifying transactions that fall outside the regular pattern of activity.",
+      "original_text": "(a) Ongoing monitoring is an essential element of effective KYC procedures. Banks\ncan effectively control and reduce their risk only if they have an understanding of the\nnormal and reasonable activity of the customer so that they have the means of\nidentifying transactions that fall outside the regular pattern of activity. However, the\nextent of monitoring will depend on the risk sensitivity of the account. Banks should\npay special attention to all complex, unusually large transactions and all unusual\npatterns which have no apparent economic or visible lawful purpose. Banks may\nprescribe threshold limits for a particular category of accounts and pay particular\nattention to the transactions which exceed these limits. Transactions that involve large\namounts of cash inconsistent with the normal and expected activity of the customer\nshould particularly attract the attention of the bank. Very high account turnover\n\n\finconsistent with the size of the balance maintained may indicate that funds",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Monitoring of Transactions' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Monitoring of Transactions.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Add 'Monitoring of Transactions' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-019",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.9",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Closure of Accounts",
+      "plain_english": "Banks should ensure that all the existing accounts are subjected to minimum KYC\nstandards which would establish the identity of the natural / legal person and those of\nthe ‘beneficial owners.’ Where the bank is unable to apply appropriate KYC measures\ndue to non-furnishing of information and /or non-cooperation by the customer, the\nbank should consider closing the account or terminating the bankin",
+      "original_text": "Banks should ensure that all the existing accounts are subjected to minimum KYC\nstandards which would establish the identity of the natural / legal person and those of\nthe ‘beneficial owners.’ Where the bank is unable to apply appropriate KYC measures\ndue to non-furnishing of information and /or non-cooperation by the customer, the\nbank should consider closing the account or terminating the banking/business\nrelationship after issuing due notice to the customer explaining the reasons for taking\nsuch a decision. Such decisions need to be taken at a reasonably senior level.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: closure of accounts?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Closure of Accounts.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Closure of Accounts.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-020",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.10",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Risk Management",
+      "plain_english": "(a) The Board of Directors of the bank should ensure that an effective KYC\nprogramme is put in place by establishing appropriate procedures and ensuring their\neffective implementation. It should cover proper management oversight, systems and\ncontrols, segregation of duties, training and other related matters.",
+      "original_text": "(a) The Board of Directors of the bank should ensure that an effective KYC\nprogramme is put in place by establishing appropriate procedures and ensuring their\neffective implementation. It should cover proper management oversight, systems and\ncontrols, segregation of duties, training and other related matters. Responsibility\nshould be explicitly allocated within the bank for ensuring that the bank’s policies and\nprocedures are implemented effectively. Banks should, in consultation with their\nBoards, devise procedures for creating risk profiles of their existing and new\ncustomers and apply various anti money laundering measures keeping in view the\nrisks involved in a transaction, account or banking/business relationship.\n\n(b) Banks’ internal audit and compliance functions have an important role in\nevaluating and ensuring adherence to the KYC policies and procedures. As a general\nrule, the compliance function should provide an independent evaluation of the bank’s\nown policies and procedur",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Risk Management.",
+        "No automated workflow or SLA tracking the required timeline."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Risk Management.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-021",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Introduction of New Technologies – Credit Cards/Debit Cards/Smart",
+      "plain_english": "Cards/Gift Cards\n\nBanks should pay special attention to any money laundering threats that may arise\nfrom new or developing technologies including internet banking that might favour\nanonymity, and take measures, if needed, to prevent their use in money laundering\nschemes. Many banks are engaged in the business of issuing a variety of electronic\ncards that are used by customers for buying goods and",
+      "original_text": "Cards/Gift Cards\n\nBanks should pay special attention to any money laundering threats that may arise\nfrom new or developing technologies including internet banking that might favour\nanonymity, and take measures, if needed, to prevent their use in money laundering\nschemes. Many banks are engaged in the business of issuing a variety of electronic\ncards that are used by customers for buying goods and services, drawing cash from\nATMs, and can be used for electronic transfer of funds. Banks are required to ensure\nfull compliance with all KYC/AML/CFT guidelines issued from time to time, in respect\nof add-on/ supplementary cardholders also. Further, marketing of credit cards is\ngenerally done through the services of agents. Banks should ensure that appropriate\nKYC procedures are duly applied before issuing the cards to the customers. It is also\ndesirable that agents are also subjected to KYC measures.\n\n\n2.12 ‘At Par’ Cheque Facility extended to Cooperative Banks / Regional Rural\nBanks by Sched",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure\nfull compliance with all KYC/AML/CFT guidelines issued from time to time, in respect\nof add-on/ supplementary ca?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Introduction of New Technologies – Credit Cards/Debit Cards/Smart.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Introduction of New Technologies – Credit Cards/Debit Cards/Smart.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-022",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.13 (Part 1)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Combating Financing of Terrorism",
+      "plain_english": "(a) In terms of PMLA Rules, suspicious transaction should include, among other things,\ntransactions which give rise to a reasonable ground of suspicion that these may\ninvolve financing of the activities relating to terrorism. Banks are, therefore, advised to\ndevelop suitable mechanism through appropriate policy framework for enhanced\nmonitoring of accounts suspected of having terrorist links and s",
+      "original_text": "(a) In terms of PMLA Rules, suspicious transaction should include, inter alia,\ntransactions which give rise to a reasonable ground of suspicion that these may\ninvolve financing of the activities relating to terrorism. Banks are, therefore, advised to\ndevelop suitable mechanism through appropriate policy framework for enhanced\nmonitoring of accounts suspected of having terrorist links and swift identification of the\ntransactions and making suitable reports to the Financial Intelligence Unit – India\n(FIU-IND) on priority.\n\n(b) As and when list of individuals and entities, approved by Security Council\nCommittee established pursuant to various United Nations' Security Council\nResolutions (UNSCRs), are received from Government of India, Reserve Bank\ncirculates these to all banks and financial institutions. Banks should ensure to update\nthe consolidated list of individuals and entities as circulated by the Reserve Bank.\nFurther, the updated list of such individuals/entities can be accessed i",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Combating Financing of Terrorism' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Combating Financing of Terrorism.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vulnerability"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Add 'Combating Financing of Terrorism' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "Section 51A",
+        "Section\n51A",
+        "Section 51A",
+        "Section\n51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-023",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.13 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Combating Financing of Terrorism",
+      "plain_english": "(ii) In case, the particulars of any of their customers match with the particulars of\n       designated individuals/entities, the banks shall immediately, not later than 24\n       hours from the time of finding out such customer, inform full particulars of the\n       funds, financial assets or economic resources or related services held in the\n       form of bank accounts, held by such customer on",
+      "original_text": "   (ii) In case, the particulars of any of their customers match with the particulars of\n       designated individuals/entities, the banks shall immediately, not later than 24\n       hours from the time of finding out such customer, inform full particulars of the\n       funds, financial assets or economic resources or related services held in the\n       form of bank accounts, held by such customer on their books to the Joint\n       Secretary (IS-I), Ministry of Home Affairs (MHA) at FAX No. 011-23092569 and\n       also convey over telephone on 011-23092736. The particulars apart from being\n       sent by post should necessarily be conveyed on e-mail.\n\n\f   (iii) Banks shall also send by post a copy of the communication mentioned in (ii)\n      above to the UAPA nodal officer of the Reserve Bank, Chief General Manager,\n      Department of Banking Operations and Development, Anti Money Laundering\n      Division, Central Office Building, 13th Floor, Shahid Bhagat Singh Marg, Fort,\n      Mum",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation immediately, not later than 24\n       hours from the time of finding out such customer, inform full particulars of the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Combating Financing of Terrorism.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "not later than 24\n       hours",
+        "trigger_event": "receipt of request"
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Combating Financing of Terrorism.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 51"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-024",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.13 (Part 3)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Combating Financing of Terrorism",
+      "plain_english": "Any individual or entity, if it has evidence to prove that the freezing of funds, financial\nassets or economic resources or related services, owned /held by them has been\ninadvertently frozen, they shall move an application giving the requisite evidence, in\nwriting, to the bank concerned. The banks shall inform and forward a copy of the\napplication together with full details of the asset frozen, g",
+      "original_text": "Any individual or entity, if it has evidence to prove that the freezing of funds, financial\nassets or economic resources or related services, owned /held by them has been\ninadvertently frozen, they shall move an application giving the requisite evidence, in\nwriting, to the bank concerned. The banks shall inform and forward a copy of the\napplication together with full details of the asset frozen, given by any individual or\nentity informing of the funds, financial assets or economic resources or related\nservices frozen inadvertently, to the nodal officer of IS-I Division of MHA as per the\ncontact details given in paragraph 2.13(c)(ii) above within two working days. The Joint\nSecretary, IS-I, MHA being the nodal officer for IS-I Division of MHA, shall cause such\nverification as may be required on the basis of the evidence furnished by the\nindividual/entity and if he is satisfied, he shall pass an order, within fifteen working\ndays, unfreezing the funds, financial assets or economic resour",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation move an application giving the requisite evidence?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Combating Financing of Terrorism.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Combating Financing of Terrorism.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 51A",
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-025",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.14",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Jurisdictions        that   do     not    or   insufficiently       apply    the",
+      "plain_english": "Recommendations\n\n(a) Banks are required to take into account risks arising from the deficiencies in\nAML/CFT regime of the jurisdictions included in the FATF Statement. In addition to\nFATF Statements circulated by Reserve Bank of India from time to time, banks should\nalso consider publicly available information for identifying countries, which do not or\ninsufficiently apply the FATF Recommendations",
+      "original_text": "Recommendations\n\n(a) Banks are required to take into account risks arising from the deficiencies in\nAML/CFT regime of the jurisdictions included in the FATF Statement. In addition to\nFATF Statements circulated by Reserve Bank of India from time to time, banks should\nalso consider publicly available information for identifying countries, which do not or\ninsufficiently apply the FATF Recommendations. It is clarified that banks should also\ngive special attention to business relationships and transactions with persons\n(including legal persons and other financial institutions) from or in countries that do not\nor insufficiently apply the FATF Recommendations and jurisdictions included in FATF\nStatements.\n\n(b) Banks should examine the background and purpose of transactions with persons\n(including legal persons and other financial institutions) from jurisdictions included in\nFATF Statements and countries that do not or insufficiently apply the FATF\nRecommendations. Further, if the transactions",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take into account risks arising from the deficiencies in\nAML/CFT regime of the jurisdictions included in the FATF State?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Jurisdictions        that   do     not    or   insufficiently       apply    the.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Jurisdictions        that   do     not    or   insufficiently       apply    the.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-026",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.15",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Correspondent Banking",
+      "plain_english": "(a) Correspondent banking is the provision of banking services by one bank (the\n“correspondent bank”) to another bank (the “respondent bank”). These services may\ninclude cash/funds management, international wire transfers, drawing arrangements\nfor demand drafts and mail transfers, payable-through-accounts, cheques clearing etc.",
+      "original_text": "(a) Correspondent banking is the provision of banking services by one bank (the\n“correspondent bank”) to another bank (the “respondent bank”). These services may\ninclude cash/funds management, international wire transfers, drawing arrangements\nfor demand drafts and mail transfers, payable-through-accounts, cheques clearing etc.\nBanks should gather sufficient information to understand fully the nature of the\nbusiness of the correspondent/respondent bank. Information on the other bank’s\nmanagement, major business activities, level of AML/CFT compliance, purpose of\nopening the account, identity of any third party entities that will use the correspondent\nbanking       services,    and        regulatory/supervisory      framework           in    the\ncorrespondent's/respondent’s     country      may   be   of    special    terrorist   financing\n\n\n\finvestigation or regulatory action. While it is desirable that such relationships should\nbe established only with the approval of the Board, in ca",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: correspondent banking?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Correspondent Banking.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Correspondent Banking.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-027",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.16 (Part 1)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Wire Transfer",
+      "plain_english": "(a) Banks use wire transfers as an expeditious method for transferring funds between\nbank accounts. Wire transfers include transactions occurring within the national\nboundaries of a country or from one country to another.",
+      "original_text": "(a) Banks use wire transfers as an expeditious method for transferring funds between\nbank accounts. Wire transfers include transactions occurring within the national\nboundaries of a country or from one country to another. As wire transfers do not\ninvolve actual movement of currency, they are considered as a rapid and secure\nmethod for transferring value from one location to another. The salient features of a\nwire transfer transaction are as under:\n\n   (i) Wire transfer is a transaction carried out on behalf of an originator person (both\n       natural and legal) through a bank by electronic means with a view to making an\n       amount of money available to a beneficiary person at a bank. The originator\n       and the beneficiary may be the same person.\n\n   (ii) Cross-border transfer means any wire transfer where the originator and the\n       beneficiary bank or financial institutions are located in different countries. It\n       may include any chain of wire transfers that has at least",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Wire Transfer' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Wire Transfer.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "data_localisation",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "data_localisation",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Add 'Wire Transfer' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-028",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.16 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Wire Transfer",
+      "plain_english": "(iii) When a credit or debit card is used to effect money transfer, necessary\n       information as at (i) above should be included in the message. Exemptions\n\n   Interbank transfers and settlements where both the originator and beneficiary are\n   banks or financial institutions would be exempted from the above requirements.",
+      "original_text": "   (iii) When a credit or debit card is used to effect money transfer, necessary\n       information as at (i) above should be included in the message.\n\n   Exemptions\n\n   Interbank transfers and settlements where both the originator and beneficiary are\n   banks or financial institutions would be exempted from the above requirements.\n\n(c) Role of Ordering, Intermediary and Beneficiary banks\n\n(i) Ordering Bank\n\nAn ordering bank is the one that originates a wire transfer as per the order placed by\nits customer. The ordering bank must ensure that qualifying wire transfers contain\ncomplete originator information. The bank must also verify and preserve the\ninformation at least for a period of ten years.\n\n\f(ii) Intermediary bank\n\nFor both cross-border and domestic wire transfers, a bank processing an intermediary\nelement of a chain of wire transfers must ensure that all originator information\naccompanying a wire transfer is retained with the transfer. Where technical limitations\nprevent full o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that qualifying wire transfers contain\ncomplete originator information?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Wire Transfer.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "data_localisation",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "data_localisation",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Wire Transfer.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-029",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.17",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Principal Officer",
+      "plain_english": "(a) Banks should appoint a senior management officer to be designated as Principal\nOfficer. Principal Officer shall be located at the head/corporate office of the bank and\nshall be responsible for monitoring and reporting of all transactions and sharing of\ninformation as required under the law.",
+      "original_text": "(a) Banks should appoint a senior management officer to be designated as Principal\nOfficer. Principal Officer shall be located at the head/corporate office of the bank and\nshall be responsible for monitoring and reporting of all transactions and sharing of\ninformation as required under the law. He will maintain close liaison with enforcement\nagencies, banks and any other institution which are involved in the fight against\nmoney laundering and combating financing of terrorism. With a view to enabling the\nPrincipal Officer to discharge his responsibilities, it is advised that the Principal Officer\nand other appropriate staff should have timely access to customer identification data\nand other CDD information, transaction records and other relevant information.\nFurther, banks should ensure that the Principal Officer is able to act independently\n\n\n\fand report directly to the senior management or to the Board of Directors. The role\nand responsibilities of the Principal Officer should include",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be located at the head/corporate office of the bank and\nshall be responsible for monitoring and reporting of all transa?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Principal Officer.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Principal Officer.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-030",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.18",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Designated Director",
+      "plain_english": "With the enactment of Prevention of Money Laundering (Amendment) Act, 2012 and\namendment to section 13 of the Act which provides for “Powers of Director to impose\nfine”, the section 13(2) now reads as under:\n\n   \"If the Director, in the course of any inquiry, finds that a reporting entity or its\n   designated director on the Board or any of its employees has failed to comply with\n   the obligation",
+      "original_text": "With the enactment of Prevention of Money Laundering (Amendment) Act, 2012 and\namendment to section 13 of the Act which provides for “Powers of Director to impose\nfine”, the section 13(2) now reads as under:\n\n   \"If the Director, in the course of any inquiry, finds that a reporting entity or its\n   designated director on the Board or any of its employees has failed to comply with\n   the obligations under this Chapter, then, without prejudice to any other action that\n   may be taken under any other provisions of this Act, he may –\n\n   (a) issue a warning in writing; or\n\n   (b) direct such reporting entity or its designated director on the Board or any of its\n   employees, to comply with specific instructions; or\n\n   (c) direct such reporting entity or its designated director on the Board or any of its\n   employees, to send reports at such interval as may be prescribed on the measures\n   it is taking; or\n\n   (d) by an order, levy a fine on such reporting entity or its designated director",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: designated director?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Designated Director.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": [
+        "section 13",
+        "section 13(2)"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-031",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.19 (Part 1)",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Maintenance      of   records     of   transactions/Information to be",
+      "plain_english": "Preserved/Maintenance and preservation of records/Cash and Suspicious\ntransactions reporting to Financial Intelligence Unit- India (FIU-IND)\n\nGovernment of India, Ministry of Finance, Department of Revenue, vide its notification\ndated July 1, 2005 in the Gazette of India, has notified the Rules under the Prevention\nof Money Laundering Act (PMLA), 2002. In terms of the said Rules, the provisions of",
+      "original_text": "preserved/Maintenance and preservation of records/Cash and Suspicious\ntransactions reporting to Financial Intelligence Unit- India (FIU-IND)\n\nGovernment of India, Ministry of Finance, Department of Revenue, vide its notification\ndated July 1, 2005 in the Gazette of India, has notified the Rules under the Prevention\nof Money Laundering Act (PMLA), 2002. In terms of the said Rules, the provisions of\n\n\fPMLA, 2002 came into effect from July 1, 2005. Section 12 of the PMLA, 2002 casts\ncertain obligations on the banking companies in regard to preservation and reporting\nof customer account information. Banks are, therefore, advised to go through the\nprovisions of PMLA, 2002 (as amended from time to time) and the Rules notified\nthereunder and take all steps considered necessary to ensure compliance with the\nrequirements of section 12 of the Act, ibid.\n\n(a) Maintenance of records of transactions\n\nBanks should introduce a system of maintaining proper record of transactions\nprescribed under Rule ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: maintenance      of   records     of   transactions/information to be?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Maintenance      of   records     of   transactions/Information to be.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": [
+        "Section 12",
+        "section 12",
+        "Rule 3",
+        "Rule 3",
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-032",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.19 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Maintenance      of   records     of   transactions/Information to be",
+      "plain_english": "(iii) In paragraph 2.8 of this Master Circular, banks have been advised to pay special\nattention to all complex, unusual large transactions and all unusual patterns of\ntransactions, which have no apparent economic or visible lawful purpose. It is further\nclarified that the background including all documents/office records/memorandums\npertaining to such transactions and purpose of it should, as f",
+      "original_text": "(iii) In paragraph 2.8 of this Master Circular, banks have been advised to pay special\nattention to all complex, unusual large transactions and all unusual patterns of\ntransactions, which have no apparent economic or visible lawful purpose. It is further\nclarified that the background including all documents/office records/memorandums\npertaining to such transactions and purpose thereof should, as far as possible, be\nexamined and the findings at the branch, as well as Principal Officer level should be\nproperly recorded. Such records and related documents should be made available to\nhelp auditors in their day-to-day work relating to the scrutiny of transactions and also\nto Reserve Bank/other relevant authorities. These records are required to be\npreserved for ten years as is required under PMLA, 2002.\n\n(d) Reporting to Financial Intelligence Unit – India\n\n(i) In terms of the PMLA rules, banks are required to report information relating to cash\nand suspicious transactions to the Director, ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be\npreserved for ten years as is required under PMLA, 2002?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Maintenance      of   records     of   transactions/Information to be.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 1000000,
+        "description": "Rs. 10 lakh",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Maintenance      of   records     of   transactions/Information to be.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-033",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.19 (Part 3)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Maintenance      of   records     of   transactions/Information to be",
+      "plain_english": "(iv) CTR should contain only the transactions carried out by the bank on behalf of their\nclients/customers excluding transactions between the internal accounts of the bank. (v) A summary of CTRs for the bank as a whole should be compiled by the Principal\nOfficer of the bank every month as per the format specified.",
+      "original_text": "(iv) CTR should contain only the transactions carried out by the bank on behalf of their\nclients/customers excluding transactions between the internal accounts of the bank.\n\n(v) A summary of CTRs for the bank as a whole should be compiled by the Principal\nOfficer of the bank every month as per the format specified. The summary should be\nsigned by the Principal Officer and submitted for both manual and electronic reporting.\n\nB. Suspicious Transaction Reports (STR)\n\n(i) While determining suspicious transactions, banks should be guided by definition of\na suspicious transaction contained in PMLA Rules as amended from time to time.\n\n\f(ii) It is likely that in some cases transactions are abandoned / aborted by customers\non being asked to give some details or to provide documents. It is clarified that banks\nshould report all such attempted transactions in STRs, even if not completed by\ncustomers, irrespective of the amount of the transaction.\n\n(iii) Banks should make STRs if they have reasona",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: maintenance      of   records     of   transactions/information to be?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Maintenance      of   records     of   transactions/Information to be.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 7 days",
+        "trigger_event": "receipt of request"
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "Rs, ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Maintenance      of   records     of   transactions/Information to be.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-034",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.20 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Customer Education / Employees' Training / Employee's Hiring",
+      "plain_english": "(a) Customer Education\n\nImplementation of KYC procedures requires banks to demand certain information from\ncustomers which may be of personal nature or which has hitherto never been called\nfor. This can sometimes lead to a lot of questioning by the customer as to the motive\nand purpose of collecting such information.",
+      "original_text": "(a) Customer Education\n\nImplementation of KYC procedures requires banks to demand certain information from\ncustomers which may be of personal nature or which has hitherto never been called\nfor. This can sometimes lead to a lot of questioning by the customer as to the motive\nand purpose of collecting such information. There is, therefore, a need for banks to\nprepare specific literature/ pamphlets, etc. so as to educate the customer of the\nobjectives of the KYC programme. The front desk staff needs to be specially trained to\nhandle such situations while dealing with customers.\n\n(b) Training of Employees\n\nBanks must have an ongoing employee training programme so that the members of\nthe staff are adequately trained in KYC procedures. Training requirements should\nhave different focuses for frontline staff, compliance staff and staff dealing with new\ncustomers. It is crucial that all those concerned fully understand the rationale behind\nthe KYC policies and implement them consistently.\n\n(c) ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have an ongoing employee training programme so that the members of\nthe staff are adequately trained in KYC procedures?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Education / Employees' Training / Employee's Hiring.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Education / Employees' Training / Employee's Hiring.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-035",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2.20 (Part 2)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Customer Education / Employees' Training / Employee's Hiring",
+      "plain_english": "• Utility bills such as electricity, water,\n   and landline telephone bills in the\n   name of the proprietary concern. Any two of the above documents would\nsuffice.",
+      "original_text": "• Utility bills such as electricity, water,\n   and landline telephone bills in the\n   name of the proprietary concern.\n\nAny two of the above documents would\nsuffice. These documents should be in\nthe name of the proprietary concern.\n\n\f                                                      Annex – II\n\n            (List of various Reports)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: customer education / employees' training / employee's hiring?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Customer Education / Employees' Training / Employee's Hiring.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Customer Education / Employees' Training / Employee's Hiring.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-036",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "As regards appointment and communication of details of UAPA nodal officers -",
+      "plain_english": "(i) The UAPA nodal officer for IS-I division would be the Joint Secretary (IS.I),\n  Ministry of Home Affairs. His contact details are 011-23092736(Tel), 011-\n  23092569(Fax) and e-mail.",
+      "original_text": "(i) The UAPA nodal officer for IS-I division would be the Joint Secretary (IS.I),\n  Ministry of Home Affairs. His contact details are 011-23092736(Tel), 011-\n  23092569(Fax) and e-mail.\n\n  (ii) The Ministry of External Affairs, Department of Economic Affairs, Foreigners\n  Division of MHA, FIU-IND; and RBI, SEBI, IRDA (hereinafter referred to as\n  Regulators) shall appoint a UAPA nodal officer and communicate the name and\n  contact details to the IS-I Division in MHA.\n\n  (iii) The States and UTs should appoint a UAPA nodal officer preferably of the rank\n  of the Principal Secretary/Secretary, Home Department and communicate the\n  name and contact details to the IS-I Division in MHA.\n\n  (iv) The IS-I Division in MHA would maintain the consolidated list of all UAPA nodal\n  officers and forward the list to all other UAPA nodal officers.\n  (v) The RBI, SEBI, IRDA should forward the consolidated list of UAPA nodal\n  officers to the banks, stock exchanges/depositories, intermediaries regulate",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation appoint a UAPA nodal officer and communicate the name and\n  contact details to the IS-I Division in MHA?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: As regards appointment and communication of details of UAPA nodal officers -.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: As regards appointment and communication of details of UAPA nodal officers -.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-037",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "As regards funds, financial assets or economic resources or related services hel",
+      "plain_english": "The form of bank accounts, stocks or insurance policies etc., the Regulators would\nforward the designated lists to the banks, stock exchanges/depositories,\nintermediaries regulated by SEBI and insurance companies respectively. The RBI,\nSEBI and IRDA would issue necessary guidelines to banks, stock\nexchanges/depositories, intermediaries regulated by SEBI and insurance companies\nrequiring them to –",
+      "original_text": "the form of bank accounts, stocks or insurance policies etc., the Regulators would\nforward the designated lists to the banks, stock exchanges/depositories,\nintermediaries regulated by SEBI and insurance companies respectively. The RBI,\nSEBI and IRDA would issue necessary guidelines to banks, stock\nexchanges/depositories, intermediaries regulated by SEBI and insurance companies\nrequiring them to –\n\n(i) Maintain updated designated lists in electronic form and run a check on the given\n    parameters on a regular basis to verify whether individuals or entities listed in the\n    schedule to the Order (referred to as designated individuals/entities) are holding\n    any funds, financial assets or economic resources or related services held in the\n    form of bank accounts, stocks or insurance policies etc. with them.\n\n(ii) In case, the particulars of any of their customers match with the particulars of\n     designated individuals/entities, the banks, stock exchanges/ depositories,\n     interm",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation immediately, not\n     later than 24 hours from the time of finding out such customer, inform full\n     particulars of t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: As regards funds, financial assets or economic resources or related services hel.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: As regards funds, financial assets or economic resources or related services hel.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-038",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "On receipt of the particulars referred to in paragraph 3(ii) above, IS-I Divisio",
+      "plain_english": "MHA would cause a verification to be conducted by the State Police and/or the\nCentral Agencies so as to ensure that the individuals/entities identified by the banks,\nstock exchanges/depositories, intermediaries regulated by SEBI and Insurance\nCompanies are the ones listed as designated individuals/entities and the funds,\nfinancial assets or economic resources or related services, reported by banks",
+      "original_text": "MHA would cause a verification to be conducted by the State Police and/or the\nCentral Agencies so as to ensure that the individuals/entities identified by the banks,\nstock exchanges/depositories, intermediaries regulated by SEBI and Insurance\nCompanies are the ones listed as designated individuals/entities and the funds,\nfinancial assets or economic resources or related services, reported by banks, stock\nexchanges/depositories, intermediaries regulated by SEBI and insurance companies\nare held by the designated individuals/entities. This verification would be completed\nwithin a period not exceeding 5 working days from the date of receipt of such\nparticulars.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: on receipt of the particulars referred to in paragraph 3(ii) above, is-i divisio?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: On receipt of the particulars referred to in paragraph 3(ii) above, IS-I Divisio.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: On receipt of the particulars referred to in paragraph 3(ii) above, IS-I Divisio.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-039",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In case, the results of the verification indicate that the properties are owned ",
+      "plain_english": "Held for the benefit of the designated individuals/entities, an order to freeze these\nassets under section 51A of the UAPA would be issued within 24 hours of such\nverification and conveyed electronically to the concerned bank branch, depository,\nbranch of insurance company branch under intimation to respective Regulators and\nFIU-IND. The UAPA nodal officer of IS-I Division of MHA shall also forwar",
+      "original_text": "held for the benefit of the designated individuals/entities, an order to freeze these\nassets under section 51A of the UAPA would be issued within 24 hours of such\nverification and conveyed electronically to the concerned bank branch, depository,\nbranch of insurance company branch under intimation to respective Regulators and\nFIU-IND. The UAPA nodal officer of IS-I Division of MHA shall also forward a copy\nthereof to all the Principal Secretary/Secretary, Home Department of the States or\nUTs, so that any individual or entity may be prohibited from making any funds,\nfinancial assets or economic assets or economic resources or related services\navailable for the benefit of the designated individuals/entities or any other person\nengaged in or suspected to be engaged in terrorism. The UAPA nodal officer of IS-I\nDivision of MHA shall also forward a copy of the order under Section 51A, to all\nDirectors General of Police/Commissioners of Police of all states/UTs for initiating\naction under the ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation also forward a copy\nthereof to all the Principal Secretary/Secretary, Home Department of the States or\nUTs, so that any?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In case, the results of the verification indicate that the properties are owned .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In case, the results of the verification indicate that the properties are owned .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 51A",
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-040",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "7",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "IS-I Division of MHA would electronically forward the designated lists to the UA",
+      "plain_english": "Nodal officer of all States and UTs with the request to have the names of the\ndesignated individuals/entities, on the given parameters, verified from the records of\nthe office of the Registrar performing the work of registration of immovable properties\nin their respective jurisdiction.",
+      "original_text": "nodal officer of all States and UTs with the request to have the names of the\ndesignated individuals/entities, on the given parameters, verified from the records of\nthe office of the Registrar performing the work of registration of immovable properties\nin their respective jurisdiction.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: is-i division of mha would electronically forward the designated lists to the ua?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: IS-I Division of MHA would electronically forward the designated lists to the UA.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: IS-I Division of MHA would electronically forward the designated lists to the UA.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-041",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "8",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "In case, the designated individuals/entities are holding financial assets or eco",
+      "plain_english": "Resources of the nature of immovable property and if any match with the designated\nindividuals/entities is found, the UAPA nodal officer of the State/UT would cause\ncommunication of the complete particulars of such individual/entity along with\ncomplete details of the financial assets or economic resources of the nature of\nimmovable property to the Joint Secretary (IS.I), Ministry of Home Affairs,",
+      "original_text": "resources of the nature of immovable property and if any match with the designated\nindividuals/entities is found, the UAPA nodal officer of the State/UT would cause\ncommunication of the complete particulars of such individual/entity along with\ncomplete details of the financial assets or economic resources of the nature of\nimmovable property to the Joint Secretary (IS.I), Ministry of Home Affairs, immediately\nwithin 24 hours at Fax No.011-23092569 and also convey over telephone on 011-",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within within 24 hours?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In case, the designated individuals/entities are holding financial assets or eco.",
+        "No automated workflow or SLA tracking the required within 24 hours."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In case, the designated individuals/entities are holding financial assets or eco.",
+        "Set an automated alert/workflow triggered to complete action within within 24 hours.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-042",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "9",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "The UAPA nodal officer of the State/UT may cause such inquiry to be conducted by",
+      "plain_english": "The State Police so as to ensure that the particulars sent by the Registrar performing\nthe work of registering immovable properties are indeed of these designated\nindividuals/entities. This verification would be completed within a maximum of 5\nworking days and should be conveyed within 24 hours of the verification, if it matches\nwith the particulars of the designated individual/entity to Joint Sec",
+      "original_text": "the State Police so as to ensure that the particulars sent by the Registrar performing\nthe work of registering immovable properties are indeed of these designated\nindividuals/entities. This verification would be completed within a maximum of 5\nworking days and should be conveyed within 24 hours of the verification, if it matches\nwith the particulars of the designated individual/entity to Joint Secretary(IS-I), Ministry\nof Home Affairs at the Fax telephone numbers and also on the e-mail id given below.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within 24 hours of the triggering event?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The UAPA nodal officer of the State/UT may cause such inquiry to be conducted by.",
+        "No automated workflow or SLA tracking the required within 24 hours."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The UAPA nodal officer of the State/UT may cause such inquiry to be conducted by.",
+        "Set an automated alert/workflow triggered to complete action within within 24 hours.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-043",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In case, the results of the verification indicate that the particulars match wit",
+      "plain_english": "Of designated individuals/entities, an order under Section 51A of the UAPA would be\nissued within 24 hours, by the nodal officer of IS-I Division of MHA and conveyed to\nthe concerned Registrar performing the work of registering immovable properties and\nto FIU-IND under intimation to the concerned UAPA nodal officer of the State/UT. The order shall take place without prior notice, to the designated",
+      "original_text": "of designated individuals/entities, an order under Section 51A of the UAPA would be\nissued within 24 hours, by the nodal officer of IS-I Division of MHA and conveyed to\nthe concerned Registrar performing the work of registering immovable properties and\nto FIU-IND under intimation to the concerned UAPA nodal officer of the State/UT.\n\nThe order shall take place without prior notice, to the designated individuals/entities.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take place without prior notice?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In case, the results of the verification indicate that the particulars match wit.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In case, the results of the verification indicate that the particulars match wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-044",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Further, the UAPA nodal officer of the State/UT shall cause to monitor the",
+      "plain_english": "Transactions/accounts of the designated individual/entity so as to prohibit any\n\n\findividual or entity from making any funds, financial assets or economic resources or\nrelated services available for the benefit of the individuals or entities listed in the\nschedule to the order or any other person engaged in or suspected to be engaged in\nterrorism. The UAPA nodal officer of the State/UT shall upon",
+      "original_text": "transactions/accounts of the designated individual/entity so as to prohibit any\n\n\findividual or entity from making any funds, financial assets or economic resources or\nrelated services available for the benefit of the individuals or entities listed in the\nschedule to the order or any other person engaged in or suspected to be engaged in\nterrorism. The UAPA nodal officer of the State/UT shall upon coming to his notice,\ntransactions and attempts by third party immediately bring to the notice of the\nDGP/Commissioner of Police of the State/UT for also initiating action under the\nprovisions of Unlawful Activities (Prevention) Act.\n\nImplementation of requests received from foreign countries under U.N. Security\nCouncil Resolution 1373 of 2001",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation upon coming to his notice?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Further, the UAPA nodal officer of the State/UT shall cause to monitor the.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Further, the UAPA nodal officer of the State/UT shall cause to monitor the.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-045",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "13",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "U.N. Security Council Resolution 1373 obligates countries to freeze without dela",
+      "plain_english": "The funds or other assets of persons who commit, or attempt to commit, terrorist acts\nor participate in or facilitate the commission of terrorist acts; of entities owned or\ncontrolled directly or indirectly by such persons; and of persons and entities acting on\nbehalf of, or at the direction of such persons and entities, including funds or other\nassets derived or generated from property owned or c",
+      "original_text": "the funds or other assets of persons who commit, or attempt to commit, terrorist acts\nor participate in or facilitate the commission of terrorist acts; of entities owned or\ncontrolled directly or indirectly by such persons; and of persons and entities acting on\nbehalf of, or at the direction of such persons and entities, including funds or other\nassets derived or generated from property owned or controlled, directly or indirectly,\nby such persons and associated persons and entities. Each individual country has the\nauthority to designate the persons and entities that should have their funds or other\nassets frozen. Additionally, to ensure that effective cooperation is developed among\ncountries, countries should examine and give effect to, if appropriate, the actions\ninitiated under the freezing mechanisms of other countries.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: u.n. security council resolution 1373 obligates countries to freeze without dela?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: U.N. Security Council Resolution 1373 obligates countries to freeze without dela.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: U.N. Security Council Resolution 1373 obligates countries to freeze without dela.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-046",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "15",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "The UAPA nodal officer of IS-I Division of MHA, shall cause the request to be",
+      "plain_english": "Examined, within 5 working days so as to satisfy itself that on the basis of applicable\nlegal principles, the requested designation is supported by reasonable grounds, or a\nreasonable basis, to suspect or believe that the proposed designee is a terrorist, one\nwho finances terrorism or a terrorist organization, and upon his satisfaction, request\nwould be electronically forwarded to the nodal office",
+      "original_text": "examined, within 5 working days so as to satisfy itself that on the basis of applicable\nlegal principles, the requested designation is supported by reasonable grounds, or a\nreasonable basis, to suspect or believe that the proposed designee is a terrorist, one\nwho finances terrorism or a terrorist organization, and upon his satisfaction, request\nwould be electronically forwarded to the nodal officers in Regulators, FIU-IND and to\nthe nodal officers of the States/UTs. The proposed designee, as mentioned above\nwould be treated as designated individuals/entities.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The UAPA nodal officer of IS-I Division of MHA, shall cause the request to be.",
+        "No automated workflow or SLA tracking the required timeline."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The UAPA nodal officer of IS-I Division of MHA, shall cause the request to be.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-047",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "16",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Upon receipt of the requests by these nodal officers from the UAPA nodal officer",
+      "plain_english": "Of IS-I Division, the procedure as enumerated at paragraphs 4 to 12 above shall be\nfollowed. The freezing orders shall take place without prior notice to the designated persons\ninvolved.",
+      "original_text": "of IS-I Division, the procedure as enumerated at paragraphs 4 to 12 above shall be\nfollowed.\n\nThe freezing orders shall take place without prior notice to the designated persons\ninvolved.\n\n\fProcedure for unfreezing of funds, financial assets or economic resources or\nrelated services of individuals/entities inadvertently affected by the freezing\nmechanism upon verification that the person or entity is not a designated\nperson",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be\nfollowed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Upon receipt of the requests by these nodal officers from the UAPA nodal officer.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Upon receipt of the requests by these nodal officers from the UAPA nodal officer.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-048",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "17",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Any individual or entity, if it has evidence to prove that the freezing of funds",
+      "plain_english": "Financial assets or economic resources or related services, owned/held by them has\nbeen inadvertently frozen, they shall move an application giving the requisite\nevidence, in writing, to the concerned bank, stock exchanges / depositories,\nintermediaries regulated by SEBI, insurance companies, Registrar of Immovable\nProperties and the State/UT nodal officers.",
+      "original_text": "financial assets or economic resources or related services, owned/held by them has\nbeen inadvertently frozen, they shall move an application giving the requisite\nevidence, in writing, to the concerned bank, stock exchanges / depositories,\nintermediaries regulated by SEBI, insurance companies, Registrar of Immovable\nProperties and the State/UT nodal officers.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation move an application giving the requisite\nevidence, in writing, to the concerned bank, stock exchanges / depositories,\ni?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Any individual or entity, if it has evidence to prove that the freezing of funds.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Any individual or entity, if it has evidence to prove that the freezing of funds.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-049",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The banks stock exchanges/depositories, intermediaries regulated by SEBI,",
+      "plain_english": "Insurance companies, Registrar of Immovable Properties and the State/UT nodal\nofficers shall inform and forward a copy of the application together with full details of\nthe asset frozen given by any individual or entity informing of the funds, financial\nassets or economic resources or related services have been frozen inadvertently, to\nthe nodal officer of IS-I Division of MHA as per the contact de",
+      "original_text": "insurance companies, Registrar of Immovable Properties and the State/UT nodal\nofficers shall inform and forward a copy of the application together with full details of\nthe asset frozen given by any individual or entity informing of the funds, financial\nassets or economic resources or related services have been frozen inadvertently, to\nthe nodal officer of IS-I Division of MHA as per the contact details given in paragraph\n4(ii) above within two working days.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation inform and forward a copy of the application together with full details of\nthe asset frozen given by any individual or?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The banks stock exchanges/depositories, intermediaries regulated by SEBI,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The banks stock exchanges/depositories, intermediaries regulated by SEBI,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-050",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "19",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Joint Secretary (IS-I), MHA, being the nodal officer for (IS-I) Division of ",
+      "plain_english": "Shall cause such verification as may be required on the basis of the evidence\nfurnished by the individual/entity and if he is satisfied, he shall pass an order, within 15\nworking days, unfreezing the funds, financial assets or economic resources or related\nservices, owned/held by such applicant under intimation to the concerned bank, stock\nexchanges/depositories, intermediaries regulated by SEBI,",
+      "original_text": "shall cause such verification as may be required on the basis of the evidence\nfurnished by the individual/entity and if he is satisfied, he shall pass an order, within 15\nworking days, unfreezing the funds, financial assets or economic resources or related\nservices, owned/held by such applicant under intimation to the concerned bank, stock\nexchanges/depositories, intermediaries regulated by SEBI, insurance company and\nthe nodal officers of States/UTs. However, if it is not possible for any reason to pass\nan order unfreezing the assets within fifteen working days, the nodal officer of IS-I\nDivision shall inform the applicant.\n\nCommunication of Orders under section 51A of Unlawful Activities (Prevention)\nAct",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation cause such verification as may be required on the basis of the evidence\nfurnished by the individual/entity and if he is?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Joint Secretary (IS-I), MHA, being the nodal officer for (IS-I) Division of .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Joint Secretary (IS-I), MHA, being the nodal officer for (IS-I) Division of .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-051",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "20",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "All Orders under section 51A of Unlawful Activities (Prevention) Act, relating t",
+      "plain_english": "Funds, financial assets or economic resources or related services, would be\ncommunicated to all banks, depositories/stock exchanges, intermediaries regulated by\nSEBI, insurance companies through respective Regulators, and to all the Registrars\nperforming the work of registering immovable properties, through the State/UT nodal\nofficer by IS-I Division of MHA. Regarding prevention of entry into or t",
+      "original_text": "funds, financial assets or economic resources or related services, would be\ncommunicated to all banks, depositories/stock exchanges, intermediaries regulated by\nSEBI, insurance companies through respective Regulators, and to all the Registrars\nperforming the work of registering immovable properties, through the State/UT nodal\nofficer by IS-I Division of MHA.\n\n\n\n\n\fRegarding prevention of entry into or transit through India",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: all orders under section 51a of unlawful activities (prevention) act, relating t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: All Orders under section 51A of Unlawful Activities (Prevention) Act, relating t.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: All Orders under section 51A of Unlawful Activities (Prevention) Act, relating t.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-052",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "21",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "As regards prevention of entry into or transit through India of the designated /",
+      "plain_english": "Individuals, the Foreigners Division of MHA, shall forward the designated lists to the\nimmigration authorities and security agencies with a request to prevent the entry into\nor the transit through India. The order shall take place without prior notice to the\ndesignated individuals/entities.",
+      "original_text": "individuals, the Foreigners Division of MHA, shall forward the designated lists to the\nimmigration authorities and security agencies with a request to prevent the entry into\nor the transit through India. The order shall take place without prior notice to the\ndesignated individuals/entities.\n\ncommunicate the details of entry or transit through India of the designated individuals\nas prevented by them to the Foreigners' Division of MHA.\n\nProcedure for communication of compliance of action taken under Section 51A",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation forward the designated lists to the\nimmigration authorities and security agencies with a request to prevent the entry i?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: As regards prevention of entry into or transit through India of the designated /.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: As regards prevention of entry into or transit through India of the designated /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-053",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "24",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "All concerned are requested to ensure strict compliance of this order.",
+      "plain_english": "(D .Diptivilasa)\n                                                 Joint Secretary to Government of India\n\n\n\n\n\f                                                                           Annex - IV\n\n                              Ministry of Finance\n                           (Department of Revenue)\n                                  Notification",
+      "original_text": "(D .Diptivilasa)\n                                                 Joint Secretary to Government of India\n\n\n\n\n\f                                                                           Annex - IV\n\n                              Ministry of Finance\n                           (Department of Revenue)\n                                  Notification\n                                                                   th\n                                                New Delhi, the 16 December 2010\n\nGSR ------ (E) – In exercise of the powers conferred by sub-section (1) read with\nclauses (h) (i), (j) and (k) of sub-section (2) of Section 73 of the Prevention of\nMoney-laundering Act, 2002 (15 of 2003), the Central Government hereby makes\nthe following amendments to the Prevention of Money-laundering (Maintenance of\nRecords of the Nature and Value of Transactions, the Procedure and Manner of\nMaintaining and Time for Furnishing Information and Verification and Maintenance\nof Records of the Identit",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation come into force on the date of their publication in the Official\n Gazette?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: All concerned are requested to ensure strict compliance of this order..",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: All concerned are requested to ensure strict compliance of this order..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 73"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-054",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In the Prevention of Money-laundering (Maintenance of Records of the Nature",
+      "plain_english": "And Value of Transactions, the Procedure and Manner of Maintaining and Time\nfor Furnishing Information and Verification and Maintenance of Records of the\nIdentity of the Clients of the Banking Companies, Financial Institutions and\nIntermediaries) Rules, 2005, -\n\n(a) in rule 2,-\n\n      (i) after clause (b), the following clause shall be inserted, namely:-\n\n         “(bb) “Designated Officer” means",
+      "original_text": "and Value of Transactions, the Procedure and Manner of Maintaining and Time\nfor Furnishing Information and Verification and Maintenance of Records of the\nIdentity of the Clients of the Banking Companies, Financial Institutions and\nIntermediaries) Rules, 2005, -\n\n(a) in rule 2,-\n\n      (i) after clause (b), the following clause shall be inserted, namely:-\n\n         “(bb) “Designated Officer” means any officer or a class of officers\n         authorized by a banking company, either by name or by designation, for\n         the purpose of opening small accounts”.\n\n      (ii) in clause (d), for the words “the Election Commission of India or\n\n\n\f     financial institution or intermediary”, the words “Election Commission of India, job\n     card issued by NREGA duly signed by an officer of the State Government, the\n     letter issued by the Unique Identification Authority of India containing details of\n     name, address and Aadhaar number or any other document as notified by the\n     Central Gov",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be inserted, namely:-\n\n         “(bb) “Designated Officer” means any officer or a class of officers\n         authorized?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In the Prevention of Money-laundering (Maintenance of Records of the Nature.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "breach_notification",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "breach_notification",
+        "cft",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In the Prevention of Money-laundering (Maintenance of Records of the Nature.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 2",
+        "rule 9",
+        "rule 9",
+        "rule 9.",
+        "Section 3"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-055",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Develop a software application to enable use of e-KYC across various Customer / ",
+      "plain_english": "Service Points (CSP) (including bank branch, BCs etc.) as per UIDAI defined\n   Application Programming Interface (API) protocols. For this purpose banks will\n   have to develop their own software under the broad guidelines of UIDAI.",
+      "original_text": "Service Points (CSP) (including bank branch, BCs etc.) as per UIDAI defined\n   Application Programming Interface (API) protocols. For this purpose banks will\n   have to develop their own software under the broad guidelines of UIDAI.\n   Therefore, the software may differ from bank to bank.\n\ndata with the bank. This authorization can be in physical (by way of a written\n    explicit consent authorising UIDAI to share his/her Aadhaar data with the bank/BC\n    for the purpose of opening bank account) /electronic form as defined by UIDAI\n    from time to time.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: develop a software application to enable use of e-kyc across various customer / ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Develop a software application to enable use of e-KYC across various Customer / .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "aml",
+        "cft",
+        "consent",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "cft",
+        "consent",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Develop a software application to enable use of e-KYC across various Customer / .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-056",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "5 (Part 1)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Sample process flow would be as follows:",
+      "plain_english": "A. Customer walks into CSP of a bank with his/her 12-digit Aadhaar number and\n   explicit consent and requests to open a bank account with Aadhaar based e-\n   KYC.",
+      "original_text": "a. Customer walks into CSP of a bank with his/her 12-digit Aadhaar number and\n   explicit consent and requests to open a bank account with Aadhaar based e-\n   KYC.\n\nb. Bank representative manning the CSP enters the number into bank’s e-KYC\n   application software.\n\nc. The customer inputs his/her biometrics via a UIDAI compliant biometric reader (e.g.\n    fingerprints on a biometric reader).\n\nd. The software application captures the Aadhaar number along with biometric data,\n    encrypts this data and sends it to UIDAI’s Central Identities Data Repository\n    (CIDR).\n\n\fe. The Aadhaar KYC service authenticates customer data. If the Aadhar number does\n    not match with the biometrics, UIDAI server responds with an error with various\n    reason codes depending on type of error (as defined by UIDAI).\n\nf. If the Aadhaar number matches with the biometrics, UIDAI responds with digitally\n     signed and encrypted demographic information [Name, year/date of birth, Gender,\n     Address, Phone and",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: sample process flow would be as follows:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Sample process flow would be as follows:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "consent",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "consent",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Sample process flow would be as follows:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "PMLA_AML_CFT-057",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "5 (Part 2)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Sample process flow would be as follows:",
+      "plain_english": "1     RPCD.RRB.RCB.AML.BC.No. 16.06.2014   Harmonization of KYC norms for Foreign\n         112/07.51.018/2013-14                    Portfolio Investors (FPIs)\n   2     RPCD.RRB.RCB.AML.BC.No.",
+      "original_text": "   1     RPCD.RRB.RCB.AML.BC.No.     16.06.2014   Harmonization of KYC norms for Foreign\n         112/07.51.018/2013-14                    Portfolio Investors (FPIs)\n   2     RPCD.RRB.RCB.AML.BC.No.     12.06.2014   Clarification on Proof of address\n         111/07.51.018/2013-14\n   3     RPCD.RRB.RCB.AML.BC.No.     25.04.2014   Reporting of Cross Border Wire Transfer\n         97/07.51.018/2013-14                     Report on FINnet Gateway\n   4     RPCD.RRB.RCB.AML.BC.No.     13.03.2014   Recognising e- Aadhaar as an ‘Officially\n         92/07.51.018/2013-14                     Valid Document’ under PML Rules\n   5     RPCD.RRB.RCB.AML.BC.No.     09.01.2014   Amendment to Section 13(2) of PMLA\n         75/07.51.018/2013-14                     2002\n   6     RPCD.CO.RRB.RCB.BC.No.      29.10.2013   ‘At par’ cheque facility extended to\n         48 / 07.51.010//2013-14                  Cooperative Banks / Regional Rural\n                                                  Banks by Scheduled ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: sample process flow would be as follows:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Sample process flow would be as follows:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs\n   9     ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "data_localisation",
+        "governance",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "data_localisation",
+        "governance",
+        "kyc",
+        "personal_data",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Sample process flow would be as follows:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 13(2)"
+      ]
+    },
+    {
+      "control_id": "PMLA_AML_CFT-058",
+      "framework_id": "PMLA_AML_CFT",
+      "section_ref": "5 (Part 3)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Sample process flow would be as follows:",
+      "plain_english": "Obligation of Regional Rural    Banks\n                                               (RRBS) Under PMLA, 2002\n54   RPCD.CO.RCB.AML.BC.No.81     25.06.2008   Prevention of Money Laundering Act,\n     /07.40.00/2007-08                         2002 – Obligation of banks in terms of\n                                               Rules notified under it. 55   RPCD.CO.RRB.No.BC.77/        18.06.2008   P",
+      "original_text": "\f                                               Obligation of Regional Rural    Banks\n                                               (RRBS) Under PMLA, 2002\n54   RPCD.CO.RCB.AML.BC.No.81     25.06.2008   Prevention of Money Laundering Act,\n     /07.40.00/2007-08                         2002 – Obligation of banks in terms of\n                                               Rules notified thereunder.\n55   RPCD.CO.RRB.No.BC.77/        18.06.2008   Prevention of Money Laundering Act,\n     03.05.33(E)/2007-08                       2002 - Obligation of Banks in terms of\n                                               Rules Notified there under\n56   RPCD.CO.RF.AML.              28.02.2008   Know Your Customer (KYC) Norms/Anti\n     BC.No.51/07.40.00/2007-08                 Money         Laundering      (AML)\n                                               Standards/Combating of Financing of\n                                               Terrorism (CFT)\n57   RPCD.CO.RRB.No.BC.50/03.0    27.02.2008 ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech",
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: sample process flow would be as follows:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Sample process flow would be as follows:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs\n     07",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "suspicious_transaction"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Sample process flow would be as follows:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

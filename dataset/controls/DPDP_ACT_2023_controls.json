@@ -1,0 +1,1541 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "DPDP_ACT_2023",
+  "regulator": "MeitY",
+  "controls": [
+    {
+      "control_id": "DPDP_ACT_2023-001",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "Preamble (Part 2)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Preamble",
+      "plain_english": "(q) “Member” means a Member of the Board and includes the Chairperson;\n           (r) “notification” means a notification published in the Official Gazette and the\n      expressions “notify” and “notified” shall be construed accordingly;\n            (s) “person” includes—\n                  (i) an individual;\n                  (ii) a Hindu undivided family;\n                  (iii) a company;",
+      "original_text": "            (q) “Member” means a Member of the Board and includes the Chairperson;\n           (r) “notification” means a notification published in the Official Gazette and the\n      expressions “notify” and “notified” shall be construed accordingly;\n            (s) “person” includes—\n                  (i) an individual;\n                  (ii) a Hindu undivided family;\n                  (iii) a company;\n                  (iv) a firm;\n                  (v) an association of persons or a body of individuals, whether\n            incorporated or not;\n                  (vi) the State; and\n                 (vii) every artificial juristic person, not falling within any of the preceding\n            sub-clauses;\n             (t) “personal data” means any data about an individual who is identifiable by or\n      in relation to such data;\n            (u) “personal data breach” means any unauthorised processing of personal\n      data or accidental disclosure, acquisition, sharing, use, alteration, d",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Preamble' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "breach_notification",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Add 'Preamble' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "section 10",
+        "article 12"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-002",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(b) the Data Fiduciary may continue to process the personal data until and\n      unless the Data Principal withdraws her consent. Illustration.",
+      "original_text": "            (b) the Data Fiduciary may continue to process the personal data until and\n      unless the Data Principal withdraws her consent.\n                                         Illustration.\n       X, an individual, gave her consent to the processing of her personal data for an online\nshopping app or website operated by Y, an e-commerce service provider, before the\ncommencement of this Act. Upon commencement of the Act, Y shall, as soon as practicable,\ngive through email, in-app notification or other effective method information to X, describing\nthe personal data and the purpose of its processing.\n       (3) The Data Fiduciary shall give the Data Principal the option to access the contents\nof the notice referred to in sub-sections (1) and (2) in English or any language specified in\nthe Eighth Schedule to the Constitution.\n       6. (1) The consent given by the Data Principal shall be free, specific, informed,         Consent.\nunconditional and unambiguous with a clear affirmative",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation , as soon as practicable,\ngive through email, in-app notification or other effective method information to X, describing?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-003",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 3)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "Illustration. X, a telecom service provider, enters into a contract with Y, a Data Processor, for\n                   emailing telephone bills to the customers of X.",
+      "original_text": "                                                            Illustration.\n                         X, a telecom service provider, enters into a contract with Y, a Data Processor, for\n                   emailing telephone bills to the customers of X. Z, a customer of X, who had earlier given her\n                   consent to X for the processing of her personal data for emailing of bills, downloads the\n                   mobile app of X and opts to receive bills only on the app. X shall itself cease, and shall\n                   cause Y to cease, the processing of the personal data of Z for emailing bills.\n                        (7) The Data Principal may give, manage, review or withdraw her consent to the Data\n                   Fiduciary through a Consent Manager.\n                         (8) The Consent Manager shall be accountable to the Data Principal and shall act on\n                   her behalf in such manner and subject to such obligations as may be prescribed.\n               ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation itself cease, and shall\n                   cause Y to cease, the processing of the personal data of Z for emailing bill?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-004",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 4)",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(c) for the performance by the State or any of its instrumentalities of any function\n                    under any law for the time being in force in India or in the interest of sovereignty and\n                    integrity of India or security of the State;\n                          (d) for fulfilling any obligation under any law for the time being in force in India\n                    on any per",
+      "original_text": "                          (c) for the performance by the State or any of its instrumentalities of any function\n                    under any law for the time being in force in India or in the interest of sovereignty and\n                    integrity of India or security of the State;\n                          (d) for fulfilling any obligation under any law for the time being in force in India\n                    on any person to disclose any information to the State or any of its instrumentalities,\n                    subject to such processing being in accordance with the provisions regarding\n                    disclosure of such information in any other law for the time being in force;\n                          (e) for compliance with any judgment or decree or order issued under any law\n                    for the time being in force in India, or any judgment or order relating to claims of a\n                    contractual or civil nature under any law for the time being in force ou",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: subject to the provisions of this act, it shall—                                ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "Users have no functional mechanism to exercise this right.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "data_localisation",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "data_localisation",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-005",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 5)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "Soon as it is reasonable to assume that the specified purpose is no longer being\n                       served, whichever is earlier; and\n                             (b) cause its Data Processor to erase any personal data that was made available\n                       by the Data Fiduciary for processing to such Data Processor. Illustrations.",
+      "original_text": "                       soon as it is reasonable to assume that the specified purpose is no longer being\n                       served, whichever is earlier; and\n                             (b) cause its Data Processor to erase any personal data that was made available\n                       by the Data Fiduciary for processing to such Data Processor.\n                                                          Illustrations.\n                       (I) X, an individual, registers herself on an online marketplace operated by Y, an\n                 e-commerce service provider. X gives her consent to Y for the processing of her personal\n                 data for selling her used car. The online marketplace helps conclude the sale. Y shall no\n                 longer retain her personal data.\n                       (II) X, an individual, decides to close her savings account with Y, a bank. Y is required\n                 by law applicable to banks to maintain the record of the identity of its c",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation no\n                 longer retain her personal data?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "children",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "children",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-006",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 6)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(a) the volume and sensitivity of personal data processed;\n            (b) risk to the rights of Data Principal;\n            (c) potential impact on the sovereignty and integrity of India;\n            (d) risk to electoral democracy;\n            (e) security of the State; and\n            (f) public order. (2) The Significant Data Fiduciary shall—\n            (a) appoint a Data Protection Officer w",
+      "original_text": "            (a) the volume and sensitivity of personal data processed;\n            (b) risk to the rights of Data Principal;\n            (c) potential impact on the sovereignty and integrity of India;\n            (d) risk to electoral democracy;\n            (e) security of the State; and\n            (f) public order.\n      (2) The Significant Data Fiduciary shall—\n            (a) appoint a Data Protection Officer who shall—\n                   (i) represent the Significant Data Fiduciary under the provisions of this\n            Act;\n                   (ii) be based in India;\n                 (iii) be an individual responsible to the Board of Directors or similar\n            governing body of the Significant Data Fiduciary; and\n                  (iv) be the point of contact for the grievance redressal mechanism under\n            the provisions of this Act;\n            (b) appoint an independent data auditor to carry out data audit, who shall\n      evaluate the compliance of the Significa",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation —\n            (a) appoint a Data Protection Officer who shall—\n                   (i) represent the Significant Data Fid?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "audit_log",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "audit_log",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 7",
+        "section 7"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-007",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 7)",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "Right to               14. (1) A Data Principal shall have the right to nominate, in such manner as may be\nnominate.",
+      "original_text": "Right to               14. (1) A Data Principal shall have the right to nominate, in such manner as may be\nnominate.        prescribed, any other individual, who shall, in the event of death or incapacity of the Data\n                 Principal, exercise the rights of the Data Principal in accordance with the provisions of this\n                 Act and the rules made thereunder.\n                       (2) For the purposes of this section, the expression “incapacity” means inability to\n                 exercise the rights of the Data Principal under the provisions of this Act or the rules made\n                 thereunder due to unsoundness of mind or infirmity of body.\nDuties of Data         15. A Data Principal shall perform the following duties, namely:—\nPrincipal.\n                             (a) comply with the provisions of all applicable laws for the time being in force\n                       while exercising rights under the provisions of this Act;\n                             (b)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users/clients have a functional mechanism to 14. (1) a data principal shall have the right to nominate?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "breach_notification",
+        "data_localisation",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "data_localisation",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-008",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 8)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(2) Nothing contained in this section shall restrict the applicability of any law for the\n              time being in force in India that provides for a higher degree of protection for or restriction\n              on transfer of personal data by a Data Fiduciary outside India in relation to any personal\n              data or Data Fiduciary or class of it. 17.",
+      "original_text": "                    (2) Nothing contained in this section shall restrict the applicability of any law for the\n              time being in force in India that provides for a higher degree of protection for or restriction\n              on transfer of personal data by a Data Fiduciary outside India in relation to any personal\n              data or Data Fiduciary or class thereof.\n                    17. (1) The provisions of Chapter II, except sub-sections (1) and (5) of section 8, and      Exemptions.\n              those of Chapter III and section 16 shall not apply where—\n                             (a) the processing of personal data is necessary for enforcing any legal right or\n                    claim;\n                           (b) the processing of personal data by any court or tribunal or any other body\n                    in India which is entrusted by law with the performance of any judicial or quasi-judicial\n                    or regulatory or supervisory function, where suc",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation restrict the applicability of any law for the\n              time being in force in India that provides for a higher deg?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "data_localisation",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "data_localisation",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 8",
+        "section 16",
+        "section 3"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-009",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 9)",
+      "content_type": "EXEMPTION",
+      "obligation_type": "informational",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(b) necessary for research, archiving or statistical purposes if the personal data\n                       is not to be used to take any decision specific to a Data Principal and such processing\n                       is carried on in accordance with such standards as may be prescribed. (3) The Central Government may, having regard to the volume and nature of personal\n                 data processe",
+      "original_text": "                              (b) necessary for research, archiving or statistical purposes if the personal data\n                       is not to be used to take any decision specific to a Data Principal and such processing\n                       is carried on in accordance with such standards as may be prescribed.\n                       (3) The Central Government may, having regard to the volume and nature of personal\n                 data processed, notify certain Data Fiduciaries or class of Data Fiduciaries, including startups,\n                 as Data Fiduciaries to whom the provisions of section 5, sub-sections (3) and (7) of\n                 section 8 and sections 10 and 11 shall not apply.\n                       Explanation.—For the purposes of this sub-section, the term “startup” means a\n                 private limited company or a partnership firm or a limited liability partnership incorporated\n                 in India, which is eligible to be and is recognised as such in a",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not apply?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "breach_notification",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 5",
+        "section 8",
+        "section 8",
+        "section 12",
+        "section 12"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-010",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "3 (Part 10)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Subject to the provisions of this Act, it shall—                                ",
+      "plain_english": "(d) has acquired such financial or other interest, as is likely to affect prejudicially\n                    her functions as a Member; or\n                           (e) has so abused her position as to render her continuance in office prejudicial\n                    to the public interest. (2) The Chairperson or Member shall not be removed from her office by the Central\n              Government un",
+      "original_text": "                          (d) has acquired such financial or other interest, as is likely to affect prejudicially\n                    her functions as a Member; or\n                           (e) has so abused her position as to render her continuance in office prejudicial\n                    to the public interest.\n                   (2) The Chairperson or Member shall not be removed from her office by the Central\n              Government unless she has been given an opportunity of being heard in the matter.\n                     22. (1) The Chairperson or any other Member may give notice in writing to the Central          Resignation\n              Government of resigning from her office, and such resignation shall be effective from the             by Members\n                                                                                                                    and filling of\n              date on which the Central Government permits her to relinquish office, or upon expiry ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not be removed from her office by the Central\n              Government unless she has been given an opportunity of bein?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subject to the provisions of this Act, it shall—                                .",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subject to the provisions of this Act, it shall—                                .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-011",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "25 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Chairperson, Members, officers and employees of the Board shall be deemed,  ",
+      "plain_english": "When acting or purporting to act in pursuance of provisions of this Act, to be public                 officers to be\n                                                                                                                    public\n45 of 1860. servants within the meaning of section 21 of the Indian Penal Code.",
+      "original_text": "when acting or purporting to act in pursuance of provisions of this Act, to be public                 officers to be\n                                                                                                                    public\n45 of 1860.   servants within the meaning of section 21 of the Indian Penal Code.                                   servants.\n\f                  14                   THE GAZETTE OF INDIA EXTRAORDINARY                            [PART II—\n\nPowers of              26. The Chairperson shall exercise the following powers, namely:—\nChairperson.\n                            (a) general superintendence and giving direction in respect of all administrative\n                       matters of the Board;\n                             (b) authorise any officer of the Board to scrutinise any intimation, complaint,\n                       reference or correspondence addressed to the Board; and\n                              (c) authorise performance of any of the functi",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation exercise the following powers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "licence_revocation"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 21",
+        "section 8",
+        "section 37",
+        "section 27"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-012",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "25 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Chairperson, Members, officers and employees of the Board shall be deemed,  ",
+      "plain_english": "(3) The Board shall determine whether there are sufficient grounds to proceed with an\n             inquiry. (4) In case the Board determines that there are insufficient grounds, it may, for reasons\n             to be recorded in writing, close the proceedings.",
+      "original_text": "                   (3) The Board shall determine whether there are sufficient grounds to proceed with an\n             inquiry.\n                    (4) In case the Board determines that there are insufficient grounds, it may, for reasons\n             to be recorded in writing, close the proceedings.\n                   (5) In case the Board determines that there are sufficient grounds to proceed with\n             inquiry, it may, for reasons to be recorded in writing, inquire into the affairs of any person for\n             ascertaining whether such person is complying with or has complied with the provisions of\n             this Act.\n                   (6) The Board shall conduct such inquiry following the principles of natural justice\n             and shall record reasons for its actions during the course of such inquiry.\n                   (7) For the purposes of discharging its functions under this Act, the Board shall have\n5 of 1908.   the same powers as are vested in a civil court u",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation determine whether there are sufficient grounds to proceed with an\n             inquiry?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 33."
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-013",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "25 (Part 3)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Chairperson, Members, officers and employees of the Board shall be deemed,  ",
+      "plain_english": "(5) The Appellate Tribunal shall send a copy of every order made by it to the Board\n                 and to the parties to the appeal. (6) The appeal filed before the Appellate Tribunal under sub-section (1) shall be dealt\n                 with by it as expeditiously as possible and endeavour shall be made by it to dispose of the\n                 appeal finally within six months from the date on w",
+      "original_text": "                       (5) The Appellate Tribunal shall send a copy of every order made by it to the Board\n                 and to the parties to the appeal.\n                       (6) The appeal filed before the Appellate Tribunal under sub-section (1) shall be dealt\n                 with by it as expeditiously as possible and endeavour shall be made by it to dispose of the\n                 appeal finally within six months from the date on which the appeal is presented to it.\n                       (7) Where any appeal under sub-section (6) could not be disposed of within the\n                 period of six months, the Appellate Tribunal shall record its reasons in writing for not\n                 disposing of the appeal within that period.\n                      (8) Without prejudice to the provisions of section 14A and section 16 of the Telecom\n                 Regulatory Authority of India Act, 1997, the Appellate Tribunal shall deal with an appeal             24 of 1997.\n           ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation send a copy of every order made by it to the Board\n                 and to the parties to the appeal?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Chairperson, Members, officers and employees of the Board shall be deemed,  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 14A",
+        "section 16",
+        "section 18",
+        "section 28.",
+        "section 33."
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-014",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "34",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "All sums realised by way of penalties imposed by the Board under this Act, shall",
+      "plain_english": "Be credited to the Consolidated Fund of India. realised by\n                                                                                                                way of\n                                                                                                                penalties to",
+      "original_text": "be credited to the Consolidated Fund of India.                                                    realised by\n                                                                                                                way of\n                                                                                                                penalties to\n                                                                                                                Consolidated\n                                                                                                                Fund of India.\n\n                                                     CHAPTER IX\n                                                    MISCELLANEOUS\n\nGovernment, the Board, its Chairperson and any Member, officer or employee thereof for            action taken\n                                                                                                                in good faith.\n              anything w",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: all sums realised by way of penalties imposed by the board under this act, shall?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: All sums realised by way of penalties imposed by the Board under this Act, shall.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: All sums realised by way of penalties imposed by the Board under this Act, shall.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-015",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "36 (Part 1)",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "The Central Government may, for the purposes of this Act, require the Board and ",
+      "plain_english": "Any Data Fiduciary or intermediary to furnish such information as it may call for. for\n                                                                                                                information.",
+      "original_text": "any Data Fiduciary or intermediary to furnish such information as it may call for.                for\n                                                                                                                information.\n\n                    37. (1) The Central Government or any of its officers specially authorised by it in this    Power of\n              behalf may, upon receipt of a reference in writing from the Board that—                           Central\n                                                                                                                Government\n                          (a) intimates the imposition of monetary penalty by the Board on a Data Fiduciary     to issue\n                                                                                                                directions.\n                    in two or more instances; and\n                          (b) advises, in the interests of the general public, the blocking for access by the\n   ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: the central government may, for the purposes of this act, require the board and ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Central Government may, for the purposes of this Act, require the Board and .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_ACT_2023-016",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "36 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Central Government may, for the purposes of this Act, require the Board and ",
+      "plain_english": "Consistency           38. (1) The provisions of this Act shall be in addition to and not in derogation of any\nwith other      other law for the time being in force.",
+      "original_text": "Consistency           38. (1) The provisions of this Act shall be in addition to and not in derogation of any\nwith other      other law for the time being in force.\nlaws.\n                      (2) In the event of any conflict between a provision of this Act and a provision of any\n                other law for the time being in force, the provision of this Act shall prevail to the extent of\n                such conflict.\nBar of                39. No civil court shall have the jurisdiction to entertain any suit or proceeding in\njurisdiction.   respect of any matter for which the Board is empowered under the provisions of this Act\n                and no injunction shall be granted by any court or other authority in respect of any action\n                taken or to be taken in pursuance of any power under the provisions of this Act.\nPower to              40. (1) The Central Government may, by notification, and subject to the condition of\nmake rules.     previous publication, make rules not",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be in addition to and not in derogation of any\nwith other      other law for the time being in force?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Central Government may, for the purposes of this Act, require the Board and .",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "children",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "children",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Central Government may, for the purposes of this Act, require the Board and .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 5",
+        "section 5",
+        "section 6",
+        "section 6",
+        "section 7"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-017",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "41",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Every rule made and every notification issued under section 16 and section 42 of",
+      "plain_english": "This Act shall be laid, as soon as may be after it is made, before each House of Parliament,         rules and\n                                                                                                                   certain\n              while it is in session, for a total period of thirty days which may be comprised in one session      notifications. or in two or more successive session",
+      "original_text": "this Act shall be laid, as soon as may be after it is made, before each House of Parliament,         rules and\n                                                                                                                   certain\n              while it is in session, for a total period of thirty days which may be comprised in one session      notifications.\n              or in two or more successive sessions, and if before the expiry of the session immediately\n              following the session or the successive sessions aforesaid, both Houses agree in making\n              any modification in the rule or notification or both Houses agree that the rule or notification\n              should not be made or issued, the rule or notification shall thereafter have effect only in\n              such modified form or be of no effect, as the case may be; so, however, that any such\n              modification or annulment shall be without prejudice to the validity of anything previously\n       ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be laid, as soon as may be after it is made?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Every rule made and every notification issued under section 16 and section 42 of.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Every rule made and every notification issued under section 16 and section 42 of.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 14",
+        "section 43A",
+        "section 81",
+        "section 87",
+        "section 8"
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-018",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "1",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Breach in observing the obligation of Data Fiduciary to      May extend to two /",
+      "plain_english": "Take reasonable security safeguards to prevent personal      hundred and fifty\n                       data breach under sub-section (5) of section 8. crore rupees.",
+      "original_text": "take reasonable security safeguards to prevent personal      hundred and fifty\n                       data breach under sub-section (5) of section 8.              crore rupees.\n\naffected Data Principal notice of a personal data breach     hundred crore\n                       under sub-section (6) of section 8.                          rupees.\n\nto children under section 9.                                 hundred crore\n                                                                                    rupees.\n\nSignificant Data Fiduciary under section 10.                 hundred and fifty\n                                                                                    crore rupees.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: breach in observing the obligation of data fiduciary to      may extend to two /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Breach in observing the obligation of Data Fiduciary to      May extend to two /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "children",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "children",
+        "dpdp",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": [
+        "section 8.",
+        "section 8.",
+        "section 9.",
+        "section 10."
+      ]
+    },
+    {
+      "control_id": "DPDP_ACT_2023-019",
+      "framework_id": "DPDP_ACT_2023",
+      "section_ref": "5",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Breach in observance of the duties under section 15.         May extend to ten /",
+      "plain_english": "Thousand rupees. the Board under section 32.",
+      "original_text": "thousand rupees.\n\nthe Board under section 32.                                  applicable for the\n                                                                                    breach in respect\n                                                                                    of which the\n                                                                                    proceedings under\n                                                                                    section 28 were\n                                                                                    instituted.\n\nmade thereunder.                                             crore rupees.\n\n\n                                                    ————\n\n\n                                                                             DR. REETA VASISHTA,\n                                                                       Secretary to the Govt. of India.\n\n\n\n\n         UPLOADED BY THE MANAGER, GOVERNMENT OF INDIA PRESS, MI",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: breach in observance of the duties under section 15.         may extend to ten /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Breach in observance of the duties under section 15.         May extend to ten /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "tags": [
+        "breach_notification",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "privacy"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": [
+        "section 32.",
+        "section 28"
+      ]
+    }
+  ]
+}

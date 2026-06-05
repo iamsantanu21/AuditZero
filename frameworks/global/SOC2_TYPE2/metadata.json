@@ -1,0 +1,18 @@
+{
+  "framework_id": "SOC2_TYPE2",
+  "framework_name": "SOC 2 Type II — Trust Services Criteria",
+  "regulator": "American Institute of Certified Public Accountants (AICPA)",
+  "version": "2017 Trust Services Criteria (current)",
+  "effective_date": "2017-01-01",
+  "last_verified": "2026-06-05",
+  "source_url": "https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aaborgattrstrategicframework",
+  "penalty_max_inr": 0,
+  "applies_to": [
+    "saas",
+    "fintech",
+    "healthtech"
+  ],
+  "document_status": "placeholder",
+  "total_pages": 0,
+  "file_hash_sha256": ""
+}

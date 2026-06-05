@@ -1,0 +1,3641 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+  "regulator": "SEBI",
+  "controls": [
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-001",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CHAPTER",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CHAPTER I",
+      "plain_english": "PRELIMINARY\n\nShort title and commencement. 1.",
+      "original_text": "PRELIMINARY\n\nShort title and commencement.\n\n1. (1) These regulations may be called the Securities and Exchange Board of India\n(Investment Advisers) Regulations, 2013.\n\n(2) These regulations shall come into force on the ninetieth day from the date of their\npublication in the Official Gazette.\nDefinitions.\n\n2. (1) _ In these regulations, unless the context otherwise requires, the terms defined\nherein shall bear the meanings assigned to them below, and their cognate expressions\nshall be construed accordingly,—\n\n(a) “Act” means the Securities and Exchange Board of India Act, 1992 (15 of 1992);\n'[(aa) “accreditation agency” shall have the same meaning as assigned to it in clause\n\n(aa) of sub-regulation (1) of regulation 2 of the Securities and Exchange Board of\n\nIndia (Alternative Investment Funds) Regulations, 2012;\n\n' Inserted by the SEBI (Investment Advisers) (Third Amendment) Regulations, 2021, w.e.f. 03-08-2021.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation bear the meanings assigned to them below?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CHAPTER I.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CHAPTER I.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-002",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 2]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 2]",
+      "plain_english": "(ab) “accredited investor” shall have the same meaning as assigned to it under\nclause (ab) of sub-regulation (1) of regulation 2 of the Securities and Exchange\n\nBoard of India (Alternative Investment Funds) Regulations, 2012;]\n\n?P[(ac)] “assets under advice” shall mean the aggregate net asset value of securities\n4[***] for which the investment adviser has rendered investment advice\nirrespective of",
+      "original_text": "(ab) “accredited investor” shall have the same meaning as assigned to it under\nclause (ab) of sub-regulation (1) of regulation 2 of the Securities and Exchange\n\nBoard of India (Alternative Investment Funds) Regulations, 2012;]\n\n?P[(ac)] “assets under advice” shall mean the aggregate net asset value of securities\n4[***] for which the investment adviser has rendered investment advice\nirrespective of whether the implementation services are provided by\ninvestment adviser or concluded by the client directly or through other service\nproviders;]\n\n(b) \"Board\" means the Securities and Exchange Board of India established under",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have the same meaning as assigned to it under\nclause (ab) of sub-regulation (1) of regulation 2 of the Securities and E?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 2].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 2].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-003",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "section",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "section 3 of the Act;",
+      "plain_english": "(c) “body corporate” shall have the meaning assigned to it in or [under sub-\n\nsection (11) of section 2 of the Companies Act, 2013 (18 of 2013)];\n(d) “certificate” means a certificate of registration granted under these regulations;\n®[(e) “Change in control” —\n(i) in case of a body corporate —\n\n(A) if its shares are listed on any recognised stock exchange, shall be construed\nwith reference to the",
+      "original_text": "(c) “body corporate” shall have the meaning assigned to it in or [under sub-\n\nsection (11) of section 2 of the Companies Act, 2013 (18 of 2013)];\n(d) “certificate” means a certificate of registration granted under these regulations;\n®[(e) “Change in control” —\n(i) in case of a body corporate —\n\n(A) if its shares are listed on any recognised stock exchange, shall be construed\nwith reference to the definition of control in terms of regulations framed under\n\nclause (h) of sub-section (2) of section 11 of the Act;\n\n? Inserted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020.\n\n3 Substituted for “(aa)” by the SEBI (Investment Advisers) (Third Amendment) Regulations, 2021, w.e.f. 03-\n08-2021.\n\n4 Omitted by the Securities and Exchange Board of India (Investment Advisers) (Second Amendment)\nRegulations, 2024, w.e.f. 16-12-2024. Prior to its omission, the following words of clause (ac) read as under:\n“and investment products”\n\n> Substituted for the words, symbol",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have the meaning assigned to it in or [under sub-\n\nsection (11) of section 2 of the Companies Act, 2013 (18 of 2013)];?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: section 3 of the Act;.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: section 3 of the Act;.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 11",
+        "section 2",
+        "regulation 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-004",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 3]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 3]",
+      "plain_english": "(B) if its shares are not listed on any recognised stock exchange, shall be\nconstrued with reference to the definition of control as provided in sub-section\n\n(27) of Section 2 of the Companies Act, 2013 (18 of 2013);\n\n(ii) in a case other than that of a body corporate, shall be construed as any change in\n\nits legal formation or ownership or change in controlling interest. Explanation — For the pur",
+      "original_text": "(B) if its shares are not listed on any recognised stock exchange, shall be\nconstrued with reference to the definition of control as provided in sub-section\n\n(27) of Section 2 of the Companies Act, 2013 (18 of 2013);\n\n(ii) in a case other than that of a body corporate, shall be construed as any change in\n\nits legal formation or ownership or change in controlling interest.\n\nExplanation — For the purpose of sub-clause (ii), the expression “controlling\ninterest” means an interest, direct or indirect, to the extent of not less than fifty\n\npercent of voting rights or interest;]\n\n(f) “company” means a company incorporated under the Companies Act, 1956 [or\nCompanies Act, 2013];\n\n(g) “consideration” means any form of economic benefit including non-cash benefit,\n\nreceived or receivable for providing investment advice;\n\n*[(ga) °T***]\n\n(gb) “family of client” shall include individual client, dependent spouse, dependent\nchildren and dependent parents;\n\n(gc) “family of an individual investment advi",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be\nconstrued with reference to the definition of control as provided in sub-section\n\n(27) of Section 2 of the Companies?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 3].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 3].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-005",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 4]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 4]",
+      "plain_english": "(k) “inspecting authority” means any one or more persons appointed by the Board to\n\nexercise powers conferred under regulation 23;\n\n()) “investment advice” means advice relating to investing in, purchasing, selling or\notherwise dealing in securities ![***] and advice on investment portfolio containing\nsecurities !![***] whether written, oral or through any other means of communication\nfor the bene",
+      "original_text": "(k) “inspecting authority” means any one or more persons appointed by the Board to\n\nexercise powers conferred under regulation 23;\n\n()) “investment advice” means advice relating to investing in, purchasing, selling or\notherwise dealing in securities ![***] and advice on investment portfolio containing\nsecurities !![***] whether written, oral or through any other means of communication\nfor the benefit of the client and shall include financial planning:\n\nProvided that investment advice given through newspaper, magazines, any electronic\nor broadcasting or telecommunications medium, which is widely available to the\n\npublic shall not be considered as investment advice for the purpose of these\nregulations;\n\n[Provided further that trading calls shall not be considered as investment advice for\npurpose of these regulations.]\n\n(m) “investment adviser” means any person, who for consideration, is engaged in the\nbusiness of providing investment advice to clients or other persons or group of\npersons",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation include financial planning:\n\nProvided that investment advice given through newspaper, magazines, any electronic\nor broa?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 4].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 4].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 23"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-006",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 5]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 5]",
+      "plain_english": "‘5[(pb) “other business activity or employment” means such business activity or\nemployment which is not related to securities and:\na. it does not involve handling or managing of money or funds of client or\nperson; or\nb.",
+      "original_text": "‘5[(pb) “other business activity or employment” means such business activity or\nemployment which is not related to securities and:\na. it does not involve handling or managing of money or funds of client or\nperson; or\nb. it is not related to providing advice or recommendation to any client or\nperson in respect of any products or assets for investment purposes; ]\n\n(q) “partner” means partner of the firm or a limited liability partnership who renders\n\ninvestment advice on behalf of the firm or limited liability partnership;\n\n'6[(qa) “part-time investment adviser” means an individual or a firm, who for consideration,\nis engaged in the business of providing investment advice and is also engaged in any\n\nother business activity or employment;]\n\n'[(r) “persons associated with investment advice” shall mean any member, partner,\nofficer, director or employee or any sales staff of such investment adviser including any\nperson occupying a similar status or performing a similar function irrespective ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation mean any member, partner,\nofficer, director or employee or any sales staff of such investment adviser including any\nper?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 5].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 5].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-007",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 6]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 6]",
+      "plain_english": "(ii) in the activities other than investment advisory services, through separate\ndepartments/divisions, may be the person at the management level who is a business\nhead or unit head, responsible for the overall function of the business and operations\nrelated to investment advisory services:\n\nProvided that in case of non-individual investment adviser being a partnership firm, one\nof the partners sh",
+      "original_text": "(ii) in the activities other than investment advisory services, through separate\ndepartments/divisions, may be the person at the management level who is a business\nhead or unit head, responsible for the overall function of the business and operations\nrelated to investment advisory services:\n\nProvided that in case of non-individual investment adviser being a partnership firm, one\nof the partners shall be designated as its principal officer:\n\nProvided further that where no partner of firm registered as an investment adviser has\nminimum qualification and certification requirements provided in these regulations, it\nshall apply for registration as an investment adviser in the form of a limited liability\npartnership or a body corporate within such time as may be specified by the Board.\n\nExplanation. — The provisions of sub clause (i) shall also be applicable to the principal\nofficer of a non-individual entity registered both as an investment adviser and a research\nanalyst but engaged in no o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be designated as its principal officer:\n\nProvided further that where no partner of firm registered as an investment adv?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 6].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 6].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 3(1)"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-008",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "REGISTRATION",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "REGISTRATION OF INVESTMENT ADVISERS",
+      "plain_english": "Application for grant of certificate. 3.",
+      "original_text": "Application for grant of certificate.\n\n3.\n\n(1) On and from the commencement of these regulations, no person shall act as an\ninvestment adviser or hold itself out as an investment adviser unless he has obtained a\ncertificate of registration from the Board under these regulations:\n\n21pm]\n\n227(1A) Notwithstanding anything contained in sub-regulation (1), any application made\nby a person prior to coming into force of these regulations containing such particulars\nor as near thereto as mentioned in Form A of First Schedule shall be treated as an\napplication made in pursuance of sub-regulation (1) and dealt with accordingly;]\n\n(2) An application for grant of certificate of registration shall be made in Form A as\nspecified in the First Schedule to these regulations and shall be accompanied by a non-\nrefundable application fee to be paid in the manner specified in Second Schedule.\n\n23((3) On and from the date of commencement of these regulations, no person, while\ndealing in distribution of secu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation act as an\ninvestment adviser or hold itself out as an investment adviser unless he has obtained a\ncertificate of regist?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: REGISTRATION OF INVESTMENT ADVISERS.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: REGISTRATION OF INVESTMENT ADVISERS.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 3",
+        "regulation 3(1)"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-009",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 8]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 8]",
+      "plain_english": "(c)\n\n@)\n\n®\n\n(g)\n\n(h)\n\n@\n\n@\n\n(k)\n\nAny pension advisor who offers investment advice solely on pension products and\nis registered with Pension Fund Regulatory and Development Authority for such\nactivity;\n\nAny distributor of mutual funds, who is a member of a self regulatory organisation\nrecognised by the Board or is registered with an association of asset management\ncompanies of mutual funds, providi",
+      "original_text": "(c)\n\n@)\n\n®\n\n(g)\n\n(h)\n\n@\n\n@\n\n(k)\n\nAny pension advisor who offers investment advice solely on pension products and\nis registered with Pension Fund Regulatory and Development Authority for such\nactivity;\n\nAny distributor of mutual funds, who is a member of a self regulatory organisation\nrecognised by the Board or is registered with an association of asset management\ncompanies of mutual funds, providing any investment advice to its clients\nincidental to its primary activity;\n\nAny advocate, solicitor or law firm, who provides investment advice to their\nclients, incidental to their legal practise;\n\nAny member of Institute of Chartered Accountants of India, Institute of Company\nSecretaries of India, Institute of Cost and Works Accountants of India, Actuarial\nSociety of India or any other professional body as may be specified by the Board,\nwho provides investment advice to their clients, incidental to his professional\nservice;\n\nAny stock broker or sub-broker registered under SEBI (Stock Broker",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation comply with the general obligation(s) and\nresponsibilities as specified in Chapter III of these regulations:\n\nProvided?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 8].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 8].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-010",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 9]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 9]",
+      "plain_english": "Furnishing of further information, clarification and personal representation. 5.",
+      "original_text": "Furnishing of further information, clarification and personal representation.\n\n5. (1) The Board may require the applicant to furnish further information or clarification\nregarding matters relevant to investment advisory services for the purpose of\nconsideration of the application filed under sub-regulation (2) of regulation 3.\n\n(2) The applicant or his authorised representative, if so required, shall appear before\nthe Board for personal representation.\n\nConsideration of application and eligibility criteria.\n\n6. For the purpose of the grant of certificate the Board shall take into account all matters\nwhich are relevant to the grant of certificate of registration and in particular the\nfollowing, namely, —\n\n(a) whether the applicant is an individual or 7°[a non-individual];\n\n?1[(b) in case the applicant is an individual, he and all persons associated with\ninvestment advice are appropriately qualified and certified as specified in",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation take into account all m?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 9].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 9].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 3."
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-011",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "regulation",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "regulation 7;]",
+      "plain_english": "?8[(c) in case the applicant is a body corporate, the principal officer and all persons\nassociated with investment advice of the applicant are appropriately qualified and\ncertified as specified in regulation 7;]\n\n29((d) in case the applicant is a firm or a limited liability partnership, the principal\nofficer and all persons associated with investment advice of the applicant are\nappropriately quali",
+      "original_text": "?8[(c) in case the applicant is a body corporate, the principal officer and all persons\nassociated with investment advice of the applicant are appropriately qualified and\ncertified as specified in regulation 7;]\n\n29((d) in case the applicant is a firm or a limited liability partnership, the principal\nofficer and all persons associated with investment advice of the applicant are\nappropriately qualified and certified as specified in regulation 7;]\n\n(e) whether the applicant fulfills the *°[deposit] requirements as specified in regulation\n8;\n\n6 Substituted for the words “a body corporate or a firm” by the SEBI (Investment Advisers) (Amendment)\nRegulations, 2020, w.e.f. 30-09-2020.\n\n?7 Substituted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020. Prior to\nits substitution, clause (b) read as under;\n“whether in case the applicant is an individual, he is appropriately qualified and certified as specified\nin regulation 7;”.\n\n?8 Substituted by the SEBI (Invest",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: regulation 7;]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: regulation 7;].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: regulation 7;].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7",
+        "regulation 7",
+        "regulation\n8",
+        "regulation 7",
+        "regulation 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-012",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 10]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 10]",
+      "plain_english": "31((f) whether the applicant, its partners, principal officer and persons associated with\n\n(g)\n\n(h)\n\n@\n\n@)\n\n()\n\na\n\n(m)\n\ninvestment advice, if any, are fit and proper persons based on the criteria as\nspecified in Schedule II of the Securities and Exchange Board of India\n(Intermediaries) Regulations, 2008;]\n\nwhether the applicant has the necessary infrastructure to effectively discharge the\nactiviti",
+      "original_text": "31((f) whether the applicant, its partners, principal officer and persons associated with\n\n(g)\n\n(h)\n\n@\n\n@)\n\n()\n\na\n\n(m)\n\ninvestment advice, if any, are fit and proper persons based on the criteria as\nspecified in Schedule II of the Securities and Exchange Board of India\n(Intermediaries) Regulations, 2008;]\n\nwhether the applicant has the necessary infrastructure to effectively discharge the\nactivities of an investment adviser;\n\nwhether the applicant or any person directly or indirectly connected with the\napplicant has in the past been refused certificate by the Board and if so, the\ngrounds for such refusal;\n\nwhether any disciplinary action has been taken by the Board or any other\nregulatory authority against any person directly or indirectly connected to the\napplicant under the respective Act, rules or regulations made thereunder;\n\nIn case a bank or an NBFC proposes to undertake investment advisory services,\nwhether it has been permitted by Reserve Bank of India and the application is\nma",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 10]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 10].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 10].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-013",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "regulation",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "regulation 14:",
+      "plain_english": "3! Substituted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f.",
+      "original_text": "3! Substituted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020. Prior to\nits substitution, clause (f) read as under;\n“whether the applicant, its representatives and partners, if any, are fit and proper persons based on the\ncriteria as specified in Schedule II of the Securities and Exchange Board of India (Intermediaries)\nRegulations, 2008;”\n\n>? Substituted for the words “body corporate” by the SEBI (Investment Advisers) (Amendment) Regulations,\n2020, w.e.f. 30-09-2020.\n\n3 Substituted by the Securities and Exchange Board of India (Investment Advisers) (Amendment) Regulations,\n2024, w.e.f. 25-07-2024. Prior to substitution, it read as under:\n“(n)Whether the applicant is a member of a recognized body or body corporate as specified under",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: regulation 14:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: regulation 14:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: regulation 14:.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-014",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "regulation",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "regulation 14:",
+      "plain_english": "Provided that the existing investment advisers shall comply with the requirement under this clause in\nsuch manner as may be specified by the Board.”\n\n10",
+      "original_text": "Provided that the existing investment advisers shall comply with the requirement under this clause in\nsuch manner as may be specified by the Board.”\n\n10",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation comply with the requirement under this clause in\nsuch manner as may be specified by the Board?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: regulation 14:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: regulation 14:.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-015",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 11]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 11]",
+      "plain_english": "Provided that the existing investment advisers shall be deemed to be\nenlisted with such a body or body corporate from the date of recognition of\nsuch body or body corporate:\n\nProvided further that the applicant whose application is received before the date\nof recognition of the body or body corporate as provided under regulation 14 and\nwho is granted the certificate after the date of recognition o",
+      "original_text": "Provided that the existing investment advisers shall be deemed to be\nenlisted with such a body or body corporate from the date of recognition of\nsuch body or body corporate:\n\nProvided further that the applicant whose application is received before the date\nof recognition of the body or body corporate as provided under regulation 14 and\nwho is granted the certificate after the date of recognition of such body or body\ncorporate shall also be deemed to be enlisted with such a body or body\ncorporate. ]\n\n34[Qualification and certification requirement.\n\n7. (1) An individual investment adviser or a principal officer of a non-individual\ninvestment adviser registered as an investment adviser under these regulations, shall\nhave the following minimum qualification, at all times -\n\n35[(a) A professional qualification or **[graduate degree or] post-graduate degree or post\ngraduate diploma (minimum two years in duration) in finance, accountancy,\n\n34 Substituted by the SEBI (Investment Advisers) (Ame",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be deemed to be\nenlisted with such a body or body corporate from the date of recognition of\nsuch body or body corporate?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 11].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 11].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 14",
+        "regulation 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-016",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 12]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 12]",
+      "plain_english": "Business management, commerce, economics, capital market, banking, insurance\nor actuarial science *\"[or other financial services as may be specified] from a\nuniversity or an institution recognized by the Central Government or any State\nGovernment or a recognised foreign university or institution or association or a\nprofessional qualification by completing a Post Graduate Program in the\nSecurities",
+      "original_text": "business management, commerce, economics, capital market, banking, insurance\nor actuarial science *\"[or other financial services as may be specified] from a\nuniversity or an institution recognized by the Central Government or any State\nGovernment or a recognised foreign university or institution or association or a\nprofessional qualification by completing a Post Graduate Program in the\nSecurities Market (Investment Advisory) from NISM of a duration not less than\none year or a professional qualification by obtaining a CFA Charter from the\nCFA Institute;]\n\no) **]\n\n(c) [Persons associated with investment advice shall, at all times, have a minimum\nqualification of graduate degree in any discipline from a university or institution\nrecognized by the Central Government or any State Government or a recognized\nforeign university or institution:]\n\nProvided that [the]*° investment advisers registered under these regulations as on\nthe date of commencement of these regulations shall ensure that the",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation , at all times, have a minimum\nqualification of graduate degree in any discipline from a university or institution\nrecog?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 12].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 12].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-017",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 13]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 13]",
+      "plain_english": "Registered under these regulations and persons associated with investment advice\n[shall]*! comply with [the]*?",
+      "original_text": "registered under these regulations and persons associated with investment advice\n[shall]*! comply with [the]*? qualification and experience requirements within\n[such time as may be specified by the Board]*:\n\nProvided further that the requirements at clauses (a) “4[***] shall not apply to\nsuch existing individual investment advisers as may be specified by the Board.\n\n45[(2) An individual investment adviser or principal officer of a non-individual\ninvestment adviser, registered under these regulations, persons associated with\ninvestment advice, and in case of investment adviser being a partnership firm, the\npartners thereof who are engaged in providing investment advice, shall have at all times\nrelevant NISM certification as specified by the Board from time to time:\n\nProvided that a fresh relevant NISM certification as specified by the Board from time to\ntime shall be obtained before expiry of the validity of the existing certification to ensure\ncontinuity in compliance with certificatio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ]*! comply with [the]*? qualification and experience requirements within\n[such time as may be specified by the Board]*:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 13].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 13].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 8"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-018",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 14]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 14]",
+      "plain_english": "(1) An investment adviser shall maintain a deposit of such sum, as specified by the\nBoard from time to time. (2) The deposit shall be maintained with a scheduled bank marked as lien in favor of a\nbody or body corporate recognized by the Board for the purpose of administration and\nsupervision of investment advisers in accordance with regulation 14 of these\nregulations:\n\nProvided that such deposit s",
+      "original_text": "(1) An investment adviser shall maintain a deposit of such sum, as specified by the\nBoard from time to time.\n\n(2) The deposit shall be maintained with a scheduled bank marked as lien in favor of a\nbody or body corporate recognized by the Board for the purpose of administration and\nsupervision of investment advisers in accordance with regulation 14 of these\nregulations:\n\nProvided that such deposit shall be available for utilization in case the investment\nadviser fails to pay dues emanating out of arbitration and conciliation proceedings, if\nany, under the Online Dispute Resolution Mechanism or such other mechanism as may\nbe specified by the Board.]\n\nGrant of certificate of registration.\n\n9.\n\nThe Board on being satisfied that the applicant complies with the requirements\nspecified in regulation 6 shall send intimation to the applicant and on receipt of the\npayment of registration *”[***] fees as specified in Second Schedule, grant certificate of\nregistration in Form B “*[to an investment ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation maintain a deposit of such sum?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 14].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 14].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 14",
+        "regulation 6"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-019",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 15]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 15]",
+      "plain_english": "5°TProvided that an individual or partnership firm registered as a research analyst may\nbe granted certificate of registration as an investment adviser, subject to such terms and\nconditions as the Board may deem fit and appropriate.]\n\nPeriod of validity of certificate. 10.",
+      "original_text": "5°TProvided that an individual or partnership firm registered as a research analyst may\nbe granted certificate of registration as an investment adviser, subject to such terms and\nconditions as the Board may deem fit and appropriate.]\n\nPeriod of validity of certificate.\n\n10. The certificate of registration granted under regulation 9 shall be valid *![till it is\nsuspended or cancelled by the Board.]\n\nRenewal of certificate.\n\n11. [The investment adviser which has already been granted certificate of registration by\nthe Board, prior to the commencement of the Securities and Exchange Board of India\n(Change in Conditions of Registration of Certain Intermediaries) (Amendment)\nRegulations, 2016 shall be deemed to have been granted a certificate of registration, in\nterms of sub-regulation (1).]\n\nProcedure where registration is refused.\n\n12. (1) After considering an application made under regulation 3, if the Board is of the\nopinion that a certificate should not be granted to the applicant, it ma",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be valid *![till it is\nsuspended or cancelled by the Board?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 15].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 15].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 9",
+        "regulation 3",
+        "regulation 11",
+        "regulation 3"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-020",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 16]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 16]",
+      "plain_english": "13. The certificate granted under regulation 9 shall, among other things, be subject to the following\nconditions:-\n\n(a)\n\n(b)\n\n(c)\n\n@)\n\nthe investment adviser shall abide by the provisions of the Act and these\nregulations;\n\nthe investment adviser shall forthwith inform the Board in writing, if any\ninformation or particulars previously submitted to the Board are found to be false\nor misleading in an",
+      "original_text": "13. The certificate granted under regulation 9 shall, inter alia, be subject to the following\nconditions:-\n\n(a)\n\n(b)\n\n(c)\n\n@)\n\nthe investment adviser shall abide by the provisions of the Act and these\nregulations;\n\nthe investment adviser shall forthwith inform the Board in writing, if any\ninformation or particulars previously submitted to the Board are found to be false\nor misleading in any material particular or if there is any material change in the\ninformation already submitted;\n\nthe investment adviser, not being an individual, shall include the words\n‘investment adviser’ in its name:\n\nProvided that if the investment advisory service is being provided by a separately\nidentifiable department or division or a subsidiary, then such separately\nidentifiable department or division or subsidiary shall include the words\n‘investment adviser’ in its name;\n\nindividuals registered as investment advisers shall use the term ‘investment\nadviser’ in all their correspondences with their clients**[:]",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation forthwith inform the board in writing?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 16].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rupees,",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 16].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 9"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-021",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 17]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 17]",
+      "plain_english": "Investment adviser shall surrender his registration as individual investment\nadviser.]\n\n5¢[(f) the number of clients of a part-time investment adviser shall not exceed seventy-\nfive in total at any point of time.]\n\n57[Recognition of body or body corporate for administration and supervision of\ninvestment advisers. 14.",
+      "original_text": "investment adviser shall surrender his registration as individual investment\nadviser.]\n\n5¢[(f) the number of clients of a part-time investment adviser shall not exceed seventy-\nfive in total at any point of time.]\n\n57[Recognition of body or body corporate for administration and supervision of\ninvestment advisers.\n\n14. (1) The Board may recognize a body or body corporate for the purpose of\nadministration and supervision of investment advisers to such extent and on such terms\nand conditions as may be specified by the Board.\n\n(2) The Board may specify that no person shall act as an investment adviser unless such\na person is enlisted with the recognized body or body corporate and in such an event,\nthe provisions of these regulations and the specified provisions of the bye-laws or\narticles of such a body or body corporate shall apply to the investment adviser. ]",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation act as an investment adv?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 17].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n14",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 17].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-022",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CHAPTER",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CHAPTER III",
+      "plain_english": "GENERAL OBLIGATIONS AND RESPONSIBILITIES\n\nGeneral responsibility. 15.",
+      "original_text": "GENERAL OBLIGATIONS AND RESPONSIBILITIES\n\nGeneral responsibility.\n\n15. (1) An investment adviser shall act in a fiduciary capacity towards its clients and\nshall disclose all conflicts of interests as and when they arise.\n\n(2) An investment adviser shall not receive any consideration by way of\nremuneration or compensation or in any other form from any person other than the\nclient being advised, in respect of the underlying products or securities for which advice\nis provided.\n\n(3) An investment adviser shall maintain an arms-length relationship between its\nactivities as an investment adviser and other activities.\n\n© Inserted by the Securities and Exchange Board of India (Investment Advisers) (Second Amendment)\nRegulations, 2024, w.e.f. 16-12-2024.\n\n57 Substituted by the Securities and Exchange Board of India (Investment Advisers) (Amendment) Regulations,\n2024, w.e.f. 25-07-2024. Prior to substitution, it read as under:\n\n“Recognition of body or body corporate for regulation of investment ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation disclose all conflicts of interests as and when they arise?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CHAPTER III.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n14",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CHAPTER III.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-023",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 18]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 18]",
+      "plain_english": "(4) An investment adviser which is also engaged in activities other than investment\nadvisory services shall ensure that its investment advisory services are clearly\nsegregated from all its other activities, in the manner as prescribed hereunder. (5) An investment adviser shall ensure that in case of any conflict of interest of the\ninvestment advisory activities with other activities, such conflict",
+      "original_text": "(4) An investment adviser which is also engaged in activities other than investment\nadvisory services shall ensure that its investment advisory services are clearly\nsegregated from all its other activities, in the manner as prescribed hereunder.\n\n(5) An investment adviser shall ensure that in case of any conflict of interest of the\ninvestment advisory activities with other activities, such conflict of interest shall be\ndisclosed to the client.\n\n(6) An investment adviser shall not divulge any confidential information about its\nclient, which has come to its knowledge, without taking prior permission of its clients,\nexcept where such disclosures are required to be made in compliance with any law for\nthe time being in force.\n\n(7) An investment advisor shall not enter into transactions on its own account which\nis contrary to its advice given to clients for a period of fifteen days from the day of such\nadvice.\n\nProvided that during the period of such fifteen days, if the investment adviser i",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that its investment advisory services are clearly\nsegregated from all its other activities, in the manner as pre?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 18].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "24 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 18].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Regulation 7",
+        "Regulation\n7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-024",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 19]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 19]",
+      "plain_english": "Responsible for the security, confidentiality, integrity of the client data, use of any other\ninformation or data to arrive at investment advice, investment advice based on output of\nArtificial Intelligence tools and compliance with any law for the time being in force.]\n\n6lFees. 15A.",
+      "original_text": "responsible for the security, confidentiality, integrity of the client data, use of any other\ninformation or data to arrive at investment advice, investment advice based on output of\nArtificial Intelligence tools and compliance with any law for the time being in force.]\n\n6lFees.\n\n15A. Investment Adviser shall be entitled to charge fees for providing investment advice\n\nfrom a client °'[, including an accredited investor] in the manner as specified by the Board.]\n\nRisk profiling.\n\n16. Investment adviser shall ensure that,-\n\n(a)\n\n(b)\n\n(c)\n\n@)\n\nit obtains from the client, such information as is necessary for the purpose of giving\ninvestment advice, including the following:-\n\n(i) age;\n\n(ii) investment objectives including time for which they wish to stay invested, the\npurposes of the investment ;\n\n(iii) income details;\n\n(iv) existing investments/ assets;\n\n(v) risk appetite/ tolerance;\n\n(vi) liability/borrowing details.\n\nit has a process for assessing the risk a client is willing and able to",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": true,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be entitled to charge fees for providing investment advice\n\nfrom a client °'[, including an accredited investor] in the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 19].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 19].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-025",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 20]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 20]",
+      "plain_english": "(e)\n®\n\n \n\n(ii) questionnaire is not structured in a way that it contains leading questions. tisk profile of the client is communicated to the client after risk assessment is done;\n\ninformation provided by clients and their risk assessment is updated periodically.",
+      "original_text": "(e)\n®\n\n \n\n(ii) questionnaire is not structured in a way that it contains leading questions.\ntisk profile of the client is communicated to the client after risk assessment is done;\n\ninformation provided by clients and their risk assessment is updated periodically.\n\nSuitability.\n\n17. Investment adviser shall ensure that,-\n\n(a)\n\n(b)\n\n(c)\n@)\n\nAll investments on which investment advice is provided is appropriate to the risk\nprofile of the client;\n\nIt has a documented process for selecting investments based on client’s investment\nobjectives and financial situation;\n\nIt understands the nature and risks of products or assets selected for clients;\n\nIt has a reasonable basis for believing that a recommendation or transaction entered\ninto:\n\n(i) meets the client’s investment objectives;\n\n(ii) is such that the client is able to bear any related investment risks consistent\nwith its investment objectives and risk tolerance;\n\n(iii) is such that the client has the necessary experience and knowledge to\n",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that,-\n\n(a)\n\n(b)\n\n(c)\n@)\n\nAll investments on which investment advice is provided is appropriate to the risk\nprof?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 20].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 20].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-026",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 21]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 21]",
+      "plain_english": "(4) An investment adviser shall disclose to the client its holding or position, if any, in\nthe financial products or securities which are subject matter of advice. (5) An investment adviser shall disclose to the client any actual or potential conflicts\nof interest arising from any connection to or association with any issuer of products/\nsecurities, including any material information or facts that",
+      "original_text": "(4) An investment adviser shall disclose to the client its holding or position, if any, in\nthe financial products or securities which are subject matter of advice.\n\n(5) An investment adviser shall disclose to the client any actual or potential conflicts\nof interest arising from any connection to or association with any issuer of products/\nsecurities, including any material information or facts that might compromise its\nobjectivity or independence in the carrying on of investment advisory services.\n\n(6) An investment adviser shall, while making an investment advice, make adequate\ndisclosure to the client of all material facts relating to the key features of the products or\nsecurities, particularly, performance track record.\n\n(7) An investment adviser shall draw the client’s attention to the warnings,\ndisclaimers in documents, advertising materials relating to an investment product which\nit is recommending to the client.\n\n®3f(8) An investment adviser who provides advisory services in res",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation disclose to the client its holding or position?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 21].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 21].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-027",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 22]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 22]",
+      "plain_english": "(g) A register or record containing list of the clients *[along with PAN], the date\nof advice, nature of the advice, the [details of] products/securities in which\nadvice was rendered and °’[fee/consideration, if any charged/received for such\nadvice] *[;]\n\n(h) Records of communication including emails, call recordings etc. with all\nclients including prospective clients, as may be specified.]\n\n(2) A",
+      "original_text": "(g) A register or record containing list of the clients *[along with PAN], the date\nof advice, nature of the advice, the [details of] products/securities in which\nadvice was rendered and °’[fee/consideration, if any charged/received for such\nadvice] *[;]\n\n(h) Records of communication including emails, call recordings etc. with all\nclients including prospective clients, as may be specified.]\n\n(2) All records shall be maintained either in physical or electronic form and preserved\nfor a minimum period of five years:\n\nProvided that where records are required to be duly signed and are maintained in\nelectronic form, such records shall be digitally signed.\n\n(3) An investment adviser shall conduct yearly audit in respect of compliance with these\nregulations from a member of Institute of Chartered Accountants of India or Institute of\nCompany Secretaries of India [or Institute of Cost Accountants of India] 7![and submit\n\na report of the same as may be specified by the Board].\n\n\"[ Website.\n\n19A. ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be duly signed and are maintained in?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 22].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 22].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-028",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 23]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 23]",
+      "plain_english": "20. (1) A non-individual investment adviser shall appoint either:\n(i) a compliance officer; or\n\n(ii) an independent professional who is a member of Institute of Chartered\nAccountants of India or Institute of Company Secretaries of India or Institute of\nCost Accountants of India or member of any other professional body as may be\nspecified by the Board, provided such a professional holds a relevant",
+      "original_text": "20.\n\n(1) A non-individual investment adviser shall appoint either:\n(i) a compliance officer; or\n\n(ii) an independent professional who is a member of Institute of Chartered\nAccountants of India or Institute of Company Secretaries of India or Institute of\nCost Accountants of India or member of any other professional body as may be\nspecified by the Board, provided such a professional holds a relevant certification\nfrom NISM, as may be specified by the Board;\n\nwho shall be responsible for monitoring the compliance by the investment adviser in\nrespect of the requirements of the Act, regulations, notifications, guidelines, instructions\nissued by the Board.\n\n(2) Where independent professional referred in sub-regulation (1) of this regulation is\nappointed for monitoring compliance, the principal officer shall submit an undertaking\nto the Board or the body or body corporate recognized under regulation 14 of these\nregulations to the effect that the principal officer shall be responsible for moni",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation appoint either:\n(i) a compliance officer; or\n\n(ii) an independent professional who is a member of Institute of Chartere?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 23].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 23].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 14",
+        "regulation 20"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-029",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 24]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 24]",
+      "plain_english": "Arbitration in accordance with the procedure specified by the Board] or through\nOmbudsman authorized or appointed for the purpose by any regulatory authority, as\napplicable. 7[Client level segregation of advisory and distribution activities.",
+      "original_text": "arbitration in accordance with the procedure specified by the Board] or through\nOmbudsman authorized or appointed for the purpose by any regulatory authority, as\napplicable.\n\n7[Client level segregation of advisory and distribution activities.\n\n22.\n\n(1) An individual investment adviser shall not provide distribution services.\n\n(2) The family of an individual investment adviser shall not provide distribution\nservices to the client advised by the individual investment adviser and no individual\ninvestment adviser shall provide advice to a client who is receiving distribution services\nfrom other family members.\n\n(3) A non-individual investment adviser shall have client level segregation at group\nlevel for investment advisory and distribution services.\n\nExplanation. —\n\n(i) The same client cannot be offered both advisory and distribution services within\nthe group of the non-individual entity.\n\n(ii) A client can either be an advisory client where no distributor consideration is\nreceived at the",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation not provide distribution services?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 24].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 24].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 22"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-030",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 25]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 25]",
+      "plain_english": "(5) Compliance and monitoring process for client segregation at group or family level\nshall be in accordance with the guidelines specified by the Board.]\n\n77[Implementation of advice or execution. 22A.",
+      "original_text": "(5) Compliance and monitoring process for client segregation at group or family level\nshall be in accordance with the guidelines specified by the Board.]\n\n77[Implementation of advice or execution.\n22A. (1) Investment adviser may provide implementation services to the advisory clients in\nsecurities market:\n\nProvided that investment advisers shall ensure that no consideration including any\ncommission or referral fees, whether embedded or indirect or otherwise, by whatever\nname called is received; directly or indirectly, at investment adviser’s group or family\nlevel for the said service, as the case maybe.\n\n(2) Investment adviser shall provide implementation services to its advisory clients\nonly through direct schemes/products in the securities market.\n\n(3) Investment adviser or group or family of investment adviser shall not charge any\nimplementation fees from the client.\n\n(4) The client shall not be under any obligation to avail implementation services offered\nby the investment adviser.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be in accordance with the guidelines specified by the board?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 25].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 25].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-031",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CHAPTER",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CHAPTER IV",
+      "plain_english": "INSPECTION\n\nBoard’s right to inspect. 23.",
+      "original_text": "INSPECTION\n\nBoard’s right to inspect.\n\n23. The Board may suo motu or upon receipt of information or complaint appoint one or\nmore persons as inspecting authority to undertake inspection of the books of accounts,\nrecords and documents relating to investment advisers for any of the following reasons,\nnamely: -\n\n(a) to ensure that the books of account, records and documents are being maintained\nby the investment adviser in the manner specified in these regulations;\n\n(b) to inspect into complaints received from clients or any other person, on any matter\nhaving a bearing on the activities of the investment adviser;\n\n(c) to ascertain whether the provisions of the Act and these regulations are being\ncomplied with by the investment adviser;\n\n(d) to inspect into the affairs of a investment adviser, in the interest of the securities\nmarket or in the interest of investors.\n\nNotice before inspection.\n\n24. (1) Before ordering an inspection under regulation 23, the Board shall give not less\nthan ten",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation give not less\nthan ten days notice to the investment adviser?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CHAPTER IV.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CHAPTER IV.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 23"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-032",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 26]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 26]",
+      "plain_english": "(2)  contained in sub-regulation (1), where the Board is\nsatisfied that in the interest of the investors no such notice should be given, it may by an\norder in writing direct that the inspection of the affairs of the investment adviser be\ntaken up without such notice. (3) During the course of an inspection, the investment adviser against whom the\ninspection is being carried",
+      "original_text": "(2) Notwithstanding anything contained in sub-regulation (1), where the Board is\nsatisfied that in the interest of the investors no such notice should be given, it may by an\norder in writing direct that the inspection of the affairs of the investment adviser be\ntaken up without such notice.\n\n(3) During the course of an inspection, the investment adviser against whom the\ninspection is being carried out shall be bound to discharge its obligations as provided in",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be bound to discharge its obligations as provided in?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 26].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 26].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-033",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "regulation",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "regulation 25.",
+      "plain_english": "Obligation of investment adviser on inspection. 25.",
+      "original_text": "Obligation of investment adviser on inspection.\n\n25.\n\n(1) _ It shall be the duty of every investment adviser in respect of whom an inspection\nhas been ordered under the regulation 23 and any other associate person who is in\npossession of relevant information pertaining to conduct and affairs of such investment\nadviser, including “[partners, directors, principal officer and persons associated with\ninvestment advice], if any, to produce to the inspecting authority such books, accounts\nand other documents in his custody or control and furnish him with such statements and\ninformation as the inspecting authority may require for the purposes of inspection.\n\n(2) It shall be the duty of every investment adviser and any other associate person\nwho is in possession of relevant information pertaining to conduct and affairs of the\ninvestment adviser to give to the inspecting authority all such assistance and shall\nextend all such co-operation as may be required in connection with the inspection and",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be the duty of every investment adviser in respect of whom an inspection\nhas been ordered under the regulation 23 and a?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: regulation 25..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: regulation 25..",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 23"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-034",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 27]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 27]",
+      "plain_english": "Action on the inspection report. 27.",
+      "original_text": "Action on the inspection report.\n\n27. The Board may after consideration of the inspection report and after giving reasonable\nopportunity of hearing to the investment advisers or its authorized representatives, issue\nsuch directions as it deems fit in the interest of securities market or the investors\nincluding,-\n\n(a)\n\n(b)\n\n(c)\n\nrequiring an investment adviser *°[, partners, directors, principal officer and\npersons associated with investment advice] not to provide investment advice for a\nparticular period;\n\nrequiring the investment adviser to refund any money collected as fees, charges or\ncommissions or otherwise to the concerned clients along with the requisite interest.\n\nprohibiting the investment adviser *'[, partners, directors, principal officer and\npersons associated with investment advice] from operating in the capital market or\naccessing the capital market for a specified period.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 27]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 27].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 27].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-035",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CHAPTER",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "CHAPTER V",
+      "plain_english": "PROCEDURE FOR ACTION IN CASE OF DEFAULT\n\nLiability for action in case of default. 28.",
+      "original_text": "PROCEDURE FOR ACTION IN CASE OF DEFAULT\n\nLiability for action in case of default.\n\n28. An investment adviser who -\n\n(a) contravenes any of the provisions of the Act or any regulations or circulars\n\nissued thereunder;\n\n(b) fails to furnish any information relating to its activity as an investment adviser\n\nas required by the Board;\n\n(c) furnishes to the Board information which is false or misleading in any material\n\nparticular;\n\n(d) does not submit periodic returns or reports as required by the Board;\n\n(e) does not co-operate in any enquiry, inspection or investigation conducted by the\n\nBoard;\n\n(f) fails to resolve the complaints of investors or fails to give a satisfactory reply to\n\nthe Board in this behalf,\n\n80 Inserted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020.\n\n§! ibid.\n\n27",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: chapter v?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CHAPTER V.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CHAPTER V.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-036",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "POWER",
+      "content_type": "DEFINITION",
+      "obligation_type": "recommended",
+      "title": "POWER TO RELAX STRICT ENFORCEMENT OF THE REGULATIONS",
+      "plain_english": "Exemption from enforcement of the regulations in special cases. 28A.",
+      "original_text": "Exemption from enforcement of the regulations in special cases.\n28A. (1) The Board may, exempt any person or class of persons from the operation of all or\nany of the provisions of these regulations for a period as may be specified but not exceeding\ntwelve months, for furthering innovation **[***] relating to testing new products, processes,\nservices, business models, etc. in live environment of regulatory sandbox in the securities\nmarkets.\n(2) Any exemption granted by the Board under sub-regulation (1) shall be subject to the\napplicant satisfying such conditions as may be specified by the Board including conditions to\nbe complied with on a continuous basis.\nExplanation. — For the purposes of these regulations, \"regulatory sandbox\" means a live\ntesting environment where new products, processes, services, business models, etc. may be\ndeployed on a limited set of eligible customers for a specified period of time, for furthering\ninnovation in the securities market, subject to such conditio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation's documentation define 'POWER TO RELAX STRICT ENFORCEMENT OF THE REGULATIONS' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: POWER TO RELAX STRICT ENFORCEMENT OF THE REGULATIONS.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "info",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: POWER TO RELAX STRICT ENFORCEMENT OF THE REGULATIONS.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-037",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CHAPTER",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "CHAPTER VI",
+      "plain_english": "MISCELLANEOUS\n\nPower of the Board to issue clarifications etc. 29.",
+      "original_text": "MISCELLANEOUS\n\nPower of the Board to issue clarifications etc.\n\n29. In order to remove any difficulties in the application or interpretation of these\nregulations, the Board may issue clarifications and guidelines in the form of circulars.\n\nPower of the Board over body or body corporate recognized under regulation 14.\n\n30. The Board reserves the right to alter, modify and overrule any decision, action taken or\npenalties imposed by the body or body corporate recognized under regulation 14.\n\n® Inserted by the Securities and Exchange Board of India (Regulatory Sandbox) (Amendment) Regulations,\n2020, w.e.f. 17-04-2020.\n\n83 The words “in technological aspects” omitted by the Securities and Exchange Board of India (Regulatory\nSandbox) (Amendment) Regulations, 2021, w.e.f. 03-08-2021.\n\n28",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: chapter vi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CHAPTER VI.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CHAPTER VI.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 14.",
+        "regulation 14."
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-038",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 30]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 30]",
+      "plain_english": "FIRST SCHEDULE\n\nFORMA\n\nSecurities and Exchange Board of India\n(investment Advisers) Regulations, 2013\n§5[See Regulation 3]\n86[ Application for Grant of Certificate of Registration]\n\nSecurities and Exchange Board of India\n\nSEBI Bhavan, C4-A, G Block, Bandra Kurla Complex, Bandra (East), Mumbai 400051 -\n\nIndia",
+      "original_text": "FIRST SCHEDULE\n\nFORMA\n\nSecurities and Exchange Board of India\n(investment Advisers) Regulations, 2013\n§5[See Regulation 3]\n86[ Application for Grant of Certificate of Registration]\n\nSecurities and Exchange Board of India\n\nSEBI Bhavan, C4-A, G Block, Bandra Kurla Complex, Bandra (East), Mumbai 400051 -\n\nIndia",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 30]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 30].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 30].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Regulation 3"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-039",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "INSTRUCTIONS",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "INSTRUCTIONS",
+      "plain_english": "1. This form is meant for use by the applicant for grant of certificate of registration as an\ninvestment adviser.",
+      "original_text": "1.\n\nThis form is meant for use by the applicant for grant of certificate of registration as an\ninvestment adviser.\n\nThe applicant should complete this form, and submit it, along with all supporting\ndocuments to the Board at its head office at Mumbai.\n\nThis application form should be filled in accordance with these regulations.\nThe application shall be considered by the Board provided it is complete in all respects.\n\nAll answers must be legible and all the pages must be numbered with signature/ stamp on\neach page of the form.\n\nInformation which needs to be supplied in more detail may be given on separate sheets\nwhich should be attached to the application form and appropriately numbered.\n\nThe application must be signed.\n\nThe application must be accompanied by an application fee as specified in the Second",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be considered by the board provided it is complete in all respects?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: INSTRUCTIONS.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: INSTRUCTIONS.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-040",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "GENERAL",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "GENERAL INFORMATION",
+      "plain_english": "85 Substituted for the words “See Regulations 3 and 11” by the Securities and Exchange Board of India (Change\n\nIn Conditions Of Registration Of Certain Intermediaries) (Amendment) Regulations, 2016 w.e.f. 08-12-2016.",
+      "original_text": "85 Substituted for the words “See Regulations 3 and 11” by the Securities and Exchange Board of India (Change\n\nIn Conditions Of Registration Of Certain Intermediaries) (Amendment) Regulations, 2016 w.e.f. 08-12-2016.\n\n86 Substituted for the words “Application for Grant of Certificate of Registration/Renewal as investment\n\nadviser” by the Securities and Exchange Board of India (Change In Conditions Of Registration Of Certain\nIntermediaries) (Amendment) Regulations, 2016 w.e.f. 08-12-2016.\n\n30",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: general information?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: GENERAL INFORMATION.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: GENERAL INFORMATION.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-041",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 31]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 31]",
+      "plain_english": "(a) Name, address of the registered office, address for correspondence and principal\nplace of business, telephone number(s), fax number(s), e-mail address of the\napplicant. \"Toy\".",
+      "original_text": "(a) Name, address of the registered office, address for correspondence and principal\nplace of business, telephone number(s), fax number(s), e-mail address of the\napplicant.\n\n\"Toy\".\n\n(c) Name, direct line number, mobile number and e-mail of the contact person(s)\n88fand principal officer].\n\n(d) Legal structure of applicant - Whether the applicant is an individual *[ or non-\nindividual].\n\n9°T (da) Indicate whether the application for the grant of certificate of registration is for\npart-time investment adviser;\n\n(db) Whether the applicant is engaged in any other business activity or employment?\nIf so, details of such other business activity or employment. ]\n\n(e) Whether the applicant is a bank /NBFC.\n\n(f) Date and place of incorporation/ establishment, if any. If the applicant is\nincorporated outside India, details of such incorporation.\n\n(g) Whether the applicant is engaged in investment advisory services prior to making\napplication under these regulations.\n\n(h) Whether the applicant is r",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 31]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 31].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 31].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-042",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 32]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 32]",
+      "plain_english": "I. In case applicant is an individual:\n\n11.",
+      "original_text": "I. In case applicant is an individual:\n\n11. Whether the applicant and persons associated with investment advice\ncomply with qualification and certification requirements under regulation 7\nand applicant has submitted a declaration with respect to the same.\n\n(Provide self-certified copies of supporting documents). |\n\n2. Copy of certification obtained in accordance with regulation 7(2).\n\nBee]\n\n9413. Number of persons associated with investment advice, if any, who shall\nrender investment advice under these regulations on behalf of the applicant.\nProvide documents as mentioned in points 1 to 2 above for such persons\nassociated with investment advice.]\n\n4. Enclose identity proof and address proof of the applicant [and persons\nassociated with investment advice].\n\n5. Details of ownership/directorship of the applicant in any companies or\npartnership interest in any firm or limited liability partnership.\n\n6. Copy of Income Tax Return/ Copy of Form 16 for the last 3 years.\n\n7. Copy of assets and ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation render investment advice under these regulations on behalf of the applicant?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 32].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 15 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n7",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 32].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7",
+        "regulation 7(2).",
+        "clause 1.",
+        "clause 3",
+        "clause 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-043",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 33]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 33]",
+      "plain_english": "°7[8. Where the applicant is employed and has applied for registration as a\npart-time investment adviser, the applicant shall enclose a no objection\ncertificate from the employer.",
+      "original_text": "°7[8. Where the applicant is employed and has applied for registration as a\npart-time investment adviser, the applicant shall enclose a no objection\ncertificate from the employer. In case of change in employment, the applicant\nshall provide no objection certificate from the new employer.]\n\nII. In case applicant is a company:\n\n1. Shareholding pattern and profile of the directors (Enclose identity proof and\naddress proof of the directors).\n\n2. Number of [persons associated with investment advice] who render/\npropose to render investment advice under these regulations on behalf of\nthe applicant.\n\n°°[3. Declaration by the applicant that its principal officer and persons\nassociated with investment advice currently comply with the certification,\nqualification and experience requirements under regulation 7.]\n\n4. Declaration by the applicant that it shall ensure that its !°°[principal officer\nand persons associated with investment advice] comply with the\ncertification and qualification require",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation provide no objection certificate from the new employer?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 33].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 33].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7.",
+        "Regulation 7",
+        "clause 3",
+        "regulation 7."
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-044",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 34]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 34]",
+      "plain_english": "102'8. Enclose identity proof and address proof of the applicant, principal officer\nand persons associated with investment advice.]\n\nII.",
+      "original_text": "102'8. Enclose identity proof and address proof of the applicant, principal officer\nand persons associated with investment advice.]\n\nII. In case applicant is a partnership firm or a limited liability partnership:\n\n1. Names and Beneficial ownership pattern of the partners '[, principal\n\nofficer and persons associated with investment advice] engaged/proposed to\nengage in investment advice (Enclose identity proof and address proof of\nthe partners '“[, principal officer and persons associated with investment\nadvice]).\n\n1052. Whether the aforesaid principal officer and persons associated with\ninvestment advice comply with certification and qualification requirements\nunder regulation 7 and applicant has submitted a declaration with respect to\nthe same.\n\n(Provide self-certified copies of supporting documents). |\n\n10673. Copy of certification obtained by the aforesaid principal officer and\npersons associated with investment advice in accordance with regulation\n7(2).]\n\n4. Declaration that the a",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation obtain fresh certification before expiry of the\n\n \n\nthe Securities and Exchange Board of India (Investment Advisers) (S?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 34].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 34].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7",
+        "regulation\n7(2).",
+        "clause 2.",
+        "clause 3.",
+        "regulation 7(2)."
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-045",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 35]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 35]",
+      "plain_english": "Validity of the existing certification to ensure continuity in compliance with\ncertification requirements. 5.",
+      "original_text": "validity of the existing certification to ensure continuity in compliance with\ncertification requirements.\n5. Copy of assets and liabilities statement !°°[***].\n\nIV. In case applicant is a body corporate (other than company or limited liability\npartnership):\n\n1. Shareholding pattern and profile of the directors '°[, principal officer and\n\npersons associated with investment advice] (Enclose identity proof and\naddress proof of the directors ''°[, principal officer and persons associated\nwith investment advice]).\n\n2. Whether the applicant is set up or established under the laws of the Central\nor State Legislature and whether the applicant is permitted to carry on of\nthe activity of an investment adviser (Enclose relevant extract of the\nrelevant Statute/Act).\n\n3. Number of !''[principal officer and persons associated with investment\nadvice] who render/ propose to render investment advice under these\nregulations on behalf of the applicant.\n\n4. |[Declaration by the applicant that its princip",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be included in the certificate?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 35].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 35].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7.",
+        "clause 5",
+        "clause 4",
+        "regulation 7."
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-046",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 36]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 36]",
+      "plain_english": "5. Declaration by the applicant that it shall ensure that its '|'3[principal officer\nand persons associated with investment advice] comply with the\ncertification and qualification requirements under regulation 7 at all times.",
+      "original_text": "5. Declaration by the applicant that it shall ensure that its '|'3[principal officer\nand persons associated with investment advice] comply with the\ncertification and qualification requirements under regulation 7 at all times.\n\n6. Net worth !![details].",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that its '|'3[principal officer\nand persons associated with investment advice] comply with the\ncertification and?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 36].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 36].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "regulation 7"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-047",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "3.",
+      "content_type": "DEFINITION",
+      "obligation_type": "recommended",
+      "title": "BUSINESS PLAN",
+      "plain_english": "1. Proposed business plan & means of achieving the same.",
+      "original_text": "1. Proposed business plan & means of achieving the same.\n2. The type of products/ securities on which investment advice is proposed to\nbe rendered.\n3. Process for risk profiling of the client and for assessing suitability of\nadvice.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation's documentation define 'BUSINESS PLAN' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: BUSINESS PLAN.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "info",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: BUSINESS PLAN.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-048",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "11515, IMPLEMENTATION OF ADVIC",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": ", IMPLEMENTATION OF ADVICE OR EXECUTION SERVICES.",
+      "plain_english": "1. Provide a declaration that no consideration including any commission or\nreferral fees whether embedded or indirect or otherwise by whatever name\ncalled shall be received directly or indirectly at Investment Adviser’s group or\nfamily level for the said service, as the case maybe.",
+      "original_text": "1. Provide a declaration that no consideration including any commission or\nreferral fees whether embedded or indirect or otherwise by whatever name\ncalled shall be received directly or indirectly at Investment Adviser’s group or\nfamily level for the said service, as the case maybe.\n\n2. If the applicant is a non-individual, whether the applicant proposes to offer\ndistribution services. ]",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be received directly or indirectly at Investment Adviser’s group or\nfamily level for the said service, as the case mayb?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: , IMPLEMENTATION OF ADVICE OR EXECUTION SERVICES..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: , IMPLEMENTATION OF ADVICE OR EXECUTION SERVICES..",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-049",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "6.",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "OTHER INFORMATION/DECLARATIONS/ REGULATORY ACTIONS",
+      "plain_english": "(a) Details of all settled and pending disputes in the last 5 years. (b) Whether any previous application for grant of certificate made by any person directly\nor indirectly connected with the applicant has been rejected by the Board; If yes,\nprovide details of the same.",
+      "original_text": "(a) Details of all settled and pending disputes in the last 5 years.\n(b) Whether any previous application for grant of certificate made by any person directly\nor indirectly connected with the applicant has been rejected by the Board; If yes,\nprovide details of the same.\n\n13 Substituted for the words “representatives” by the SEBI (Investment Advisers) (Amendment) Regulations,\n2020, w.e.f. 30-09-2020.\n\n14 Substituted for the words and symbols “certificate by a chartered accountant, not more than six months\nold. Please note that membership number of the chartered accountant must be included in the certificate” by\nthe Securities and Exchange Board of India (Investment Advisers) (Second Amendment) Regulations, 2024,\nw.e.f. 16-12-2024.\n\n15 Substituted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020. Prior to\nits substitution, item 5 read as under;",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be included in th?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: OTHER INFORMATION/DECLARATIONS/ REGULATORY ACTIONS.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: OTHER INFORMATION/DECLARATIONS/ REGULATORY ACTIONS.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-050",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "“EXECUTION SERVICES",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "“EXECUTION SERVICES",
+      "plain_english": "L If the applicant is a body corporate, whether the applicant proposes to offer distribution or\nexecution services to its clients. 2.",
+      "original_text": "L If the applicant is a body corporate, whether the applicant proposes to offer distribution or\nexecution services to its clients.\n2. If yes, provide a declaration that the services are being offered through a subsidiary/\nseparately identifiable department or division.”\n\n36",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: “execution services?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: “EXECUTION SERVICES.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: “EXECUTION SERVICES.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-051",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 37]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 37]",
+      "plain_english": "(c) Whether any disciplinary action has been taken by the Board or any other regulatory\nauthority against any person directly or indirectly connected with the applicant under\nthe Act or the regulations made there under in the last 5 years. If yes, provide details\nof the action.",
+      "original_text": "(c) Whether any disciplinary action has been taken by the Board or any other regulatory\nauthority against any person directly or indirectly connected with the applicant under\nthe Act or the regulations made there under in the last 5 years. If yes, provide details\nof the action.\n\n(d) Whether the applicant/directors/promoters/ partners '!°[, principal officer and persons\nassociated with investment advice] have been indicted/involved in any economic\noffence in the last 5 years. If yes, provide details of the same.\n\n(e)A credit report/ score from CIBIL for the applicant.(For applicants other than\nfinancial institutions & banking companies)\n\n(f) Declaration that the applicant, its '!’[directors, principal officer, persons associated\nwith investment advice] and partners, if any, are fit and proper persons based on the\ncriteria as specified in Schedule II of the Securities and Exchange Board of India\n(Intermediaries) Regulations, 2008;\n\n(g)Declaration that the applicant shall not obtain any c",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation not obtain any consideration by way of\nremuneration or compensation or any other form whatsoever, from any person other?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 37].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 37].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-052",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "DECLARATION",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "DECLARATION STATEMENT",
+      "plain_english": "I/We hereby agree and declare that the information supplied in the application, including\nthe attachment sheets, is complete and true. AND I/ we further agree that, I/we shall notify the Securities and Exchange Board of\nIndia immediately any change in the information provided in the application.",
+      "original_text": "I/We hereby agree and declare that the information supplied in the application, including\nthe attachment sheets, is complete and true.\n\nAND I/ we further agree that, I/we shall notify the Securities and Exchange Board of\nIndia immediately any change in the information provided in the application.\n\nJ/ We further agree that I/ we shall comply with, and be bound by the Securities and\nExchange Board of India Act, 1992, and the Securities and Exchange Board of India\n(Investment Advisers) Regulations, 2013, guidelines/instructions as may be announced by\nthe Securities and Exchange Board of India from time to time.\n\n116 Inserted by the SEBI (Investment Advisers) (Amendment) Regulations, 2020, w.e.f. 30-09-2020.\n\n7 Substituted for the word “representatives” by the SEBI (Investment Advisers) (Amendment) Regulations,\n2020, w.e.f. 30-09-2020.\n\n8 Inserted by the Securities and Exchange Board of India (Investment Advisers) (Second Amendment)\nRegulations, 2024, w.e.f. 16-12-2024.\n\n37",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation notify the Securities and Exchange Board of\nIndia immediately any change in the information provided in the application?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: DECLARATION STATEMENT.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: DECLARATION STATEMENT.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-053",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 38]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 38]",
+      "plain_english": "J/ We further agree that as a condition of registration, I/ we shall abide by such\noperational instructions/directives as may be issued by the Securities and Exchange Board\nof India from time to time. For and on behalf of\n\n \n\n(Name of the applicant)\nAuthorized signatory/ Applicant\n(Signature)\n\n(Date and Place)\n\n38",
+      "original_text": "J/ We further agree that as a condition of registration, I/ we shall abide by such\noperational instructions/directives as may be issued by the Securities and Exchange Board\nof India from time to time.\n\nFor and on behalf of\n\n \n\n(Name of the applicant)\nAuthorized signatory/ Applicant\n(Signature)\n\n(Date and Place)\n\n38",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation abide by such\noperational instructions/directives as may be issued by the Securities and Exchange Board\nof India from t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 38].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 38].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-054",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 40]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 40]",
+      "plain_english": "IN/IA/ :\nIIL. This certificate of registration shall be valid till it is suspended or cancelled by the Board\n\nDate:\n\nPlace: MUMBAI\nBy Order\n\nSd/-\nFor and on behalf of\n\nSecurities and Exchange Board of India]\n\n40",
+      "original_text": "IN/IA/ :\nIIL. This certificate of registration shall be valid till it is suspended or cancelled by the Board\n\nDate:\n\nPlace: MUMBAI\nBy Order\n\nSd/-\nFor and on behalf of\n\nSecurities and Exchange Board of India]\n\n40",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be valid till it is suspended or cancelled by the Board\n\nDate:\n\nPlace: MUMBAI\nBy Order\n\nSd/-\nFor and on behalf of\n\nSecu?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 40].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 40].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-055",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 41]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 41]",
+      "plain_english": "120ISECOND SCHEDULE\n\nSecurities and Exchange Board of India (Investment Advisers) Regulations, 2013\n\n[Regulation 9]\n\nFEES\n\n1. Every applicant shall pay non-refundable application fees along with the\napplication for grant '?![***] of certificate of registration as under:\n\na.",
+      "original_text": "120ISECOND SCHEDULE\n\nSecurities and Exchange Board of India (Investment Advisers) Regulations, 2013\n\n[Regulation 9]\n\nFEES\n\n1. Every applicant shall pay non-refundable application fees along with the\napplication for grant '?![***] of certificate of registration as under:\n\na. [For individuals and % 2,000]\nfirms\n\nb. '8[For Body Corporate = 10,000\nincluding Limited\nLiability Partnerships]\n\n2. '4[Every applicant shall pay registration fee at the time of grant of certificate by\nthe Board as under:\n\n120 Substituted by the SEBI (Payment of Fees) (Amendment) Regulations, 2014, w.e.f 23.05.2014. Prior to its\nsubstitution, the Second Schedule read as under:\n\n1. “Every applicant shall pay non-refundable application fees of five thousand rupees along with the\napplication for grant or renewal of certificate of registration.\n\n2. Applicants which are individuals and firms shall pay a sum of ten thousand rupees as registration/\nrenewal fee at the time of grant or renewal of certificate by the Board.\n\n3",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation pay non-refundable application fees along with the\napplication for grant '?![***] of certificate of registration as und?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 41].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 41].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Regulation 9"
+      ]
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-056",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 42]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 42]",
+      "plain_english": "A. For individuals and firms 3,000\nb.",
+      "original_text": "a. For individuals and firms 3,000\nb. For body Corporate including Limited Liability Partnerships % 15,000]\n\n3. '5[An investment adviser who has been granted a certificate of registration, to\nkeep its registration in force, shall pay fee '*°[specified below] every five years,\nfrom the date of grant of certificate of registration or from the date of grant of\ncertificate of registration granted prior to the commencement of the Securities and\nExchange Board of India (Change in Conditions of Registration of Certain\nIntermediaries) (Amendment) Regulations, 2016, as the case may be, within three\nmonths before expiry of the period for which fee has been paid!?7[:]]\n\n18a, For individuals and firms % 1,000\n\nb. For Body Corporate including Limited Liability Partnerships & 5,000]\n\n129'4. The fee referred to in paragraph 2 shall be paid by the applicant within fifteen\ndays from the date of receipt of intimation from the Board by way of direct credit\ninto the bank account through NEFT/RTGS/IMPS or ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation pay fee '*°[specified below] every five years?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 42].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 42].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-057",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "THIRD",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "THIRD SCHEDULE",
+      "plain_english": "Securities and Exchange Board of India (Investment Advisers) Regulations, 2013\n\n \n\nb. For Body Corporate including Limited Liability Partnerships ® 5,00,000”\n\n125 Inserted by the by the Securities and Exchange Board of India (Change In Conditions Of Registration Of\nCertain Intermediaries) (Amendment) Regulations, 2016 w.e.f.",
+      "original_text": "Securities and Exchange Board of India (Investment Advisers) Regulations, 2013\n\n \n\nb. For Body Corporate including Limited Liability Partnerships ® 5,00,000”\n\n125 Inserted by the by the Securities and Exchange Board of India (Change In Conditions Of Registration Of\nCertain Intermediaries) (Amendment) Regulations, 2016 w.e.f. 08-12-2016.\n\n126 Substituted for the words “prescribed at paragraph 2 above” by the SEBI (Investment Advisers)\n(Amendment) Regulations, 2021, w.e.f. 01-04-2021.\n\n127 Substituted for the symbol “.” by the SEBI (Investment Advisers) (Amendment) Regulations, 2021, w.e.f.\n01-04-2021.\n\n128 Inserted by the SEBI (Investment Advisers) (Amendment) Regulations, 2021, w.e.f. 01-04-2021.\n\n129 Substituted by the Securities and Exchange Board of India (Payment of Fees and Mode of Payment)\n(Amendment) Regulations, 2023 w.e.f 01-04-2023. Prior to its substitution, clause (4) read as under:\n\n*(The fee referred to in paragraph 2 shall be paid by the applicant within fifteen days fro",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be paid by the applicant within fifteen days from the date of\nreceipt of intimation from the Board by way of demand dra?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: THIRD SCHEDULE.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: THIRD SCHEDULE.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-058",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "CODE",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "CODE OF CONDUCT FOR INVESTMENT ADVISER",
+      "plain_english": "1. Honesty and fairness\n\nAn investment adviser shall act honestly, fairly and in the best interests of its clients\nand in the integrity of the market.",
+      "original_text": "1. Honesty and fairness\n\nAn investment adviser shall act honestly, fairly and in the best interests of its clients\nand in the integrity of the market.\n\n2. Diligence\n\nAn investment adviser shall act with due skill, care and diligence in the best interests\nof its clients and shall ensure that its advice is offered after thorough analysis and\ntaking into account available alternatives.\n\n3. Capabilities\n\nAn investment adviser shall have and employ effectively appropriate resources and\nprocedures which are needed for the efficient performance of its business activities.\n\n4. Information about clients\n\nAn investment adviser shall seek from its clients, information about their financial\nsituation, investment experience and investment objectives relevant to the services to\nbe provided and maintain confidentiality of such information.\n\n5. Information to its clients\n\nAn investment adviser shall make adequate disclosures of relevant material\ninformation while dealing with its clients.\n\n6. Fair and",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation act honestly, fairly and in the best interests of its clients\nand in the integrity of the market?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CODE OF CONDUCT FOR INVESTMENT ADVISER.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: CODE OF CONDUCT FOR INVESTMENT ADVISER.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-059",
+      "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 44]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 44]",
+      "plain_english": "Applicable to the conduct of its business activities so as to promote the best interests\nof clients and the integrity of the market. 9.",
+      "original_text": "applicable to the conduct of its business activities so as to promote the best interests\nof clients and the integrity of the market.\n\n9. Responsibility of senior management\n\nThe senior management of a body corporate which is registered as investment adviser\nshall bear primary responsibility for ensuring the maintenance of appropriate\nstandards of conduct and adherence to proper procedures by the body corporate.\n\n \n\n131 Substituted for the words “representative(s)” by the SEBI (Investment Advisers) (Amendment) Regulations,\n2020, w.e.f. 30-09-2020.\n\n44",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation bear primary responsibility for ensuring the maintenance of appropriate\nstandards of conduct and adherence to proper pr?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 44].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "tags": [
+        "governance",
+        "investment_adviser",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 44].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    }
+  ]
+}

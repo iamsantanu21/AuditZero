@@ -1,0 +1,2207 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+  "regulator": "IRDAI",
+  "controls": [
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-001",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "Preamble",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Preamble / 2. In order to consolidate and update guidelines on AML/CFT, a single",
+      "plain_english": "Ref: IRDAI/IID/GDL/MISC/160/8/2022                        Date: 1st August 2022\n\nTo,\nAll Insurers\n\nRe: Master Guidelines on Anti-Money Laundering/ Counter Financing of\n                      Terrorism (AML/CFT), 2022\n\n       IRDAI had issued Master Guidelines on AML/CFT for General insurers and\nLife insurers in 2013 and 2015 respectively. Subsequently, multiple circulars had\nbeen issued on the subj",
+      "original_text": "Ref: IRDAI/IID/GDL/MISC/160/8/2022                        Date: 1st August 2022\n\nTo,\nAll Insurers\n\nRe: Master Guidelines on Anti-Money Laundering/ Counter Financing of\n                      Terrorism (AML/CFT), 2022\n\n       IRDAI had issued Master Guidelines on AML/CFT for General insurers and\nLife insurers in 2013 and 2015 respectively. Subsequently, multiple circulars had\nbeen issued on the subject.\n\nGuidelines covering provisions of PML Act, Rules and other applicable norms\n(as amended from time to time) is issued.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: preamble / 2. in order to consolidate and update guidelines on aml/cft, a single?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble / 2. In order to consolidate and update guidelines on AML/CFT, a single.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Preamble / 2. In order to consolidate and update guidelines on AML/CFT, a single.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-002",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The guidelines are applicable to all classes of Life, General or Health / 4. The",
+      "plain_english": "Insurance business. -Sd/-\nRandip Singh Jagpal\n(Executive Director)\n\fMASTER GUIDELINES ON ANTI-MONEY LAUNDERING/ COUNTER FINANCING OF\n                    TERRORISM (AML/CFT), 2022\n\n\n                          Date: 1st Aug 2022\n                  Ref: IRDAI/IID/GDL/MISC/160/8/2022\n\fRef: IRDAI/IID/GDL/MISC/160/8/2022                                    Date: 1st Aug 2022\n\n\nTo,\nAll the Insurers\nRe: Mast",
+      "original_text": "insurance business.\n\n-Sd/-\nRandip Singh Jagpal\n(Executive Director)\n\fMASTER GUIDELINES ON ANTI-MONEY LAUNDERING/ COUNTER FINANCING OF\n                    TERRORISM (AML/CFT), 2022\n\n\n                          Date: 1st Aug 2022\n                  Ref: IRDAI/IID/GDL/MISC/160/8/2022\n\fRef: IRDAI/IID/GDL/MISC/160/8/2022                                    Date: 1st Aug 2022\n\n\nTo,\nAll the Insurers\nRe: Master Guidelines on Anti-Money Laundering/Counter Financing of Terrorism\n(AML/CFT), 2022",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the guidelines are applicable to all classes of life, general or health / 4. the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The guidelines are applicable to all classes of Life, General or Health / 4. The.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The guidelines are applicable to all classes of Life, General or Health / 4. The.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-003",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Introduction",
+      "plain_english": "1.1. In terms of the provisions of Prevention of Money Laundering Act, 2002\n        (PMLA/PML Act/Act and the Prevention of Money- Laundering (Maintenance of\n        records) Rules, 2005 (PML Rules/Rules) (as amended from time to time),\n        insurers are required to follow Customer Identification Procedures while\n        undertaking a transaction at the time of establishing an account based",
+      "original_text": "1.1. In terms of the provisions of Prevention of Money Laundering Act, 2002\n        (PMLA/PML Act/Act and the Prevention of Money- Laundering (Maintenance of\n        records) Rules, 2005 (PML Rules/Rules) (as amended from time to time),\n        insurers are required to follow Customer Identification Procedures while\n        undertaking a transaction at the time of establishing an account based\n        relationship/ client based relationship and monitor their transactions on-going\n        basis.\n\n   1.2. Insurers shall take steps to implement provisions of PML Act and the PML\n        Rules, as amended from time to time, including operational instructions issued in\n        pursuance of such amendment(s).\n\n   1.3. The obligation to establish an anti-money laundering program applies to insurers\n        as per provisions of clause (ii) and (iii) sub rule (14) of Rule 9 of the PML Rules.\n        Insurers have responsibility for guarding against insurance products and\n        services being u",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation follow Customer Identification Procedures while\n        undertaking a transaction at the time of establishing an accoun?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Introduction.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Introduction.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 9",
+        "Section 3"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-004",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Short Title, Applicability and Commencement",
+      "plain_english": "2.1. These guidelines shall be called as Master Guidelines on Anti-Money\n       Laundering/Counter Financing of Terrorism (AML/CFT) for all the insurers.",
+      "original_text": "2.1. These guidelines shall be called as Master Guidelines on Anti-Money\n       Laundering/Counter Financing of Terrorism (AML/CFT) for all the insurers. These\n       guidelines are issued by exercising the power enshrined under Section 34 of\n       Insurance Act, 1938, Section 14(1) of Insurance Regulatory and Development\n       Authority Act 1999 and provisions 4,5,7,9, 9A & 10 of the PML Rules.\n\n  2.2. These Guidelines would be applicable for all class of Life, General or Health\n\nMaster Guidelines on AML/CFT                                                          Page 1\n\f       Insurance business carried out by the „Insurers‟ except Re-insurance business\n       carried out by the „Indian Insurance company‟ or „foreign company‟ in India.\n\n  2.3. These guidelines would come into force from 1st November 2022.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be called as Master Guidelines on Anti-Money\n       Laundering/Counter Financing of Terrorism (AML/CFT) for all the ins?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Short Title, Applicability and Commencement.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Short Title, Applicability and Commencement.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 34",
+        "Section 14(1)"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-005",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Definitions",
+      "plain_english": "In these guidelines, unless the context otherwise requires, the terms in this shall bear\n   the meanings assigned to them as below:\n\n  3.1. “Aadhaar number\", shall have the meaning assigned to it under clause(a) of\n       section 2 of the Aadhaar (Targeted Delivery of Financial and Other Subsidies,\n       Benefits and Services) Act, 2016, called „The Aadhaar Act‟.",
+      "original_text": "In these guidelines, unless the context otherwise requires, the terms herein shall bear\n   the meanings assigned to them as below:\n\n  3.1. “Aadhaar number\", shall have the meaning assigned to it under clause(a) of\n       section 2 of the Aadhaar (Targeted Delivery of Financial and Other Subsidies,\n       Benefits and Services) Act, 2016, hereinafter referred to as „The Aadhaar Act‟.\n\n  3.2. “Authentication”, means the process as defined under clause (c) of section 2 of\n       the Aadhaar Act as amended from time to time.\n\n  3.3. “Beneficial owner” shall have the meaning assigned to it under sub clause (fa) of\n       clause (1) of Section 2 of the PML Act.\n\n  3.4. “Central KYC Records Registry” (CKYCR) means an entity defined under clause\n       (ac) of sub rule (1) of Rule 2 of the PML Rules, to receive, store, safeguard and\n       retrieve the KYC records in digital form of a customer.\n\n  3.5. “Client” shall have the meaning assigned to it under sub clause (ha) of clause (1)\n       of",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have the meaning assigned to it under su?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "aml",
+        "cft",
+        "consent",
+        "governance",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "cft",
+        "consent",
+        "governance",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Definitions.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 2",
+        "Section 2",
+        "Rule 2",
+        "Section 2"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-006",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Internal policies, procedures, controls and compliance arrangement",
+      "plain_english": "4.1. Every Insurer has to establish and implement policies, procedures, and internal\n        controls that effectively serve to prevent and impede Money Laundering (ML)\n        and Terrorist Financing (TF).",
+      "original_text": "4.1. Every Insurer has to establish and implement policies, procedures, and internal\n        controls that effectively serve to prevent and impede Money Laundering (ML)\n        and Terrorist Financing (TF).\n\n   4.2. To be in compliance with these obligations, the senior management of insurers\n        shall be fully committed to establishing appropriate policies and procedures for\n        the prevention of ML and TF and ensuring their effectiveness and compliance\n        with all relevant legal and regulatory requirements. The insurers shall:\n\n        4.2.1. Develop an AML/CFT program comprising of policies and procedures, for\n               dealing with ML and TF reflecting the current statutory and regulatory\n               requirements.\n\n        4.2.2. Ensure that the content of these guidelines are understood by all staff\n               members/agents. Develop staff members‟/agents‟ awareness and\n               vigilance to guard against ML and TF.\n\n        4.2.3. The AML/CFT progra",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be fully committed to establishing appropriate policies and procedures for\n        the prevention of ML and TF and ensu?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Internal policies, procedures, controls and compliance arrangement.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 45 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n   4",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Internal policies, procedures, controls and compliance arrangement.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-007",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Appointment of a Designated Director and a Principal Officer",
+      "plain_english": "5.1. A “Designated Director”, who has to ensure overall compliance with the\n        obligations imposed under chapter IV of the PML Act and the PML Rules, shall\n        be appointed or designated by the insurers.",
+      "original_text": "5.1. A “Designated Director”, who has to ensure overall compliance with the\n        obligations imposed under chapter IV of the PML Act and the PML Rules, shall\n        be appointed or designated by the insurers.\n\n   5.2. A Principal Officer (PO) at a senior level shall be appointed to ensure\n        compliance with the obligations imposed under chapter IV of the Act and the\n        Rules.\n\n   5.3. The contact details with mobile number and email id of the Designated Director\n        and the Principal Officer or any changes thereon shall be communicated to\n        Insurance Regulatory and Development Authority of India (IRDAI) and FIU-IND\n        within 7 days of its effect.\n\n   5.4. In terms of Section 13 of the PMLA, the Director, FIU-IND can take appropriate\n        action, including imposing a monetary penalty on insurers or its Designated\n        Director or any of its employees for failure to comply with any of its AML/CFT\n        obligations.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be appointed or designated by the insurers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Appointment of a Designated Director and a Principal Officer.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 7 days",
+        "trigger_event": "appointment"
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n   5",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Appointment of a Designated Director and a Principal Officer.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 13"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-008",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Recruitment and Training",
+      "plain_english": "6.1. Adequate screening mechanism as an integral part of their personnel\n        recruitment/hiring process shall be put in place.",
+      "original_text": "6.1. Adequate screening mechanism as an integral part of their personnel\n        recruitment/hiring process shall be put in place.\n\n   6.2. On-going training programme shall be put in place so that the members of staff\n        are adequately trained in AML/CFT policy. The focus of the training shall be\n        different for frontline staff, compliance staff, staff dealing with new customers\n        and claims. The front line staff shall be specially trained to handle issues arising\n        from lack of customer education. Proper staffing of the audit function with\n        persons adequately trained and well-versed in AML/CFT policies of the insurers,\n        guideline and related issues shall be ensured.\n\n\nMaster Guidelines on AML/CFT                                                          Page 6",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be put in place?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Recruitment and Training.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,\n        ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Recruitment and Training.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-009",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Internal Control/Audit",
+      "plain_english": "Internal audit/inspection department of insurers shall periodically verify compliance\n    with the extant policies, procedures and controls related to money laundering\n    activities on the basis of overall risk assessment. Insurers shall also upgrade its\n    questionnaire and system from time-to-time in accordance with the extant PMLA\n    and PML Rules.",
+      "original_text": "Internal audit/inspection department of insurers shall periodically verify compliance\n    with the extant policies, procedures and controls related to money laundering\n    activities on the basis of overall risk assessment. Insurers shall also upgrade its\n    questionnaire and system from time-to-time in accordance with the extant PMLA\n    and PML Rules. The reports should specifically comment on the robustness of the\n    internal policies and processes in this regard and make constructive suggestions\n    where necessary, to strengthen the policy and implementation aspects. Insurers\n    shall submit audit notes and compliance to the Audit Committee.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation periodically verify compliance\n    with the extant policies, procedures and controls related to money laundering\n    ac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Internal Control/Audit.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Internal Control/Audit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-010",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Know Your Customer (KYC) Norms",
+      "plain_english": "8.1. What are KYC Norms?",
+      "original_text": "8.1. What are KYC Norms?\n\n       8.1.1. Considering the potential threat of usage of the insurance services by a\n              money launderers, insurers should make best efforts to determine the true\n              identity of customer(s).\n\n       8.1.2. Effective procedures should be put in place to obtain requisite details for\n              proper identification of new/ existing customer(s). Special care has to be\n              exercised to ensure that the contracts are not under anonymous or\n              fictitious names.\n\n       8.1.3. Where a client is a juridical person, insurers shall take steps to identify the\n              client and its beneficial owner(s) and take all reasonable measures to verify\n              his/her identity to their satisfaction so as to establish the beneficial\n              ownership. Procedures for determination of Beneficial Ownership shall be\n              as prescribed in sub rule (3) of Rule 9 of PML Rules.\n\n       8.1.4. While implementing the K",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take steps to identify the\n              client and its beneficial owner(s) and take all reasonable measures to verify?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Know Your Customer (KYC) Norms.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "consent",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "consent",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Know Your Customer (KYC) Norms.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 9",
+        "rule 9",
+        "rule 9",
+        "Rule 9",
+        "rule 9"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-011",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "8.1.12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "At any point of time, where insurers are no longer satisfied about the true",
+      "plain_english": "Identity and the transaction made by the customer, a Suspicious\n              Transaction Report (STR) should be filed with Financial Intelligence Unit-\n              India (FIU-IND) if it is satisfied that the transaction meets the criteria\n              specified in sub clause (g) of clause (1) of Rule 2 of the PML Rules and\n              any guidelines / indicators issued by IRDAI or FIU-IND. 8",
+      "original_text": "identity and the transaction made by the customer, a Suspicious\n              Transaction Report (STR) should be filed with Financial Intelligence Unit-\n              India (FIU-IND) if it is satisfied that the transaction meets the criteria\n              specified in sub clause (g) of clause (1) of Rule 2 of the PML Rules and\n              any guidelines / indicators issued by IRDAI or FIU-IND.\n\n   8.2. Client Due Diligence (CDD)\n   Insurers shall undertake CDD as per the provisions of Rule 9 of PML Rules.\n   Accordingly, the insurer shall undertake CDD as follows:\n\n       8.2.1. Knowing New Customer/ Client\n\n              In case of every new customer, necessary Client due diligence with valid\n              KYC documents of the customer/ client shall be done at the time of\n              commencement of account based relationship.\n\n\n\n\nMaster Guidelines on AML/CFT                                                         Page 9\n\f       8.2.2. Knowing Existing Customer/Client\n\n           ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation undertake cdd as per the provisions of rule 9 of pml rules?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: At any point of time, where insurers are no longer satisfied about the true.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 2 years",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "Rs. 50,000",
+        "type": "licence_revocation"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: At any point of time, where insurers are no longer satisfied about the true.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 2",
+        "Rule 9"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-012",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Risk Assessment/ Categorization",
+      "plain_english": "9.1. Insurers have to carry out ML and TF Risk Assessment exercise as provided in\n        sub rule (13) of Rule 9 of PML Rules periodically based on risk exposure to\n        identify, assess, document and take effective measures to mitigate its ML and\n        TF risk for clients/customers or geographic areas, products, services, nature\n        and volume of transactions or delivery channels etc.",
+      "original_text": "9.1. Insurers have to carry out ML and TF Risk Assessment exercise as provided in\n        sub rule (13) of Rule 9 of PML Rules periodically based on risk exposure to\n        identify, assess, document and take effective measures to mitigate its ML and\n        TF risk for clients/customers or geographic areas, products, services, nature\n        and volume of transactions or delivery channels etc. While assessing the ML/TF\n        risk, the insurers are required to take cognizance of the overall sector specific\n        and country specific vulnerabilities, if any, that the Government of India / IRDAI\n        may share with insurers from time to time. Further, the internal risk assessment\n        carried out by insurer should be commensurate to its size, geographical\n        presence, complexity or activities/ structure etc.\n\n   9.2. In the context of the very large base of insurance customers and the significant\n        differences in the extent of risk posed by them, as part of the risk",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take cognizance of the overall sector specific\n        and country specific vulnerabilities, if any, that the Governmen?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Risk Assessment/ Categorization.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Risk Assessment/ Categorization.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 9"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-013",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "10",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Simplified Due Diligence (SDD)",
+      "plain_english": "10.1. Simplified measures as provided under sub clause (d) of clause (1) of Rule 2\n          of PML Rules are to be applied by the insurer in case of individual policies,\n          where the aggregate insurance premium is not more than Rs 10000/ - per\n          annum.",
+      "original_text": "10.1. Simplified measures as provided under sub clause (d) of clause (1) of Rule 2\n          of PML Rules are to be applied by the insurer in case of individual policies,\n          where the aggregate insurance premium is not more than Rs 10000/ - per\n          annum.\n\n           However, Simplified Client Due Diligence measures are not acceptable\n           whenever there is a suspicion of money laundering or terrorist financing or\n           where specific high risk scenarios apply, based on the Risk\n           Assessment/categorization policy of the insurers. Based on the robust risk\n           assessment, insurers may apply Simplified Due Diligence measures only in\n           respect of customers that are classified as 'low risk'.\n\n   10.2. The list of simplified due diligence documents are specified in sub clause (d)\n         of clause (1) of Rule 2 of the PML Rules.\nMaster Guidelines on AML/CFT                                                       Page 12",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: simplified due diligence (sdd)?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Simplified Due Diligence (SDD).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "Rs 10000",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Simplified Due Diligence (SDD).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 2",
+        "Rule 2"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-014",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Enhanced Due Diligence (EDD)",
+      "plain_english": "11.1. Enhanced Due Diligence as mentioned in Section 12AA of PML Act.",
+      "original_text": "11.1. Enhanced Due Diligence as mentioned in Section 12AA of PML Act. shall be\n         conducted for high risk categories of clients.\n\n   11.2. Insurers should examine, as far as reasonably possible, the background and\n         purpose of all complex, unusual patterns of transactions, which have no\n         apparent economic or lawful purpose. Where the risks of money laundering or\n         terrorist financing are higher, insurers should be required to conduct\n         enhanced due diligence measures, consistent with the risks identified.\n\n   11.3. Insurers shall\n\n           11.3.1. Verify the identity of the clients preferably using Aadhaar subject to\n           the consent of customer or;\n           11.3.2. Verify the client through other modes/ methods of KYC as specified\n           in these guidelines.\n\n   11.4. Insurer shall examine the ownership and financial position, including client‟s\n         source of funds commensurate with the assessed risk of customer and\n         produc",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation 11.3.1. verify th?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Enhanced Due Diligence (EDD).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "consent",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "consent",
+        "insurance",
+        "kyc",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Enhanced Due Diligence (EDD).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 12AA"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-015",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Sharing KYC information with Central KYC Registry (CKYCR)",
+      "plain_english": "12.1. Government of India has notified the Central Registry of Securitisation Asset\n         Reconstruction and Security Interest of India (CERSAI), to act as, and to\n         perform the functions of the CKYCR vide Gazette Notification No.",
+      "original_text": "12.1. Government of India has notified the Central Registry of Securitisation Asset\n         Reconstruction and Security Interest of India (CERSAI), to act as, and to\n         perform the functions of the CKYCR vide Gazette Notification No. S.O.\n         3183(E) dated November 26, 2015.\n\n   12.2. Where a customer submits a “KYC identifier” for KYC, the Insurers shall\n         retrieve the KYC records from CKYCR. In such case, the customer shall not\n         submit the KYC records unless there is a change in the KYC information\n         required by Insurers as per Rule 9(1C) of PML Rules.\n\n   12.3. If the KYC identifier is not submitted by the client / customer, insurers shall\n         search (with certain credentials) for the same on CKYCR portal and record\n         the KYC identifier of the client/ customer, if available.\n\n   12.4. If the KYC identifier is not submitted by the client/customer or not available in\n         the CKYCR portal, insurer shall capture the KYC information in t",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation retrieve the kyc records from ckycr?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Sharing KYC information with Central KYC Registry (CKYCR).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 10 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "insurance",
+        "kyc",
+        "personal_data",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "breach_notification",
+        "cft",
+        "insurance",
+        "kyc",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Sharing KYC information with Central KYC Registry (CKYCR).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 9(1C)"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-016",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "13",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Reliance on third party KYC",
+      "plain_english": "For the purposes of KYC norms under clause 8, while insurers are ultimately\n       responsible for customer due diligence and undertaking enhanced due diligence\n       measures, as applicable, insurers may rely on a KYC done by a third party\n       subject to the conditions -specified under sub-rule (2) of rule (9) of the Rules. Master Guidelines on AML/CFT",
+      "original_text": "For the purposes of KYC norms under clause 8, while insurers are ultimately\n       responsible for customer due diligence and undertaking enhanced due diligence\n       measures, as applicable, insurers may rely on a KYC done by a third party\n       subject to the conditions -specified under sub-rule (2) of rule (9) of the Rules.\n\n\n\n\nMaster Guidelines on AML/CFT                                                       Page 14\n\f       Where insurer relies upon third party that is part of the same financial group, they\n       should obtain KYC documents or the information of the client due diligence within\n       15 days.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within within\n       15 days?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Reliance on third party KYC.",
+        "No automated workflow or SLA tracking the required within\n       15 days."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within\n       15 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Reliance on third party KYC.",
+        "Set an automated alert/workflow triggered to complete action within within\n       15 days.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": [
+        "clause 8"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-017",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "14",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Contracts with Politically Exposed Persons (PEPs)",
+      "plain_english": "14.1. It is emphasized that proposals of Politically Exposed Persons (PEPs) in\n         particular requires examination by senior management.",
+      "original_text": "14.1. It is emphasized that proposals of Politically Exposed Persons (PEPs) in\n         particular requires examination by senior management.\n\n   14.2. Insurers are directed to lay down appropriate on-going risk management\n         procedures for identifying and applying enhanced due diligence measures on\n         an on-going basis to PEPs and customers who are close relatives of PEPs.\n         These measures are also to be applied to insurance contracts of which a PEP\n         is the ultimate beneficial owner (s).\n\n   14.3. If the on-going risk management procedures indicate that the customer or\n         beneficial owner(s) is found to be PEP, or subsequently becomes a PEP, the\n         senior management should be informed on this business relationship and\n         apply enhanced due diligence measures on such relationship.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: contracts with politically exposed persons (peps)?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Contracts with Politically Exposed Persons (PEPs).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Contracts with Politically Exposed Persons (PEPs).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-018",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "New Business Practices/Developments",
+      "plain_english": "15.1. Insurers shall pay special attention to money laundering threats that may\n         arise from\n         15.1.1.",
+      "original_text": "15.1. Insurers shall pay special attention to money laundering threats that may\n         arise from\n         15.1.1. Development of new products\n           15.1.2. New business practices including new delivery mechanisms\n           15.1.3. Use of new or developing technologies for both new and pre-\n            existing products.\n\n\n   15.2. Special attention should especially, be paid to the „non-face-to-face‟ business\n         relationships brought into effect through these methods.\n\n   15.3. Insurers should lay down systems to prevent the misuse of money laundering\n         framework. Safeguards will have to be built to manage typical risks\n         associated in these methods like the following:\n\n           15.3.1. Ease of access to the facility;\n           15.3.2. Speed of electronic transactions;\n\n\nMaster Guidelines on AML/CFT                                                        Page 15\n\f           15.3.3. Ease of making multiple fictitious applications without incurring\n        ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation pay special attention to money laundering threats that may\n         arise from\n         15?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: New Business Practices/Developments.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: New Business Practices/Developments.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-019",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "16",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Implementation of Section 51A of the Unlawful Activities (Prevention) Act,",
+      "plain_english": "1967 (UAPA)\n\n   16.1. Section 51A of the Unlawful Activities (Prevention) Act, 1967(UAPA), relating\n         to the purpose of prevention of, and for coping with terrorist activities was\n         brought into effect through UAPA Amendment Act, 2008.",
+      "original_text": "1967 (UAPA)\n\n   16.1. Section 51A of the Unlawful Activities (Prevention) Act, 1967(UAPA), relating\n         to the purpose of prevention of, and for coping with terrorist activities was\n         brought into effect through UAPA Amendment Act, 2008. In this regard, the\n         Central Government has issued an Order dated 2nd February 2021 detailing\n         the procedure for the implementation of Section 51A of the UAPA.\n\n   16.2. The insurers should not enter into a contract with a customer whose identity\n         matches with any person in the UN sanction list or with banned entities and\n         those reported to have links with terrorists or terrorist organizations.\n\n   16.3. Insurers shall periodically check MHA website for updated list of banned\n         entities.\n\n   16.4. A list of individuals and entities subject to UN sanction measures under\n         UNSC Resolutions (hereinafter referred to as „designated individuals/\n         entities‟) would be circulated to the insurers ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation periodically check MHA website for updated list of banned\n         entities?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Implementation of Section 51A of the Unlawful Activities (Prevention) Act,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "encryption",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "encryption",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Implementation of Section 51A of the Unlawful Activities (Prevention) Act,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 51A",
+        "Section 51A",
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-020",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "17",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Contracts emanating from countries identified as deficient in AML/CFT regime",
+      "plain_english": "Insurers are required to:\n   17.1. Conduct enhanced due diligence while taking insurance risk exposure to\n         individuals/entities connected with countries identified by FATF as having\n         deficiencies in their AML/CFT regime.",
+      "original_text": "Insurers are required to:\n   17.1. Conduct enhanced due diligence while taking insurance risk exposure to\n         individuals/entities connected with countries identified by FATF as having\n         deficiencies in their AML/CFT regime.\n\n   17.2. Pay Special attention to business relationships and transactions, especially\n         those which do not have apparent economic or visible lawful purpose. In all\n         such cases, the background and purpose of such transactions will as far as\n         possible, have to be examined and written findings have to be maintained for\n         assisting competent authorities.\n\n   17.3. Agents/intermediaries/ employees to be appropriately informed to ensure\n         compliance with this stipulation.\n\n   17.4. Go beyond the FATF statements and consider publicly available information\n         when identifying countries which do not or insufficiently apply the FATF\n         Recommendations while using the FATF Public Statements, being circulated\n      ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation :\n   17?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Contracts emanating from countries identified as deficient in AML/CFT regime.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Contracts emanating from countries identified as deficient in AML/CFT regime.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-021",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Reporting Obligations",
+      "plain_english": "18.1. Insurers shall furnish to the Director, Financial Intelligence Unit-India (FIU-\n         IND), information referred to in Rule 3 of the PML Rules in terms of Rule 7\n         of it.",
+      "original_text": "18.1. Insurers shall furnish to the Director, Financial Intelligence Unit-India (FIU-\n         IND), information referred to in Rule 3 of the PML Rules in terms of Rule 7\n         thereof.\n\n           Explanation: In terms of Third Amendment Rules notified in September 22,\n           2015 regarding amendment to sub rule 3 and 4 of rule 7, Director, FIU- IND\n           shall have powers to issue guidelines to the Insurers for detecting\n           transactions referred to in various clauses of sub-rule (1) of rule 3, to direct\n           them about the form of furnishing information and to specify the procedure\n           and the manner of furnishing information.\n\n   18.2. The reporting formats and comprehensive reporting format guide, prescribed/\n         released by FIU-IND and Report Generation Utility and Report Validation\n         Utility developed to assist insurers in the preparation of prescribed reports\n         shall be taken note of. The editable electronic utilities to file e",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation furnish to the director?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Reporting Obligations.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Reporting Obligations.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 3",
+        "Rule 7",
+        "rule 3",
+        "rule 7",
+        "rule 3"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-022",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "19",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Record Keeping",
+      "plain_english": "19.1. In view of Rule 5 of the PML rules, the insurers, its Designated Director,\n         Principal Officer, employees are required to maintain the information/records\n         of types of all transactions [as mentioned under Rules 3 and 4 of PML Rules\n         2005] as well as those relating to the verification of identity of clients for a\n         period of five years.",
+      "original_text": "19.1. In view of Rule 5 of the PML rules, the insurers, its Designated Director,\n         Principal Officer, employees are required to maintain the information/records\n         of types of all transactions [as mentioned under Rules 3 and 4 of PML Rules\n         2005] as well as those relating to the verification of identity of clients for a\n         period of five years. The records referred to in the said Rule 3 shall be\n         maintained for a period of five years from the date of transaction. Records\n         pertaining to all other transactions, (for which insurers are obliged to maintain\n         records under other applicable Legislations/Regulations/Rules) insurers are\n         directed     to     retain    records       as    provided     in    the     said\n         Legislation/Regulations/Rules but not less than for a period of five years from\n         the date of end of the business relationship with the customer.\n\n   19.2. Records can be maintained in electronic form and/o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation maintain the information/records\n         of types of all transactions [as mentioned under Rules 3 and 4 of PML Rules?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Record Keeping.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "data_retention",
+        "governance",
+        "insurance",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "data_retention",
+        "governance",
+        "insurance",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Record Keeping.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 5",
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-023",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "19.2.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Insurers shall be satisfied about the organizational capabilities, / 19.2.2 The ",
+      "plain_english": "And that technology, systems and measures are in place to\n                     safeguard the privacy of the data maintained and to prevent\n                     unauthorized access, alteration, destruction, disclosure or\n                     dissemination of records and data. automatic data processing systems, data storage sites and\n                     facilities including back-up sites and facili",
+      "original_text": "and that technology, systems and measures are in place to\n                     safeguard the privacy of the data maintained and to prevent\n                     unauthorized access, alteration, destruction, disclosure or\n                     dissemination of records and data.\n\nautomatic data processing systems, data storage sites and\n                     facilities including back-up sites and facilities and to the electronic\n                     data communication network of the service provider is controlled,\n                     monitored and recorded.\n\n\nMaster Guidelines on AML/CFT                                                         Page 19",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: insurers shall be satisfied about the organizational capabilities, / 19.2.2 the ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Insurers shall be satisfied about the organizational capabilities, / 19.2.2 The .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Insurers shall be satisfied about the organizational capabilities, / 19.2.2 The .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-024",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "19.2.4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "It should also be ensured that the provisions under the relevant",
+      "plain_english": "And extant data protection statutes are duly complied with. 19.3.",
+      "original_text": "and extant data protection statutes are duly complied with.\n\n   19.3. Insurers should implement specific procedures for retaining internal records of\n         transactions both domestic or international, to enable them to comply swiftly\n         with information requests from the competent authorities. Such records must\n         be sufficient to permit reconstruction of individual transactions (including the\n         amounts and types of currency involved (if any) so as to provide, if necessary,\n         evidence for prosecution of criminal activity. Insurers should retain the\n         records of those contracts, which have been settled by claim or cancelled, for\n         a period of at least five years after that settlement.\n\n   19.4. In situations, where the records relate to ongoing investigations, or\n         transactions which have been the subject of a disclosure, they should be\n         retained until it is confirmed that the case has been closed. Wherever\n         practicable, ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be sufficient to permit reconstruction of individual transactions (including the\n         amounts and types of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: It should also be ensured that the provisions under the relevant.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "data_retention",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "data_retention",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: It should also be ensured that the provisions under the relevant.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-025",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "20",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Monitoring of Transactions",
+      "plain_english": "20.1. Regular monitoring of transactions is vital for ensuring effectiveness of the\n         AML/CFT procedures.",
+      "original_text": "20.1. Regular monitoring of transactions is vital for ensuring effectiveness of the\n         AML/CFT procedures. This is possible only if the insurers have an\n         understanding of the normal activity of the client so that it can identify\n         deviations in transactions/ activities.\n   20.2. Insurers shall pay special attention to all complex large transactions/ patterns\n         which appear to have no economic purpose. The insurers may specify\n         internal threshold limits for each class of client accounts and pay special\n         attention to transactions which exceeds these limits. The background\n         including all documents/ office records/ memorandums/ clarifications sought\n\n\nMaster Guidelines on AML/CFT                                                        Page 20\n\f           pertaining to such transactions and purpose thereof shall also be examined\n           carefully and findings shall be recorded in writing. Further such findings,\n           records and rel",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation pay special attention to all complex large transactions/ patterns\n         which appear to have no economic purpose?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Monitoring of Transactions.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n   20",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Monitoring of Transactions.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-026",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "21",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Repeal Provisions",
+      "plain_english": "From the date of coming into force of these guidelines, the instructions / guidelines\n    contained in the circulars mentioned in the Appendix, issued by IRDAI shall stand\n    repealed.",
+      "original_text": "From the date of coming into force of these guidelines, the instructions / guidelines\n    contained in the circulars mentioned in the Appendix, issued by IRDAI shall stand\n    repealed.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation stand\n    repealed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Repeal Provisions.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Repeal Provisions.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-027",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "22 (Part 1)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Notwithstanding anything contained in these guidelines, in case of any issue wit",
+      "plain_english": "Respect to interpretation of any provision of these guidelines, the provisions/\n    directives of the FIU India, the PML Act/Aadhaar Act/Income Tax Act and their rules\n    as amended from time to time, will prevail. The insurers are also advised to refer to the extant relevant directives, rules, laws\n   and provisions mentioned in it on a regular basis to broadly understand, apply,\n   update the",
+      "original_text": "respect to interpretation of any provision of these guidelines, the provisions/\n    directives of the FIU India, the PML Act/Aadhaar Act/Income Tax Act and their rules\n    as amended from time to time, will prevail.\n\n   The insurers are also advised to refer to the extant relevant directives, rules, laws\n   and provisions mentioned therein on a regular basis to broadly understand, apply,\n   update their AML /CFT program and implement the provisions of this guideline.\n\n                                                                                 -Sd/-\n                                                                (Randip Singh Jagpal)\n                                                                   Executive Director\n\nMaster Guidelines on AML/CFT                                                      Page 21\n\f                                                                                    Annexure I\n                                                                              (re",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation adhere to the following stipulations:\n\n   a) The Insurer/authorised person while performing the VBIP for KYC shall reco?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 45 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "aml",
+        "audit_log",
+        "breach_notification",
+        "cft",
+        "consent",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "access_control",
+        "aml",
+        "audit_log",
+        "breach_notification",
+        "cft",
+        "consent",
+        "governance",
+        "insurance",
+        "kyc",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "para 4.5)",
+        "para 8.1.7.4)",
+        "Section 11",
+        "rule 2(d)"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-028",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "22 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Notwithstanding anything contained in these guidelines, in case of any issue wit",
+      "plain_english": "L) Insurers shall ensure that the video recording bears the GPS coordinates, date\n      (DD:MM:YY) and time stamp (HH:MM:SS) along with other necessary details,\n      which shall be stored in a safe and secure manner as per PML Rules. While exercising Online VBIP, the Insurer shall exercise extra caution and the\n\nMaster Guidelines on AML/CFT                                                      Pag",
+      "original_text": "   l) Insurers shall ensure that the video recording bears the GPS coordinates, date\n      (DD:MM:YY) and time stamp (HH:MM:SS) along with other necessary details,\n      which shall be stored in a safe and secure manner as per PML Rules.\n\n       While exercising Online VBIP, the Insurer shall exercise extra caution and the\n\nMaster Guidelines on AML/CFT                                                      Page 24\n\f       additional necessary details viz. IP address etc. shall be preserved by the insurer\n       to substantiate the evidence at the time of need.\n\n   m) Insurers are encouraged to take assistance of the latest available technology\n      (including Artificial Intelligence (AI) and face matching technologies etc.) to\n      strengthen and ensure the integrity of the process as well as the confidentiality of\n      the information furnished by the customer/beneficiary. However, the\n      responsibility of identification shall rest with the insurer.\n\n   n) Authorized person of the",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that the video recording bears the gps coordinates?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc",
+        "personal_data",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance",
+        "kyc",
+        "personal_data",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "para 16.6)",
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-029",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "22 (Part 3)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Notwithstanding anything contained in these guidelines, in case of any issue wit",
+      "plain_english": "Master Guidelines on AML/CFT                                                        Page 26\n\f           mha@gov.in, without delay. e) Insurers shall file a Suspicious Transaction Report (STR) with FIU-IND in\n           respect of the insurance policies covered by paragraph (1) (a) above, carried\n           through or attempted, in the prescribed format.",
+      "original_text": "Master Guidelines on AML/CFT                                                        Page 26\n\f           mha@gov.in, without delay.\n        e) Insurers shall file a Suspicious Transaction Report (STR) with FIU-IND in\n           respect of the insurance policies covered by paragraph (1) (a) above, carried\n           through or attempted, in the prescribed format.\n        f) On receipt of the particulars (held in the form of Insurance Policies) of\n           suspected designated individual/entities the Central [designated] Nodal\n           Officer for the UAPA would cause a verification to be conducted by the State\n           Police and/or the Central Agencies so as to ensure that the\n           individuals/entities identified by the insurers are the ones listed as\n           designated individuals/entities and the insurance policies, reported by\n           insurers are held by the designated individuals/entities.\n        g) In case, the results of the verification indicate that the insur",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation file a Suspicious Transaction Report (STR) with FIU-IND in\n           respect of the insurance policies covered by para?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 51A",
+        "section 51A",
+        "section 51A"
+      ]
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-030",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "22 (Part 4)",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "Notwithstanding anything contained in these guidelines, in case of any issue wit",
+      "plain_english": "The above provisions of freezing shall not apply to funds and other financial\n            assets or economic resources that are necessary for paying insurance\n            premiums or exclusively for payment of reasonable professional fees and\n            reimbursement of incurred expenses associated with the provision of legal\n            services or fees or service charges for routine holding or",
+      "original_text": "            The above provisions of freezing shall not apply to funds and other financial\n            assets or economic resources that are necessary for paying insurance\n            premiums or exclusively for payment of reasonable professional fees and\n            reimbursement of incurred expenses associated with the provision of legal\n            services or fees or service charges for routine holding or maintenance of\n            frozen funds or other financial assets or economic resources, after\n            notification by the MEA of the intention to authorize, where appropriate,\n            access to such funds, assets or resources and in the absence of a negative\n            decision within 48 hours of such notification.\n\nMaster Guidelines on AML/CFT                                                      Page 29\n\f                                                                         Appendix\n                                List of Circulars*\n                                    ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: notwithstanding anything contained in these guidelines, in case of any issue wit?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 48 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "insurance"
+      ],
+      "tags": [
+        "aml",
+        "breach_notification",
+        "cft",
+        "insurance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding anything contained in these guidelines, in case of any issue wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-031",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "IRDA/SDD/GDL/CIR/020/02/       7th February     AML/CFT (Guidelines for General ",
+      "plain_english": "2013                           2013             Insurers)\n\n2015                           2015             AML/CFT(Guidelines      for    Life\n                                                      Insurers)\n\nRecord Registry (CKYCR)\n\n/2017                          2017             Laundering  (Maintenance of\n                                                      Records) Second Amendment",
+      "original_text": "2013                           2013             Insurers)\n\n2015                           2015             AML/CFT(Guidelines      for    Life\n                                                      Insurers)\n\nRecord Registry (CKYCR)\n\n/2017                          2017             Laundering  (Maintenance of\n                                                      Records) Second Amendment\n                                                      Rules, 2017\n\n267/12/2017                    2017             Laundering  (Maintenance of\n                                                      Records) Seventh Amendment\n                                                      Rules, 2017\n\n03/2018                                        Laundering  (Maintenance of\n                                                     Records) Second and Seventh\n                                                     Amendment Rules, 2017\n\nMISC/020/01/2019               2019             the acceptable documents for\n           ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: irda/sdd/gdl/cir/020/02/       7th february     aml/cft (guidelines for general ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: IRDA/SDD/GDL/CIR/020/02/       7th February     AML/CFT (Guidelines for General .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: IRDA/SDD/GDL/CIR/020/02/       7th February     AML/CFT (Guidelines for General .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IRDAI_AML_CFT_GUIDELINES-032",
+      "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+      "section_ref": "9",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "IRDA/ SDD / CIR /              18thSeptember    Video Based Identification",
+      "plain_english": "MISC/245/09/2020               2020             Process\n10    IRDAI/SDD/CIR/MISC/016/01/20 22nd January       Centralized KYC Registry – Roll\n      21                           2021               out of Legal Entity Template &\n                                                      other changes\n* The above circulars have been repealed by this Master Guidelines. Master Guidelines on AML/CFT",
+      "original_text": "MISC/245/09/2020               2020             Process\n10    IRDAI/SDD/CIR/MISC/016/01/20 22nd January       Centralized KYC Registry – Roll\n      21                           2021               out of Legal Entity Template &\n                                                      other changes\n* The above circulars have been repealed by this Master Guidelines.\n\nMaster Guidelines on AML/CFT                                                 Page 30",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "insurtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: irda/ sdd / cir /              18thseptember    video based identification?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: IRDA/ SDD / CIR /              18thSeptember    Video Based Identification.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "insurance",
+        "kyc"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: IRDA/ SDD / CIR /              18thSeptember    Video Based Identification.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

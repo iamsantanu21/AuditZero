@@ -1,0 +1,3886 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+  "regulator": "RBI",
+  "controls": [
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-001",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "Preamble",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "Preamble",
+      "plain_english": "भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                       www.rbi.org.in\nRBI/2015-16/418\nDBS.CO/CSITE/BC.11/33.01.001/2015-16\n                                                                                          Jyeshtha 12, 1938 (saka)",
+      "original_text": "भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                       www.rbi.org.in\nRBI/2015-16/418\nDBS.CO/CSITE/BC.11/33.01.001/2015-16\n                                                                                          Jyeshtha 12, 1938 (saka)\n                                                                                                     June 2, 2016\n\n\nTo\nThe Chairman/ Managing Director /Chief Executive Officer\nAll Scheduled Commercial Banks (excluding Regional Rural Banks)\nMadam / Dear Sir,\n                                   Cyber Security Framework in Banks\nIntroduction\nUse of Information Technology by banks and their constituents has grown rapidly\nand is now an integral part of the operational strategies of banks. The Reserve Bank,\nhad, provided guidelines on Information Security, Electronic Banking, Technology\nRisk Management and Cyber Frauds (G.Gopalakrishna Committee) vide Circular\nDBS.CO.ITC.B",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: preamble?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Preamble.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-002",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Since then, the use of technology by banks has gained further momentum. On the",
+      "plain_english": "Other hand, the number, frequency and impact of cyber incidents / attacks have\nincreased manifold in the recent past, more so in the case of financial sector\nincluding banks, underlining the urgent need to put in place a robust cyber\nsecurity/resilience framework at banks and to ensure adequate cyber-security\npreparedness among banks on a continuous basis. In view of the low barriers to\nentry, evo",
+      "original_text": "other hand, the number, frequency and impact of cyber incidents / attacks have\nincreased manifold in the recent past, more so in the case of financial sector\nincluding banks, underlining the urgent need to put in place a robust cyber\nsecurity/resilience framework at banks and to ensure adequate cyber-security\npreparedness among banks on a continuous basis. In view of the low barriers to\nentry, evolving nature, growing scale/velocity, motivation and resourcefulness of\ncyber-threats to the banking system, it is essential to enhance the resilience of the\nbanking system by improving the current defences in addressing cyber risks. These\nwould include, but not limited to, putting in place an adaptive Incident Response,\nManagement and Recovery framework to deal with adverse incidents/disruptions, if\nand when they occur.\nNeed for a Board approved Cyber-security Policy",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: since then, the use of technology by banks has gained further momentum. on the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Since then, the use of technology by banks has gained further momentum. On the.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Since then, the use of technology by banks has gained further momentum. On the.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-003",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "3",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Banks should immediately put in place a cyber-security policy elucidating the",
+      "plain_english": "Strategy containing an appropriate approach to combat cyber threats given the level\nof complexity of business and acceptable levels of risk, duly approved by their\n                 बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n     Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 40000",
+      "original_text": "strategy containing an appropriate approach to combat cyber threats given the level\nof complexity of business and acceptable levels of risk, duly approved by their\n                 बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n     Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 400005\nटे लीफोन / Tele: +91 22 22189131-39; फैक्स / Fax +91 22 22180157; ईमेल /email : cgmicdbsco@rbi.org.in\n\f                                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                     www.rbi.org.in\nBoard. A confirmation in this regard may be communicated to Cyber Security and\nInformation Technology Examination (CSITE) Cell of Department of Banking\nSupervision, Reserve Bank of India, Central Office, World Trade Centre-I, 4th Floor,\nCuffe Parade, Mumbai 400005 at the earliest, and in ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Banks should immediately put in place a cyber-security policy elucidating the.",
+        "No automated workflow or SLA tracking the required timeline."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Banks should immediately put in place a cyber-security policy elucidating the.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-004",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The size, systems, technological complexity, digital products, stakeholders and",
+      "plain_english": "Threat perception vary from bank to bank and hence it is important to identify the\ninherent risks and the controls in place to adopt appropriate cyber-security\nframework. While identifying and assessing the inherent risks, banks are required to\nreckon the technologies adopted, alignment with business and regulatory\nrequirements, connections established, delivery channels, online / mobile products,",
+      "original_text": "threat perception vary from bank to bank and hence it is important to identify the\ninherent risks and the controls in place to adopt appropriate cyber-security\nframework. While identifying and assessing the inherent risks, banks are required to\nreckon the technologies adopted, alignment with business and regulatory\nrequirements, connections established, delivery channels, online / mobile products,\ntechnology services, organisational culture and internal & external threats.\nDepending on the level of inherent risks, the banks are required to identify their\nriskiness as low, moderate, high and very high or adopt any other similar\ncategorisation. Riskiness of the business component also may be factored into while\nassessing the inherent risks. While evaluating the controls, Board oversight, policies,\nprocesses, cyber risk management architecture including experienced and qualified\nresources, training and culture, threat intelligence gathering arrangements,\nmonitoring and analysing the threa",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation reckon the technologies adopted?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The size, systems, technological complexity, digital products, stakeholders and.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The size, systems, technological complexity, digital products, stakeholders and.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-005",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "Testing for vulnerabilities at reasonable intervals of time is very important. T",
+      "plain_english": "Nature of cyber-attacks are such that they can occur at any time and in a manner\nthat may not have been anticipated. Hence, it is mandated that a SOC (Security\nOperations Centre) be set up at the earliest, if not yet been done.",
+      "original_text": "nature of cyber-attacks are such that they can occur at any time and in a manner\nthat may not have been anticipated. Hence, it is mandated that a SOC (Security\nOperations Centre) be set up at the earliest, if not yet been done. It is also essential\nthat this Centre ensures continuous surveillance and keeps itself regularly updated\non the latest nature of emerging cyber threats.\n               बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n   Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 400005\nटे लीफोन / Tele: +91 22 22189131-39; फैक्स / Fax +91 22 22180157; ईमेल /email : cgmicdbsco@rbi.org.in\n\f                                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                    www.rbi.org.in\nIT architecture should be conducive to security",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: testing for vulnerabilities at reasonable intervals of time is very important. t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Testing for vulnerabilities at reasonable intervals of time is very important. T.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Testing for vulnerabilities at reasonable intervals of time is very important. T.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-006",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "7",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The IT architecture should be designed in such a manner that it takes care of",
+      "plain_english": "Facilitating the security measures to be in place at all times. The same needs to be\nreviewed by the IT Sub Committee of the Board and upgraded, if required, as per\ntheir risk assessment in a phased manner.",
+      "original_text": "facilitating the security measures to be in place at all times. The same needs to be\nreviewed by the IT Sub Committee of the Board and upgraded, if required, as per\ntheir risk assessment in a phased manner. The risk cost/potential cost trade off\ndecisions which a bank may take should be recorded in writing to enable an\nappropriate supervisory assessment subsequently.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the it architecture should be designed in such a manner that it takes care of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The IT architecture should be designed in such a manner that it takes care of.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The IT architecture should be designed in such a manner that it takes care of.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-007",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "8",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "An indicative, but not exhaustive, minimum baseline cyber security and resilienc",
+      "plain_english": "Framework to be implemented by the banks is given in Annex 1. Banks should\nproactively initiate the process of setting up of and operationalising a Security\nOperations Centre (SOC) to monitor and manage cyber risks in real time.",
+      "original_text": "framework to be implemented by the banks is given in Annex 1. Banks should\nproactively initiate the process of setting up of and operationalising a Security\nOperations Centre (SOC) to monitor and manage cyber risks in real time. An\nindicative configuration of the SOC is given in Annex 2.\nComprehensively address network and database security",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: an indicative, but not exhaustive, minimum baseline cyber security and resilienc?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: An indicative, but not exhaustive, minimum baseline cyber security and resilienc.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: An indicative, but not exhaustive, minimum baseline cyber security and resilienc.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-008",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "9",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Recent incidents have highlighted the need to thoroughly review network security",
+      "plain_english": "In every bank. In addition, it has been observed that many times connections to\nnetworks/databases are allowed for a specified period of time to facilitate some\nbusiness or operational requirement.",
+      "original_text": "in every bank. In addition, it has been observed that many times connections to\nnetworks/databases are allowed for a specified period of time to facilitate some\nbusiness or operational requirement. However, the same do not get closed due to\noversight making the network/database vulnerable to cyber-attacks. It is essential\nthat unauthorized access to networks and databases is not allowed and wherever\npermitted, these are through well-defined processes which are invariably followed.\nResponsibility over such networks and databases should be clearly elucidated and\nshould invariably rest with the officials of the bank.\nEnsuring Protection of customer information",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: recent incidents have highlighted the need to thoroughly review network security?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Recent incidents have highlighted the need to thoroughly review network security.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Recent incidents have highlighted the need to thoroughly review network security.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-009",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "10",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Banks depend on technology very heavily not only in their smooth functioning but",
+      "plain_english": "Also in providing cutting-edge digital products to their consumers and in the process\ncollect various personal and sensitive information. Banks, as owners of such data,\nshould take appropriate steps in preserving the Confidentiality, Integrity and\nAvailability of the same, irrespective of whether the data is stored/in transit within\nthemselves or with customers or with the third party vendors; the",
+      "original_text": "also in providing cutting-edge digital products to their consumers and in the process\ncollect various personal and sensitive information. Banks, as owners of such data,\nshould take appropriate steps in preserving the Confidentiality, Integrity and\nAvailability of the same, irrespective of whether the data is stored/in transit within\nthemselves or with customers or with the third party vendors; the confidentiality of\nsuch custodial information should not be compromised at any situation and to this\nend, suitable systems and processes across the data/information lifecycle need to be\nput in place by banks.\n\n\n\n\n              बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n  Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 400005\nटे लीफोन / Tele: +91 22 22189131-39; फैक्स / Fax +91 22 22180157; ईमेल /email : cgmicdbsco@rbi.org.in\n\f                                                 भा",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: banks depend on technology very heavily not only in their smooth functioning but?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Banks depend on technology very heavily not only in their smooth functioning but.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Banks depend on technology very heavily not only in their smooth functioning but.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-010",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "11",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "A Cyber Crisis Management Plan (CCMP) should be immediately evolved and",
+      "plain_english": "Should be a part of the overall Board approved strategy. Considering the fact that\ncyber-risk is different from many other risks, the traditional BCP/DR arrangements\nmay not be adequate and hence needs to be revisited keeping in view the nuances\nof the cyber-risk.",
+      "original_text": "should be a part of the overall Board approved strategy. Considering the fact that\ncyber-risk is different from many other risks, the traditional BCP/DR arrangements\nmay not be adequate and hence needs to be revisited keeping in view the nuances\nof the cyber-risk. As you may be aware, in India, CERT-IN (Computer Emergency\nResponse Team – India, a Government entity) has been taking important initiatives\nin strengthening cyber-security by providing proactive & reactive services as well as\nguidelines, threat intelligence and assessment of preparedness of various agencies\nacross the sectors, including the financial sector. CERT-IN also have come out with\nNational Cyber Crisis Management Plan and Cyber Security Assessment\nFramework. CERT-In/NCIIPC/RBI/IDRBT guidance may be referred to while\nformulating the CCMP.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: a cyber crisis management plan (ccmp) should be immediately evolved and?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: A Cyber Crisis Management Plan (CCMP) should be immediately evolved and.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: A Cyber Crisis Management Plan (CCMP) should be immediately evolved and.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-011",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "12",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "CCMP should address the following four aspects: (i) Detection (ii) Response (iii",
+      "plain_english": "Recovery and (iv) Containment. Banks need to take effective measures to prevent\ncyber-attacks and to promptly detect any cyber-intrusions so as to respond / recover\n/ contain the fall out.",
+      "original_text": "Recovery and (iv) Containment. Banks need to take effective measures to prevent\ncyber-attacks and to promptly detect any cyber-intrusions so as to respond / recover\n/ contain the fall out. Banks are expected to be well prepared to face emerging\ncyber-threats such as ‘zero-day’ attacks, remote access threats, and targeted\nattacks. Among other things, banks should take necessary preventive and corrective\nmeasures in addressing various types of cyber threats including, but not limited to,\ndenial of service, distributed denial of services (DDoS), ransom-ware / crypto ware,\ndestructive malware, business email frauds including spam, email phishing, spear\nphishing, whaling, vishing frauds, drive-by downloads, browser gateway fraud, ghost\nadministrator exploits, identity frauds, memory update frauds, password related\nfrauds, etc.\nCyber security preparedness indicators",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: ccmp should address the following four aspects: (i) detection (ii) response (iii?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CCMP should address the following four aspects: (i) Detection (ii) Response (iii.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: CCMP should address the following four aspects: (i) Detection (ii) Response (iii.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-012",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "13",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The adequacy of and adherence to cyber resilience framework should be",
+      "plain_english": "Assessed and measured through development of indicators to assess the level of\nrisk/preparedness. These indicators should be used for comprehensive testing\nthrough independent compliance checks and audits carried out by qualified and\ncompetent professionals.",
+      "original_text": "assessed and measured through development of indicators to assess the level of\nrisk/preparedness. These indicators should be used for comprehensive testing\nthrough independent compliance checks and audits carried out by qualified and\ncompetent professionals. The awareness among the stakeholders including\nemployees may also form a part of this assessment.\nSharing of information on cyber-security incidents with RBI",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the adequacy of and adherence to cyber resilience framework should be?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The adequacy of and adherence to cyber resilience framework should be.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The adequacy of and adherence to cyber resilience framework should be.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-013",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "14",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "It is observed that banks are hesitant to share cyber-incidents faced by them.",
+      "plain_english": "However, the experience gained globally indicates that collaboration among entities\nin sharing the cyber-incidents and the best practices would facilitate timely measures\n              बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n  Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 4000",
+      "original_text": "However, the experience gained globally indicates that collaboration among entities\nin sharing the cyber-incidents and the best practices would facilitate timely measures\n              बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n  Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 400005\nटे लीफोन / Tele: +91 22 22189131-39; फैक्स / Fax +91 22 22180157; ईमेल /email : cgmicdbsco@rbi.org.in\n\f                                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                     www.rbi.org.in\nin containing cyber-risks. It is reiterated that banks need to report all unusual cyber-\nsecurity incidents (whether they were successful or were attempts which did not\nfructify) to the Reserve Bank. Banks are also encouraged to actively participate in\nthe activities of their CISOs’ Foru",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: it is observed that banks are hesitant to share cyber-incidents faced by them.?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: It is observed that banks are hesitant to share cyber-incidents faced by them..",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: It is observed that banks are hesitant to share cyber-incidents faced by them..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-014",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "It has been decided to collect both summary level information as well as details",
+      "plain_english": "On information security incidents including cyber-incidents. Banks are required to\nreport promptly the incidents, in the format given in Annex-3.",
+      "original_text": "on information security incidents including cyber-incidents. Banks are required to\nreport promptly the incidents, in the format given in Annex-3.\nAn immediate assessment of gaps in preparedness to be reported to RBI",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation report promptly the incidents?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: It has been decided to collect both summary level information as well as details.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: It has been decided to collect both summary level information as well as details.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-015",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "16",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "The material gaps in controls may be identified early and appropriate remedial",
+      "plain_english": "Action under the active guidance and oversight of the IT Sub Committee of the Board\nas well as by the Board may be initiated immediately. The identified gaps, proposed\nmeasures/controls and their expected effectiveness, milestones with timelines for\nimplementing the proposed controls/measures and measurement criteria for\nassessing their effectiveness including the risk assessment and risk manageme",
+      "original_text": "action under the active guidance and oversight of the IT Sub Committee of the Board\nas well as by the Board may be initiated immediately. The identified gaps, proposed\nmeasures/controls and their expected effectiveness, milestones with timelines for\nimplementing the proposed controls/measures and measurement criteria for\nassessing their effectiveness including the risk assessment and risk management\nmethodology followed by the bank/proposed by the bank, as per their self-\nassessment, may be submitted to the Cyber Security and Information Technology\nExamination (CSITE) Cell of Department of Banking Supervision, Central Office not\nlater than July 31, 2016 by the Chief Information Security Officer.\nOrganisational arrangements",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The material gaps in controls may be identified early and appropriate remedial.",
+        "No automated workflow or SLA tracking the required timeline."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The material gaps in controls may be identified early and appropriate remedial.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-016",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "It should be realized that managing cyber risk requires the commitment of the",
+      "plain_english": "Entire organization to create a cyber-safe environment. This will require a high level\nof awareness among staff at all levels.",
+      "original_text": "entire organization to create a cyber-safe environment. This will require a high level\nof awareness among staff at all levels. Top Management and Board should also\nhave a fair degree of awareness of the fine nuances of the threats and appropriate\nfamiliarisation may be organized. Banks should proactively promote, among their\ncustomers, vendors, service providers and other relevant stakeholders an\nunderstanding of the bank’s cyber resilience objectives, and require and ensure\nappropriate action to support their synchronised implementation and testing. It is well\n               बैंक िं ग पर्यवेक्षण ववभाग, ें द्रीर् ार्ायलर्, वर्ल्य ट्रे ् सेंटर, सेंटर- I, फ परे ्, ोलाबा, मिंबई -400005\n   Department of Banking Supervision, Central Office, World Trade Centre, Cuffe Parade, Colaba, Mumbai 400005\nटे लीफोन / Tele: +91 22 22189131-39; फैक्स / Fax +91 22 22180157; ईमेल /email : cgmicdbsco@rbi.org.in\n\f                                                 भारतीय ररज़र्व बैंक\n_________________________ R",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take suitable steps in building\nthis awareness?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: It should be realized that managing cyber risk requires the commitment of the.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: It should be realized that managing cyber risk requires the commitment of the.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-017",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "1.3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Appropriately manage and provide protection within and outside organisation",
+      "plain_english": "Borders/network taking into consideration how the data/information are stored,\n      transmitted, processed, accessed and put to use within/outside the bank’s network,\n      and level of risk they are exposed to depending on the sensitivity of the\n      data/information. भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________",
+      "original_text": "borders/network taking into consideration how the data/information are stored,\n      transmitted, processed, accessed and put to use within/outside the bank’s network,\n      and level of risk they are exposed to depending on the sensitivity of the\n      data/information.\n\n\n\n\f                                    भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                        www.rbi.org.in\n                                         Annex to Circular on Cyber Security Framework in Banks\n  2) Preventing execution of unauthorised software",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: appropriately manage and provide protection within and outside organisation?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Appropriately manage and provide protection within and outside organisation.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Appropriately manage and provide protection within and outside organisation.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-018",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Continuously monitor the release of patches by various vendors / OEMs,",
+      "plain_english": "Advisories issued by CERT-in and other similar agencies and expeditiously apply the\n       security patches as per the patch management policy of the bank. If a patch/series of\n       patches is/are released by the OEM/manufacturer/vendor for protection against well-\n       known/well publicised/reported attacks exploiting the vulnerability patched, the banks\n       must have a mechanism to apply",
+      "original_text": "advisories issued by CERT-in and other similar agencies and expeditiously apply the\n       security patches as per the patch management policy of the bank. If a patch/series of\n       patches is/are released by the OEM/manufacturer/vendor for protection against well-\n       known/well publicised/reported attacks exploiting the vulnerability patched, the banks\n       must have a mechanism to apply them expeditiously following an emergency patch\n       management process.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a mechanism to apply them expeditiously following an emergency patch\n       management process?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Continuously monitor the release of patches by various vendors / OEMs,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Continuously monitor the release of patches by various vendors / OEMs,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-019",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2.4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Have a clearly defined framework including requirements justifying the / 3.1 Put",
+      "plain_english": "Exception(s), duration of exception(s), process of granting exceptions, and authority\n       for approving, authority for review of exceptions granted on a periodic basis by\n       officer(s) preferably at senior levels who are well equipped to understand the\n       business and technical context of the exception(s). 3)       Environmental Controls\n\nassets providing protection from natural and man",
+      "original_text": "exception(s), duration of exception(s), process of granting exceptions, and authority\n       for approving, authority for review of exceptions granted on a periodic basis by\n       officer(s) preferably at senior levels who are well equipped to understand the\n       business and technical context of the exception(s).\n\n  3)       Environmental Controls\n\nassets providing protection from natural and man-made threats.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: have a clearly defined framework including requirements justifying the / 3.1 put?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Have a clearly defined framework including requirements justifying the / 3.1 Put.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Have a clearly defined framework including requirements justifying the / 3.1 Put.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-020",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "3.2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Put in place mechanisms for monitoring of breaches / compromises of / 4.1 Prepar",
+      "plain_english": "Environmental controls relating to temperature, water, smoke, access alarms, service\n       availability alerts (power supply, telecommunication, servers), access logs, etc. Appropriate physical security measures shall be taken to protect the critical assets of\n       the bank.",
+      "original_text": "environmental controls relating to temperature, water, smoke, access alarms, service\n       availability alerts (power supply, telecommunication, servers), access logs, etc.\n       Appropriate physical security measures shall be taken to protect the critical assets of\n       the bank.\n\n  4) Network Management and Security\n\norganisation level including wired/wireless networks;\n\nbank’s network (within/outside bank’s premises) and authorised devices enabling the\n       bank’s network. The bank may consider implementing solutions to automate network\n       discovery and management.\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                      Annex to Circular on Cyber Security Framework in Banks",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be taken to protect the critical assets of\n       the bank?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Put in place mechanisms for monitoring of breaches / compromises of / 4.1 Prepar.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Put in place mechanisms for monitoring of breaches / compromises of / 4.1 Prepar.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-021",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "4.3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Ensure that all the network devices are configured appropriately and periodicall",
+      "plain_english": "Assess whether the configurations are appropriate to the desired level of network\n     security;\n\naccess points, wireless client access systems. mobile phones, tablets, etc.",
+      "original_text": "assess whether the configurations are appropriate to the desired level of network\n     security;\n\naccess points, wireless client access systems.\n\nmobile phones, tablets, etc. and ensure that they are provided connectivity only when\n     they meet the security requirements prescribed by the bank.\n\nbank’s network and block such connections.\n\nservers, network devices and endpoints.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: ensure that all the network devices are configured appropriately and periodicall?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Ensure that all the network devices are configured appropriately and periodicall.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Ensure that all the network devices are configured appropriately and periodicall.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-022",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "4.8",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Establish Standard Operating Procedures (SOP) for all major IT activities / 4.9 ",
+      "plain_english": "Including for connecting devices to the network. should have the capability to escalate any abnormal / undesirable activities.",
+      "original_text": "including for connecting devices to the network.\n\nshould have the capability to escalate any abnormal / undesirable activities.\n\nproxies, DMZ perimeter networks, and network--‐based IPS and IDS. Mechanism to\n     filter both inbound and outbound traffic to be put in place.\n\n  5) Secure Configuration",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: establish standard operating procedures (sop) for all major it activities / 4.9 ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Establish Standard Operating Procedures (SOP) for all major IT activities / 4.9 .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Establish Standard Operating Procedures (SOP) for all major IT activities / 4.9 .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-023",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "5.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Document and apply baseline security requirements/configurations to all",
+      "plain_english": "Categories of devices (end-points/workstations, mobile devices, operating systems,\n     databases, applications, network devices, security devices, security systems, etc.),\n     throughout the lifecycle (from conception to deployment) and carry out reviews\n     periodically,\n\n     5.2 periodically evaluate critical device (such as firewall, network switches, security\n     devices, etc.) configurat",
+      "original_text": "categories of devices (end-points/workstations, mobile devices, operating systems,\n     databases, applications, network devices, security devices, security systems, etc.),\n     throughout the lifecycle (from conception to deployment) and carry out reviews\n     periodically,\n\n     5.2 periodically evaluate critical device (such as firewall, network switches, security\n     devices, etc.) configurations and patch levels for all systems in the bank’s network\n     including in Data Centres, in third party hosted sites, shared-infrastructure locations.\n\n  6) Application Security Life Cycle (ASLC)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: document and apply baseline security requirements/configurations to all?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Document and apply baseline security requirements/configurations to all.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Document and apply baseline security requirements/configurations to all.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-024",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6.2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In respect of critical business applications, banks may consider conducting / 6.",
+      "plain_english": "Source code audits by professionally competent personnel/service providers or have\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                     www.rbi.org.in\n                                     Annex to Circular on Cyber Security Framework in Banks\n     assurance from application providers/OEMs",
+      "original_text": "source code audits by professionally competent personnel/service providers or have\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                     www.rbi.org.in\n                                     Annex to Circular on Cyber Security Framework in Banks\n     assurance from application providers/OEMs that the application is free from\n     embedded malicious / fraudulent code.\n\ndeveloped applications.\n\ncontrol, authentication, transaction authorization, data integrity, system activity\n     logging, audit trail, session management, security event tracking and exception\n     handling are required to be clearly specified at the initial and ongoing stages of\n     system development/acquisition/implementation.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be clearly specified at the initial and ongoing stages of\n     system development/acquisition/implementation?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In respect of critical business applications, banks may consider conducting / 6..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In respect of critical business applications, banks may consider conducting / 6..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-025",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6.5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The development, test and production environments need to be properly / 6.6 Soft",
+      "plain_english": "Segregated. modelling, incorporate secure coding principles and security testing based on global\n     standards and secure rollout.",
+      "original_text": "segregated.\n\nmodelling, incorporate secure coding principles and security testing based on global\n     standards and secure rollout.\n\nvulnerabilities based on best practices baselines such as Open Web Application\n     Security Project (OWASP) proactively and adopt principle of defence-in-depth to\n     provide layered security mechanism.\n\nmobile/smart phones for exclusive business use that is encrypted and separated\n     from other smartphone data/applications; measures to initiate a remote wipe on the\n     containerized app, rendering the data unreadable, in case of requirement may also\n     be considered.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the development, test and production environments need to be properly / 6.6 soft?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The development, test and production environments need to be properly / 6.6 Soft.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The development, test and production environments need to be properly / 6.6 Soft.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-026",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6.9",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Ensure that adoption of new technologies shall be adequately evaluated for / 7.1",
+      "plain_english": "Existing/evolving security threats and IT/security team of the bank reach reasonable\n     level of comfort and maturity with such technologies before introducing for critical\n     systems of the bank. 7) Patch/Vulnerability & Change Management\n\nneed to be patched, identification of patches and applying patches so as to minimize\n     the number of vulnerable systems and the time window of vulnerabi",
+      "original_text": "existing/evolving security threats and IT/security team of the bank reach reasonable\n     level of comfort and maturity with such technologies before introducing for critical\n     systems of the bank.\n\n\n  7) Patch/Vulnerability & Change Management\n\nneed to be patched, identification of patches and applying patches so as to minimize\n     the number of vulnerable systems and the time window of vulnerability/exposure.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Ensure that adoption of new technologies shall be adequately evaluated for / 7.1.",
+        "No automated workflow or SLA tracking the required timeline."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Ensure that adoption of new technologies shall be adequately evaluated for / 7.1.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-027",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "7.2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Put in place systems and processes to identify, track, manage and monitor the / ",
+      "plain_english": "Status of patches to operating system and application software running at end-user\n     devices directly connected to the internet and in respect of Server operating\n     Systems/Databases/Applications/ Middleware, etc. भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in",
+      "original_text": "status of patches to operating system and application software running at end-user\n     devices directly connected to the internet and in respect of Server operating\n     Systems/Databases/Applications/ Middleware, etc.\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\n\nand facilities should be managed using robust configuration management processes,\n     configuration baseline that ensure integrity of any changes thereto",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: put in place systems and processes to identify, track, manage and monitor the / ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Put in place systems and processes to identify, track, manage and monitor the / .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Put in place systems and processes to identify, track, manage and monitor the / .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-028",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "7.4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Periodically conduct VA/PT of internet facing web/mobile applications, servers &",
+      "plain_english": "Network components throughout their lifecycle (pre-implementation, post\n     implementation, after changes etc.)\n\nthroughout their lifecycle (pre-implementation, post implementation, after changes) in\n     environment closely resembling or replica of production environment. necessary patches to plug the vulnerabilities.",
+      "original_text": "network components throughout their lifecycle (pre-implementation, post\n     implementation, after changes etc.)\n\nthroughout their lifecycle (pre-implementation, post implementation, after changes) in\n     environment closely resembling or replica of production environment.\n\nnecessary patches to plug the vulnerabilities.\n\nthat all access points, nodes between (i) different VLANs in the Data Centre (ii)\n     LAN/WAN interfaces (iii) bank’s network to external network and interconnections\n     with partner, vendor and service provider networks are to be securely configured.\n\n  8) User Access Control / Management",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: periodically conduct va/pt of internet facing web/mobile applications, servers &?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Periodically conduct VA/PT of internet facing web/mobile applications, servers &.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Periodically conduct VA/PT of internet facing web/mobile applications, servers &.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-029",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "8.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Provide secure access to the bank’s assets/services from within/outside bank’s /",
+      "plain_english": "Network by protecting data/information at rest (for example, using encryption, if supported by\n     the device) and in-transit (for example,",
+      "original_text": "network by protecting data/information at rest (e.g. using encryption, if supported by\n     the device) and in-transit (e.g. using technologies such as VPN or other secure web\n     protocols, etc.)\n\nauthentication information and tokens, access profiles, etc. against leakage/attacks\n\naccess rights on a need to know basis and for specific duration when it is required\n     following an established process.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: provide secure access to the bank’s assets/services from within/outside bank’s /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Provide secure access to the bank’s assets/services from within/outside bank’s /.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Provide secure access to the bank’s assets/services from within/outside bank’s /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-030",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "8.4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Implement centralised authentication and authorisation system or accessing and /",
+      "plain_english": "Administering applications, operating systems, databases, network and security\n     devices/systems, point of connectivity (local/remote, etc.) including enforcement of\n     strong password policy, two-factor/multi-factor authentication depending on risk\n     assessment and following the principle of least privileges and separation of duties. log and monitor privileged/superuser/administrative acc",
+      "original_text": "administering applications, operating systems, databases, network and security\n     devices/systems, point of connectivity (local/remote, etc.) including enforcement of\n     strong password policy, two-factor/multi-factor authentication depending on risk\n     assessment and following the principle of least privileges and separation of duties.\n\nlog and monitor privileged/superuser/administrative access to critical systems\n     (Servers/OS/DB, applications, network devices etc.).",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: implement centralised authentication and authorisation system or accessing and /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Implement centralised authentication and authorisation system or accessing and /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Implement centralised authentication and authorisation system or accessing and /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-031",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "8.6",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Implement controls to minimize invalid logon counts, deactivate dormant / 8.7 Mo",
+      "plain_english": "Accounts. भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                     Annex to Circular on Cyber Security Framework in Banks\n\nincluding laptops, etc.",
+      "original_text": "accounts.\n\nभारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                     Annex to Circular on Cyber Security Framework in Banks\n\nincluding laptops, etc.\n\npermissible attachment types in email systems.\n\n\n  9) Authentication Framework for Customers\n\nverification of bank to customers.\n\ncustomers for access to partner systems using secure authentication technologies.\n\n\n  10) Secure mail and messaging systems",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: implement controls to minimize invalid logon counts, deactivate dormant / 8.7 mo?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Implement controls to minimize invalid logon counts, deactivate dormant / 8.7 Mo.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Implement controls to minimize invalid logon counts, deactivate dormant / 8.7 Mo.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-032",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "10.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Implement secure mail and messaging systems, including those used by bank’s / 10",
+      "plain_english": "Partners & vendors, that include measures to prevent email spoofing, identical mail\n     domains, protection of attachments, malicious links etc. 11) Vendor Risk Management\n\nassurance on security risks in outsourced and partner arrangements.",
+      "original_text": "partners & vendors, that include measures to prevent email spoofing, identical mail\n     domains, protection of attachments, malicious links etc.\n\n11) Vendor Risk Management\n\nassurance on security risks in outsourced and partner arrangements.\n\nselection of vendor/partner based on comprehensive risk assessment.\n\nand management of third party vendors/service providers & partners.\n\nsystem security configuration standards to evaluate, assess, approve, review, control\n     and monitor the risks and materiality of all its vendor/outsourcing activities shall be\n     put in place.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be\n     put in place?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Implement secure mail and messaging systems, including those used by bank’s / 10.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Implement secure mail and messaging systems, including those used by bank’s / 10.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-033",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "11.5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Banks shall ensure and demonstrate that the service provider (including another",
+      "plain_english": "Bank) adheres to all regulatory and legal requirements of the country. Banks may\n     necessarily enter into agreement with the service provider that amongst others\n     provides for right of audit by the bank and inspection by the regulators of the country.",
+      "original_text": "bank) adheres to all regulatory and legal requirements of the country. Banks may\n     necessarily enter into agreement with the service provider that amongst others\n     provides for right of audit by the bank and inspection by the regulators of the country.\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                      Annex to Circular on Cyber Security Framework in Banks",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: banks shall ensure and demonstrate that the service provider (including another?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Banks shall ensure and demonstrate that the service provider (including another.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Banks shall ensure and demonstrate that the service provider (including another.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-034",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "11.6",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "Reserve Bank of India shall have access to all information resources (online/in ",
+      "plain_english": "Person) that are consumed by banks, to be made accessible to RBI officials by the\n     banks when sought, though the infrastructure/enabling resources may not physically\n     be located in the premises of banks. relating to geographical location of infrastructure and movement of data out of\n     borders.",
+      "original_text": "person) that are consumed by banks, to be made accessible to RBI officials by the\n     banks when sought, though the infrastructure/enabling resources may not physically\n     be located in the premises of banks.\n\nrelating to geographical location of infrastructure and movement of data out of\n     borders.\n\npersonnel accessing and managing the bank’s critical assets.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: reserve bank of india shall have access to all information resources (online/in ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Reserve Bank of India shall have access to all information resources (online/in .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Reserve Bank of India shall have access to all information resources (online/in .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-035",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "11.9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Background checks, non-disclosure and security policy compliance agreements / 12",
+      "plain_english": "Shall be mandated for all third party service providers\n\n  12) Removable Media\n\nmedia/BYOD on various types/categories of devices including but not limited to\n     workstations/PCs/Laptops/Mobile devices/servers, etc. and secure erasure of data\n     on such media after use.",
+      "original_text": "shall be mandated for all third party service providers\n\n  12) Removable Media\n\nmedia/BYOD on various types/categories of devices including but not limited to\n     workstations/PCs/Laptops/Mobile devices/servers, etc. and secure erasure of data\n     on such media after use.\n\ndevices.\n\nread/write access.\n\npoint management systems to whitelist/blacklist/restrict removable media use.\n\nthe banking environment unless specifically authorised for defined use and duration\n     of use.\n\n  13) Advanced Real-time Threat Defence and Management",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be mandated for all third party service providers\n\n  12) Removable Media\n\nmedia/BYOD on various types/categories of dev?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Background checks, non-disclosure and security policy compliance agreements / 12.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs\n\n  12",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "data_retention",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "data_retention",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Background checks, non-disclosure and security policy compliance agreements / 12.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-036",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "13.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Build a robust defence against the installation, spread, and execution of / 13.2",
+      "plain_english": "Malicious code at multiple points in the enterprise. systems for all categories of devices – (Endpoints such as PCs/laptops/ mobile\n     devices etc.), servers (operating systems, databases, applications, etc.),\n     Web/Internet gateways, email-gateways, Wireless networks, SMS servers etc.",
+      "original_text": "malicious code at multiple points in the enterprise.\n\nsystems for all categories of devices – (Endpoints such as PCs/laptops/ mobile\n     devices etc.), servers (operating systems, databases, applications, etc.),\n     Web/Internet gateways, email-gateways, Wireless networks, SMS servers etc.\n     including tools and processes for centralised management and monitoring.\n\nभारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                     www.rbi.org.in\n                                   Annex to Circular on Cyber Security Framework in Banks",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: build a robust defence against the installation, spread, and execution of / 13.2?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Build a robust defence against the installation, spread, and execution of / 13.2.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Build a robust defence against the installation, spread, and execution of / 13.2.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-037",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "13.4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Consider implementing secure web gateways with capability to deep scan / 14.1 Su",
+      "plain_english": "Network packets including secure (HTTPS, etc.) traffic passing through the\n     web/internet gateway\n\n  14) Anti-Phishing\n\nproviders for identifying and taking down phishing websites/rouge applications. 15) Data Leak prevention strategy\n\nsensitive (including confidential) business and customer data/information.",
+      "original_text": "network packets including secure (HTTPS, etc.) traffic passing through the\n     web/internet gateway\n\n  14) Anti-Phishing\n\nproviders for identifying and taking down phishing websites/rouge applications.\n\n  15) Data Leak prevention strategy\n\nsensitive (including confidential) business and customer data/information.\n\ntransmission, as well as data stored in servers and other digital stores, whether\n     online or offline.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: consider implementing secure web gateways with capability to deep scan / 14.1 su?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Consider implementing secure web gateways with capability to deep scan / 14.1 Su.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "encryption",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Consider implementing secure web gateways with capability to deep scan / 14.1 Su.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-038",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "17.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Implement and periodically validate settings for capturing of appropriate",
+      "plain_english": "Logs/audit trails of each device, system software and application software , ensuring\n     that logs include minimum information to uniquely identify the log for example by\n     including a date, timestamp, source addresses, destination addresses, and various\n     other useful elements of each packet and/or event and/or transaction. 18) Vulnerability assessment and Penetration Test and Red Team Ex",
+      "original_text": "logs/audit trails of each device, system software and application software , ensuring\n     that logs include minimum information to uniquely identify the log for example by\n     including a date, timestamp, source addresses, destination addresses, and various\n     other useful elements of each packet and/or event and/or transaction.\n\n  18) Vulnerability assessment and Penetration Test and Red Team Exercises",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: implement and periodically validate settings for capturing of appropriate?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Implement and periodically validate settings for capturing of appropriate.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "rbi",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Implement and periodically validate settings for capturing of appropriate.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-039",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "18.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Periodically conduct vulnerability assessment and penetration testing exercises ",
+      "plain_english": "For all the critical systems, particularly those facing the internet. risk management/treatment framework so as to avoid exploitation of such\n     vulnerabilities.",
+      "original_text": "for all the critical systems, particularly those facing the internet.\n\nrisk management/treatment framework so as to avoid exploitation of such\n     vulnerabilities.\n\n\f                                   भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                        Annex to Circular on Cyber Security Framework in Banks\n\nare to be carried out by professionally qualified teams.\n\nclosely by the Information Security/Information Technology Audit team as well as\n     Senior/Top Management.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: periodically conduct vulnerability assessment and penetration testing exercises ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Periodically conduct vulnerability assessment and penetration testing exercises .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Periodically conduct vulnerability assessment and penetration testing exercises .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-040",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "18.5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Red Teams may be used to identify the vulnerabilities and the business risk, / 1",
+      "plain_english": "Assess the efficacy of the defences and check the mitigating controls already in place\n     by simulating the objectives and actions of an attacker. Cert-IN, IDRBT etc.",
+      "original_text": "assess the efficacy of the defences and check the mitigating controls already in place\n     by simulating the objectives and actions of an attacker.\n\nCert-IN, IDRBT etc.\n\n\n  19) Incident Response & Management\n\n\n     Responding to Cyber-Incidents:\n\nthe Board / Top Management.\n\noutsourced staff handling such incidents; Response strategies shall consider\n     readiness to meet various incident scenarios based on situational awareness and\n     potential/post impact, consistent communication & co-ordination with stakeholders\n     during response;",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation consider\n     readiness to meet various incident scenarios based on situational awareness and\n     potential/post impac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Red Teams may be used to identify the vulnerabilities and the business risk, / 1.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Red Teams may be used to identify the vulnerabilities and the business risk, / 1.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-041",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "19.3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Have a mechanism to dynamically incorporate lessons learnt to continually / 19.4",
+      "plain_english": "Improve the response strategies. Recovery from Cyber - Incidents:\n\ncyber resilience objectives and should be so designed to enable the bank to recover\n     rapidly from cyber-attacks/other incidents and safely resume critical operations\n     aligned with recovery time objectives while ensuring security of processes and data\n     is protected.",
+      "original_text": "improve the response strategies.\n\n     Recovery from Cyber - Incidents:\n\ncyber resilience objectives and should be so designed to enable the bank to recover\n     rapidly from cyber-attacks/other incidents and safely resume critical operations\n     aligned with recovery time objectives while ensuring security of processes and data\n     is protected.\n\nincluding those of vendors and partners and readiness demonstrated through\n     collaborative & co-ordinated resilience testing that meet the bank’s recovery time\n     objectives.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: have a mechanism to dynamically incorporate lessons learnt to continually / 19.4?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Have a mechanism to dynamically incorporate lessons learnt to continually / 19.4.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Have a mechanism to dynamically incorporate lessons learnt to continually / 19.4.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-042",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "19.6",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Such testing shall also include testing of crisis communication to customers and",
+      "plain_english": "Other internal and external stakeholders, reputation management. Adequate capacity\n\n\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                    www.rbi.org.in\n                                   Annex to Circular on Cyber Security Framework in Banks\n     shall be planned and maintained, in considerat",
+      "original_text": "other internal and external stakeholders, reputation management. Adequate capacity\n\n\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                    www.rbi.org.in\n                                   Annex to Circular on Cyber Security Framework in Banks\n     shall be planned and maintained, in consideration thereof. The following may be\n     considered:\n\n            (a) Define incidents, method of detection, methods of reporting\n            incidents by employees, vendors and customers and periodicity of\n            monitoring, collection/sharing of threat information, expected response\n            in each scenario/incident type, allocate and communicate clear roles\n            and responsibilities of personnel manning/handling such incidents,\n            provide specialised training to such personnel, post incident review,\n            periodically test incident response plans.\n            (b",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Such testing shall also include testing of crisis communication to customers and' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Such testing shall also include testing of crisis communication to customers and.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Add 'Such testing shall also include testing of crisis communication to customers and' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-043",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "22.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Have support/ arrangement for network forensics/forensic investigation/DDOS / 22",
+      "plain_english": "Mitigation services on stand-by. Cert-IN, IDRBT etc.",
+      "original_text": "mitigation services on stand-by.\n\nCert-IN, IDRBT etc.\n\n  23) User / Employee/ Management Awareness\n\npolicy/ies covering secure and acceptable use of bank’s network/assets including\n     customer information/data, educating them about cybersecurity risks and protection\n     measures at their level.\n\nmanagement team.\n\noperations, security related administration/operation and management roles, etc.)\n\nManagement. Making cyber security awareness programs mandatory for new\n     recruits and web-based quiz & training for lower, middle & upper management every\n     year. (Recent and past cyber-attacks show, cyber adversaries are also targeting\n     bank employees).",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: have support/ arrangement for network forensics/forensic investigation/ddos / 22?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Have support/ arrangement for network forensics/forensic investigation/DDOS / 22.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Have support/ arrangement for network forensics/forensic investigation/DDOS / 22.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-044",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "24.3 (Part 1)",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Educate the customers on the downside risk of sharing their login credentials /",
+      "plain_english": "Passwords etc. to any third party vendor and the consequences of it.",
+      "original_text": "passwords etc. to any third party vendor and the consequences thereof.\n\n\f                                   भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\n                                                                                   Annex-2\n\nSetting up and Operationalising Cyber Security Operation Centre (C-SOC)\n\nIntroduction\n\n1 - Banking Industry in India has evolved technologically over the years and currently\ndelivering innovative services to its customers. These services are delivered\nnonstop, round the clock and the customers access these services using Internet\nand Mobile Connectivity. Security of the financial transactions is of paramount\nimportance and therefore the RBI has come out with guidelines from time to time\naddressing the security and operational aspects for specific applications",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: educate the customers on the downside risk of sharing their login credentials /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Educate the customers on the downside risk of sharing their login credentials /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs , ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Educate the customers on the downside risk of sharing their login credentials /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-045",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "24.3 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Educate the customers on the downside risk of sharing their login credentials /",
+      "plain_english": "First step is to arrive at a suitable and cost effective technology framework\n     designed and implemented to ensure proactive monitoring capabilities aligned\n     with the banking technology risk profile and business and regulatory\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                    www.rbi",
+      "original_text": "     First step is to arrive at a suitable and cost effective technology framework\n     designed and implemented to ensure proactive monitoring capabilities aligned\n     with the banking technology risk profile and business and regulatory\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                    www.rbi.org.in\n                                      Annex to Circular on Cyber Security Framework in Banks\n     requirements. Clear understanding of the service delivery architecture\n     deployed by the Bank to deliver innovative customer services will enable\n     identification of the location for the sensors to collect the logs that are required\n     to carry out the analysis and investigation. SIEM is able to meet this\n     requirement to some extent but a holistic approach to problem identification\n     and solution is required.\n\n     Second step is to have security analytics engine which ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: educate the customers on the downside risk of sharing their login credentials /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Educate the customers on the downside risk of sharing their login credentials /.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "data_retention",
+        "governance",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "cybersecurity",
+        "data_retention",
+        "governance",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Educate the customers on the downside risk of sharing their login credentials /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-046",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "24.3 (Part 3)",
+      "content_type": "PENALTY",
+      "obligation_type": "informational",
+      "title": "Educate the customers on the downside risk of sharing their login credentials /",
+      "plain_english": "Some of the decisions which have to be taken upfront is to look at BOO or the\n     Outsourcing model. It is difficult to reverse this decision post implementation\n     and therefore it is important.",
+      "original_text": "     Some of the decisions which have to be taken upfront is to look at BOO or the\n     Outsourcing model. It is difficult to reverse this decision post implementation\n     and therefore it is important.\n\n     - Should the SoC be in-house or outsourced?\n     - Should it address only the Internet facing environment or the complete IT\n     infrastructure?\n\n\f                                           भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                                www.rbi.org.in\n                                                 Annex to Circular on Cyber Security Framework in Banks\n        - Does each Bank need to set up independently or should we look at the\n        consortium based approach?\n        - Do we need to keep in mind the Bank's risk posture?\n\n--------------------------------------------------------------------------\nPoints to keep in mind while planning for SOC in view of\n(a) Specialized skill set requireme",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Is your organisation aware of and prepared to avoid the penalty described in: educate the customers on the downside risk of sharing their login credentials /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Educate the customers on the downside risk of sharing their login credentials /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Review this penalty clause with legal counsel.",
+        "Ensure a compliance calendar tracks the relevant obligations that trigger this penalty."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-047",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Subsequent update(s) RBI (updates to be provided if the earlier reporting / 1. P",
+      "plain_english": "Was incomplete that is, investigation underway or new information pertaining\n   to the incident has been discovered or as per request of RBI):\n\n\n\n Basic Information\n\n   Name of the bank\n       Date and Time of Reporting to RBI, CERT-\n        IN, other agencies (please mention\n        separately time of reporting to each)\n       Name of Person Reporting\n       Designation/Department\n       Con",
+      "original_text": "was incomplete i.e. investigation underway or new information pertaining\n   to the incident has been discovered or as per request of RBI):\n\n\n\n Basic Information\n\n   Name of the bank\n       Date and Time of Reporting to RBI, CERT-\n        IN, other agencies (please mention\n        separately time of reporting to each)\n       Name of Person Reporting\n       Designation/Department\n       Contact details (e.g. official email-id,\n        telephone no, mobile no)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: subsequent update(s) rbi (updates to be provided if the earlier reporting / 1. p?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Subsequent update(s) RBI (updates to be provided if the earlier reporting / 1. P.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Subsequent update(s) RBI (updates to be provided if the earlier reporting / 1. P.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-048",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Details of Incident:",
+      "plain_english": "   Date and time of incident detection\n       Type of incidents and systems affected\n         (i)   Outage of Critical IT system(s)\n               (for example, CBS, Treasury Systems, Trade\n               finance systems, Internet banking\n               systems, ATMs, payment systems\n               such as SWIFT, RTGS, NEFT,\n               NACH, IMPS, etc.)\n        (ii)   Cyber Security Incident",
+      "original_text": "   Date and time of incident detection\n       Type of incidents and systems affected\n         (i)   Outage of Critical IT system(s)\n               (e.g. CBS, Treasury Systems, Trade\n               finance systems, Internet banking\n               systems, ATMs, payment systems\n               such as SWIFT, RTGS, NEFT,\n               NACH, IMPS, etc.)\n        (ii)   Cyber Security Incident (e.g.\n               DDOS, Ransom ware/crypto ware,\n               data breach, data destruction, web\n\n\f                                     भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                         www.rbi.org.in\n                                          Annex to Circular on Cyber Security Framework in Banks\n               defacement, etc.)? [Please\n               complete Annex]\n       (iii)   Theft or Loss of Information (e.g.\n               sensitive customer or business\n               information stolen or missing or\n        ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: details of incident:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Details of Incident:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Details of Incident:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-049",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Impact Assessment(examples are given",
+      "plain_english": "But not exhaustive):\n      Business impact including availability of\n       services – Banking Services, Internet\n       banking, Cash Management, Trade\n       Finance, Branches, ATMs, Clearing and\n       Settlement activities, etc. भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in",
+      "original_text": "but not exhaustive):\n      Business impact including availability of\n       services – Banking Services, Internet\n       banking, Cash Management, Trade\n       Finance, Branches, ATMs, Clearing and\n       Settlement activities, etc.\n\n\f                                   भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\n      Impact on stakeholders– affected\n       retail/corporate customers, affected\n       participants including operator(s),\n       settlement institution(s), business partners,\n       and service providers, etc.\n      Financial and market impact – Trading\n       activities, transaction volumes and values,\n       monetary losses, liquidity impact, bank run,\n       withdrawal of funds, etc.\n      Regulatory and Legal impact",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: impact assessment(examples are given?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Impact Assessment(examples are given.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Impact Assessment(examples are given.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-050",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Chronological order of events:",
+      "plain_english": "   Date of incident, start time and duration.    Escalations done including approvals\n       sought on interim measures to mitigate the\n       event, and reasons for taking such\n       measures\n      Stakeholders informed or involved\n      Channels of communications used (for example,",
+      "original_text": "   Date of incident, start time and duration.\n      Escalations done including approvals\n       sought on interim measures to mitigate the\n       event, and reasons for taking such\n       measures\n      Stakeholders informed or involved\n      Channels of communications used (e.g.\n       email, internet, sms, press release,\n       website notice, etc.)\n      Rationale on the decision/activation of\n       BCP and/or DR",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: chronological order of events:?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chronological order of events:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "incident_response",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "incident_response",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chronological order of events:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-051",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Root Cause Analysis(RCA):",
+      "plain_english": "   Factors that caused the problem/ Reasons\n       for occurrence, Cause and effects of\n       incident\n      Interim measures to mitigate/resolve the\n       issue, and reasons for taking such\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                     www.rbi.org.in",
+      "original_text": "   Factors that caused the problem/ Reasons\n       for occurrence, Cause and effects of\n       incident\n      Interim measures to mitigate/resolve the\n       issue, and reasons for taking such\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                     www.rbi.org.in\n                                      Annex to Circular on Cyber Security Framework in Banks\n        measures, and\n       Steps identified or to be taken to address\n        the problem in the longer term. List the\n        remedial measures/corrections affected\n        (one time measure) and/or corrective\n        actions taken to prevent future\n        occurrences of similar types of incident",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: root cause analysis(rca):?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Root Cause Analysis(RCA):.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Root Cause Analysis(RCA):.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-052",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Date/target date of resolution_________ / 1. Contact Information: (Please provid",
+      "plain_english": "(DD/MM/YYYY). \n    \n\n    \n\n\n\n\nNote: All fields are REQUIRED to be filled unless otherwise stated.",
+      "original_text": "(DD/MM/YYYY).\n    \n    \n\n    \n\n\n\n\nNote: All fields are REQUIRED to be filled unless otherwise stated.\n\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\nCYBER SECURITY INCIDENT REPORTING(CSIR) FORM\n\nGeneral Information                    Report No:\n\nInformation above)\n\nName of bank:\n\nName of the person\nreporting and Designation:\nDepartment\nOfficial Email :\nTelephone/Mobile :",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be filled unless otherwise stated?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Date/target date of resolution_________ / 1. Contact Information: (Please provid.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Date/target date of resolution_________ / 1. Contact Information: (Please provid.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-053",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Is this a ☐New incident ☐Update to reported incident?",
+      "plain_english": "   For the first update, please indicate “1. If this is an update to a reported\n           incident, please provide the update number for this update.",
+      "original_text": "   For the first update, please indicate “1. If this is an update to a reported\n           incident, please provide the update number for this update. (X.1, X.2, X.3,\n           X.4, etc. where X is the Report No.\n           Update No: Click here to enter text.\n\n\n3 What severity is this incident being classified as?\n\nSeverity 1    ☐                Severity 2       ☐\n\nAffected critical system(s)/   Incident occurred on\ncustomer              facing   system or network that\napplications/systems,          could put the bank’s\ncrippled Internal network or   network / critical system(s)\na combination of the above     or a combination of them at\n                               risk\n\n\n\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\n\n\n\n\nInformation about the Incident",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: is this a ☐new incident ☐update to reported incident??",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Is this a ☐New incident ☐Update to reported incident?.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Is this a ☐New incident ☐Update to reported incident?.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-054",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Please indicate the date and time the incident was reported to the RBI. If it is",
+      "plain_english": "Reported to Other Agencies (CERT-IN/NCIIP), Law enforcement agencies, separately\nindicate the date and time of such reporting. (Please specify in Indian Local Time (+5.30 GMT))\nReported to RBI - Date: Click here to enter a date.",
+      "original_text": "reported to Other Agencies (CERT-IN/NCIIP), Law enforcement agencies, separately\nindicate the date and time of such reporting.\n\n(Please specify in Indian Local Time (+5.30 GMT))\nReported to RBI - Date: Click here to enter a date.\nReported to CERT-IN Date: Click here to enter a date.\nReported to NCIIP Date: Click here to enter a date.\nReported to ----mention the name of agency Date: Click here to enter a date.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: please indicate the date and time the incident was reported to the rbi. if it is?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Please indicate the date and time the incident was reported to the RBI. If it is.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Please indicate the date and time the incident was reported to the RBI. If it is.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-055",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Types of Threat/Incident",
+      "plain_english": "((Please select more than one, as applicable)\n\n☐ Denial of Service (DoS) ☐ Distributed Denial of Service (DDoS)\n\n☐ Virus/Worm/Trojan/Malware ☐ Intrusion/Hack/Unauthorised access\n\n☐ Website Defacement                 ☐ Misuse of Systems/Inappropriate usage\n\n ☐ APT/0-day attack ☐ Spear phishing/Whaling/Phishing/Wishing/Social engineering\nattack\n\n☐ Other: Click here to enter text.",
+      "original_text": "((Please select more than one, as applicable)\n\n☐ Denial of Service (DoS) ☐ Distributed Denial of Service (DDoS)\n\n☐ Virus/Worm/Trojan/Malware ☐ Intrusion/Hack/Unauthorised access\n\n☐ Website Defacement                 ☐ Misuse of Systems/Inappropriate usage\n\n ☐ APT/0-day attack ☐ Spear phishing/Whaling/Phishing/Wishing/Social engineering\nattack\n\n☐ Other: Click here to enter text.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: types of threat/incident?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Types of Threat/Incident.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Types of Threat/Incident.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-056",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "6",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Is this incident related to another incident previously reported?",
+      "plain_english": "Choose an item.  If “Yes”, provide more information on how both incidents are related.",
+      "original_text": "Choose an item.\n      If “Yes”, provide more information on how both incidents are related.\n        Click here to enter text.\n\n         Please provide the reference no. of the previously reported incident.\n\n\f                                   भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                       www.rbi.org.in\n                                        Annex to Circular on Cyber Security Framework in Banks\n            Ref no: Click here to enter text.\n\nIncident Details",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: is this incident related to another incident previously reported??",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Is this incident related to another incident previously reported?.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Is this incident related to another incident previously reported?.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-057",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "8",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Please provide details of the critical system(s) or network(s) that is/are impac",
+      "plain_english": "This incident. Details should minimally include:\n-Location, purpose of this system/ network, affected applications (including hardware\nmanufacturer, software developer, make/ model, etc.) running on the systems/\nnetworks, etc.",
+      "original_text": "this incident. Details should minimally include:\n-Location, purpose of this system/ network, affected applications (including hardware\nmanufacturer, software developer, make/ model, etc.) running on the systems/\nnetworks, etc.\n\nClick here to enter text.\n    What security software installed on the system currently?\n     If known, any TCP or UDP ports involved in the incident.\n\n     If known, provide the affected system’s IP address If known, provide the attacker’s\n     IP address\n\nWhere relevant, please indicate the Operating System of the affected critical\nsystem(s): Choose an item.\n\n    If others, kindly state the OS: Click here to enter text.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: please provide details of the critical system(s) or network(s) that is/are impac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Please provide details of the critical system(s) or network(s) that is/are impac.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "low",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Please provide details of the critical system(s) or network(s) that is/are impac.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-058",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "9",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "What is the impact of the attack? (Tick ‘one’ checkbox for each column)",
+      "plain_english": "Customer             Service (Loss of           )   Sensitive Public Confidence           and\n Delivery                     Information                      Reputation\n ☐No Impact                   ☐No loss                         ☐No Impact\n ☐Minor Impact                   ☐Minor Loss                     ☐Minor Impact\n\n\f                                  भारतीय ररज़र्व बैंक\n________________________",
+      "original_text": "Customer             Service (Loss of           )   Sensitive Public Confidence           and\n Delivery                     Information                      Reputation\n ☐No Impact                   ☐No loss                         ☐No Impact\n ☐Minor Impact                   ☐Minor Loss                     ☐Minor Impact\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                      www.rbi.org.in\n                                       Annex to Circular on Cyber Security Framework in Banks\n ☐Major Impact                 ☐Major Loss                      ☐Major Impact\n ☐Serious Impact               ☐Serious Loss                    ☐Serious Impact\n ☐Severe Impact                ☐Severe Loss                     ☐Severe impact",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: what is the impact of the attack? (tick ‘one’ checkbox for each column)?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: What is the impact of the attack? (Tick ‘one’ checkbox for each column).",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "children",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "children",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: What is the impact of the attack? (Tick ‘one’ checkbox for each column).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-059",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "10",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Does the affected critical system(s)/ network(s) have potential impact to anothe",
+      "plain_english": "Critical system/critical asset(s) of the bank? Choose an item.",
+      "original_text": "critical system/critical asset(s) of the bank?\nChoose an item.\n\n        If “Yes”, please provide more details.\n       Click here to enter text.\n\nIncident Status\n\ntime?\nClick here to enter text.\n\nChoose an item.\nIf it is not resolved, what is the next course of actions?\nClick here to enter text.\n\nunknown)\n(Please specify in Indian Local Time +5.30 GMT)\n\nDate: Click here to enter a date. Unknown: ☐",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: does the affected critical system(s)/ network(s) have potential impact to anothe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Does the affected critical system(s)/ network(s) have potential impact to anothe.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Does the affected critical system(s)/ network(s) have potential impact to anothe.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-060",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "14",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "What is the source/cause of the incident? (‘NIL’ OR ‘NA’ if unknown) / 15. Has t",
+      "plain_english": "Click here to enter text. agency/IBCART?",
+      "original_text": "Click here to enter text.\n\nagency/IBCART? Choose an item.\n\n          If “Yes”, specify the agency that is being reported to.\n\n\n\f                                  भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                       www.rbi.org.in\n                                        Annex to Circular on Cyber Security Framework in Banks\n          Click here to enter text..",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: what is the source/cause of the incident? (‘nil’ or ‘na’ if unknown) / 15. has t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: What is the source/cause of the incident? (‘NIL’ OR ‘NA’ if unknown) / 15. Has t.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "cybersecurity",
+        "governance",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: What is the source/cause of the incident? (‘NIL’ OR ‘NA’ if unknown) / 15. Has t.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_CYBERSECURITY_FRAMEWORK-061",
+      "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+      "section_ref": "18",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "What tools were used for collecting the evidence for the incident?",
+      "plain_english": ": Attack Vectors\n\n\n\nE1. Did the bank locate/identify IP addresses, domain names, related to the\nincident\n\nWhether the Indicators of Compromise, list of IP addresses identified from the\nincident, involvement of the IP addresses in the incident (ex.",
+      "original_text": ": Attack Vectors\n\n\n\nE1. Did the bank locate/identify IP addresses, domain names, related to the\nincident\n\nWhether the Indicators of Compromise, list of IP addresses identified from the\nincident, involvement of the IP addresses in the incident (ex. Victim, Malware\nCommand & Control Servers, etc.), domain names resolved, involvement of the\ndomain names in the incident. (ex. Drive-by-download Servers, Malware Control &\nCommand Servers, defaced website), email addresses identified and their\ninvolvement, malicious files/attachments (file name, size, MD5/SHA1 hash, etc. ) etc.\nhave been reported in IB-CART/CERT-IN/NCIIP/Law enforcement agencies",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: what tools were used for collecting the evidence for the incident??",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: What tools were used for collecting the evidence for the incident?.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "breach_notification",
+        "cybersecurity",
+        "rbi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: What tools were used for collecting the evidence for the incident?.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

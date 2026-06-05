@@ -1,0 +1,2448 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+  "regulator": "RBI",
+  "controls": [
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-001",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "Preamble",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Preamble",
+      "plain_english": "RESERVE BANK OF INDIA\nRBI/2023-24/102\nDoS.CO.CSITEG/SEC.1/31.01.015/2023-24                                  April 10, 2023\n\nThe Chairman/Managing Director/Chief Executive Officer\nScheduled Commercial Banks (excluding Regional Rural Banks);\nLocal Area Banks; Small Finance Banks; Payments Banks;\nPrimary (Urban) Co-operative Banks;\nNon-Banking Financial Companies;\nCredit Information Companies; and\nA",
+      "original_text": "RESERVE BANK OF INDIA\nRBI/2023-24/102\nDoS.CO.CSITEG/SEC.1/31.01.015/2023-24                                  April 10, 2023\n\nThe Chairman/Managing Director/Chief Executive Officer\nScheduled Commercial Banks (excluding Regional Rural Banks);\nLocal Area Banks; Small Finance Banks; Payments Banks;\nPrimary (Urban) Co-operative Banks;\nNon-Banking Financial Companies;\nCredit Information Companies; and\nAll India Financial Institutions (EXIM Bank, NABARD, NaBFID, NHB and SIDBI)\n\n\nMadam/Dear Sir,\n\nMaster Direction on Outsourcing of Information Technology Services\n\nRegulated Entities (REs) have been extensively leveraging Information Technology\n(IT) and IT enabled Services (ITeS) to support their business models, products and\nservices offered to their customers. REs also outsource substantial portion of their IT\nactivities to third parties, which expose them to various risks.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: preamble?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Preamble.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-002",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "In order to ensure effective management of attendant risks, the Statement on",
+      "plain_english": "Developmental and Regulatory Policies dated February 10, 2022, proposed the\nissuance of suitable regulatory guidelines on Outsourcing of IT Services. Accordingly,\na draft Master Direction on Outsourcing of IT Services was released for public\ncomments in June 2022.",
+      "original_text": "Developmental and Regulatory Policies dated February 10, 2022, proposed the\nissuance of suitable regulatory guidelines on Outsourcing of IT Services. Accordingly,\na draft Master Direction on Outsourcing of IT Services was released for public\ncomments in June 2022. Based on feedback received, the finalised Reserve Bank of\nIndia (Outsourcing of Information Technology Services) Directions, 2023 are enclosed\nherewith.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: in order to ensure effective management of attendant risks, the statement on?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In order to ensure effective management of attendant risks, the Statement on.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In order to ensure effective management of attendant risks, the Statement on.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-003",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The underlying principle of these Directions is to ensure that outsourcing / 4. ",
+      "plain_english": "Arrangements neither diminish REs ability to fulfil its obligations to customers nor\nimpede effective supervision by the RBI. enclosed Directions shall come into effect from October 1, 2023.",
+      "original_text": "arrangements neither diminish REs ability to fulfil its obligations to customers nor\nimpede effective supervision by the RBI.\n\nenclosed Directions shall come into effect from October 1, 2023.\n\nYours faithfully,\n\n\n\n\n(T.K.Rajan)\nChief General Manager\n\nEncl: Reserve Bank of India (Outsourcing of Information Technology Services)\nDirections, 2023\n\n\n\n\n\f                                           Contents\nChapter – I Preliminary ........................................................................................... 1",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation come into effect from october 1?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The underlying principle of these Directions is to ensure that outsourcing / 4. .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The underlying principle of these Directions is to ensure that outsourcing / 4. .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-004",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Definitions ....................................................................",
+      "plain_english": "Chapter – II Role of the Regulated Entity .............................................................. 5\n\nChapter – III Governance Framework ....................................................................",
+      "original_text": "Chapter – II Role of the Regulated Entity .............................................................. 5\n\nChapter – III Governance Framework .................................................................... 7\n\nChapter – IV Evaluation and Engagement of Service Providers ......................... 9\n\nChapter – V Outsourcing Agreement .................................................................. 11\n\nChapter – VI Risk Management ............................................................................ 14\n\nChapter – VII Monitoring and Control of Outsourced Activities........................ 16",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: definitions ....................................................................?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions .....................................................................",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Definitions .....................................................................",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-005",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "22",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Exit Strategy ..................................................................",
+      "plain_english": "Appendix – I Usage of Cloud Computing Services ............................................ 20\n\n\fAppendix – II Outsourcing of Security Operations Centre ................................",
+      "original_text": "Appendix – I Usage of Cloud Computing Services ............................................ 20\n\n\fAppendix – II Outsourcing of Security Operations Centre ................................ 25\nAppendix – III Services not considered under Outsourcing of IT Services ..... 26\n\n\n\n\n\f                              RESERVE BANK OF INDIA\n\nDoS.CO.CSITEG/SEC.1/31.01.015/2023-24                                          April 10, 2023\n\n     Reserve Bank of India (Outsourcing of Information Technology Services)\n                                Directions, 2023\nIn exercise of the powers conferred by Section 35A read with Section 56 of the Banking\nRegulation Act, 1949; Section 45L of the Reserve Bank of India Act, 1934 and Section\n11 of the Credit Information Companies (Regulation) Act, 2005, and all other\nprovisions/ laws enabling the Reserve Bank of India (‘RBI’) in this regard, the RBI\nbeing satisfied that it is necessary and expedient in the public interest to do so, hereby\nissues the Directions herein",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: exit strategy ..................................................................?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Exit Strategy ...................................................................",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Exit Strategy ...................................................................",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 35A",
+        "Section 56",
+        "Section 45L",
+        "Section\n11"
+      ]
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-006",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Short title and Commencement",
+      "plain_english": "(a)         These Directions shall be called the Reserve Bank of India (Outsourcing of\n                  Information Technology Services) Directions, 2023. (b)         These Directions shall come into effect from October 1, 2023.",
+      "original_text": "(a)         These Directions shall be called the Reserve Bank of India (Outsourcing of\n                  Information Technology Services) Directions, 2023.\n\n      (b)         These Directions shall come into effect from October 1, 2023.\n            I.      With respect to existing outsourcing arrangements that are already in\n                    force as on the date of issuance of this Master Direction, REs shall\n                    ensure that:\n\n                  i. the agreements that are due for renewal before October 1, 2023 shall\n                    comply with the provisions of these Directions as on the renewal date\n                    (preferably), but not later than 12 months from the date of issuance of\n                    this Master Direction.\n\n                  ii. the agreements that are due for renewal on or after October 1, 2023 shall\n                    comply with the provisions of these Directions as on the renewal date or\n                    36 months from the date o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation come into effect from october 1?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Short title and Commencement.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "not later than 12 months",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Short title and Commencement.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-007",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Applicability",
+      "plain_english": "(a)    These Directions shall be applicable to the following entities, collectively\n              referred to as ‘regulated entities’ or ’REs’ in these directions:\n\n              (i) all Banking Companies 1, Corresponding New Banks and State Bank of\n                 India as defined under subsections (c), (da) and (nc) of section 5 of the\n                 Banking Regulation Act, 1949 (collectively",
+      "original_text": "(a)    These Directions shall be applicable to the following entities, collectively\n              referred to as ‘regulated entities’ or ’REs’ in these directions:\n\n              (i) all Banking Companies 1, Corresponding New Banks and State Bank of\n                 India as defined under subsections (c), (da) and (nc) of section 5 of the\n                 Banking Regulation Act, 1949 (collectively referred to as ‘commercial\n                 banks’ hereinafter)\n\n             (ii) Primary Co-operative Banks as defined under clause (ccv) of subsection\n                 1 of section 56 of the Banking Regulation Act, 1949 and included in ‘Tier\n                 3’ and ‘Tier 4’ as defined in paragraphs 1.c and 1.d respectively of the\n                 Annex to RBI circular DOR.REG.No.84/07.01.000/2022-23 dated\n                 December 01, 2022 on ‘Revised Regulatory Framework - Categorization\n                 of Urban Co-operative Banks (UCBs) for Regulatory Purposes’\n                 (hereina",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be applicable to the following entities?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Applicability.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_localisation",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "data_localisation",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Applicability.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 5",
+        "section 56",
+        "section 45I",
+        "section\n             2",
+        "clause 3(a)(ii)"
+      ]
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-008",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Definitions",
+      "plain_english": "A)   In these Directions, unless the context states otherwise, the terms in this shall\n     bear the meanings assigned to them below:\n\n     (i)     \"Group” shall be as defined in the ‘Guidelines on Management of Intra-\n             Group       Transactions    and    Exposures’     issued     vide    circular\n             DBOD.No.BP.BC.96/21.06.102/2013-14 dated February 11, 2014, as\n             a",
+      "original_text": "a)   In these Directions, unless the context states otherwise, the terms herein shall\n     bear the meanings assigned to them below:\n\n     (i)     \"Group” shall be as defined in the ‘Guidelines on Management of Intra-\n             Group       Transactions    and    Exposures’     issued     vide    circular\n             DBOD.No.BP.BC.96/21.06.102/2013-14 dated February 11, 2014, as\n             amended from time to time.\n\n\n\f       (ii)          “Material Outsourcing of IT Services” are those which:\n                     a) if disrupted or compromised shall have the potential to\n                           significantly impact the RE’s business operations; or\n\n                     b) may have material impact on the RE’s customers in the event of\n                           any unauthorised access, loss or theft of customer information.\n\n       (iii)         “Outsourcing” shall be as defined in RBI ‘Guidelines on Managing\n                     Risks and Code of Conduct in Outsourcing of Fina",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation bear the meanings assigned to them below:\n\n     (i)     \"Group” shall be as defined in the ‘Guidelines on Manageme?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Definitions.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-009",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Regulatory and Supervisory requirements",
+      "plain_english": "A)   Outsourcing of any activity shall not diminish RE’s obligations as also of its\n          Board and Senior Management, who shall be ultimately responsible for the\n          outsourced activity. RE shall take steps to ensure that the service provider\n          employs the same high standard of care in performing the services as\n          would have been employed by the RE, if the same activity",
+      "original_text": "a)   Outsourcing of any activity shall not diminish RE’s obligations as also of its\n          Board and Senior Management, who shall be ultimately responsible for the\n          outsourced activity. RE shall take steps to ensure that the service provider\n          employs the same high standard of care in performing the services as\n          would have been employed by the RE, if the same activity was not\n          outsourced. REs shall not engage an IT service provider that would result\n          in reputation of RE being compromised or weakened.\n\n     b)   Notwithstanding whether the service provider is located in India or abroad,\n          the REs shall ensure that the outsourcing should neither impede nor\n          interfere with the ability of the RE to effectively oversee and manage its\n          activities. Further, the RE shall ensure that the outsourcing does not impede\n          the RBI in carrying out its supervisory functions and objectives.\n\n     c)   REs shall ensure that ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not diminish RE’s obligations as also of its\n          Board and Senior Management, who shall be ultimately responsible?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Regulatory and Supervisory requirements.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Regulatory and Supervisory requirements.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-010",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Comprehensive assessment of need for outsourcing and attendant risks",
+      "plain_english": "REs shall evaluate the need for Outsourcing of IT Services based on\n     comprehensive assessment of attendant benefits, risks and availability of\n     commensurate processes to manage those risks. REs shall inter-alia consider:\n          a) determining the need for outsourcing based on criticality of activity to be\n             outsourced;\n          b) determining expectations and outcome from ou",
+      "original_text": "REs shall evaluate the need for Outsourcing of IT Services based on\n     comprehensive assessment of attendant benefits, risks and availability of\n     commensurate processes to manage those risks. REs shall inter-alia consider:\n          a) determining the need for outsourcing based on criticality of activity to be\n             outsourced;\n          b) determining expectations and outcome from outsourcing;\n          c) determining success factors and cost-benefit analysis; and\n          d) deciding the model for outsourcing.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation evaluate the need for Outsourcing of IT Services based on\n     comprehensive assessment of attendant benefits, risks an?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Comprehensive assessment of need for outsourcing and attendant risks.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Comprehensive assessment of need for outsourcing and attendant risks.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-011",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Compliance with all applicable statutory and regulatory requirements",
+      "plain_english": "The RE shall consider all relevant laws, regulations, rules, guidelines and\n     conditions of approval, licensing or registration, when performing its due\n     diligence in relation to outsourcing of IT services.",
+      "original_text": "The RE shall consider all relevant laws, regulations, rules, guidelines and\n     conditions of approval, licensing or registration, when performing its due\n     diligence in relation to outsourcing of IT services.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation consider all relevant laws?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Compliance with all applicable statutory and regulatory requirements.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Compliance with all applicable statutory and regulatory requirements.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-012",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Grievance Redressal Mechanism",
+      "plain_english": "A)    REs shall have a robust grievance redressal mechanism that shall not be\n           compromised in any manner on account of outsourcing, that is, , responsibility\n           for redressal of customers’ grievances related to outsourced services shall\n           rest with the RE. b)    Outsourcing arrangements shall not affect the rights of a customer against\n           the RE, including the ab",
+      "original_text": "a)    REs shall have a robust grievance redressal mechanism that shall not be\n           compromised in any manner on account of outsourcing, i.e., responsibility\n           for redressal of customers’ grievances related to outsourced services shall\n           rest with the RE.\n\n     b)    Outsourcing arrangements shall not affect the rights of a customer against\n           the RE, including the ability of the customer to obtain redressal as\n           applicable under relevant laws.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation rest with the re?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Grievance Redressal Mechanism.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Grievance Redressal Mechanism.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-013",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Inventory of Outsourced Services",
+      "plain_english": "REs shall create an inventory of services provided by the service providers\n     (including key entities involved in their supply chains). Further, REs shall map\n     their dependency on third parties and periodically evaluate the information\n     received from the service providers.",
+      "original_text": "REs shall create an inventory of services provided by the service providers\n     (including key entities involved in their supply chains). Further, REs shall map\n     their dependency on third parties and periodically evaluate the information\n     received from the service providers.\n\n\n                                    Chapter – III\n                               Governance Framework",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation create an inventory of services provided by the service providers\n     (including key entities involved in their supply?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Inventory of Outsourced Services.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Inventory of Outsourced Services.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-014",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "IT Outsourcing Policy",
+      "plain_english": "An RE intending to outsource any of its IT activities shall put in place a\n      comprehensive Board approved IT outsourcing policy. The policy shall\n      incorporate, among other things, the roles and responsibilities of the Board, Committees\n      of the Board (if any) and Senior Management, IT function, business function as\n      well as oversight and assurance functions in respect of outsourc",
+      "original_text": "An RE intending to outsource any of its IT activities shall put in place a\n      comprehensive Board approved IT outsourcing policy. The policy shall\n      incorporate, inter alia, the roles and responsibilities of the Board, Committees\n      of the Board (if any) and Senior Management, IT function, business function as\n      well as oversight and assurance functions in respect of outsourcing of IT\n      services. It shall further cover the criteria for selection of such activities as well\n      as service providers, parameters for defining material outsourcing based on the\n      broad criteria, delegation of authority depending on risk and materiality, disaster\n      recovery and business continuity plans, systems to monitor and review the\n      operations of these activities and termination processes and exit strategies,\n      including business continuity in the event of a third-party service provider exiting\n      the outsourcing arrangement.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation put in place a\n      comprehensive Board approved IT outsourcing policy?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: IT Outsourcing Policy.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: IT Outsourcing Policy.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-015",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "10",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Role of the Board",
+      "plain_english": "The Board of the RE shall be responsible, among other things, for:\n     a)   putting in place a framework for approval of IT outsourcing activities\n          depending on risks and materiality;\n\n     b)   approving policies to evaluate the risks and materiality of all existing and\n          prospective IT outsourcing arrangements; and\n\n     c)   setting up suitable administrative framework of Seni",
+      "original_text": "The Board of the RE shall be responsible, inter alia, for:\n     a)   putting in place a framework for approval of IT outsourcing activities\n          depending on risks and materiality;\n\n     b)   approving policies to evaluate the risks and materiality of all existing and\n          prospective IT outsourcing arrangements; and\n\n     c)   setting up suitable administrative framework of Senior Management for the\n          purpose of these Directions.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be responsible, inter alia, for:\n     a)   putting in place a framework for approval of IT outsourcing activities?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Role of the Board.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Role of the Board.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-016",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Role of the Senior Management",
+      "plain_english": "The Senior Management of the RE shall, among other things, be responsible for:\n\n\n\f    a)    formulating IT outsourcing policies and procedures, evaluating the risks and\n          materiality of all existing and prospective IT outsourcing arrangements\n          based on the framework commensurate with the complexity, nature and\n          scope, in line with the enterprise-wide risk management of th",
+      "original_text": "The Senior Management of the RE shall, inter alia, be responsible for:\n\n\n\f    a)    formulating IT outsourcing policies and procedures, evaluating the risks and\n          materiality of all existing and prospective IT outsourcing arrangements\n          based on the framework commensurate with the complexity, nature and\n          scope, in line with the enterprise-wide risk management of the organisation\n          approved by the Board and its implementation;\n\n    b)    prior evaluation of prospective IT outsourcing arrangements and periodic\n          evaluation of the existing outsourcing arrangements covering the\n          performance review, criticality and associated risks of all such\n          arrangements based on the policy approved by the Board;\n\n    c)    identifying IT outsourcing risks as they arise, monitoring, mitigating,\n          managing and reporting of such risks to the Board/ Board Committee in a\n          timely manner;\n\n    d)    ensuring that suitable business cont",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation , inter alia, be responsible for:\n\n\n\f    a)    formulating IT outsourcing policies and procedures, evaluating the risks?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Role of the Senior Management.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Role of the Senior Management.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-017",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Role of IT Function",
+      "plain_english": "The responsibilities of the IT Function of the RE shall, among other things, include:\n\n    a)    assisting the Senior Management in identifying, measuring, monitoring,\n          mitigating and managing the level of IT outsourcing risk in the organisation;\n\n    b)    ensuring that a central database of all IT outsourcing arrangements is\n          maintained and is accessible for review by Board, Se",
+      "original_text": "The responsibilities of the IT Function of the RE shall, inter alia, include:\n\n    a)    assisting the Senior Management in identifying, measuring, monitoring,\n          mitigating and managing the level of IT outsourcing risk in the organisation;\n\n    b)    ensuring that a central database of all IT outsourcing arrangements is\n          maintained and is accessible for review by Board, Senior Management,\n          Auditors and Supervisors;\n\n\f    c)   effectively monitor and supervise the outsourced activity to ensure that the\n         service providers meet the laid down performance standards and provide\n         uninterrupted services, report to the Senior Management; co-ordinate\n         periodic due diligence and highlight concerns, if any; and\n\n    d)   putting in place necessary documentation required for contractual\n         agreements including service level management, monitoring of vendor\n         operations, key risk indicators and classifying the vendors as per the\n        ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation , inter alia, include:\n\n    a)    assisting the Senior Management in identifying, measuring, monitoring,\n          mitig?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Role of IT Function.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Role of IT Function.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-018",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "13",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Due Diligence on Service Providers",
+      "plain_english": "A)   In considering or renewing an Outsourcing of IT Services arrangement,\n         appropriate due diligence shall be performed to assess the capability of the\n         service provider to comply with obligations in the outsourcing agreement on\n         an ongoing basis. b)   A risk-based approach shall be adopted in conducting such due diligence\n         activities.",
+      "original_text": "a)   In considering or renewing an Outsourcing of IT Services arrangement,\n         appropriate due diligence shall be performed to assess the capability of the\n         service provider to comply with obligations in the outsourcing agreement on\n         an ongoing basis.\n\n    b)   A risk-based approach shall be adopted in conducting such due diligence\n         activities.\n\n    c)   Due diligence shall take into consideration qualitative, quantitative,\n         financial, operational, legal and reputational factors. Where possible, the\n         RE shall obtain independent reviews and market feedback on the service\n         provider to supplement its own assessment.\n\n    d)   REs shall also consider, while evaluating the capability of the service\n         provider, risks arising from concentration of outsourcing arrangements with\n         a single or a few service provider/s.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation take into consideration qualitative?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Due Diligence on Service Providers.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Due Diligence on Service Providers.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-019",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "14",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Aspects to be considered",
+      "plain_english": "Due diligence shall involve evaluation of all available information, as applicable,\n    about the service provider, including but not limited to:\n\n    a)   past experience and demonstrated competence to implement and support\n         the proposed IT activity over the contract period;\n\n\f       b)        financial soundness and ability to service commitments even under adverse\n                 condi",
+      "original_text": "Due diligence shall involve evaluation of all available information, as applicable,\n    about the service provider, including but not limited to:\n\n    a)   past experience and demonstrated competence to implement and support\n         the proposed IT activity over the contract period;\n\n\f       b)        financial soundness and ability to service commitments even under adverse\n                 conditions;\n\n       c)        business reputation and culture, compliance, complaints and outstanding\n                 or potential litigations;\n\n       d)        conflict of interest, if any;\n\n       e)        external factors like political, economic, social and legal environment of the\n                 jurisdiction in which the service provider operates and other events that may\n                 impact data security and service performance;\n\n            f)   details of the technology, infrastructure stability, security and internal\n                 control, audit coverage, reporting and monitori",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation involve evaluation of all available information?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Aspects to be considered.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs 4",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Aspects to be considered.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-020",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Legally binding agreement",
+      "plain_english": "A)   REs shall ensure that their rights and obligations and those of each of their\n         service providers are clearly defined and set out in a legally binding written\n         agreement. b)   In principle, the provisions of the agreement should appropriately reckon\n         the criticality of the outsourced task to the business of the RE, the\n         associated risks and the strategies for mi",
+      "original_text": "a)   REs shall ensure that their rights and obligations and those of each of their\n         service providers are clearly defined and set out in a legally binding written\n         agreement.\n\n    b)   In principle, the provisions of the agreement should appropriately reckon\n         the criticality of the outsourced task to the business of the RE, the\n         associated risks and the strategies for mitigating or managing them.\n\n    c)   The terms and conditions governing the contract shall be carefully defined\n         and vetted by the RE’s legal counsel for their legal effect and enforceability.\n         The agreement shall be sufficiently flexible to allow the RE to retain\n         adequate control over the outsourced activity and the right to intervene with\n         appropriate measures to meet legal and regulatory obligations.\n\n    d)   The agreement shall also bring out the nature of legal relationship between\n         the parties.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that their rights and obligations and those of each of their\n         service providers are clearly defined and?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Legally binding agreement.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_retention",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "data_retention",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Legally binding agreement.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-021",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "16",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Aspects to be considered in agreement",
+      "plain_english": "The agreement at a minimum should include (as applicable to the scope of\n  Outsourcing of IT Services) the following aspects:\n    a)      details of the activity being outsourced, including appropriate service and\n            performance standards including for the sub-contractors, if any;\n\n\n\n\n\fb)   effective access by the RE to all data, books, records, information, logs,\n     alerts and business",
+      "original_text": "The agreement at a minimum should include (as applicable to the scope of\n  Outsourcing of IT Services) the following aspects:\n    a)      details of the activity being outsourced, including appropriate service and\n            performance standards including for the sub-contractors, if any;\n\n\n\n\n\fb)   effective access by the RE to all data, books, records, information, logs,\n     alerts and business premises relevant to the outsourced activity,\n     available with the service provider;\nc)   regular monitoring and assessment of the service provider by the RE for\n     continuous management of the risks holistically, so that any necessary\n     corrective measure can be taken immediately;\nd)   type of material adverse events (e.g., data breaches, denial of service,\n     service unavailability, etc.) and the incidents required to be reported to\n     RE to enable RE to take prompt risk mitigation measures and ensure\n     compliance with statutory and regulatory guidelines;\ne)   compliance with",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation complete the required action within the required timeline?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Aspects to be considered in agreement.",
+        "No automated workflow or SLA tracking the required timeline.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "breach_notification",
+        "consent",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "breach_notification",
+        "consent",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Aspects to be considered in agreement.",
+        "Set an automated alert/workflow triggered to complete action within the required period.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-022",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "17",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Risk Management Framework",
+      "plain_english": "(a)   REs shall put in place a Risk Management framework for Outsourcing of IT\n          Services that shall comprehensively deal with the processes and\n          responsibilities for identification, measurement, mitigation, management,\n          and reporting of risks associated with Outsourcing of IT Services\n          arrangements. (b)   The risk assessments carried out by the REs shall be suit",
+      "original_text": "(a)   REs shall put in place a Risk Management framework for Outsourcing of IT\n          Services that shall comprehensively deal with the processes and\n          responsibilities for identification, measurement, mitigation, management,\n          and reporting of risks associated with Outsourcing of IT Services\n          arrangements.\n\n    (b)   The risk assessments carried out by the REs shall be suitably documented\n          with necessary approvals in line with the roles and responsibilities for the\n          Board of Directors, Senior Management and IT Function. Such risk\n          assessments shall be subject to internal and external quality assurance on\n          a periodic basis as determined by the Board-approved policy.\n\n    (c)   REs shall be responsible for the confidentiality and integrity of data and\n          information pertaining to the customers that is available to the service\n          provider.\n\n    (d)   Access to data at RE’s location / data centre by service prov",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation put in place a Risk Management framework for Outsourcing of IT\n          Services that shall comprehensively deal with?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Risk Management Framework.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 6 hours",
+        "trigger_event": "breach/incident occurrence"
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Risk Management Framework.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-023",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Business Continuity Plan and Disaster Recovery Plan",
+      "plain_english": "A)     REs shall require their service providers to develop and establish a robust\n              framework for documenting, maintaining and testing Business Continuity\n              Plan (BCP) and Disaster Recovery Plan (DRP) commensurate with the\n              nature and scope of the outsourced activity as per extant instructions issued\n              by RBI from time to time on BCP/ DR requiremen",
+      "original_text": "a)     REs shall require their service providers to develop and establish a robust\n              framework for documenting, maintaining and testing Business Continuity\n              Plan (BCP) and Disaster Recovery Plan (DRP) commensurate with the\n              nature and scope of the outsourced activity as per extant instructions issued\n              by RBI from time to time on BCP/ DR requirements.\n\n       b)     In establishing a viable contingency plan, REs shall consider the availability\n              of alternative service providers or the possibility of bringing the outsourced\n              activity back in-house in an emergency, and the costs, time and resources\n              that would be involved.\n\n\n\n  As regards combining of data, it would suffice to comply with the following: A clear separation and isolation of\ndata (RE and its customer specific data and information) to ensure that only the personnel as authorised by the RE\nis able to access data that belongs to them in a m",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation require their service providers to develop and establish a robust\n              framework for documenting, maintaining?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Business Continuity Plan and Disaster Recovery Plan.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_retention",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "data_retention",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Business Continuity Plan and Disaster Recovery Plan.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-024",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "19",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Monitoring and Control of Outsourced Activities",
+      "plain_english": "A)   REs shall have in place a management structure to monitor and control its\n         Outsourced IT activities. This shall include (as applicable to the scope of\n         Outsourcing of IT Services) but not limited to monitoring the performance,\n         uptime of the systems and resources, service availability, adherence to SLA\n         requirements, incident response mechanism, etc.",
+      "original_text": "a)   REs shall have in place a management structure to monitor and control its\n         Outsourced IT activities. This shall include (as applicable to the scope of\n         Outsourcing of IT Services) but not limited to monitoring the performance,\n         uptime of the systems and resources, service availability, adherence to SLA\n         requirements, incident response mechanism, etc.\n\n    b)   RE shall conduct regular audits (as applicable to the scope of Outsourcing\n         of IT Services) of service providers (including sub-contractors) with regard\n         to the activity outsourced by it. Such audits may be conducted either by\n         RE’s internal auditors or external auditors appointed to act on RE’s behalf.\n\n    c)   While outsourcing various IT services, more than one RE may be availing\n         services from the same third-party service provider. In such scenarios, in\n         lieu of conducting separate audits by individual REs of the common service\n         provider, th",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have in place a management structure to monitor and control its\n         Outsourced IT activities?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Monitoring and Control of Outsourced Activities.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Monitoring and Control of Outsourced Activities.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-025",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "20",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Outsourcing within a Group / Conglomerate",
+      "plain_english": "A)   A RE may outsource any IT activity/ IT enabled service within its business\n         group/ conglomerate, provided that such an arrangement is backed by the\n         Board-approved policy and appropriate service level arrangements/\n         agreements with its group entities are in place. b)   The selection of a group entity shall be based on objective reasons that are\n         similar to sele",
+      "original_text": "a)   A RE may outsource any IT activity/ IT enabled service within its business\n         group/ conglomerate, provided that such an arrangement is backed by the\n         Board-approved policy and appropriate service level arrangements/\n         agreements with its group entities are in place.\n\n    b)   The selection of a group entity shall be based on objective reasons that are\n         similar to selection of a third-party, and any conflicts of interest that such an\n         outsourcing arrangement may entail shall be appropriately dealt with.\n\n    c)   REs, at all times, shall maintain an arm's length relationship in dealings with\n         their group entities. Risk management practices being adopted by the RE\n         while outsourcing to a group entity shall be identical to those specified for\n         a non-related party.\n\n\n                                    Chapter – IX\n                            Cross-Border Outsourcing",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be appropriately dealt with?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Outsourcing within a Group / Conglomerate.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_localisation",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "data_localisation",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Outsourcing within a Group / Conglomerate.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-026",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "21",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Additional requirements for Cross-Border Outsourcing",
+      "plain_english": "A)   The engagement of a service provider based in a different jurisdiction\n         exposes the RE to country risk. To manage such risk, the RE shall closely\n         monitor government policies of the jurisdiction in which the service provider\n         is based and the political, social, economic and legal conditions on a\n         continuous basis, as well as establish sound procedures for mitig",
+      "original_text": "a)   The engagement of a service provider based in a different jurisdiction\n         exposes the RE to country risk. To manage such risk, the RE shall closely\n         monitor government policies of the jurisdiction in which the service provider\n         is based and the political, social, economic and legal conditions on a\n         continuous basis, as well as establish sound procedures for mitigating the\n         country risk. This includes, inter alia, having appropriate contingency and\n         exit strategies. Further, it shall be ensured that availability of records to the\n         RE and the RBI will not be affected even in case of liquidation of the service\n         provider.\n\n    b)   The governing law of the arrangement shall also be clearly specified. In\n         principle, arrangements shall only be entered into with parties operating in\n         jurisdictions upholding confidentiality clauses and agreements.\n\n\n\n\f    c)   The right of the RE and the RBI to direct and conduc",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation closely\n         monitor government policies of the jurisdiction in which the service provider\n         is based and th?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Additional requirements for Cross-Border Outsourcing.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Additional requirements for Cross-Border Outsourcing.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-027",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "22",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Exit Strategy",
+      "plain_english": "A)   The Outsourcing of IT Services policy shall contain a clear exit strategy with\n         regard to outsourced IT activities/ IT enabled services, while ensuring\n         business continuity during and after exit. The strategy should include exit\n         strategy for different scenarios of exit or termination of services with\n         stipulation of minimum period to execute such plans, as nec",
+      "original_text": "a)   The Outsourcing of IT Services policy shall contain a clear exit strategy with\n         regard to outsourced IT activities/ IT enabled services, while ensuring\n         business continuity during and after exit. The strategy should include exit\n         strategy for different scenarios of exit or termination of services with\n         stipulation of minimum period to execute such plans, as necessary. In\n         documenting an exit strategy, the RE shall, inter alia, identify alternative\n         arrangements, which may include performing the activity by a different\n         service provider or RE itself.\n\n    b)   REs shall ensure that the agreement has necessary clauses on safe\n         removal/ destruction of data, hardware and all records (digital and physical),\n         as applicable. However, service provider shall be legally obliged to\n         cooperate fully with both the RE and new service provider(s) to ensure there\n         is a smooth transition. Further, agreement sha",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation contain a clear exit strategy with\n         regard to outsourced IT activities/ IT enabled services, while ensuring?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Exit Strategy.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Exit Strategy.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-028",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "While considering adoption of cloud solution, it is imperative to analyse the bu",
+      "plain_english": "Strategy and goals adopted to the current IT applications footprint and associated\n    costs 7. Cloud adoption ranges from moving only non-business critical workloads to\n    the cloud to moving critical business applications such as SaaS adoption and the\n    several combinations in-between, which should be based on a business\n    technology risk assessment.",
+      "original_text": "strategy and goals adopted to the current IT applications footprint and associated\n    costs 7. Cloud adoption ranges from moving only non-business critical workloads to\n    the cloud to moving critical business applications such as SaaS adoption and the\n    several combinations in-between, which should be based on a business\n    technology risk assessment.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: while considering adoption of cloud solution, it is imperative to analyse the bu?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: While considering adoption of cloud solution, it is imperative to analyse the bu.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: While considering adoption of cloud solution, it is imperative to analyse the bu.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-029",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing o",
+      "plain_english": "Services policy addresses the entire lifecycle of data, that is, , covering the entire span\n    of time from generation of the data, its entry into the cloud, till the data is\n    permanently erased/ deleted. The REs shall ensure that the procedures specified\n    are consistent with business needs and legal and regulatory requirements.",
+      "original_text": "Services policy addresses the entire lifecycle of data, i.e., covering the entire span\n    of time from generation of the data, its entry into the cloud, till the data is\n    permanently erased/ deleted. The REs shall ensure that the procedures specified\n    are consistent with business needs and legal and regulatory requirements.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that the procedures specified\n    are consistent with business needs and legal and regulatory requirements?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing o.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing o.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-030",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "In adoption of cloud services, REs shall take into account the cloud service spe",
+      "plain_english": "Factors, namely, , multi-tenancy, multi-location storing/ processing of data, etc., and\n    attendant risks, while establishing appropriate risk management framework. Cloud\n    security is a shared responsibility between the RE and the Cloud Service Provider\n\n\n6 For example, some cloud service and deployment models are: a) Infrastructure as a Service (IaaS): The service\nprovides compute, storage,",
+      "original_text": "factors, viz., multi-tenancy, multi-location storing/ processing of data, etc., and\n    attendant risks, while establishing appropriate risk management framework. Cloud\n    security is a shared responsibility between the RE and the Cloud Service Provider\n\n\n6 For example, some cloud service and deployment models are: a) Infrastructure as a Service (IaaS): The service\nprovides compute, storage, network, and other basic resources so that the client can develop and deploy their\napplications. b) Platform as a Service (PaaS): The service provides software for building application, middleware,\ndatabase, development environment and other tools along with the infrastructure to the client. c) Software as a\nService (SaaS): Client uses the application(s) provided by the service provider on a cloud infrastructure. d) Besides\napplication services, Cloud Service Providers (CSPs) also provide a range of services besides the three common\nservices viz. Database as a Service, Security as a Service, Stora",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: in adoption of cloud services, res shall take into account the cloud service spe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In adoption of cloud services, REs shall take into account the cloud service spe.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In adoption of cloud services, REs shall take into account the cloud service spe.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-031",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Cloud Governance: REs shall adopt and demonstrate a well-established and",
+      "plain_english": "Documented cloud adoption policy. Such a policy should, among other things, identify the\n    activities that can be moved to the cloud, enable and support protection of various\n    stakeholder interests, ensure compliance with regulatory requirements, including\n    those on privacy, security, data sovereignty, recoverability and data storage\n    requirements, aligned with data classification.",
+      "original_text": "documented cloud adoption policy. Such a policy should, inter alia, identify the\n    activities that can be moved to the cloud, enable and support protection of various\n    stakeholder interests, ensure compliance with regulatory requirements, including\n    those on privacy, security, data sovereignty, recoverability and data storage\n    requirements, aligned with data classification. The policy should provide for\n    appropriate due diligence to manage and continually monitor the risks associated\n    with CSPs.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: cloud governance: res shall adopt and demonstrate a well-established and?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Cloud Governance: REs shall adopt and demonstrate a well-established and.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "audit_log",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Cloud Governance: REs shall adopt and demonstrate a well-established and.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-032",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Cloud Service Providers (CSP)",
+      "plain_english": "Considerations for selection of CSP: REs shall ensure that the selection of the CSP\nis based on a comprehensive risk assessment of the CSP. REs shall enter into a\ncontract only with CSPs subject to jurisdictions that uphold enforceability of\nagreements and the rights available under it to REs, including those relating to\naspects such as data storage, data protection and confidentiality.",
+      "original_text": "Considerations for selection of CSP: REs shall ensure that the selection of the CSP\nis based on a comprehensive risk assessment of the CSP. REs shall enter into a\ncontract only with CSPs subject to jurisdictions that uphold enforceability of\nagreements and the rights available thereunder to REs, including those relating to\naspects such as data storage, data protection and confidentiality.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that the selection of the CSP\nis based on a comprehensive risk assessment of the CSP?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Cloud Service Providers (CSP).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Cloud Service Providers (CSP).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-033",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Cloud Services Management and Security Considerations",
+      "plain_english": "A) Service and Technology Architecture: REs shall ensure that the service and\n       technology architecture supporting cloud-based applications is built in\n       adherence to globally recognised architecture principles and standards. REs\n       shall prefer a technology architecture that provides for secure container-based\n       data management, where encryption keys and Hardware Security Modul",
+      "original_text": "a) Service and Technology Architecture: REs shall ensure that the service and\n       technology architecture supporting cloud-based applications is built in\n       adherence to globally recognised architecture principles and standards. REs\n       shall prefer a technology architecture that provides for secure container-based\n       data management, where encryption keys and Hardware Security Modules are\n       under the control of the RE. The architecture should provide for a standard set\n       of tools and processes to manage containers, images and releases. Multi-\n       tenancy environments should be protected against data integrity and\n       confidentiality risks, and against co-mingling of data. The architecture should\n       be resilient and enable smooth recovery in case of failure of any one or\n\n  i.) NIST SP 800-210 General Access Control Guidance for Cloud Systems -\nhttps://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-210.pdf\nii) MeitY’s cloud security best pra",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that the service and\n       technology architecture supporting cloud-based applications is built in\n       adher?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Cloud Services Management and Security Considerations.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "data_retention",
+        "encryption",
+        "governance",
+        "outsourcing",
+        "rbi"
+      ],
+      "tags": [
+        "access_control",
+        "audit_log",
+        "breach_notification",
+        "data_retention",
+        "encryption",
+        "governance",
+        "outsourcing",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Cloud Services Management and Security Considerations.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-034",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Disaster Recovery & Cyber Resilience",
+      "plain_english": "A) The RE’s business continuity framework shall ensure that, in the event of a\n       disaster affecting its cloud services or failure of the CSP, the RE can continue\n       its critical operations with minimal disruption of services while ensuring integrity\n       and security. b) REs shall ensure that the CSP puts in place demonstrative capabilities for\n       preparedness and readiness for cybe",
+      "original_text": "a) The RE’s business continuity framework shall ensure that, in the event of a\n       disaster affecting its cloud services or failure of the CSP, the RE can continue\n       its critical operations with minimal disruption of services while ensuring integrity\n       and security.\n\n  b) REs shall ensure that the CSP puts in place demonstrative capabilities for\n       preparedness and readiness for cyber resilience as regards cloud services in\n       use by them. This should be systematically ensured, inter alia, through robust\n       incident response and recovery practices including conduct of Disaster\n       Recovery (DR) drills at various levels of cloud services including necessary\n       stakeholders.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation ensure that, in the event of a\n       disaster affecting its cloud services or failure of the CSP, the RE can continue?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Disaster Recovery & Cyber Resilience.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Disaster Recovery & Cyber Resilience.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-035",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The following points may be evaluated while developing an exit strategy:",
+      "plain_english": "A) the exit strategy and service level stipulations in the SLA shall factor in, inter\n       alia,\n       i) agreed processes and turnaround times for returning the RE’s service\n          collaterals and data held by the CSP;\n\n\f      ii) data completeness and portability;\n      iii) secure purge of RE’s information from the CSP’s environment;\n      iv) smooth transition of services; and\n      v) u",
+      "original_text": "a) the exit strategy and service level stipulations in the SLA shall factor in, inter\n       alia,\n       i) agreed processes and turnaround times for returning the RE’s service\n          collaterals and data held by the CSP;\n\n\f      ii) data completeness and portability;\n      iii) secure purge of RE’s information from the CSP’s environment;\n      iv) smooth transition of services; and\n      v) unambiguous definition of liabilities, damages, penalties and indemnities.\n  b) monitoring the ongoing design of applications and service delivery technology\n      stack that the exit plans should align with.\n  c) contractually agreed exit / termination plans should specify how the cloud-\n      hosted service(s) and data will be moved out from the cloud with minimal impact\n      on continuity of the RE’s business, while maintaining integrity and security.\n  d) All records of transactions, customer and operational information, configuration\n      data should be promptly taken over in a systemati",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation factor in, inter\n       alia,\n       i) agreed processes and turnaround times for returning the RE’s service?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The following points may be evaluated while developing an exit strategy:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_retention",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "tags": [
+        "data_retention",
+        "outsourcing",
+        "rbi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The following points may be evaluated while developing an exit strategy:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_IT_OUTSOURCING_DIRECTIONS-036",
+      "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+      "section_ref": "9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Audit and Assurance: The audit/ periodic review/ third-party certifications shou",
+      "plain_english": "Cover, as per applicability and cloud usage, among other things, aspects such as roles and\n   responsibilities of both RE and CSP in cloud governance, access and network\n   controls, configurations, monitoring mechanism, data encryption, log review,\n   change management, incident response, and resilience preparedness and testing,\n   etc. Appendix – II\n                      Outsourcing of Security",
+      "original_text": "cover, as per applicability and cloud usage, inter alia, aspects such as roles and\n   responsibilities of both RE and CSP in cloud governance, access and network\n   controls, configurations, monitoring mechanism, data encryption, log review,\n   change management, incident response, and resilience preparedness and testing,\n   etc.\n\n\n\n\n\f                                    Appendix – II\n                      Outsourcing of Security Operations Centre\n\nOutsourcing of Security Operations Centre (SOC) operations has the risk of data being\nstored and processed at an external location and managed by a third party (Managed\nSecurity Service Provider (MSSP)) to which REs have lesser visibility. To mitigate the\nrisks, in addition to the controls prescribed in these Directions, REs shall adopt the\nfollowing requirements in the case of outsourcing of SOC operations:\n  a) unambiguously identify the owner of assets used in providing the services\n      (systems, software, source code, processes, concept",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation adopt the\nfollowing requirements in the case of outsourcing of SOC operations:\n  a) unambiguously identify the owner of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Audit and Assurance: The audit/ periodic review/ third-party certifications shou.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "tags": [
+        "audit_log",
+        "breach_notification",
+        "governance",
+        "incident_response",
+        "outsourcing",
+        "rbi",
+        "vendor_management",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Audit and Assurance: The audit/ periodic review/ third-party certifications shou.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

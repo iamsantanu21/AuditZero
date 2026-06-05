@@ -1,0 +1,3561 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "DPDP_RULES_2025",
+  "regulator": "MeitY",
+  "controls": [
+    {
+      "control_id": "DPDP_RULES_2025-001",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Short title and commencement. — (1) These rules may be called the Digital Person",
+      "plain_english": "Rules, 2025. (2) Rules 1, 2 and 17 to 21 shall come into force on the date of their publication in the Official Gazette.",
+      "original_text": "Rules, 2025.\n(2) Rules 1, 2 and 17 to 21 shall come into force on the date of their publication in the Official Gazette.\n(3) Rule 4 shall come into force one year after the date of publication of this Gazette.\n(4) Rules 3, 5 to 16, 22 and 23 shall come into force eighteen months after the date of publication\nof this Gazette.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation come into force on the date of their publication in the official gazette?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Short title and commencement. — (1) These rules may be called the Digital Person.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Short title and commencement. — (1) These rules may be called the Digital Person.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Rule 4"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-002",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "2",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Definitions. — (1) In these rules, unless the context otherwise requires, –",
+      "plain_english": "(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Principal with the Data Fiduciary, and\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\nof which such Data Principal is able to",
+      "original_text": "(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Principal with the Data Fiduciary, and\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\nof which such Data Principal is able to access the services of such Data Fiduciary; and\n(d) “verifiable consent” means a consent as specified in rule 10 or 11.\n(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the\nsame meanings respectively assigned to them in the Act.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: definitions. — (1) in these rules, unless the context otherwise requires, –?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions. — (1) In these rules, unless the context otherwise requires, –.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Definitions. — (1) In these rules, unless the context otherwise requires, –.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 10"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-003",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "3",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Notice given by Data Fiduciary to Data Principal. —The notice given by the Data ",
+      "plain_english": "Data Principal shall—\n     (a) be presented and be understandable independently of any other information that has been, is or may\n         be made available by such Data Fiduciary;\n     (b) give, in clear and plain language, a fair account of the details necessary to enable the Data Principal\n         to give specific and informed consent for the processing of her personal data, which shall includ",
+      "original_text": "Data Principal shall—\n     (a) be presented and be understandable independently of any other information that has been, is or may\n         be made available by such Data Fiduciary;\n     (b) give, in clear and plain language, a fair account of the details necessary to enable the Data Principal\n         to give specific and informed consent for the processing of her personal data, which shall include,\n         at the minimum, —\n              (i) an itemised description of such personal data; and\n              (ii) the specified purpose or purposes of, and specific description of the goods or services to be\n              provided or uses to be enabled by, such processing; and\n     (c) give, the particular communication link for accessing the website or app, or both, of such Data\n         Fiduciary, and a description of other means, if any, using which such Data Principal may—\n\f[भाग II—खण्ड 3(i)]                         भारत का रािपत्र : असाधारण                                          25\n",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: notice given by data fiduciary to data principal. —the notice given by the data ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notice given by Data Fiduciary to Data Principal. —The notice given by the Data .",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notice given by Data Fiduciary to Data Principal. —The notice given by the Data .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-004",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Registration and obligations of Consent Manager. — (1) A person who fulfils the ",
+      "plain_english": "Registration of Consent Managers set out in Part A of First Schedule may apply to the Board for registration\nas a Consent Manager by furnishing such particulars and such other information and documents as the\nBoard may publish in this behalf on its website. (2) On receipt of such application, the Board may make such inquiry as it may deem fit to satisfy itself\nregarding fulfilment of the condition",
+      "original_text": "registration of Consent Managers set out in Part A of First Schedule may apply to the Board for registration\nas a Consent Manager by furnishing such particulars and such other information and documents as the\nBoard may publish in this behalf on its website.\n(2) On receipt of such application, the Board may make such inquiry as it may deem fit to satisfy itself\nregarding fulfilment of the conditions set out in Part A of First Schedule, and if it—\n    (a) is satisfied, register the applicant as a Consent Manager, under intimation to the applicant, and\n         publish on its website the particulars of such Consent Manager; or\n    (b) is not satisfied, reject the application and communicate the reasons for the rejection to the\n         applicant.\n\n(3) The Consent Manager shall have obligations as specified in Part B of First Schedule.\n(4) If the Board is of the opinion that a Consent Manager is not adhering to the conditions and obligations\nunder this rule,it may, after giving an opportun",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have obligations as specified in Part B of First Schedule?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Registration and obligations of Consent Manager. — (1) A person who fulfils the .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Registration and obligations of Consent Manager. — (1) A person who fulfils the .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-005",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Processing of personal data for provision or issue of subsidy, benefit, service,",
+      "plain_english": "Permit by State and its instrumentalities. — (1) Processing the personal data of a Data Principal under\nthis rule shall be done following the standards specified in Second Schedule.",
+      "original_text": "permit by State and its instrumentalities. — (1) Processing the personal data of a Data Principal under\nthis rule shall be done following the standards specified in Second Schedule.\n(2) In this rule and the Second Schedule, the reference to any subsidy, benefit, service, certificate, licence\nor permit that is provided or issued—\n        (a) under law shall be construed as a reference to provision or issuance of such subsidy, benefit,\n            service, certificate, licence or permit in exercise of any power of or the performance of any\n            function by the State or any of its instrumentalities under any law for the time being in force;\n        (b) under policy shall be construed as a reference to provision or issuance of such subsidy, benefit,\n            service, certificate, licence or permit under any policy or instruction issued by the Central\n            Government or a State Government in exercise of its executive power; and\n        (c) using public funds shall be constr",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be done following the standards specified in second schedule?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Processing of personal data for provision or issue of subsidy, benefit, service,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Processing of personal data for provision or issue of subsidy, benefit, service,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-006",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "6",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal da",
+      "plain_english": "Under its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\nthe minimum, —\n    (a) appropriate data security measures, such as securing of personal data through encryption,\n        obfuscation, masking or the use of virtual tokens mapped to that per",
+      "original_text": "under its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\nthe minimum, —\n    (a) appropriate data security measures, such as securing of personal data through encryption,\n        obfuscation, masking or the use of virtual tokens mapped to that personal data;\n    (b) appropriate measures to control access to the computer resources used by such Data Fiduciary or\n        such a Data Processor, wherever applicable;\n    (c) visibility on the accessing of such personal data, through appropriate logs, monitoring and review,\n        for enabling detection of unauthorised access, its investigation and remediation to prevent\n        recurrence;\n    (d) reasonable measures for continued processing in the event of confidentiality, integrity or\n        availability of such personal data being compromised as a result of destruction or loss of access",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal da' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal da.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "data_retention",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Add 'Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal da' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-007",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Intimation of personal data breach. — (1) On becoming aware of any personal data",
+      "plain_english": "Fiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication registered by her\nwith the Data Fiduciary, —\n    (a) a description of the breach, including its nature, extent and the timing of its occurrence;\n    (b) the consequences relevant to her, that are likel",
+      "original_text": "Fiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication registered by her\nwith the Data Fiduciary, —\n    (a) a description of the breach, including its nature, extent and the timing of its occurrence;\n    (b) the consequences relevant to her, that are likely to arise from the breach;\n    (c) the measures implemented and being implemented by the Data Fiduciary, if any, to mitigate risk;\n    (d) the safety measures that she may take to protect her interests; and\n    (e) business contact information of a person who is able to respond on behalf of the Data Fiduciary, to\n        queries, if any, of the Data Principal.\n\n(2) On becoming aware of any personal data breach, the Data Fiduciary shall intimate to the Board, —\n    (a) without delay, a description of the breach, including its nature, extent, timing and location of\n        occurrence and the li",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation , to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and witho?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Intimation of personal data breach. — (1) On becoming aware of any personal data.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Intimation of personal data breach. — (1) On becoming aware of any personal data.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-008",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Time period for specified purpose to be deemed as no longer being served.—(1) A ",
+      "plain_english": "Who is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\nPrincipal neither approaches such Data Fiduciary for the performance of t",
+      "original_text": "who is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\nPrincipal neither approaches such Data Fiduciary for the performance of the specified purpose nor exercises\nher rights in relation to such processing.\n(2) At least forty-eight hours before completion of the time period for erasure of personal data under this\nrule, the Data Fiduciary shall inform the Data Principal that such personal data shall be erased upon\ncompletion of such period, unless she logs into her user account or otherwise initiates contact with the Data\nFiduciary for the performance of the specified purpose or exercises her rights in relation to the processing\nof such personal data.\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation erase such personal data?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Time period for specified purpose to be deemed as no longer being served.—(1) A .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "data_retention",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "tags": [
+        "consent",
+        "data_retention",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Time period for specified purpose to be deemed as no longer being served.—(1) A .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-009",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "9",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Contact information of person to answer questions about processing.— Every Data ",
+      "plain_english": "Prominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Data\nProtection Officer, if applicable, or a person who is able to answer on behalf of the Data Fiduciary the\nquestions of the Data Principal about the processing of her personal data.",
+      "original_text": "prominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Data\nProtection Officer, if applicable, or a person who is able to answer on behalf of the Data Fiduciary the\nquestions of the Data Principal about the processing of her personal data.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: contact information of person to answer questions about processing.— every data ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Contact information of person to answer questions about processing.— Every Data .",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Contact information of person to answer questions about processing.— Every Data .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-010",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "10",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Verifiable consent for processing of personal data of child.—(1) A Data Fiduciar",
+      "plain_english": "Appropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for checking that the\nindividual identifying herself as the parent is an adult who is identifiable if required in connection with\ncompliance with any law for the time being in force in India, by referenc",
+      "original_text": "appropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for checking that the\nindividual identifying herself as the parent is an adult who is identifiable if required in connection with\ncompliance with any law for the time being in force in India, by reference to—\n    (a) reliable details of identity and age of the individual available with the Data Fiduciary; or\n\n    (b) details of identity and age, voluntarily provided —\n\n         (i) by the individual; or\n\n         (ii) through a virtual token mapped to such details, which is issued by an authorised entity.\n\n(2) In this rule, the expression—\n     (a) “adult” shall mean an individual who has completed the age of eighteen years;\n\n    (b) “authorised entity\" shall mean —\n\n         (i)    an entity entrusted by law or by the Central Government or by the State Government with\n         the issuance o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation observe due diligence?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Verifiable consent for processing of personal data of child.—(1) A Data Fiduciar.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Verifiable consent for processing of personal data of child.—(1) A Data Fiduciar.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-011",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Verifiable consent for processing of personal data of person with disability who",
+      "plain_english": "Guardian. — (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that such\nguardian is appointed by a court of law, or by a designated authority or by a local level committee, under\nthe law applicable to guardianship.",
+      "original_text": "guardian. — (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that such\nguardian is appointed by a court of law, or by a designated authority or by a local level committee, under\nthe law applicable to guardianship.\n(2) In this rule, the expression—\n     (a) “designated authority” shall mean an authority designated under section 15 of the Rights of Persons\n         with Disabilities Act, 2016 (49 of 2016) to support persons with disabilities in exercise of their\n         legal capacity;\n\n     (b) “law applicable to guardianship” shall mean, —\n\n             (i) in relation to an individual who has long term physical, mental, intellectual or sensory\n                 impairment which, in interaction with barriers, hinders her full and effective participation\n                 in society equally with others and who despite being provided adequate and appropr",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation observe due diligence to verify that such\nguardian is appointed by a court of law, or by a designated authority or by a?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Verifiable consent for processing of personal data of person with disability who.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Verifiable consent for processing of personal data of person with disability who.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 15",
+        "section 13"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-012",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "12",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "Exemptions from certain obligations applicable to processing of personal data of",
+      "plain_english": "Provisions of sub-sections (1) and (3) of section 9 of the Act shall not be applicable to processing of\npersonal data of a child by such class of Data Fiduciaries as are specified in Part A of Fourth Schedule,\nsubject to such conditions as are specified in the said Part. (2) The provisions of sub-sections (1) and (3) of section 9 of the Act shall not be applicable to processing of\npersonal data of",
+      "original_text": "provisions of sub-sections (1) and (3) of section 9 of the Act shall not be applicable to processing of\npersonal data of a child by such class of Data Fiduciaries as are specified in Part A of Fourth Schedule,\nsubject to such conditions as are specified in the said Part.\n(2) The provisions of sub-sections (1) and (3) of section 9 of the Act shall not be applicable to processing of\npersonal data of a child for such purposes as are specified in Part B of Fourth Schedule, subject to such\nconditions as are specified in the said Part.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: exemptions from certain obligations applicable to processing of personal data of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Exemptions from certain obligations applicable to processing of personal data of.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Exemptions from certain obligations applicable to processing of personal data of.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 9",
+        "section 9"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-013",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "13",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Additional obligations of Significant Data Fiduciary. — (1) A Significant Data F",
+      "plain_english": "In every period of twelve months from the date on which it is notified as such or is included in the class of\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and an audit to ensure\neffective observance of the provisions of this Act and the rules made under it. (2) A Significant Data Fiduciary shall cause the person carrying out the Data Protection Impact Assessme",
+      "original_text": "in every period of twelve months from the date on which it is notified as such or is included in the class of\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and an audit to ensure\neffective observance of the provisions of this Act and the rules made thereunder.\n(2) A Significant Data Fiduciary shall cause the person carrying out the Data Protection Impact Assessment\nand audit to furnish to the Board a report containing significant observations in the Data Protection Impact\nAssessment and audit.\n(3) A Significant Data Fiduciary shall observe due diligence to verify that technical measures including\nalgorithmic software adopted by it for hosting, display, uploading, modification, publishing, transmission,\nstorage, updating or sharing of personal data processed by it are not likely to pose a risk to the rights of\nData Principals.\n(4) A Significant Data Fiduciary shall undertake measures to ensure that personal data specified by the\nCentral Government, on ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation observe due diligence to ve?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Additional obligations of Significant Data Fiduciary. — (1) A Significant Data F.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "audit_log",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Additional obligations of Significant Data Fiduciary. — (1) A Significant Data F.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-014",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "14",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Rights of Data Principals. — (1) For enabling Data Principals to exercise their ",
+      "plain_english": "The Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\napp, or both, as the case may be, —\n\f30                          THE GAZETTE OF INDIA : EXTRAORDINARY                           [PART II—SEC. 3(i)]\n\n     (a) the details of the means using which a Data Principal may make a request for the exercise of such\n         rights; and\n\n     (b) the pa",
+      "original_text": "the Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\napp, or both, as the case may be, —\n\f30                          THE GAZETTE OF INDIA : EXTRAORDINARY                           [PART II—SEC. 3(i)]\n\n     (a) the details of the means using which a Data Principal may make a request for the exercise of such\n         rights; and\n\n     (b) the particulars, if any, such as the username or other identifier of such a Data Principal, which may\n         be required to identify her under its terms of service.\n\n(2) To exercise the rights of the Data Principal under the Act, she may make a request to the Data Fiduciary\nto whom she has previously given consent for processing of her personal data, using the means and\nfurnishing the particulars required by such Data Fiduciary for the exercise of such rights.\n(3) Every Data Fiduciary and Consent Manager shall prominently publish on its website or app, or both, as\nthe case may be, within a reasona",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: rights of data principals. — (1) for enabling data principals to exercise their ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Rights of Data Principals. — (1) For enabling Data Principals to exercise their .",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "kyc",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "kyc",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Rights of Data Principals. — (1) For enabling Data Principals to exercise their .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-015",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Transfer of personal data outside the territory of India.— Any personal data pro",
+      "plain_english": "Fiduciary under the Act may be transferred outside the territory of India subject to the restriction that the\nData Fiduciary shall meet such requirements as the Central Government may, by general or special order,\nspecify in respect of making such personal data available to any foreign State, or to any person or entity\nunder the control of or any agency of such a State.",
+      "original_text": "Fiduciary under the Act may be transferred outside the territory of India subject to the restriction that the\nData Fiduciary shall meet such requirements as the Central Government may, by general or special order,\nspecify in respect of making such personal data available to any foreign State, or to any person or entity\nunder the control of or any agency of such a State.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation meet such requirements as the central government may?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Transfer of personal data outside the territory of India.— Any personal data pro.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Transfer of personal data outside the territory of India.— Any personal data pro.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-016",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "16",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Exemption from Act for research, archiving or statistical purposes. —The provisi",
+      "plain_english": "Shall not apply to the processing of personal data necessary for research, archiving or statistical purposes if\nit is carried on in accordance with the standards specified in Second Schedule. 17.Appointment of Chairperson and other Members.— (1) The Central Government shall constitute a\nSearch-cum-Selection Committee, with the Cabinet Secretary as the chairperson and the Secretaries to the\nGovernm",
+      "original_text": "shall not apply to the processing of personal data necessary for research, archiving or statistical purposes if\nit is carried on in accordance with the standards specified in Second Schedule.\n17.Appointment of Chairperson and other Members.— (1) The Central Government shall constitute a\nSearch-cum-Selection Committee, with the Cabinet Secretary as the chairperson and the Secretaries to the\nGovernment of India in charge of the Department of Legal Affairs and the Ministry of Electronics and\nInformation Technology and two experts of repute having special knowledge or practical experience in a\nfield which in the opinion of the Central Government may be useful to the Board as members, to\nrecommend individuals for appointment as Chairperson.\n(2) The Central Government shall constitute a Search-cum-Selection Committee, with the Secretary to the\nGovernment of India in the Ministry of Electronics and Information Technology as the chairperson and the\nSecretary to the Government of India in charg",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not apply to the processing of personal data necessary for research?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Exemption from Act for research, archiving or statistical purposes. —The provisi.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Exemption from Act for research, archiving or statistical purposes. —The provisi.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-017",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Salary, allowances and other terms and conditions of service of Chairperson and ",
+      "plain_english": "—The Chairperson and every other Member shall receive such salary and allowances and shall have such\nother terms and conditions of service as are specified in Fifth Schedule.",
+      "original_text": "—The Chairperson and every other Member shall receive such salary and allowances and shall have such\nother terms and conditions of service as are specified in Fifth Schedule.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation receive such salary and allowances and shall have such\nother terms and conditions of service as are specified in Fifth?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Salary, allowances and other terms and conditions of service of Chairperson and .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Salary, allowances and other terms and conditions of service of Chairperson and .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-018",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "19",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Procedure for meetings of Board and authentication of its orders, directions and",
+      "plain_english": "[भाग II—खण्ड 3(i)]                        भारत का रािपत्र : असाधारण                                          31\n\n(1) The Chairperson shall fix the date, time and place of meetings of the Board, approve the items of\nagenda therefor, and cause notice specifying the same to be issued under her signature or that of such other\nindividual as the Chairperson may authorise by general or special order in w",
+      "original_text": "[भाग II—खण्ड 3(i)]                        भारत का रािपत्र : असाधारण                                          31\n\n(1) The Chairperson shall fix the date, time and place of meetings of the Board, approve the items of\nagenda therefor, and cause notice specifying the same to be issued under her signature or that of such other\nindividual as the Chairperson may authorise by general or special order in writing.\n(2) Meetings of the Board shall be chaired by the Chairperson and, in her absence, by such other Member\nas the Members present at the meeting may choose from amongst themselves.\n(3) One-third of the membership of the Board shall be the quorum for its meetings.\n(4) All questions which come up before any meeting of the Board shall be decided by a majority of the\nvotes of Members present and voting, and, in the event of an equality of votes, the Chairperson, or in her\nabsence, the person chairing, shall have a second or casting vote.\n(5) If a Member has an interest in any item of business",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation fix the date, time and place of meetings of the Board, approve the items of\nagenda therefor, and cause notice specifyin?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Procedure for meetings of Board and authentication of its orders, directions and.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Procedure for meetings of Board and authentication of its orders, directions and.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 27"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-019",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "20",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Functioning of Board as digital office. — The Board shall function as a digital ",
+      "plain_english": "Prejudice to its power to summon and enforce the attendance of any person and examine her on oath, may\nadopt techno-legal measures to conduct proceedings in a manner that does not require physical presence of\nany individual.",
+      "original_text": "prejudice to its power to summon and enforce the attendance of any person and examine her on oath, may\nadopt techno-legal measures to conduct proceedings in a manner that does not require physical presence of\nany individual.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: functioning of board as digital office. — the board shall function as a digital ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Functioning of Board as digital office. — The Board shall function as a digital .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Functioning of Board as digital office. — The Board shall function as a digital .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-020",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "21",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Terms and conditions of appointment and service of officers and employees of Boa",
+      "plain_english": "Board may, with previous approval of the Central Government, appoint such officers and employees as it\nmay deem necessary for the efficient discharge of its functions under the provisions of the Act. (2) The terms and conditions of service of officers and employees of the Board shall be such as are\nspecified in Sixth Schedule.",
+      "original_text": "Board may, with previous approval of the Central Government, appoint such officers and employees as it\nmay deem necessary for the efficient discharge of its functions under the provisions of the Act.\n(2) The terms and conditions of service of officers and employees of the Board shall be such as are\nspecified in Sixth Schedule.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be such as are\nspecified in Sixth Schedule?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Terms and conditions of appointment and service of officers and employees of Boa.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Terms and conditions of appointment and service of officers and employees of Boa.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-021",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "22",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Appeal to Appellate Tribunal. — (1) Any person aggrieved by an order or directio",
+      "plain_english": "May prefer an appeal before the Appellate Tribunal, it shall be filed in digital form as the Appellate\nTribunal may decide. (2) An appeal filed with the Appellate Tribunal shall be accompanied by fee of like amount as is applicable\nin respect of an appeal filed under the Telecom Regulatory Authority of India Act, 1997 (24 of 1997),\nunless reduced or waived by the Chairperson of the Appellate Tribu",
+      "original_text": "may prefer an appeal before the Appellate Tribunal, it shall be filed in digital form as the Appellate\nTribunal may decide.\n(2) An appeal filed with the Appellate Tribunal shall be accompanied by fee of like amount as is applicable\nin respect of an appeal filed under the Telecom Regulatory Authority of India Act, 1997 (24 of 1997),\nunless reduced or waived by the Chairperson of the Appellate Tribunal at her discretion, and the same shall\nbe payable digitally using the Unified Payments Interface or such other payment system authorised by the\nReserve Bank of India.\n(3) The Appellate Tribunal—\n     (a) shall not be bound by the procedure laid down by the Code of Civil Procedure, 1908 (5 of 1908),\n          but shall be guided by the principles of natural justice and, subject to the provisions of the Act, may\n          regulate its own procedure; and\n\n    (b) shall function as a digital office which, without prejudice to its power to summon and enforce the\n        attendance of any person ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be filed in digital form as the Appellate\nTribunal may decide?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Appeal to Appellate Tribunal. — (1) Any person aggrieved by an order or directio.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Appeal to Appellate Tribunal. — (1) Any person aggrieved by an order or directio.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-022",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "23",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Calling for information from Data Fiduciary or intermediary. — (1) The Central G",
+      "plain_english": "For such purposes of the Act as are specified in Seventh Schedule, acting through the corresponding\nauthorised person specified in the said Schedule, require any Data Fiduciary or intermediary to furnish such\ninformation as may be called for, within the specified period as may be given in such. (2) Where the disclosure of furnishing of information as referred to in sub-rule (1) is likely to prejud",
+      "original_text": "for such purposes of the Act as are specified in Seventh Schedule, acting through the corresponding\nauthorised person specified in the said Schedule, require any Data Fiduciary or intermediary to furnish such\ninformation as may be called for, within the specified period as may be given in such.\n(2) Where the disclosure of furnishing of information as referred to in sub-rule (1) is likely to prejudicially\naffect the sovereignty and integrity of India or security of the State, the Central Government may require\nthe Data Fiduciary or intermediary to not disclose such furnishing to affected Data Principal or any other\nperson except with the previous permission, in writing, of the authorised person.\n(3) For the purposes of this rule, the expression “intermediary” shall have the same meaning as assigned to\nit in the Information Technology Act, 2000 (21 of 2000).\n\n                                          FIRST SCHEDULE\n                                               [See rule 4]\n             ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Calling for information from Data Fiduciary or intermediary. — (1) The Central G' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Calling for information from Data Fiduciary or intermediary. — (1) The Central G.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Add 'Calling for information from Data Fiduciary or intermediary. — (1) The Central G' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "rule 4"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-023",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The applicant has sufficient capacity, including technical, operational and fina",
+      "plain_english": "Obligations as a Consent Manager. applicant are adequate.",
+      "original_text": "obligations as a Consent Manager.\n\napplicant are adequate.\n\nindividuals with a general reputation and record of fairness and integrity.\n\nrequiring that the obligations under items 9 and 10 of Part B are adhered to, that policies and procedures are\nin place to ensure such adherence, and that such provisions may be amended only with the previous\napproval of the Board.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the applicant has sufficient capacity, including technical, operational and fina?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The applicant has sufficient capacity, including technical, operational and fina.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The applicant has sufficient capacity, including technical, operational and fina.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-024",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "9",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "It is independently certified that—",
+      "plain_english": "(a) the interoperable platform of the applicant to enable the Data Principal to give, manage, review and\n          withdraw her consent is consistent with such data protection standards and assurance framework\n          as may be published by the Board on its website from time to time; and\n     (b) appropriate technical and organisational measures are in place to ensure adherence to such",
+      "original_text": "(a) the interoperable platform of the applicant to enable the Data Principal to give, manage, review and\n          withdraw her consent is consistent with such data protection standards and assurance framework\n          as may be published by the Board on its website from time to time; and\n     (b) appropriate technical and organisational measures are in place to ensure adherence to such\n          standards and framework and effective observance of the obligations under item 11 of Part B.\n\n                                                 PART B\n                                     Obligations of Consent Manager",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: it is independently certified that—?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: It is independently certified that—.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: It is independently certified that—.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-025",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "The Consent Manager shall enable a Data Principal using its platform to give con",
+      "plain_english": "Processing of her personal data by a Data Fiduciary onboarded onto such platform either directly to such\nData Fiduciary or through another Data Fiduciary onboarded onto such platform, who maintains such\npersonal data with the consent of that Data Principal. [भाग II—खण्ड 3(i)]                       भारत का रािपत्र : असाधारण                                       33",
+      "original_text": "processing of her personal data by a Data Fiduciary onboarded onto such platform either directly to such\nData Fiduciary or through another Data Fiduciary onboarded onto such platform, who maintains such\npersonal data with the consent of that Data Principal.\n\f[भाग II—खण्ड 3(i)]                       भारत का रािपत्र : असाधारण                                       33\n\n                                                  Illustration.\n         Individuals are enabled to give, manage, review and withdraw their consent to the processing of\ntheir personal data through P, a platform maintained by a Consent Manager. X, an individual, is a registered\nuser on P. B1 and B2 are banks onboarded onto P.\n      Case 1:B1 sends a request on P to X for consent to process personal data contained in her bank\naccount statement. X maintains the bank account statement as a digital record in her digital locker. X uses P\nto directly give her consent to B1, and proceeds to give B1 access to her bank account stateme",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: the consent manager shall enable a data principal using its platform to give con?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Consent Manager shall enable a Data Principal using its platform to give con.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Consent Manager shall enable a Data Principal using its platform to give con.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-026",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Consent Manager: —",
+      "plain_english": "(a) shall give the Data Principal using such platform access to such record;\n       (b) shall, on the request of the Data Principal and in accordance with its terms of service, make\n           available to her the information contained in such record, in machine-readable form; and\n       (c) shall maintain such record for at least seven years, or for such longer period as the Data\n           Princ",
+      "original_text": "(a) shall give the Data Principal using such platform access to such record;\n       (b) shall, on the request of the Data Principal and in accordance with its terms of service, make\n           available to her the information contained in such record, in machine-readable form; and\n       (c) shall maintain such record for at least seven years, or for such longer period as the Data\n           Principal and Consent Manager may agree upon or as may be required by law.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation give the data principal using such platform access to such record?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Consent Manager: —.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Consent Manager: —.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-027",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "5",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "The Consent Manager shall develop and maintain a website or app, or both, as the",
+      "plain_english": "Through which a Data Principal may access the services provided by the Consent Manager. the Act and these rules.",
+      "original_text": "through which a Data Principal may access the services provided by the Consent Manager.\n\nthe Act and these rules.\n\ntheir promoters and key managerial personnel.\n\naccount of its directors, key managerial personnel and senior management holding a directorship, financial\ninterest, employment or beneficial ownership in Data Fiduciaries, or having a material pecuniary\nrelationship with them.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: the consent manager shall develop and maintain a website or app, or both, as the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Consent Manager shall develop and maintain a website or app, or both, as the.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Consent Manager shall develop and maintain a website or app, or both, as the.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-028",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "12",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The Consent Manager shall have in place effective audit mechanisms to review, mo",
+      "plain_english": "Report the outcome of such audit to the Board, periodically and on such other occasions as the Board may\ndirect, in respect of—\n\n       (a) technical and organisational controls, systems, procedures and safeguards;\n\n       (b) continued fulfilment of the conditions of registration; and\n\n       (c) adherence to its obligations under the Act and these rules.",
+      "original_text": "report the outcome of such audit to the Board, periodically and on such other occasions as the Board may\ndirect, in respect of—\n\n       (a) technical and organisational controls, systems, procedures and safeguards;\n\n       (b) continued fulfilment of the conditions of registration; and\n\n       (c) adherence to its obligations under the Act and these rules.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the consent manager shall have in place effective audit mechanisms to review, mo?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Consent Manager shall have in place effective audit mechanisms to review, mo.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "audit_log",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Consent Manager shall have in place effective audit mechanisms to review, mo.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-029",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "13",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The control of the company registered as the Consent Manager shall not be transf",
+      "plain_english": "Merger or otherwise, except with the previous approval of the Board and subject to fulfilment of such\nconditions as the Board may specify in this behalf. Note: In this Schedule, —\n       (a) the expression “body corporate” shall include a company, a body corporate as defined under\n            clause (11) of section 2 of the Companies Act, 2013 (18 of 2013), a firm, a financial institution,",
+      "original_text": "merger or otherwise, except with the previous approval of the Board and subject to fulfilment of such\nconditions as the Board may specify in this behalf.\n\nNote: In this Schedule, —\n       (a) the expression “body corporate” shall include a company, a body corporate as defined under\n            clause (11) of section 2 of the Companies Act, 2013 (18 of 2013), a firm, a financial institution,\n            a scheduled bank or a public sector enterprise established or constituted by or under any Central\n            Act, Provincial Act or State Act, and any other incorporated association of persons or body of\n            individuals;\n\n       (b) the expressions “company”, “control”, “director” and “key managerial personnel” shall have the\n           same meanings as are respectively assigned to them in the Companies Act, 2013 (18 of 2013);\n\n       (c) the expression “net worth” shall mean the aggregate value of total assets as reduced by the value\n           of liabilities of the Consent Man",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation include a company?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The control of the company registered as the Consent Manager shall not be transf.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "vendor_management"
+      ],
+      "tags": [
+        "breach_notification",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The control of the company registered as the Consent Manager shall not be transf.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 7",
+        "section 17",
+        "section 7",
+        "section 17"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-030",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Data Fiduciary who For all purposes, except for the following:       Three years",
+      "plain_english": "Is an e-commerce (a) Enabling the Data Principal to access           which the Data Principal last\n    entity having not       her user account; and                        approached the Data Fiduciary\n    less than two crore                                                  for the performance of the\n                        (b) Enabling the Data Principal to access\n    registered users in",
+      "original_text": "is an e-commerce (a) Enabling the Data Principal to access           which the Data Principal last\n    entity having not       her user account; and                        approached the Data Fiduciary\n    less than two crore                                                  for the performance of the\n                        (b) Enabling the Data Principal to access\n    registered users in                                                  specified purpose or exercise of\n                            any virtual token that is issued by or\n    India.                                                               her      rights,     or      the\n                            on behalf of the Data Fiduciary, is\n                                                                         commencement of the Digital\n                            stored on the digital facility or\n                                                                         Personal Data Protection Rules,\n                     ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: data fiduciary who for all purposes, except for the following:       three years?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Data Fiduciary who For all purposes, except for the following:       Three years.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Data Fiduciary who For all purposes, except for the following:       Three years.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-031",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "2",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Data Fiduciary who For all purposes, except for the following:      Three years ",
+      "plain_english": "Is an online gaming    (a) Enabling the Data Principal to           which the Data Principal last\n     intermediary having         access her user account; and            approached the Data Fiduciary\n     not less than fifty                                                 for the performance of the\n                            (b) Enabling the Data Principal to\n     lakh registered users",
+      "original_text": "is an online gaming    (a) Enabling the Data Principal to           which the Data Principal last\n     intermediary having         access her user account; and            approached the Data Fiduciary\n     not less than fifty                                                 for the performance of the\n                            (b) Enabling the Data Principal to\n     lakh registered users                                               specified purpose or exercise of\n                                 access any virtual token that is\n     in India.                                                           her      rights,     or      the\n                                 issued by or on behalf of the Data\n                                                                         commencement of the Digital\n                                 Fiduciary, is stored on the digital\n                                                                         Personal Data Protection Rules,\n               ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: data fiduciary who for all purposes, except for the following:      three years ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Data Fiduciary who For all purposes, except for the following:      Three years .",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Data Fiduciary who For all purposes, except for the following:      Three years .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-032",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "3",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Data Fiduciary who For all purposes, except for the following:     Three years f",
+      "plain_english": "Is a social media      (a) Enabling the Data Principal to          which the Data Principal last\n      intermediary having         access her user account; and           approached the Data Fiduciary\n      not less than two                                                  for the performance of the\n                             (b) Enabling the Data Principal to\n      crore      registered",
+      "original_text": "is a social media      (a) Enabling the Data Principal to          which the Data Principal last\n      intermediary having         access her user account; and           approached the Data Fiduciary\n      not less than two                                                  for the performance of the\n                             (b) Enabling the Data Principal to\n      crore      registered                                              specified purpose or exercise of\n                                  access any virtual token that is\n      users in India.                                                    her      rights,     or      the\n                                  issued by or on behalf of the Data\n                                                                         commencement of the Digital\n                                  Fiduciary, is stored on the digital\n                                                                         Personal Data Protection Rules,\n            ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: data fiduciary who for all purposes, except for the following:     three years f?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Data Fiduciary who For all purposes, except for the following:     Three years f.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Data Fiduciary who For all purposes, except for the following:     Three years f.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule\n         2",
+        "rule 12",
+        "section 9"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-033",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "A Data Fiduciary who is an educational Processing is restricted to tracking and ",
+      "plain_english": "Institution. monitoring—\n                                              (a) for the educational activities of such institution;\n                                                  or\n\n                                                          (b) in the interests of safety of children enrolled\n                                                              with such institution.",
+      "original_text": "institution.                           monitoring—\n                                              (a) for the educational activities of such institution;\n                                                  or\n\n                                                          (b) in the interests of safety of children enrolled\n                                                              with such institution.\n\nwhose care infants and children in a crèche monitoring in the interests of safety of children\n      or child day care centre are entrusted.       entrusted in the care of such institution, crèche or\n                                                    centre.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: a data fiduciary who is an educational processing is restricted to tracking and ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: A Data Fiduciary who is an educational Processing is restricted to tracking and .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: A Data Fiduciary who is an educational Processing is restricted to tracking and .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-034",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "5",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "A Data Fiduciary who is engaged by an Processing is restricted to tracking the l",
+      "plain_english": "Educational institution, crèche or child care such children, in the interests of their safety, during\n      centre for transport of children enrolled the course of their travel to and from such institution,\n      with such institution, crèche or centre. crèche or centre.",
+      "original_text": "educational institution, crèche or child care such children, in the interests of their safety, during\n      centre for transport of children enrolled the course of their travel to and from such institution,\n      with such institution, crèche or centre.      crèche or centre.\n\n\n                                              PART B\n         Purposes for which provisions of sub-sections (1) and (3) of section 9 shall not apply\n S.\n                         Purposes                                              Conditions\nNo.\n(1)                          (2)                                                    (3)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation avoid: a data fiduciary who is engaged by an processing is restricted to tracking the l?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: A Data Fiduciary who is engaged by an Processing is restricted to tracking the l.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: A Data Fiduciary who is engaged by an Processing is restricted to tracking the l.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 9"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-035",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "For the exercise of any power, performance           Processing is restricted to",
+      "plain_english": "Of any function or discharge of any duties in        such exercise, performance or discharge. the interests of a child, under any law for the\n      time being in force in India.",
+      "original_text": "of any function or discharge of any duties in        such exercise, performance or discharge.\n      the interests of a child, under any law for the\n      time being in force in India.\n\nbenefit, service, certificate, licence or permit,    such provision or issuance.\n      by whatever name called, under law or policy\n      or using public funds, in the interests of a\n      child, under clause (b) of section 7 of the Act.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: for the exercise of any power, performance           processing is restricted to?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: For the exercise of any power, performance           Processing is restricted to.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: For the exercise of any power, performance           Processing is restricted to.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 7"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-036",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "For the creation of a user account for         Processing is restricted to the e",
+      "plain_english": "Communicating by email. creating such user account, the use of which is\n                                                     limited to communication by email.",
+      "original_text": "communicating by email.                        creating such user account, the use of which is\n                                                     limited to communication by email.\n\na child.                                       location of such child, in the interest of her safety\n                                                     and protection or security.\n\nadvertisement likely to cause any detrimental ensure that such information, service or\n      effect on the well-being of a child is not advertisement is not accessible to the child.\n      accessible to her.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: for the creation of a user account for         processing is restricted to the e?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: For the creation of a user account for         Processing is restricted to the e.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: For the creation of a user account for         Processing is restricted to the e.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-037",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "For confirmation by the Data Fiduciary that Processing is restricted to the exte",
+      "plain_english": "The Data Principal is not a child and such confirmation or observance. observance of due diligence under rule 10.",
+      "original_text": "the Data Principal is not a child and such confirmation or observance.\n      observance of due diligence under rule 10.\n\nNote: In this Schedule, —\n\f38                          THE GAZETTE OF INDIA : EXTRAORDINARY                           [PART II—SEC. 3(i)]\n\n     (a) “advertisement” shall have the same meaning as is assigned to it in the Consumer Protection Act,\n     2019 (35 of 2019).\n     (a) “allied healthcare professional” shall have the same meaning as is assigned to it in the clause (d) of\n     section 2 of the National Commission for Allied and Healthcare Professions Act, 2021 (14 of 2021);\n     (b) “clinical establishment” shall have the same meaning as assigned to it in the clause (c) of section 2\n     of the Clinical Establishments (Registration and Regulation) Act, 2010 (23 of 2010);\n     (c) “educational institution” shall mean and include an institution of learning that imparts education,\n     including vocational education;\n     (d) “healthcare professional” shall have t",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have the same meaning as is assigned to it in the consumer protection act?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: For confirmation by the Data Fiduciary that Processing is restricted to the exte.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "children",
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: For confirmation by the Data Fiduciary that Processing is restricted to the exte.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 10.",
+        "section 2",
+        "section 2",
+        "section 2",
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-038",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Salary. — (1) The Chairperson shall be entitled to receive a consolidated salary",
+      "plain_english": "Thousand per month, without the facility of house and car. (2) Every Member other than the Chairperson shall be entitled to receive a consolidated salary of rupees\nfour lakh per month, without the facility of house and car.",
+      "original_text": "thousand per month, without the facility of house and car.\n(2) Every Member other than the Chairperson shall be entitled to receive a consolidated salary of rupees\nfour lakh per month, without the facility of house and car.\n\nProvident Fund of the Board, and the manner and terms and conditions applicable in this regard shall,\nmutatis mutandis, be the same as those applicable to other officers and employees of the Board for their\nProvident Fund.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be entitled to receive a consolidated salary of rupees\nfour lakh per month, without the facility of house and car?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Salary. — (1) The Chairperson shall be entitled to receive a consolidated salary.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Salary. — (1) The Chairperson shall be entitled to receive a consolidated salary.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-039",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "4",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Travelling allowance.—(1) The Chairperson and every other Member, while on trans",
+      "plain_english": "Board, or on the expiry of her term with the Board for proceeding to her home town with family (including\nin respect of journey undertaken by her and her family), or on tour within India, shall be entitled to journey\nallowance, daily allowance and reimbursement of expense on transportation of personal effects at such\nscales and rates as are applicable to an officer of the Central Government in the",
+      "original_text": "Board, or on the expiry of her term with the Board for proceeding to her home town with family (including\nin respect of journey undertaken by her and her family), or on tour within India, shall be entitled to journey\nallowance, daily allowance and reimbursement of expense on transportation of personal effects at such\nscales and rates as are applicable to an officer of the Central Government in the following level of the pay\nmatrix, namely:—\n        (a) level 17, in the case of the Chairperson; and\n\n        (b) level 15, in the case of every other Member.\n\n(2) The Chairperson and every other Member may undertake tour outside India only in accordance with\nguidelines or instructions issued by the Central Government, and in respect of such tour, she shall be\nentitled to draw the same allowances as an officer of the Central Government, in the following level of the\npay matrix, is entitled to draw, namely: —\n        (a) level 17, in the case of the Chairperson; and\n\n        (b) level 15, in ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: travelling allowance.—(1) the chairperson and every other member, while on trans?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Travelling allowance.—(1) The Chairperson and every other Member, while on trans.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "data_localisation",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "data_localisation",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Travelling allowance.—(1) The Chairperson and every other Member, while on trans.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-040",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Medical assistance. — (1) The Chairperson and every other Member shall be entitl",
+      "plain_english": "Assistance as may be admissible to them under any group health insurance scheme of the Board for officers\nand employees of the Board and their eligible dependants. [भाग II—खण्ड 3(i)]                        भारत का रािपत्र : असाधारण                                          39\n\n(2) If the Chairperson or other Member has retired from Government service, or from the service of a\npublic sector entity o",
+      "original_text": "assistance as may be admissible to them under any group health insurance scheme of the Board for officers\nand employees of the Board and their eligible dependants.\n\f[भाग II—खण्ड 3(i)]                        भारत का रािपत्र : असाधारण                                          39\n\n(2) If the Chairperson or other Member has retired from Government service, or from the service of a\npublic sector entity or a body corporate established by a Central Act, Provincial Act or State Act, and there\nare a separate set of rules for the grant of medical assistance for such service, she may, in lieu of medical\nassistance under sub-paragraph (1), opt to be governed by such rules.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: medical assistance. — (1) the chairperson and every other member shall be entitl?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Medical assistance. — (1) The Chairperson and every other Member shall be entitl.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Medical assistance. — (1) The Chairperson and every other Member shall be entitl.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-041",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Leave. — (1) The authority competent to sanction leave shall be the Central Gove",
+      "plain_english": "The Chairperson, and the Chairperson in respect of any other Member. (2) The Chairperson and every other Member may avail of such kinds of leave as are admissible to a\nGovernment servant under sub-clause (i) of clause (a) and clause (b) of sub-rule (1) of rule 26, rules 27, 29,\n30 and 40 to 43-C of the Central Civil Services (Leave) Rules, 1972 (called “Leave\nRules”).",
+      "original_text": "the Chairperson, and the Chairperson in respect of any other Member.\n\n(2) The Chairperson and every other Member may avail of such kinds of leave as are admissible to a\nGovernment servant under sub-clause (i) of clause (a) and clause (b) of sub-rule (1) of rule 26, rules 27, 29,\n30 and 40 to 43-C of the Central Civil Services (Leave) Rules, 1972 (hereinafter referred to as “Leave\nRules”).\n(3) Leave shall be subject to the conditions applicable to a Government servant under rules 7 to 11 and 22\nto 25 of the Leave Rules, and the Central Government may, if satisfied that the operation of any of the said\nrules causes undue hardship in a particular case, by order relax the requirements of that rule to such extent\nand subject to such exceptions and conditions as it may consider necessary for dealing with the case in a\njust and equitable manner.\n(4) The Chairperson and every other Member shall be entitled to casual leave to such extent as is\nadmissible to a Government servant under instructio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be subject to the conditions applicable to a Government servant under rules 7 to 11 and 22\nto 25 of the Leave Rules, an?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Leave. — (1) The authority competent to sanction leave shall be the Central Gove.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Leave. — (1) The authority competent to sanction leave shall be the Central Gove.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 26",
+        "rule 38",
+        "rule 39",
+        "rule 39",
+        "rule 39"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-042",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Leave travel concession.—(1) Leave travel concession shall be admissible to the ",
+      "plain_english": "Other Member in accordance with the provisions applicable to persons appointed to civil services and posts\nin connection with the affairs of the Union of India under rule 3, clauses (a) and (d) of rule 4, rules 5 to 15\nand rule 17 of the Central Civil Services (Leave Travel Concession) Rules, 1988, and the entitlement for\nsuch concession shall be the same as is applicable to officers of the Centra",
+      "original_text": "other Member in accordance with the provisions applicable to persons appointed to civil services and posts\nin connection with the affairs of the Union of India under rule 3, clauses (a) and (d) of rule 4, rules 5 to 15\nand rule 17 of the Central Civil Services (Leave Travel Concession) Rules, 1988, and the entitlement for\nsuch concession shall be the same as is applicable to officers of the Central Government in level 17 of the\npay matrix in the case of the Chairperson, and to officers of the Central Government in level 15 of the pay\nmatrix in the case of a Member.\n(2) The Chairperson and every other Member shall be eligible to avail of either leave travel concession to\nhome town or leave travel concession to any place in India in any period of two years from the date of\nassumption of their office as a Member.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be the same as is applicable to officers of the Central Government in level 17 of the\npay matrix in the case of the Cha?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Leave travel concession.—(1) Leave travel concession shall be admissible to the .",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Leave travel concession.—(1) Leave travel concession shall be admissible to the .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 3",
+        "rule 4",
+        "rule 17"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-043",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Other terms and conditions of service. — (1) The Chairperson and every other Mem",
+      "plain_english": "Absence of conflict of interest in the performance of the functions of her office and shall not have any such\nfinancial or other interests as are likely to prejudicially affect the performance of the functions of such\noffice. (2) The provisions contained in Part IV to Part IX of the Central Civil Services (Classification, Control and\nAppeal) Rules, 1965, as applicable to an officer of the Central",
+      "original_text": "absence of conflict of interest in the performance of the functions of her office and shall not have any such\nfinancial or other interests as are likely to prejudicially affect the performance of the functions of such\noffice.\n(2) The provisions contained in Part IV to Part IX of the Central Civil Services (Classification, Control and\nAppeal) Rules, 1965, as applicable to an officer of the Central Government who is a member of a Central\nCivil Services, Group ‘A’, shall apply, mutatis mutandis, to the Chairperson and every other Member.\n(3) The Chairperson and every other Member shall not be entitled to any sitting fee for attending meetings\nof the Board.\n(4) The Chairperson and every other Member shall not be entitled to any sumptuary allowance.\n(5)Any matter relating to the conditions of service of the Chairperson or any other Member, in respect of\nwhich no express provision has been made in these rules, shall be referred to the Central Government for its\ndecision, and the decision of ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation apply, mutatis mutandis?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Other terms and conditions of service. — (1) The Chairperson and every other Mem.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Other terms and conditions of service. — (1) The Chairperson and every other Mem.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-044",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Gratuity. —The officers and employees shall be entitled to payment of such gratu",
+      "plain_english": "Admissible under the Payment of Gratuity Act, 1972 (39 of 1972). mutandis, be the same as those applicable to the officers and employees of the Central Government.",
+      "original_text": "admissible under the Payment of Gratuity Act, 1972 (39 of 1972).\n\nmutandis, be the same as those applicable to the officers and employees of the Central Government.\n\nadmissible to them and their eligible dependants under any group health insurance scheme of the Board,\nmade with the previous approval of the Central Government.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: gratuity. —the officers and employees shall be entitled to payment of such gratu?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Gratuity. —The officers and employees shall be entitled to payment of such gratu.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "governance",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Gratuity. —The officers and employees shall be entitled to payment of such gratu.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-045",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Leave. — (1) The officers and employees may avail of such kinds of leaves as are",
+      "plain_english": "Government servant under the Central Civil Services (Leave) Rules, 1972, subject to the conditions\napplicable under the said rules, and shall be eligible for encashment of earned leave as provided in it. (2) The officers and employees shall be entitled to casual leave to such extent as is admissible to a\nGovernment servant under instructions issued by the Central Government.",
+      "original_text": "Government servant under the Central Civil Services (Leave) Rules, 1972, subject to the conditions\napplicable under the said rules, and shall be eligible for encashment of earned leave as provided therein.\n(2) The officers and employees shall be entitled to casual leave to such extent as is admissible to a\nGovernment servant under instructions issued by the Central Government.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be eligible for encashment of earned leave as provided therein?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Leave. — (1) The officers and employees may avail of such kinds of leaves as are.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Leave. — (1) The officers and employees may avail of such kinds of leaves as are.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-046",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "6",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Leave travel concession. — Leave travel concession shall be admissible to the of",
+      "plain_english": "Appointed under clause (1) of paragraph 1, in accordance with the provisions applicable to persons\nappointed to civil services and posts in connection with the affairs of the Union of India under the Central\nCivil Services (Leave Travel Concession) Rules, 1988.",
+      "original_text": "appointed under clause (1) of paragraph 1, in accordance with the provisions applicable to persons\nappointed to civil services and posts in connection with the affairs of the Union of India under the Central\nCivil Services (Leave Travel Concession) Rules, 1988.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: leave travel concession. — leave travel concession shall be admissible to the of?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Leave travel concession. — Leave travel concession shall be admissible to the of.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Leave travel concession. — Leave travel concession shall be admissible to the of.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "DPDP_RULES_2025-047",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Other terms and conditions of service. — (1) The provisions of the Civil Service",
+      "plain_english": "1964 shall apply to the officers and employees in like manner as applicable to a person appointed to a civil\nservice or post in connection with the affairs of the Union of India under the said rules. (2) The provisions contained in Part IV to Part IX of the Central Civil Services (Classification, Control and\nAppeal) Rules, 1965 shall apply, with appropriate changes, to the officers and employees a",
+      "original_text": "1964 shall apply to the officers and employees in like manner as applicable to a person appointed to a civil\nservice or post in connection with the affairs of the Union of India under the said rules.\n(2) The provisions contained in Part IV to Part IX of the Central Civil Services (Classification, Control and\nAppeal) Rules, 1965 shall apply, mutatis mutandis, to the officers and employees appointed under clause\n(1) of paragraph 1, in like manner as applicable to a Government servant under the said rules.\n(3)Any matter relating to the terms and conditions of service of the officers and employees appointed under\nclause (1) of paragraph 1, in respect of which no express provision has been made in these rules, shall be\nreferred to the Central Government for its decision, and the decision of the Central Government on the\nsame shall be final.\n\n                                          SEVENTH SCHEDULE\n                                           [See rule 23(1) and 8(3)]\n  S.\n                  ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation apply, mutatis mutandis?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Other terms and conditions of service. — (1) The provisions of the Civil Service.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Other terms and conditions of service. — (1) The provisions of the Civil Service.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 23(1)"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-048",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "1",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Use, by the State or any of its instrumentalities, of   Such officer of the Stat",
+      "plain_english": "Personal data of a Data Principal in the interest of    instrumentalities notified under clause (a) of\n        sovereignty and integrity of India or security of       sub-section (2) of section 17 of the Act, as the\n        the State. Central Government or the head of such\n                                                                instrumentality, as the case may be, may",
+      "original_text": "personal data of a Data Principal in the interest of    instrumentalities notified under clause (a) of\n        sovereignty and integrity of India or security of       sub-section (2) of section 17 of the Act, as the\n        the State.                                              Central Government or the head of such\n                                                                instrumentality, as the case may be, may\n                                                                designate in this behalf.\n\f[भाग II—खण्ड 3(i)]                          भारत का रािपत्र : असाधारण                                          41",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: use, by the state or any of its instrumentalities, of   such officer of the stat?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Use, by the State or any of its instrumentalities, of   Such officer of the Stat.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Use, by the State or any of its instrumentalities, of   Such officer of the Stat.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 17"
+      ]
+    },
+    {
+      "control_id": "DPDP_RULES_2025-049",
+      "framework_id": "DPDP_RULES_2025",
+      "section_ref": "2",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "Use, by the State or any of its instrumentalities, of       Person authorised un",
+      "plain_english": "Personal data of a Data Principal for the following\n        purposes, namely: —\n            (i) performance of any function under any\n                law for the time being in force in India; or\n\n            (ii) disclosure of any information for\n                 fulfilling any obligation under any law for\n                 the time being in force in India.",
+      "original_text": "personal data of a Data Principal for the following\n        purposes, namely: —\n            (i) performance of any function under any\n                law for the time being in force in India; or\n\n            (ii) disclosure of any information for\n                 fulfilling any obligation under any law for\n                 the time being in force in India.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "edtech",
+          "ecommerce",
+          "hrtech",
+          "insurtech",
+          "govtech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: use, by the state or any of its instrumentalities, of       person authorised un?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Use, by the State or any of its instrumentalities, of       Person authorised un.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "tags": [
+        "consent",
+        "dpdp",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Use, by the State or any of its instrumentalities, of       Person authorised un.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

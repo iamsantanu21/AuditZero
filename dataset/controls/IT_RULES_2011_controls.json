@@ -1,0 +1,645 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "IT_RULES_2011",
+  "regulator": "MeitY",
+  "controls": [
+    {
+      "control_id": "IT_RULES_2011-001",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "2",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Definitions — (1) In these rules, unless the context otherwise requires,--",
+      "plain_english": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n   (b) \"Communication link” means a connection between a hyperlink or graphical element\n         (button, drawing, image) and one or more such items in the same or different\n         electronic document where upon clicking on a hyperlinked item, the user is\n         automatically transferred to the other end of the hyperlink whic",
+      "original_text": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n   (b) \"Communication link” means a connection between a hyperlink or graphical element\n         (button, drawing, image) and one or more such items in the same or different\n         electronic document wherein upon clicking on a hyperlinked item, the user is\n         automatically transferred to the other end of the hyperlink which could be another\n         document website or graphical element.\n   (c) \"Computer resource” means computer resources as defined in clause (k) of sub-\n         section (1) of section 2 of the Act;\n   (d) \"Cyber security incidnt” means any real or suspected adverse event in relation to cyber\n         security that violates an explicity or implicity applicable security policy resulting in\n         unauthotrised access, denial of service or disruption, unauthorised use of a computer\n         resource for processing or storage of information or changes to data, information\n         without author",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Definitions — (1) In these rules, unless the context otherwise requires,--' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions — (1) In these rules, unless the context otherwise requires,--.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "access_control",
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Add 'Definitions — (1) In these rules, unless the context otherwise requires,--' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 2",
+        "section 2",
+        "section 70",
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "IT_RULES_2011-002",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "3 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Due diligence to he observed by intermediary — The intermediary shall observe fo",
+      "plain_english": "Due diligence while discharging his duties, namely : —\n          (1) The intermediary shall publish the rules and regulations, privacy policy and\n          user agreement for access-or usage of the intermediary's computer resource by\n          any person. (2) Such rules and regulations, terms and conditions or user agreement shall\n          inform the users of computer resource not to host, displa",
+      "original_text": "due diligence while discharging his duties, namely : —\n          (1) The intermediary shall publish the rules and regulations, privacy policy and\n          user agreement for access-or usage of the intermediary's computer resource by\n          any person.\n\n          (2) Such rules and regulations, terms and conditions or user agreement shall\n          inform the users of computer resource not to host, display, upload, modify,\n          publish, transmit, update or share any information that —\n             (a) belongs to another person and to which the user does not have any right\n                 to;\n             (b) is grossly harmful, harassing, blasphemous defamatory, obscene,\n                 pornographic, paedophilic, libellous, invasive of another's privacy,\n                 hateful, or racially, ethnically objectionable, disparaging, relating or\n                 encouraging money laundering or gambling, or otherwise unlawful in any\n                 manner whatever;\n             ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation publish the rules and regulations?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Due diligence to he observed by intermediary — The intermediary shall observe fo.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Due diligence to he observed by intermediary — The intermediary shall observe fo.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IT_RULES_2011-003",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "3 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Due diligence to he observed by intermediary — The intermediary shall observe fo",
+      "plain_english": "Investigative, protective, cyber security activity. The information or any such assistance shall be\nprovided for the purpose of verification of identity, or for prevention, detection, investigation,\nprosecution, cyber security incidents and punishment of offences under any law for the time\nbeing in force, on a request in writing staling clearly the purpose of seeking such information or\nany such a",
+      "original_text": "investigative, protective, cyber security activity. The information or any such assistance shall be\nprovided for the purpose of verification of identity, or for prevention, detection, investigation,\nprosecution, cyber security incidents and punishment of offences under any law for the time\nbeing in force, on a request in writing staling clearly the purpose of seeking such information or\nany such assistance.\n(8) The intermediary shall take all reasonable measures to secure its computer resource and\ninformation contained therein following the reasonable security practices and procedures as\nprescribed in the Information Technology (Reasonable security practices and procedures and\nsensitive personal Information) Rules, 2011.\n(9) The intermediary shall report cyber security incidents and also share cyber security\nincidents related information with the Indian Computer Emergency Response Team.\n(10) The intermediary shall not knowingly deploy or install or modify the technical\nconfiguration of",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be\nprovided for the purpose of verification of identity, or for prevention, detection, investigation,\nprosecution, cybe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Due diligence to he observed by intermediary — The intermediary shall observe fo.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "breach_notification",
+        "governance",
+        "it_rules",
+        "personal_data",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "breach_notification",
+        "governance",
+        "it_rules",
+        "personal_data",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Due diligence to he observed by intermediary — The intermediary shall observe fo.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 3",
+        "section 87",
+        "section 79"
+      ]
+    },
+    {
+      "control_id": "IT_RULES_2011-004",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "2",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Definitions — (1) In these rules, unless the context otherwise requires,--",
+      "plain_english": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n     (b) \"Appropriate Government\" means the Central Government or the State Government\n             or an Union Territory Administration;\n       (c) \"Cyber Cafe\" means cyber cafe as defined in clause (na) of sub-section (1) of\n             section 2 of the Act;\n       (d) \"computer resource\" means a computer resource as defined in",
+      "original_text": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n     (b) \"Appropriate Government\" means the Central Government or the State Government\n             or an Union Territory Administration;\n       (c) \"Cyber Cafe\" means cyber cafe as defined in clause (na) of sub-section (1) of\n             section 2 of the Act;\n       (d) \"computer resource\" means a computer resource as defined in clause (k) of sub-\n             section (1) of section 2 of the Act;\n       (e) \"Data\" means data as defined in clause (o) of sub-section (1) of section 2 of the\n             Act;\n       (f)   \"Information\" means information as defined in clause (v) of sub-section (1) of\n             section 2 of the Act;\n       (g) \"Intermediary\" means an intermediary as defined in clause (w) of sub-section (1)\n             of section 2 of the Act;\n       (h) \"Registration Agency\" means an agency designated by the Appropriate\n             Government to register cyber cafe for their operation;\n       (i)   \"Lo",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'Definitions — (1) In these rules, unless the context otherwise requires,--' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Definitions — (1) In these rules, unless the context otherwise requires,--.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "audit_log",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Add 'Definitions — (1) In these rules, unless the context otherwise requires,--' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 2",
+        "section 2",
+        "section 2",
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "IT_RULES_2011-005",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Agency for registration of cyber cafe.— (1) All cyber cafes shall be registered ",
+      "plain_english": "Registration number with an agency called as registration agency as notified by the Appropriate\nGovernment in this regard. The broad terms of registration shall include:\n             (i)         name of establishment;\n             (ii)        address with contact details including email address;\n             (iii)       whether individual or partnership or sole properitership or society or company",
+      "original_text": "registration number with an agency called as registration agency as notified by the Appropriate\nGovernment in this regard. The broad terms of registration shall include:\n             (i)         name of establishment;\n             (ii)        address with contact details including email address;\n             (iii)       whether individual or partnership or sole properitership or society or company;\n             (iv)        date of incorporation;\n             (v)         name of owner/partner/properiter/director;\n             (vi)        whether registered or not (if yes, copy of registration with Registrar of Firms or\n                         Registrar of Companies or Societies); and\n             (vii)       type of service to be provided from cyber cafe\n\n        Registration of cyber cafe may be followed up with a physical visit by an officer from the\nregistration agency.\n\n         (2) The details of registration of cyber cafe shall be published on the website of the\nregistration agen",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation include:\n             (i)         name of establishment;\n             (ii)        address with contact details includin?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Agency for registration of cyber cafe.— (1) All cyber cafes shall be registered .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Agency for registration of cyber cafe.— (1) All cyber cafes shall be registered .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IT_RULES_2011-006",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Identification of User.— (1) The Cyber Cafe shall not allow any user to use its ",
+      "plain_english": "Resource without the identity of the user being established. The intending user may establish his\nidentify by producing a document which shall identify the users to the satisfaction of the Cyber\nCafe.",
+      "original_text": "resource without the identity of the user being established. The intending user may establish his\nidentify by producing a document which shall identify the users to the satisfaction of the Cyber\nCafe. Such document may include any of the following :—\n\n       (i)           Identity card issued by any School or College; or\n                                                                                          1330 GI/11-4B\n\f[भाग II- ख ड 3(i)]                   भारत का राजप   : असाधारण\n\n\n          (ii)   Photo Credit Card or debit card issued by a Bank or Post Office; or\n          (iii) Passport; or\n          (iv) Voter Identity Card; or\n          (v) Permanent Account Number (PAN) card issued by Income-Tax Authority; or\n          (vi) Photo Identity Card issued by the employer or any Government Agency;\n     or\n          (vi) Driving License issued by the Appropriate Government; or\n          (vii) Unique Identification (UID) Number issued by the Unique Identification Authority\n         ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation identify the users to the satisfaction of the Cyber\nCafe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Identification of User.— (1) The Cyber Cafe shall not allow any user to use its .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "audit_log",
+        "children",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "audit_log",
+        "children",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Identification of User.— (1) The Cyber Cafe shall not allow any user to use its .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IT_RULES_2011-007",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Log Register.— (1) After the identity of the user and any person accompanied wit",
+      "plain_english": "Has been established as per sub-rule (1) of rule 4, the Cyber Cafe shall record and\n     maintain the required information of each user as well as accompanying person, if any, in\n     the log register for a minimum period of one year. (2) The Cyber Cafe may maintain an online version of the log register.",
+      "original_text": "has been established as per sub-rule (1) of rule 4, the Cyber Cafe shall record and\n     maintain the required information of each user as well as accompanying person, if any, in\n     the log register for a minimum period of one year.\n        (2) The Cyber Cafe may maintain an online version of the log register. Such online version of\n        log register shall be authenticated by using digital or electronic\n\f                   THE GAZETTE OF INDIA: EXTRAORDINARY                            [ PART II-SEC. 3(i)]\n\n    signature. The log register shall contain at least the following details of the user,\n    namely : —\n                  (ii) Name\n                  (iii) Address\n                  (iv) Gender\n                  (v) Contact Number\n                  (vi) Type and detail of identification document\n                  (vii) Date\n                  (vii) Computer terminal identification\n                  (viii) Log in Time\n                  (ix) Log out Time\n\n    (3)    Cyber Cafe sha",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation contain at least the following details of the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Log Register.— (1) After the identity of the user and any person accompanied wit.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "audit_log",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Log Register.— (1) After the identity of the user and any person accompanied wit.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "rule 4"
+      ]
+    },
+    {
+      "control_id": "IT_RULES_2011-008",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Management of Physical Layout and computer resource.— (1) Partitions of Cubicles",
+      "plain_english": "Or installed if any, inside the Cyber Cafe, shall not exceed four and half feet in height from the\nfloor level. (2) The screen of all computers installed other than in Partitions or Cubicles shall face\n'outward', that is,",
+      "original_text": "or installed if any, inside the Cyber Cafe, shall not exceed four and half feet in height from the\nfloor level.\n\n    (2) The screen of all computers installed other than in Partitions or Cubicles shall face\n'outward', i.e. they shall face the common open space of the Cyber Cafe.\n\n    (3) Any Cyber Cafe having cubicles or partitions shall not allow minors to use any computer\nresource in cubicles or partitions except when they are accompanied by their guardians or\nparents.\n\f[भाग II- ख ड 3(i)]                   भारत का राजप    : असाधारण\n\n\n    (4) All time clocks of the computer systems and servers installed in the Cyber Cafe shall be\nsynchronised with the Indian Standard Time.\n\n    (5) All the computers in the cyber cafe may be equipped with the commercially available\nsafety or filtering software so as to avoid as far as possible, access to the websites relating to\npornography including child pornography or obscene information.\n\n    (6) Cyber Cafe shall take sufficient precautions to ensu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation face the common open space of the cyber cafe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Management of Physical Layout and computer resource.— (1) Partitions of Cubicles.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "children",
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "audit_log",
+        "children",
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Management of Physical Layout and computer resource.— (1) Partitions of Cubicles.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "IT_RULES_2011-009",
+      "framework_id": "IT_RULES_2011",
+      "section_ref": "7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Inspection of Cyber Cafe : (1) An officer autnorised by the registration agency,",
+      "plain_english": "To check or inspect cyber cafe and the computer resource of network established in it, at any\ntime for the compliance of these rules. The cyber cafe owner shall provide every related\ndocument, registers and any necessary information to the inspecting officer on demand.",
+      "original_text": "to check or inspect cyber cafe and the computer resource of network established therein, at any\ntime for the compliance of these rules. The cyber cafe owner shall provide every related\ndocument, registers and any necessary information to the inspecting officer on demand.\n\n\n\n\n                                                                           [F. No. 11(3)/2011-CLFE]\n                                                                       N. RAVI SHANKER, Jt. Secy.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation provide every related\ndocument, registers and any necessary information to the inspecting officer on demand?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Inspection of Cyber Cafe : (1) An officer autnorised by the registration agency,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "tags": [
+        "governance",
+        "it_rules",
+        "privacy_policy",
+        "sensitive_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Inspection of Cyber Cafe : (1) An officer autnorised by the registration agency,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

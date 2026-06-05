@@ -1,0 +1,17 @@
+{
+  "note": "These frameworks require OCR processing (scanned image PDFs). Run offline OCR and add to raw_text/ to include in dataset.",
+  "frameworks": {
+    "SEBI_AML_CFT_GUIDELINES": {
+      "pages": 38,
+      "reason": "scanned_image_pdf"
+    },
+    "SEBI_CYBERSECURITY_FRAMEWORK_2024": {
+      "pages": 206,
+      "reason": "scanned_image_pdf"
+    },
+    "SEBI_INVESTMENT_ADVISER_REGS_2013": {
+      "pages": 45,
+      "reason": "scanned_image_pdf"
+    }
+  }
+}

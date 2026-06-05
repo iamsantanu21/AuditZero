@@ -1,0 +1,222 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-06-05T10:55:33.062448",
+  "description": "Decision rules mapping product profile \u2192 applicable compliance frameworks",
+  "rules": [
+    {
+      "rule_id": "UNIVERSAL_INDIAN_USERS",
+      "description": "Any product collecting/processing data of Indian users",
+      "condition": {
+        "has_indian_users": true
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "DPDP_ACT_2023",
+          "applicability": "mandatory",
+          "reason": "Applies to all Digital Data Fiduciaries processing personal data of Indian residents",
+          "priority": 1
+        },
+        {
+          "framework_id": "DPDP_RULES_2025",
+          "applicability": "mandatory",
+          "reason": "Operational rules under DPDP Act \u2014 consent, breach, DPIA requirements",
+          "priority": 2
+        },
+        {
+          "framework_id": "IT_ACT_2000",
+          "applicability": "mandatory",
+          "reason": "Base cybercrime and electronic records law for all Indian digital businesses",
+          "priority": 3
+        },
+        {
+          "framework_id": "IT_RULES_2011",
+          "applicability": "mandatory",
+          "reason": "Sensitive personal data rules apply to any body corporate handling SPDI",
+          "priority": 4
+        },
+        {
+          "framework_id": "CERT_IN_DIRECTIONS_2022",
+          "applicability": "mandatory",
+          "reason": "6-hour cyber incident reporting applies to all Indian companies",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "rule_id": "FINTECH",
+      "description": "Financial services, payment, lending, NBFC, account aggregator",
+      "condition": {
+        "product_types": [
+          "fintech"
+        ]
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+          "applicability": "mandatory",
+          "reason": "KYC/CDD required for all RBI-regulated entities",
+          "priority": 1
+        },
+        {
+          "framework_id": "RBI_DIGITAL_LENDING_2025",
+          "applicability": "mandatory",
+          "reason": "Applies to all digital lending platforms and LSPs",
+          "priority": 2
+        },
+        {
+          "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+          "applicability": "mandatory",
+          "reason": "RBI cybersecurity baseline for all regulated entities",
+          "priority": 3
+        },
+        {
+          "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+          "applicability": "mandatory",
+          "reason": "Applies when RBI-regulated entity outsources IT functions",
+          "priority": 4
+        },
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "applicability": "mandatory",
+          "reason": "AML/CFT obligations for all financial businesses",
+          "priority": 5
+        },
+        {
+          "framework_id": "PCI_DSS_V4",
+          "applicability": "mandatory",
+          "reason": "Required for any entity storing, processing or transmitting card data",
+          "priority": 6
+        },
+        {
+          "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+          "applicability": "conditional",
+          "reason": "Applies if operating as AA, FIP, or FIU in the AA ecosystem",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "rule_id": "INSURTECH",
+      "description": "Insurance products and platforms",
+      "condition": {
+        "product_types": [
+          "insurtech"
+        ]
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "applicability": "mandatory",
+          "reason": "Cybersecurity baseline for all IRDAI-regulated insurers",
+          "priority": 1
+        },
+        {
+          "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+          "applicability": "mandatory",
+          "reason": "AML/CFT for insurance entities",
+          "priority": 2
+        },
+        {
+          "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017",
+          "applicability": "conditional",
+          "reason": "Applies to insurance web aggregator/comparison platforms",
+          "priority": 3
+        },
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "applicability": "mandatory",
+          "reason": "AML obligations extend to insurance intermediaries",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "rule_id": "HEALTHTECH",
+      "description": "Digital health, telemedicine, medical platforms",
+      "condition": {
+        "product_types": [
+          "healthtech"
+        ]
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "applicability": "mandatory",
+          "reason": "Mandatory for any telemedicine / remote consultation platform",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "rule_id": "ECOMMERCE",
+      "description": "E-commerce marketplaces and online retail",
+      "condition": {
+        "product_types": [
+          "ecommerce"
+        ]
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+          "applicability": "mandatory",
+          "reason": "Applies to all e-commerce entities selling to Indian consumers",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "rule_id": "CORPORATE",
+      "description": "All incorporated companies in India",
+      "condition": {
+        "has_indian_users": true
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "applicability": "mandatory",
+          "reason": "Applies to all companies registered in India",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "rule_id": "GLOBAL_SAAS",
+      "description": "SaaS products targeting enterprise customers globally",
+      "condition": {
+        "product_types": [
+          "saas"
+        ],
+        "has_eu_users": true
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "GDPR_2018",
+          "applicability": "mandatory",
+          "reason": "Required for any product processing personal data of EU residents",
+          "priority": 1
+        },
+        {
+          "framework_id": "ISO_27001_2022",
+          "applicability": "recommended",
+          "reason": "ISO 27001 certification unlocks enterprise sales and GDPR audit readiness",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "rule_id": "PAYMENT_CARD",
+      "description": "Any product storing, processing, or transmitting card data",
+      "condition": {
+        "handles_payment_data": true
+      },
+      "applicable_frameworks": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "applicability": "mandatory",
+          "reason": "PCI DSS v4 required for all entities in the card data environment",
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}

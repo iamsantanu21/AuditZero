@@ -1,0 +1,472 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+  "regulator": "SEBI",
+  "controls": [
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-001",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "CIRCULAR",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "CIRCULAR",
+      "plain_english": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/0000013 February 4, 2025\nTo,\n\nAll Recognized Stock Exchanges\n\nStock Brokers through Recognized Stock Exchanges\nDear Sir/Madam,\nSubject: Safer participation of retail investors in Algorithmic trading\n\n1. SEBI, vide circular no.",
+      "original_text": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/0000013 February 4, 2025\nTo,\n\nAll Recognized Stock Exchanges\n\nStock Brokers through Recognized Stock Exchanges\nDear Sir/Madam,\nSubject: Safer participation of retail investors in Algorithmic trading\n\n1. SEBI, vide circular no. CIR/MRD/DP/09/2012 dated March 30, 2012, provided\nbroad guidelines on Algorithmic Trading (“Algo” - orders generated using\nautomated execution logic). Thereafter, SEBI has introduced measures to\nstrengthen controls around Algorithmic Trading.\n\n2. Algo trading provides significant advantages of timed and programmed order\nexecution. At present, there are mechanisms such as Direct Market Access\nFacility, which enable institutional investors to trade through Algorithms.\n\n3. There has been an increasing demand for algo trading by retail investors. In\norder to facilitate safer participation of retail investors in algo trading, with Stock\nBrokers (hereinafter referred to as “Brokers”) and Stock Exchanges (hereinafter\nreferred to as “Ex",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: circular?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: CIRCULAR.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,\n\n",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "tags": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: CIRCULAR.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-002",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "[PAGE 2]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 2]",
+      "plain_english": "Securities and Exchange Board of India\n\nS=5) anda ofayfs atx fafa até\n\nbrokers, algo providers/vendors and Market Infrastructure Institutions (MIls), so\nthat the retail investors are enabled to avail algo facilities with requisite\nsafeguards. .",
+      "original_text": "Securities and Exchange Board of India\n\nS=5) anda ofayfs atx fafa até\n\nbrokers, algo providers/vendors and Market Infrastructure Institutions (MIls), so\nthat the retail investors are enabled to avail algo facilities with requisite\nsafeguards.\n\n. SEBI had issued a discussion paper dated December 09, 2021 on “Algorithmic\nTrading by Retail Investors”, on the use of API access and automation of\ntrades using the same. Further, SEBI had extensive discussions with the\nExchanges, Brokers and Algo Providers. The proposal was also discussed in\nthe meeting of the Intermediary Advisory Committee and with the Broker's\nIndustry Standards Forum (ISF), which comprises of industry representatives.\nAccordingly, after extensive deliberations, the following regulatory framework is\nbeing proposed to facilitate safer participation of retail investors in Algorithmic\ntrading through brokers -\n\nI. Use of Application Programming Interface (API)' for Algo trading\n\na) For the purpose of provision of algo trading ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be the principal while any algo provider or fintech/vendor (hereinafter\nreferred to as “Algo Provider’) shall act as it?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 2].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "algo_trading",
+        "broker",
+        "children",
+        "governance",
+        "sebi",
+        "vendor_management"
+      ],
+      "tags": [
+        "algo_trading",
+        "broker",
+        "children",
+        "governance",
+        "sebi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 2].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-003",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "[PAGE 3]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 3]",
+      "plain_english": "S=5) anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nd) Brokers shall:\n\nensure that they have systems and procedures in place to\ndetect/identify and categorize all orders above the specified\nthreshold as algo orders;\n\nnot permit open APIs and allow access only through a unique vendor\nclient specific API key and static IP whitelisted by the broker to\nensure identification and trac",
+      "original_text": "S=5) anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nd) Brokers shall:\n\nensure that they have systems and procedures in place to\ndetect/identify and categorize all orders above the specified\nthreshold as algo orders;\n\nnot permit open APIs and allow access only through a unique vendor\nclient specific API key and static IP whitelisted by the broker to\nensure identification and traceability of the algo provider and the end\nuser (i.e. investor);\n\nhave OAuth (Open Authentication)? based authentication only and\nall other authentication mechanisms shall be discontinued;\nauthenticate access to API through two factor authentication;\n\ndeal with empaneled algo providers only and handle all related\ncomplaints, as such algo providers are agents of such broker.\n\nIl. Roles and responsibilities of Stock Brokers:\n\nBrokers providing the facility of algo trading to investors shall continue to abide\n\nby the extant provisions related to algo trading including (but not limited to) the\n\nfol",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation :\n\nensure that they have systems and procedures in place to\ndetect/identify and categorize all orders above the specifie?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 3].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs\n\n3 ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "algo_trading",
+        "audit_log",
+        "broker",
+        "consent",
+        "governance",
+        "sebi",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "algo_trading",
+        "audit_log",
+        "broker",
+        "consent",
+        "governance",
+        "sebi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 3].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-004",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "[PAGE 4]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 4]",
+      "plain_english": "Securities and Exchange Board of India\n\nS=5) anda ofayfs atx fafa até\n\nthrough API, shall require to be empaneled with Exchanges in a manner\nas stipulated by Exchanges. b) Exchanges shall specify the empanelment criteria for the algo providers.",
+      "original_text": "Securities and Exchange Board of India\n\nS=5) anda ofayfs atx fafa até\n\nthrough API, shall require to be empaneled with Exchanges in a manner\nas stipulated by Exchanges.\n\nb) Exchanges shall specify the empanelment criteria for the algo providers.\n\nc) Before onboarding an empaneled algo provider on its platform, the broker\nshall also do the necessary due diligence.\n\nd) Algo providers and brokers may share the subscription charges and\nbrokerage collected from the client. However, prominent and complete\ndisclosures of all the charges shall be made to the client. The broker shall\nalso ensure that such arrangements do not result in any conflict of\n\ninterest.\n\nIV. Role and Responsibilities of Exchanges:\n\na) Exchanges shall continue to be responsible for supervising algorithmic\n\ntrading while ensuring the following:\ni. putting in place a comprehensive Standard Operating Procedure\n\n(SOP) for testing of algos;\n\nii. surveillance on all algo orders and monitoring their behaviour at all\ntimes inclu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation specify the empanelment criteria for the algo providers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 4].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "algo_trading",
+        "audit_log",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "tags": [
+        "algo_trading",
+        "audit_log",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 4].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-005",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "[PAGE 5]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 5]",
+      "plain_english": "S45 anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nroles of algo providers along with the criteria and process of\nempanelment of algo providers. registration process for algos and the circumstances in which a re-\napproval shall be required.",
+      "original_text": "S45 anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nroles of algo providers along with the criteria and process of\nempanelment of algo providers.\n\nregistration process for algos and the circumstances in which a re-\napproval shall be required.\n\nmeasures to enhance the confidentiality of retail algo strategies\nincluding confidentiality clauses, non-disclosure agreements,\nencrypted submissions etc.\n\ndata flow between the algo provider, broker and the Exchange,\nwhile ensuring that the broker remains responsible for compliance\nwith the outsourcing guidelines specified by SEBI from time to\ntime.\n\nd) Exchanges shall specify the turnaround time (TAT) to register certain\n\ntypes of algos (eg. Execution algos) on a fast track basis while registering\n\nother types of algos on a normal basis. For both these scenarios, TAT\n\nshall be decided by the stock exchanges and mentioned in their SOP,\n\ndisclosed on their website.\n\nV. Categorization of Algos\n\na) Algos shall be categorized into ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be required?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 5].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "tags": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 5].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-006",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "[PAGE 6]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 6]",
+      "plain_english": "S=5) anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nreport for the new algo, and confirm to the exchanges that\nsuch report has been maintained. 6.",
+      "original_text": "S=5) anda ofayfs atx fafa até\n\nSecurities and Exchange Board of India\n\nreport for the new algo, and confirm to the exchanges that\nsuch report has been maintained.\n\n6. Exchanges and brokers shall continue to comply with existing provisions\nprescribed with regard to Algorithmic trading.\n\n7. Schedule of Implementation:\n\na) The implementation standards shall be formulated by the Broker’s Industry\nStandards Forum, under the aegis of the stock exchanges and in\nconsultation with SEBI by April 01, 2025.\n\nb) The provisions of this circular shall be applicable with effect from August 01,\n2025.\n\n8. Exchanges, are hereby, directed to:\na) take necessary steps and put in place necessary systems and procedures\nfor implementation of the above.\nb) make necessary amendments to the relevant bye-laws, rules and regulations\nfor the implementation of the above provisions.\nc) bring the provisions of this circular to the notice of their brokers and\ndisseminate the same on their website.\n\n9. This circular is i",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be applicable with effect from august 01?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 6].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "tags": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: [PAGE 6].",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 11(1)"
+      ]
+    },
+    {
+      "control_id": "SEBI_ALGO_TRADING_CIRCULAR_2025-007",
+      "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+      "section_ref": "Chapter",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Chapter IV of the Securities and Exchange Board of India Act, 1992, read with",
+      "plain_english": "Section 30 of the Securities and Exchange Board of India (Stock Brokers)\nRegulations, 1992 to protect the interests of investors in securities, to promote\nthe development of and to regulate the securities market. 10.This circular is available on SEBI website at www.sebi.gov.in under the\ncategory: ‘Legal — Circulars’.",
+      "original_text": "Section 30 of the Securities and Exchange Board of India (Stock Brokers)\nRegulations, 1992 to protect the interests of investors in securities, to promote\nthe development of and to regulate the securities market.\n\n10.This circular is available on SEBI website at www.sebi.gov.in under the\ncategory: ‘Legal — Circulars’.\nYours faithfully,\n\nAradhana Verma\nGeneral Manager\n\nTel. No: 022 26449633\naradhanad @sebi.gov.in\n\nPage 6 of 6",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: chapter iv of the securities and exchange board of india act, 1992, read with?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter IV of the Securities and Exchange Board of India Act, 1992, read with.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "tags": [
+        "algo_trading",
+        "broker",
+        "governance",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter IV of the Securities and Exchange Board of India Act, 1992, read with.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 30"
+      ]
+    }
+  ]
+}

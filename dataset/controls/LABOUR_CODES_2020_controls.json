@@ -1,0 +1,1723 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "LABOUR_CODES_2020",
+  "regulator": "MoLE",
+  "controls": [
+    {
+      "control_id": "LABOUR_CODES_2020-001",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 1",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Chapter 1: About the Handbook",
+      "plain_english": "The Second National Commission on Labour (2002) had recommended, inter-\nalia, that the existing Labour Laws should be broadly grouped into four or five\nLabour Codes on functional basis. Accordingly, Ministry of Labour and\nEmployment, after extensive consultations with the stakeholders, rationalized,\nsimplified and amalgamated the relevant provisions of the labour laws in four\ncodes.",
+      "original_text": "The Second National Commission on Labour (2002) had recommended, inter-\nalia, that the existing Labour Laws should be broadly grouped into four or five\nLabour Codes on functional basis. Accordingly, Ministry of Labour and\nEmployment, after extensive consultations with the stakeholders, rationalized,\nsimplified and amalgamated the relevant provisions of the labour laws in four\ncodes. For employers, this means clearer rules, simpler procedures and reduced\ncompliances.\n\nThis Handbook has been prepared to make the employers aware of the new\nprovisions in a simplified manner. Each chapter provides an overview of\ncompliances under each Code, with a focus on making compliance simpler,\nfaster, and easier. The Handbook primarily covers provisions of the Codes for the\nestablishments for which the appropriate government is Central Government.\nFurther, details will be prescribed in the Rules that the Central Government will\nnotify under the respective Codes.\n\n\n\n\nDisclaimer:\n\nThis Handbook is inten",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation's documentation define 'Chapter 1: About the Handbook' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 1: About the Handbook.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Add 'Chapter 1: About the Handbook' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-002",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Chapter 3: The Code on Wages, 2019",
+      "plain_english": "The Code on Wages, 2019, amalgamates 4 wages and payment related labour\nlaws1. It aims to balance the rights of workers and facilitate ease of compliance\nfor employers.",
+      "original_text": "The Code on Wages, 2019, amalgamates 4 wages and payment related labour\nlaws1. It aims to balance the rights of workers and facilitate ease of compliance\nfor employers. The Code introduces key reforms to streamline and strengthen\nlabour regulations.\nThe Code safeguards employees’ interests through universal minimum wages,\nensuring dignity and timely payment of wages. It supports women workers\nthrough equal pay and representation, fostering inclusive participation. Thus, by\nensuring minimum wages to all employee, it drives productivity and labour\nwelfare. Together, these measures strengthen the economic growth, employment\ngeneration and workplace equity.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: chapter 3: the code on wages, 2019?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 3: The Code on Wages, 2019.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 3: The Code on Wages, 2019.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-003",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "3.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Compliances",
+      "plain_english": "I. Employer shall pay minimum rates wages notified by appropriate\n          government to employees2.",
+      "original_text": "i.   Employer shall pay minimum rates wages notified by appropriate\n          government to employees2. (Section 5)\n    ii.   Employers must not discriminate on the basis of gender in paying wages\n          for the same or similar work, and must not discriminate on the basis of sex\n          while recruiting employees. (Section 3)\niii.      Every establishment shall fix wage periods, which may be daily, weekly,\n          fortnightly, or monthly. All wages must be paid within the prescribed\n          timelines. (Section 6)\n             Daily basis - at the end of the day\n             Weekly basis - on the last working day of the week\n             Fortnightly basis - before the end of the second day after the end of the\n              fortnight\n             Monthly basis - before the expiry of the seventh day of the succeeding\n              month.\niv.       When an employee leaves an establishment, whether by resignation,\n          dismissal, or termination, the employer is required t",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation fix wage periods?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Compliances.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "30 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Compliances.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 5)",
+        "Section 3)",
+        "Section 6)",
+        "Section 17)",
+        "Section 14)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-004",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Chapter 4: The Industrial Relations",
+      "plain_english": "Code, 2020\n\n\n\n\n\fThe Industrial Relations (IR) Code, 2020 seeks to consolidate and rationalize the\nprovisions related to trade unions, conditions of employment in industrial\nestablishment or undertaking, and the investigation and settlement of industrial\ndisputes. It amalgamates three central legislations3 into a single code.",
+      "original_text": "Code, 2020\n\n\n\n\n\fThe Industrial Relations (IR) Code, 2020 seeks to consolidate and rationalize the\nprovisions related to trade unions, conditions of employment in industrial\nestablishment or undertaking, and the investigation and settlement of industrial\ndisputes. It amalgamates three central legislations3 into a single code.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: chapter 4: the industrial relations?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 4: The Industrial Relations.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 4: The Industrial Relations.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-005",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Bi-partite Committees",
+      "plain_english": "A. Works Committee (Section 3)\n       Employers of industrial establishments that employ, or have employed, 100\n        or more workers4 in the preceding 12 months may be required by the\n        appropriate Government, through a general or special order, to constitute a\n        Works Committee.",
+      "original_text": "a. Works Committee (Section 3)\n       Employers of industrial establishments that employ, or have employed, 100\n        or more workers4 in the preceding 12 months may be required by the\n        appropriate Government, through a general or special order, to constitute a\n        Works Committee.\n       The number of representatives of workers shall not be less than the number\n        of representatives of employers.\n       The representatives of the workers shall be chosen from among the workers\n        of the establishment, should be as prescribed by the appropriate\n        Government and in consultation with their trade union.\n       The Works Committee must function with the objective of promoting and\n        maintaining harmonious relations between the employer and workers.\n    b. Grievance Redressal Committee (GRC) (Section 4)\n     Every industrial establishment employing 20 or more workers must\n      constitute one or more Grievance Redressal Committees to address\n      indiv",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation not be less than the number\n        of representatives of employers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Bi-partite Committees.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 30 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs4 ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Bi-partite Committees.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 3)",
+        "Section 4)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-006",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Standing Orders (Section 28, Section 29, Section 30)",
+      "plain_english": "I. The provisions on Standing Orders apply to industrial establishments\n       employing 300 or more workers.",
+      "original_text": "i.    The provisions on Standing Orders apply to industrial establishments\n       employing 300 or more workers.\n ii.   The Central Government will notify Model Standing Orders for uniform\n       application.\niii.   Employers may adopt the Model Standing Orders and only need to intimate\n       the Certifying Officer.\niv.    If the Model Standing Orders is not adopted, employers must prepare draft\n       Standing Orders within six months of commencement of the Code, based\n       on the notified Model Standing Orders.\n v.    Employers must consult the Trade Unions, the recognised negotiating\n       union, or the members of the negotiating council before finalising the draft\n       of the Standing Order.\nvi.    The draft Standing Orders must be submitted to the Certifying Officer\n       (electronically or otherwise) for certification.\nvii.   The Certifying Officer must certify the Standing Orders or modifications\n       within 60 days, failing which the draft Standing Orders or modificati",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation consult the trade unions?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Standing Orders (Section 28, Section 29, Section 30).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 60 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Standing Orders (Section 28, Section 29, Section 30).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-007",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Recognition of Negotiating Union or Negotiating Council (Section 14)",
+      "plain_english": "I. If only one registered trade union is functioning in an industrial\n       establishment, the employer must, subject to prescribed criteria, recognise\n       that union as the sole negotiating union for the workers.",
+      "original_text": "i.   If only one registered trade union is functioning in an industrial\n       establishment, the employer must, subject to prescribed criteria, recognise\n       that union as the sole negotiating union for the workers.\n ii.   If more than one registered trade union operates in an industrial\n       establishment, the employer must recognise the trade union that has the\n       support of 51% or more of the workers on the muster roll as the negotiating\n       union.\niii.   If multiple registered trade unions exist and none has the support of 51%\n       or more workers, the employer must constitute a Negotiating Council. The\n       Council will include representatives from registered trade unions that have\n       the support of at least 20% of the total workers, with one representative for\n       each 20% of membership (and proportionate representation for any\n       remaining fraction).\n\n\n\n\fiv.    Any recognition of the Negotiating Council will be valid for three years\n       from the da",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation , subject to prescribed criteria, recognise\n       that union as the sole negotiating union for the workers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Recognition of Negotiating Union or Negotiating Council (Section 14).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Recognition of Negotiating Union or Negotiating Council (Section 14).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-008",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Notice for Change of Service Condition (Section 40)",
+      "plain_english": "If an employer intends to change any service condition listed in the Third\n   Schedule (Annexure 3), the employer must give a prescribed notice to the\n   affected workers. The change can take effect only after 21 days from the date\n   of the notice.",
+      "original_text": "If an employer intends to change any service condition listed in the Third\n   Schedule (Annexure 3), the employer must give a prescribed notice to the\n   affected workers. The change can take effect only after 21 days from the date\n   of the notice.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation give a prescribed notice to the\n   affected workers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notice for Change of Service Condition (Section 40).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "21 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notice for Change of Service Condition (Section 40).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-009",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Lay-off, Retrenchment, and Closure Provisions (Chapter IX)",
+      "plain_english": "I. Industrial establishments such as factories, mines, and plantations\n       employing 50 to 299 workers must serve notice on appropriate government\n       or such authority as specified by the appropriate government before\n       carrying out any lay-off, retrenchment, or closure.",
+      "original_text": "i.   Industrial establishments such as factories, mines, and plantations\n       employing 50 to 299 workers must serve notice on appropriate government\n       or such authority as specified by the appropriate government before\n       carrying out any lay-off, retrenchment, or closure.\n ii.   If a worker is laid off, the employer must pay compensation equal to 50%\n       of the basic wages plus dearness allowance that the worker would have\n       received if she/he had not been laid off.\niii.   Employers must give one month’s prior notice to a worker before\n       retrenchment.\niv.    Retrenchment compensation must be paid at the rate of 15 days’ average\n       pay for each completed year of continuous service.\n v.    Employers must also contribute an amount equal to 15 days’ wages for\n       each retrenched employee to the Workers’ Re-Skilling Fund.\nvi.    An employer planning to close an industrial establishment must serve prior\n       notice on the appropriate government at least 60 ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation serve notice on appropriate government\n       or such authority as specified by the appropriate government before?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Lay-off, Retrenchment, and Closure Provisions (Chapter IX).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "15 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Lay-off, Retrenchment, and Closure Provisions (Chapter IX).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-010",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Lay-off, Retrenchment, and Closure Provisions (Chapter X)",
+      "plain_english": "I. Industrial establishments such as factories, mines, and plantations\n       employing 300 or more workers must obtain prior permission from the\n       appropriate Government before any lay-off, retrenchment, or closure.",
+      "original_text": "i.   Industrial establishments such as factories, mines, and plantations\n       employing 300 or more workers must obtain prior permission from the\n       appropriate Government before any lay-off, retrenchment, or closure.\n ii.   If a worker is laid off, the employer must pay compensation equal to 50%\n       of the basic wages plus dearness allowance that the worker would have\n       received if they had not been laid off.\niii.   Employers must give three months’ prior notice before retrenchment.\niv.    Retrenchment compensation must be paid at the rate of 15 days’ average\n       pay for each completed year of continuous service.\n v.    Employers must contribute an amount equal to 15 days’ wages per\n       retrenched employee to the Workers’ Re-Skilling Fund.\nvi.    An employer intending to close an industrial establishment must apply for\n       prior permission at least 90 days in advance, clearly stating the reasons for\n       closure, and must simultaneously serve a copy of the app",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation give three months’ prior notice before retrenchment?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Lay-off, Retrenchment, and Closure Provisions (Chapter X).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "15 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "consent",
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Lay-off, Retrenchment, and Closure Provisions (Chapter X).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-011",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "4.7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Mandatory Notice of Strike or Lockout (Section 62)",
+      "plain_english": "I. If an employer receives a strike notice from persons employed in industrial\n       establishment, the employer must report the same within five days to the\n       appropriate Government or the prescribed authority, and to the\n       Conciliation Officer.",
+      "original_text": "i.   If an employer receives a strike notice from persons employed in industrial\n       establishment, the employer must report the same within five days to the\n       appropriate Government or the prescribed authority, and to the\n       Conciliation Officer.\n ii.   If the employer issues a lockout notice, the same must be reported within\n       five days to the appropriate Government or the prescribed authority, and to\n       the Conciliation Officer.\niii.   A conciliation proceeding shall be deemed to have commenced on the date\n       on which the first meeting is held by the Conciliation Officer in an\n       industrial dispute after the receipt of the notice of strike or lock-out by the\n       conciliation officer. (Section 60)\niv.    If a strike or lock-out is already in existence, the employer must inform the\n       Conciliation Officer on the same day the strike or lock-out is declared, in\n       the manner specified by the appropriate Government.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation report the same within five days to the\n       appropriate Government or the prescribed authority, and to the\n       Co?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Mandatory Notice of Strike or Lockout (Section 62).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Mandatory Notice of Strike or Lockout (Section 62).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 60)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-012",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 5 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Chapter 5: The Occupational Safety,",
+      "plain_english": "Health & Working Conditions Code,\n\n\f The Occupational Safety, Health and Working Conditions Code (OSH&WC),\n2020, is enacted to consolidate and simplify the 13 Central Labour laws 5 into a\nsingle comprehensive legislation, thereby reducing multiplicity of compliances\nand bringing uniformity across industries and States/ UTs. The Code was enacted\nas reforms to improve transparency, enhance worker we",
+      "original_text": "Health & Working Conditions Code,\n\n\f The Occupational Safety, Health and Working Conditions Code (OSH&WC),\n2020, is enacted to consolidate and simplify the 13 Central Labour laws 5 into a\nsingle comprehensive legislation, thereby reducing multiplicity of compliances\nand bringing uniformity across industries and States/ UTs. The Code was enacted\nas reforms to improve transparency, enhance worker welfare, and promote ease\nof doing business in India by streamlining compliance through measures such as\nsingle registration, all-India single licence, electronic filings, and time-bound\napprovals. This Code ensures safe and healthy working conditions in various\nestablishments such as factories, bidi & cigar, mines, docks, plantation,\nconstruction, motor transport and other establishments with 10 or more workers.\n5.1.      Registration (Section 3)\n\n    i.   Every establishment employing 10 or more employees must apply for\n         registration within 60 days of its existence. The application wil",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation apply for\n         registration within 60 days of its existence?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 5: The Occupational Safety,.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 60 days",
+        "trigger_event": "appointment"
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n5",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "children",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "children",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 5: The Occupational Safety,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 3)",
+        "Section 5)",
+        "Section 6",
+        "Section 7",
+        "Section 10"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-013",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 5 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Chapter 5: The Occupational Safety,",
+      "plain_english": "5.7. Notice of certain accident, dangerous occurrences, and certain diseases.",
+      "original_text": "5.7. Notice of certain accident, dangerous occurrences, and certain diseases.\n  i.        The employer must notify the prescribed authorities of any accident\n            occurring in an establishment that results in death, serious injury preventing\n            work for 48 hours or more, or is of a prescribed nature. (Section 10)\n ii.        Where any dangerous occurrence takes place in an establishment, whether\n            or not it causes injury or disability, the employer must notify the prescribed\n            authorities in the prescribed form and within the time specified by the\n            appropriate Government. (Section 11)\niii.        Where any worker in an establishment contracts a disease specified in the\n            Third Schedule, the employer must notify the prescribed authorities in the\n            prescribed form and within the time specified by the appropriate\n            Government. (Section 12) (Third Schedule is provided at Annexure 4)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation notify the prescribed authorities of any accident\n            occurring in an establishment that results in death, seri?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 5: The Occupational Safety,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "48 hours",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 5: The Occupational Safety,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 10)",
+        "Section 11)",
+        "Section 12)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-014",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "5.8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Women Working at Night and Safety of Employment of Women in",
+      "plain_english": "Dangerous Operations\n       i. Women are allowed to work in all establishments and in all types of work.",
+      "original_text": "Dangerous Operations\n       i.    Women are allowed to work in all establishments and in all types of work.\n             (Section 43)\n   ii.       Where women are employed before 6:00 a.m. or after 7:00 p.m.,\n             employers must obtain their consent and ensure compliance with\n             prescribed safety measures, holidays, working hours, and other conditions\n             as prescribed by the appropriate Government. (Section 43)\n  iii.       The employer must provide adequate safety safeguards prior to\n             employment of women in certain establishments which are dangerous for\n             the health and safety of women or in any operations that may be\n             considered hazardous or dangerous as prescribed by the appropriate\n             Government. (Section 44)\n  iv.        The employment of pregnant women in manufacturing processes or\n             operations involving serious risk of bodily injury, poisoning, or disease\n             may be prohibited or restric",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation obtain their consent and ensure compliance with\n             prescribed safety measures, holidays, working hours, and o?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Women Working at Night and Safety of Employment of Women in.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "consent",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "consent",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Women Working at Night and Safety of Employment of Women in.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 43)",
+        "Section 43)",
+        "Section 44)",
+        "Section 82)",
+        "Section 119)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-015",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "5.12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Additional Provisions for Major Docks",
+      "plain_english": "I. Employer must comply with occupational safety and health standards\n        notified for docks by the Central Government.",
+      "original_text": "i.   Employer must comply with occupational safety and health standards\n        notified for docks by the Central Government. (Section 18)\n  ii.   Employer must comply to Regulations related to major docks notified by\n        the Central Government. (Section 136)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation comply with occupational safety and health standards\n        notified for docks by the Central Government?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Additional Provisions for Major Docks.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Additional Provisions for Major Docks.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 18)",
+        "Section 136)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-016",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "5.13",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Additional Provisions for Building or Other Construction Workers",
+      "plain_english": "I. Employer must provide free temporary living accommodation to all\n        building workers at or near the worksite and for ensuring removal of such\n        accommodation and restoration of land obtained from local authorities\n        after its use.",
+      "original_text": "i.   Employer must provide free temporary living accommodation to all\n        building workers at or near the worksite and for ensuring removal of such\n        accommodation and restoration of land obtained from local authorities\n        after its use. (Section 24)\n  ii.   Principal Employer must make payment of the expenses incurred by the\n        contractor for providing accommodation where the building or other\n        construction work is carried out through a contractor. (Section 24)\n iii.   Employer must not employ any person who is known, or reasonably\n        believed, to have hearing impairment, defective vision, or a tendency to\n        giddiness in building or construction operations that may pose a risk of\n        accident to themselves or others. (Section 78)\n\n\fiv.   Employer must comply with occupational safety and health standards\n      notified for BoCW by the Central Government. (Section 18)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation not employ any person who is known?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Additional Provisions for Building or Other Construction Workers.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Additional Provisions for Building or Other Construction Workers.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 24)",
+        "Section 24)",
+        "Section 78)",
+        "Section 18)"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-017",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 6 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Chapter 6: The Code on Social",
+      "plain_english": "Security, 2020\n\n\f  The Code on Social Security, 2020 subsumes 9 labour laws 6. It provides\n provisions relating to EPFO, ESIC, Gratuity, Maternity Benefit, Employee’s\n Compensation, Social Security and Cess for Building and Other Construction\n Workers, Social security for unorganised workers, gig workers and platform\n workers and social security records.",
+      "original_text": "Security, 2020\n\n\f  The Code on Social Security, 2020 subsumes 9 labour laws 6. It provides\n provisions relating to EPFO, ESIC, Gratuity, Maternity Benefit, Employee’s\n Compensation, Social Security and Cess for Building and Other Construction\n Workers, Social security for unorganised workers, gig workers and platform\n workers and social security records. The applicability criteria of the respective\n provisions are in the First Schedule of the Code on Social Security, 2020,\n reproduced at Annexure 5.\n 6.1.    Employee’s Provident Fund\n i. The provisions apply to all establishments employing 20 or more employees.\n    The earlier requirement of coverage being limited to “scheduled\n    employments” under EPF has been removed.\nii. There are three types of schemes which central government may frame i.e.\n        A scheme to be called the Employees' Provident Fund Scheme for which\n         the provident fund shall be established for employees or for any class of\n         employees.\n        A",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be established for employees or for any class of\n         employees?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 6: The Code on Social.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "15 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "children",
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "breach_notification",
+        "children",
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 6: The Code on Social.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 15)",
+        "Section 16)",
+        "Section\n    16)",
+        "Section 31)",
+        "Section 2(33))"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-018",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 6 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Chapter 6: The Code on Social",
+      "plain_english": "6.4. Maternity Benefit (Chapter VI)\n  i.",
+      "original_text": "6.4.    Maternity Benefit (Chapter VI)\n  i.   A woman employee is eligible for maternity benefit if she has worked for\n       at least 80 days in the preceding 12 months.\n ii.   Employers must grant 26 weeks of maternity benefit to eligible women\n       employees working in their establishment.\niii.   An employer shall not dismiss or discharge a woman employee who absents\n       herself from work in accordance with law on account of maternity leave.\niv.    Employers are required to pay a medical bonus of Rs.3,500 to every woman\n       employee entitled to maternity benefit.\n v.    A woman employee is entitled to six weeks of maternity benefit in case of\n       miscarriage or medical termination of pregnancy and two weeks in case of\n       tubectomy operation.\nvi.    Employers must provide two nursing breaks, in addition to regular rest\n       intervals allowed to every woman employee who has returned to work after\n       delivery, until the child attains 15 months of age.\nvii.   Employ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": true,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation pay a medical bonus of rs?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 6: The Code on Social.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "80 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "Rs.3,500 ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "breach_notification",
+        "children",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "breach_notification",
+        "children",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 6: The Code on Social.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 74)",
+        "Section 74)",
+        "Section 81)",
+        "Section 114)",
+        "Section 2(6))"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-019",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter 7",
+      "content_type": "TIMELINE",
+      "obligation_type": "mandatory",
+      "title": "Chapter 7: Summary of Action",
+      "plain_english": "Points for Employers\n\n\n\n\n\fA quick snapshot of what needs to be done on day one, every month, every\nyear, and when certain events happen:\n\nCategory               Compliance Actions by Employers\nFOUNDATIONAL              Register the establishment and obtain licence/s,\nCOMPLIANCE                 as applicable\n                          Display all mandatory notices\n                          Mainta",
+      "original_text": "Points for Employers\n\n\n\n\n\fA quick snapshot of what needs to be done on day one, every month, every\nyear, and when certain events happen:\n\nCategory               Compliance Actions by Employers\nFOUNDATIONAL              Register the establishment and obtain licence/s,\nCOMPLIANCE                 as applicable\n                          Display all mandatory notices\n                          Maintain basic registers (attendance, wages,\n                           deductions, overtime)\n                          Fix the wage period\n                           (daily/weekly/fortnightly/monthly)\n                          Ensure basic workplace safety, health and\n                           welfare measures\n                          Start EPF/ESIC registration if eligible\n                          Constitute Works Committee and Grievance\n                           Redressal committee\nMONTHLY                   Pay wages on time\nCOMPLIANCE                Deduct and deposit EPF/ESIC contribu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation complete the required action within 72\n                              hours?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter 7: Summary of Action.",
+        "No automated workflow or SLA tracking the required 72\n                              hours.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Process log with timestamps",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "72\n                              hours",
+        "trigger_event": "appointment"
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "audit_log",
+        "consent",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "audit_log",
+        "consent",
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter 7: Summary of Action.",
+        "Set an automated alert/workflow triggered to complete action within 72\n                              hours.",
+        "Draft or update the relevant policy document to explicitly address this requirement."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-020",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Annex 1",
+      "content_type": "EXEMPTION",
+      "obligation_type": "informational",
+      "title": "Annexure 1: Key Definitions – The Code on Wages, 2019",
+      "plain_english": "A) Wages - Means all remuneration whether by way of salaries, allowances\n   or otherwise, expressed in terms of money or capable of being so expressed\n   which would, if the terms of employment, express or implied, were\n   fulfilled, be payable to a person employed in respect of his employment or\n   of work done in such employment, and includes —\n(i) basic pay;\n(ii) dearness allowance; and\n(iii) r",
+      "original_text": "a) Wages - Means all remuneration whether by way of salaries, allowances\n   or otherwise, expressed in terms of money or capable of being so expressed\n   which would, if the terms of employment, express or implied, were\n   fulfilled, be payable to a person employed in respect of his employment or\n   of work done in such employment, and includes —\n(i) basic pay;\n(ii) dearness allowance; and\n(iii) retaining allowance, if any,\nbut does not include––\n(a) any bonus payable under any law for the time being in force, which\ndoes not form part of the remuneration payable under the terms of\nemployment.\n(b) the value of any house-accommodation, or of the supply of light,\nwater, medical attendance or other amenity or of any service excluded from\nthe\ncomputation of wages by a general or special order of the appropriate\nGovernment;\n(c) any contribution paid by the employer to any pension or provident\nfund, and the interest which may have accrued thereon;\n(d) any conveyance allowance or the value of ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: annexure 1: key definitions – the code on wages, 2019?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annexure 1: Key Definitions – The Code on Wages, 2019.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annexure 1: Key Definitions – The Code on Wages, 2019.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Section 2",
+        "Section\n   2"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-021",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Annex 2",
+      "content_type": "EXEMPTION",
+      "obligation_type": "informational",
+      "title": "Annexure 2: Key Definitions – The Industrial Relations Code, 2020",
+      "plain_english": "A. Worker - Any person (except an apprentice as defined under clause (aa) of\nsection 2 of the Apprentices Act, 1961) employed in any industry to do any\nmanual, unskilled, skilled, technical, operational, clerical or supervisory work for\nhire or reward, whether the terms of employment be express or implied, and\nincludes working journalists as defined in clause (f) of section 2 of the Working\nJourna",
+      "original_text": "a. Worker - Any person (except an apprentice as defined under clause (aa) of\nsection 2 of the Apprentices Act, 1961) employed in any industry to do any\nmanual, unskilled, skilled, technical, operational, clerical or supervisory work for\nhire or reward, whether the terms of employment be express or implied, and\nincludes working journalists as defined in clause (f) of section 2 of the Working\nJournalists and other Newspaper Employees (Conditions of Service) and\nMiscellaneous Provisions Act, 1955 and sales promotion employees as defined\nin clause (d) of section 2 of the Sales Promotion Employees (Conditions of\nService) Act, 1976, and for the purposes of any proceeding under this Code in\nrelation to an industrial dispute, includes any such person who has been\ndismissed, discharged or retrenched or otherwise terminated in connection with,\nor as a consequence of, that dispute, or whose dismissal, discharge or\nretrenchment has led to that dispute, but does not include any such person—\n(i) who",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: annexure 2: key definitions – the industrial relations code, 2020?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annexure 2: Key Definitions – The Industrial Relations Code, 2020.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "governance",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annexure 2: Key Definitions – The Industrial Relations Code, 2020.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 2",
+        "section 2",
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-022",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Annex 3",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Annexure 3: The Third Schedule, The Industrial Relations Code, 2020 / 2. Contrib",
+      "plain_english": "THE THIRD SCHEDULE\n                          [See sections 40 and 101 (1)]\n    CONDITIONS OF SERVICE FOR CHANGE OF WHICH NOTICE IS\n                        TO BE GIVEN\n\nor pension\n      3. fund or for the benefit of the workers under any law for the time\n         being in force.",
+      "original_text": "THE THIRD SCHEDULE\n                          [See sections 40 and 101 (1)]\n    CONDITIONS OF SERVICE FOR CHANGE OF WHICH NOTICE IS\n                        TO BE GIVEN\n\nor pension\n      3. fund or for the benefit of the workers under any law for the time\n         being in force.\n\nin accordance with standing orders.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: annexure 3: the third schedule, the industrial relations code, 2020 / 2. contrib?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annexure 3: The Third Schedule, The Industrial Relations Code, 2020 / 2. Contrib.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annexure 3: The Third Schedule, The Industrial Relations Code, 2020 / 2. Contrib.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-023",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "9",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Withdrawal of any customary concession or privilege or change in",
+      "plain_english": "Usage. 10.Introduction of new rules of discipline, or alteration of existing rules,\n         except in so far as they are provided in standing orders.",
+      "original_text": "usage.\n      10.Introduction of new rules of discipline, or alteration of existing rules,\n         except in so far as they are provided in standing orders.\n      11.Rationalisation, standardisation or improvement of plant or\n         technique which is likely to lead to retrenchment of workers.\n      12.Any increase or reduction (other than casual) in the number of\n         persons employed or to be employed in any occupation or process\n         or department or shift, not occasioned by circumstances over which\n         the employer has no control.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: withdrawal of any customary concession or privilege or change in?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Withdrawal of any customary concession or privilege or change in.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n      11",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Withdrawal of any customary concession or privilege or change in.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-024",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Annex 4",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Annexure 4: The Third Schedule, The Occupational Safety, Health and / 1. Lead po",
+      "plain_english": "Working Conditions Code, 2020\n\n                            THE THIRD SCHEDULE\n\n                                [See section 12 (1 )]\n\nList of Notifiable Diseases :\n\nor their sequelae . or amido derivatives or its sequelae.",
+      "original_text": "Working Conditions Code, 2020\n\n                            THE THIRD SCHEDULE\n\n                                [See section 12 (1 )]\n\nList of Notifiable Diseases :\n\nor their sequelae .\n\nor amido derivatives or its sequelae.\n\naliphatic series,\n\n(a ) radium or other radio - active substances;\n(b ) X - rays .\n\nmineral oil base.\n\nand paints. These are of two types, that is, primary irritants and allergic\nsensitizers.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: annexure 4: the third schedule, the occupational safety, health and / 1. lead po?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annexure 4: The Third Schedule, The Occupational Safety, Health and / 1. Lead po.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annexure 4: The Third Schedule, The Occupational Safety, Health and / 1. Lead po.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 12"
+      ]
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-025",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Annex 5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Annexure 5: The First Schedule, The Code on Social Security, 2020",
+      "plain_english": "THE FIRST SCHEDULE\n\n                [See sections 1(4), (8) and 152 (1)]\n\n                        APPLICABILITY\n\nChapter     Chapter Heading                    Applicability\n  No. III           Employees'       Every establishment in which twenty\n              Provident Fund     or more\n                                 employees are employed.",
+      "original_text": "THE FIRST SCHEDULE\n\n                [See sections 1(4), (8) and 152 (1)]\n\n                        APPLICABILITY\n\nChapter     Chapter Heading                    Applicability\n  No.\n  III           Employees'       Every establishment in which twenty\n              Provident Fund     or more\n                                 employees are employed.\n  IV         Employees’ State    Every establishment in which ten or\n                Insurance        more persons are employed other than\n               Corporation       a seasonal factory:\n                                 Provided that Chapter IV shall also be\n                                 applicable\n                                 to an establishment, which carries on\n                                 such hazardous or life threatening\n                                 occupation as notified by the Central\n                                 Government, in which even a single\n                                 employee is employed:\n            ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation also be\n                                 applicable\n                                 to an establishment, which carries?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annexure 5: The First Schedule, The Code on Social Security, 2020.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annexure 5: The First Schedule, The Code on Social Security, 2020.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "LABOUR_CODES_2020-026",
+      "framework_id": "LABOUR_CODES_2020",
+      "section_ref": "Chapter IV",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Chapter IV in respect of the plantation",
+      "plain_english": "By giving willingness to the\n                                 corporation, where the benefits\n                                 available to the employees under that\n                                 Chapter are better than what the\n                                 employer is providing to them:\n                                 Provided also that the contribution\n                                 fro",
+      "original_text": "by giving willingness to the\n                                 corporation, where the benefits\n                                 available to the employees under that\n                                 Chapter are better than what the\n                                 employer is providing to them:\n                                 Provided also that the contribution\n                                 from the\n                                 employers and employees of an\n                                 establishment shall be payable under\n                                 section 29 on and from the date on\n                                 which any benefits under Chapter IV\n                                 relating to the Employees State\n                                 Insurance Corporation are provided by\n                                 the Corporation to the employees of\n                                 the establishment and\n\n\n\f                              such date shall be notified by ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "hrtech",
+          "saas"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be payable under\n                                 section 29 on and from the date on\n                                 w?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Chapter IV in respect of the plantation.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "tags": [
+        "employee",
+        "labour",
+        "payroll"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Chapter IV in respect of the plantation.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "section 29"
+      ]
+    }
+  ]
+}

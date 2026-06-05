@@ -1,0 +1,19 @@
+{
+  "framework_id": "MCA_EFORMS_2025",
+  "framework_name": "MCA eForms and Electronic Filing Requirements, 2025",
+  "regulator": "Ministry of Corporate Affairs (MCA)",
+  "version": "2025 Updated eForms",
+  "effective_date": "2025-01-01",
+  "last_verified": "2026-06-05",
+  "source_url": "https://www.mca.gov.in/content/mca/global/en/e-filing/e-forms-download.html",
+  "penalty_max_inr": 1000000,
+  "applies_to": [
+    "web_app",
+    "saas",
+    "fintech",
+    "ecommerce"
+  ],
+  "document_status": "placeholder",
+  "total_pages": 0,
+  "file_hash_sha256": ""
+}

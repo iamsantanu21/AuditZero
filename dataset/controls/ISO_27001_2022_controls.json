@@ -1,0 +1,3125 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "ISO_27001_2022",
+  "regulator": "ISO",
+  "controls": [
+    {
+      "control_id": "ISO_27001_2022-001",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "Preamble",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Preamble",
+      "plain_english": "INTERNATIONAL                                            ISO/IEC\nSTANDARD                                                  27001\n\n                                                                Third edition\n                                                                     2022-10\n\n\n\n\nInformation security, cybersecurity\nand privacy protection — Information\nsecurity management systems —\nRequirem",
+      "original_text": "INTERNATIONAL                                            ISO/IEC\nSTANDARD                                                  27001\n\n                                                                Third edition\n                                                                     2022-10\n\n\n\n\nInformation security, cybersecurity\nand privacy protection — Information\nsecurity management systems —\nRequirements\nSécurité de l'information, cybersécurité et protection de la vie\nprivée — Systèmes de management de la sécurité de l'information —\nExigences\n\n\n\n\n                                                            Reference number\n                                                       ISO/IEC 27001:2022(E)\n\n\n   --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n                                                             © ISO/IEC 2022\n\fISO/IEC 27001:2022(E)\n\n\n\n\n               COPYRIGHT PROTECTED DOCUMENT\n© ISO/IEC 2022\nAll rights reserved. Unless otherwise specified, or required in the context of",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation's documentation define 'Preamble' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Preamble.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "consent",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "audit_log",
+        "consent",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Add 'Preamble' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-002",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "Annex A",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Annex A (normative) Information security controls reference. ...................",
+      "plain_english": "Bibliography. ............................................................................................................................................................................................................................",
+      "original_text": "Bibliography. ............................................................................................................................................................................................................................ 19\n\n\n\n\n                                                    © ISO/IEC 2022 – All rights reserved                                                                                      ﻿                                                                                                                    iii\n\fISO/IEC 27001:2022(E)\n\n\n\nForeword\nISO (the International Organization for Standardization) and IEC (the International Electrotechnical\nCommission) form the specialized system for worldwide standardization. National bodies that are\nmembers of ISO or IEC participate in the development of International Standards through technical\ncommittees established by the respective organization to deal with particular fields of technical\nactivity. ISO and IEC technical com",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation not be held responsible for identifying any or all such patent\nrights?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annex A (normative) Information security controls reference. ....................",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "encryption",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "encryption",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annex A (normative) Information security controls reference. ....................",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-003",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "0.1",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "General",
+      "plain_english": "This document has been prepared to provide requirements for establishing, implementing, maintaining\nand continually improving an information security management system. The adoption of an\ninformation security management system is a strategic decision for an organization.",
+      "original_text": "This document has been prepared to provide requirements for establishing, implementing, maintaining\nand continually improving an information security management system. The adoption of an\ninformation security management system is a strategic decision for an organization. The establishment\nand implementation of an organization’s information security management system is influenced by the\norganization’s needs and objectives, security requirements, the organizational processes used and the\nsize and structure of the organization. All of these influencing factors are expected to change over time.\nThe information security management system preserves the confidentiality, integrity and availability\nof information by applying a risk management process and gives confidence to interested parties that\nrisks are adequately managed.\nIt is important that the information security management system is part of and integrated with the\norganization’s processes and overall management structure and that inf",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: general?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: General.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: General.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-004",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "0.2",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Compatibility with other management system standards",
+      "plain_english": "This document applies the high-level structure, identical sub-clause titles, identical text, common terms,\nand core definitions defined in Annex SL of ISO/IEC Directives, Part 1, Consolidated ISO Supplement,\nand therefore maintains compatibility with other management system standards that have adopted the",
+      "original_text": "This document applies the high-level structure, identical sub-clause titles, identical text, common terms,\nand core definitions defined in Annex SL of ISO/IEC Directives, Part 1, Consolidated ISO Supplement,\nand therefore maintains compatibility with other management system standards that have adopted the",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation have a documented process for: compatibility with other management system standards?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Compatibility with other management system standards.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Compatibility with other management system standards.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-005",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "Annex SL (Part 1)",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Annex SL.",
+      "plain_english": "This common approach defined in the Annex SL will be useful for those organizations that choose to\noperate a single management system that meets the requirements of two or more management system\nstandards. --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n© ISO/IEC 2022 – All rights reserved                                  ﻿                                         v\n\f--``,,,,,``````,,,,,`,`,`,`,",
+      "original_text": "This common approach defined in the Annex SL will be useful for those organizations that choose to\noperate a single management system that meets the requirements of two or more management system\nstandards.\n\n                                        --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n© ISO/IEC 2022 – All rights reserved                                  ﻿                                         v\n\f--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\fINTERNATIONAL STANDARD                                                            ISO/IEC 27001:2022(E)\n\nInformation security, cybersecurity and privacy\nprotection — Information security management systems\n— Requirements\n\n1\t​Scope\nThis document specifies the requirements for establishing, implementing, maintaining and continually\nimproving an information security management system within the context of the organization. This\ndocument also includes requirements for the assessment and treatment of information security risks\ntailored",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation's documentation define 'Annex SL.' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annex SL..",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "encryption",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "encryption",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Add 'Annex SL.' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "Clause 5.4.1"
+      ]
+    },
+    {
+      "control_id": "ISO_27001_2022-006",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "Annex SL (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Annex SL.",
+      "plain_english": "5.3\t​Organizational roles, responsibilities and authorities\nTop management shall ensure that the responsibilities and authorities for roles relevant to information\nsecurity are assigned and communicated within the organization. Top management shall assign the responsibility and authority for:\na)   ensuring that the information security management system conforms to the requirements of this\n     do",
+      "original_text": "5.3\t​Organizational roles, responsibilities and authorities\nTop management shall ensure that the responsibilities and authorities for roles relevant to information\nsecurity are assigned and communicated within the organization.\nTop management shall assign the responsibility and authority for:\na)   ensuring that the information security management system conforms to the requirements of this\n     document;\nb) reporting on the performance of the information security management system to top management.\nNOTE      Top management can also assign responsibilities and authorities for reporting performance of the\ninformation security management system within the organization.\n\n6\t​Planning\n\n6.1\t​Actions to address risks and opportunities\n\n6.1.1\t​General\n\nWhen planning for the information security management system, the organization shall consider\nthe issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and\nopportunities that need to be addressed to:\na)   ensu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation ensure that the responsibilities and authorities for roles relevant to information\nsecurity are assigned and communicat?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Annex SL..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "data_retention",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "data_retention",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Annex SL..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-007",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.3 (Part 1)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Planning of changes",
+      "plain_english": "When the organization determines the need for changes to the information security management\nsystem, the changes shall be carried out in a planned manner. --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n© ISO/IEC 2022 – All rights reserved                 ﻿                                                   5\n﻿\n\fISO/IEC 27001:2022(E)\n\n7\t​Support\n\n7.1\t​Resources",
+      "original_text": "When the organization determines the need for changes to the information security management\nsystem, the changes shall be carried out in a planned manner.\n\n                                                                                                          --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n© ISO/IEC 2022 – All rights reserved                 ﻿                                                   5\n﻿\n\fISO/IEC 27001:2022(E)\n\n7\t​Support\n\n7.1\t​Resources\n\n                                                                                                                   --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\nThe organization shall determine and provide the resources needed for the establishment,\nimplementation, maintenance and continual improvement of the information security management\nsystem.\n\n7.2\t​Competence\nThe organization shall:\na)   determine the necessary competence of person(s) doing work under its control that affects its\n     information security perfo",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be carried out in a planned manner?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Planning of changes.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "consent",
+        "data_retention",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "consent",
+        "data_retention",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Planning of changes.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": [
+        "Clause 6"
+      ]
+    },
+    {
+      "control_id": "ISO_27001_2022-008",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.3 (Part 2)",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Planning of changes",
+      "plain_english": "9.1\t​Monitoring, measurement, analysis and evaluation\nThe organization shall determine:\na)   what needs to be monitored and measured, including information security processes and controls;\nb) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure\n   valid results. The methods selected should produce comparable and reproducible results to be\n   considered valid;",
+      "original_text": "9.1\t​Monitoring, measurement, analysis and evaluation\nThe organization shall determine:\na)   what needs to be monitored and measured, including information security processes and controls;\nb) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure\n   valid results. The methods selected should produce comparable and reproducible results to be\n   considered valid;\nc)   when the monitoring and measuring shall be performed;\nd) who shall monitor and measure;\ne)   when the results from monitoring and measurement shall be analysed and evaluated;\nf)   who shall analyse and evaluate these results.\nDocumented information shall be available as evidence of the results.\nThe organization shall evaluate the information security performance and the effectiveness of the\ninformation security management system.\n\n9.2\t​Internal audit\n\n     --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation determine:\na)   what needs to be monitored and measured, including information security processes and controls;\nb) the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Planning of changes.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Planning of changes.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-009",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "9.2.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "General",
+      "plain_english": "The organization shall conduct internal audits at planned intervals to provide information on whether\nthe information security management system:\na)   conforms to\n     1) the organization’s own requirements for its information security management system;\n\n\n\n8                                                        \b﻿ © ISO/IEC 2022 – All rights reserved",
+      "original_text": "The organization shall conduct internal audits at planned intervals to provide information on whether\nthe information security management system:\na)   conforms to\n     1) the organization’s own requirements for its information security management system;\n\n\n\n8                                                        \b﻿ © ISO/IEC 2022 – All rights reserved\n                                                         \b﻿\n\f                                                                                                                                ISO/IEC 27001:2022(E)\n\n\n\n                                                         2) the requirements of this document;\n                                                    b) is effectively implemented and maintained.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation conduct internal audits at planned intervals to provide information on whether\nthe information security management syst?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: General.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: General.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-010",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "9.2.2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Internal audit programme",
+      "plain_english": "The organization shall plan, establish, implement and maintain an audit programme(s), including the\n                                                    frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of\n                                                       the processes con",
+      "original_text": "The organization shall plan, establish, implement and maintain an audit programme(s), including the\n                                                    frequency, methods, responsibilities, planning requirements and reporting.\n                                                    When establishing the internal audit programme(s), the organization shall consider the importance of\n                                                       the processes concerned and the results of previous audits.\n                                                    The organization shall:\n                                                    a)   define the audit criteria and scope for each audit;\n                                                    b) select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;\n                                                    c)   ensure that the results of the audits are reported to relevant management;\n                               ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation plan, establish, implement and maintain an audit programme(s), including the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Internal audit programme.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Internal audit programme.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-011",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "9.3.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "General",
+      "plain_english": "--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                                    Top management shall review the organization's information security management system at planned\n                                                    intervals to ensure its continuing suitability, adequacy and effectiveness.",
+      "original_text": "--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                                    Top management shall review the organization's information security management system at planned\n                                                    intervals to ensure its continuing suitability, adequacy and effectiveness.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation review the organization's information security management system at planned?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: General.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: General.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-012",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "9.3.2",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "Management review inputs",
+      "plain_english": "The management review shall include consideration of:\n                                                    a)   the status of actions from previous management reviews;\n                                                    b) changes in external and internal issues that are relevant to the information security management\n                                                       system;",
+      "original_text": "The management review shall include consideration of:\n                                                    a)   the status of actions from previous management reviews;\n                                                    b) changes in external and internal issues that are relevant to the information security management\n                                                       system;\n                                                    c)   changes in needs and expectations of interested parties that are relevant to the information\n                                                         security management system;\n                                                    d) feedback on the information security performance, including trends in:\n                                                         1) nonconformities and corrective actions;\n                                                         2) monitoring and measurement results;\n                                                         3) a",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation's documentation define 'Management review inputs' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Management review inputs.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Add 'Management review inputs' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-013",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "9.3.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Management review results",
+      "plain_english": "The results of the management review shall include decisions related to continual improvement\n                                                    opportunities and any needs for changes to the information security management system. © ISO/IEC 2022 – All rights reserved                  ﻿                                               9\n                                                    ﻿\n\fISO/IEC",
+      "original_text": "The results of the management review shall include decisions related to continual improvement\n                                                    opportunities and any needs for changes to the information security management system.\n\n                                                    © ISO/IEC 2022 – All rights reserved                  ﻿                                               9\n                                                    ﻿\n\fISO/IEC 27001:2022(E)\n\n\n\nDocumented information shall be available as evidence of the results of management reviews.\n\n\n10\t​Improvement\n\n10.1\t​Continual improvement\nThe organization shall continually improve the suitability, adequacy and effectiveness of the information\nsecurity management system.\n\n10.2\t​Nonconformity and corrective action\nWhen a nonconformity occurs, the organization shall:\na)   react to the nonconformity, and as applicable:\n     1) take action to control and correct it;\n     2) deal with the consequences;\nb) evaluate the need for a",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be available as evidence of the results of management reviews?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Management review results.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Management review results.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-014",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Policies for information secu-   Control / 5.2       Information security roles ",
+      "plain_english": "Rity\n                                                                                               Information security policy and topic-specific policies shall be de-\n                                                                                               fined, approved by management, published, communicated to and",
+      "original_text": "rity\n                                                                                               Information security policy and topic-specific policies shall be de-\n                                                                                               fined, approved by management, published, communicated to and\n                                                                                               acknowledged by relevant personnel and relevant interested parties,\n                                                                                               and reviewed at planned intervals and if significant changes occur.\n\nresponsibilities\n                                                                                             Information security roles and responsibilities shall be defined and\n                                                                                             allocated according to the organization needs.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be de-\n                                                                                               fined, approved b?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Policies for information secu-   Control / 5.2       Information security roles .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Policies for information secu-   Control / 5.2       Information security roles .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-015",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Segregation of duties            Control / 5.4       Management responsibilities",
+      "plain_english": "Conflicting duties and conflicting areas of responsibility shall be seg-\n                                                                                               regated. Management shall require all personnel to apply information security\n                                                                                               in accordance with the established information security pol",
+      "original_text": "Conflicting duties and conflicting areas of responsibility shall be seg-\n                                                                                               regated.\n\nManagement shall require all personnel to apply information security\n                                                                                               in accordance with the established information security policy, top-\n                                                                                               ic-specific policies and procedures of the organization.\n\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                                                                               The organization shall establish and maintain contact with relevant\n                                                                                               authorities.\n\ngroups\n                                                                                            The organizatio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be seg-\n                                                                                               regated?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Segregation of duties            Control / 5.4       Management responsibilities.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Segregation of duties            Control / 5.4       Management responsibilities.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-016",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.7",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Threat intelligence              Control / 5.8       Information security in pro",
+      "plain_english": "Information relating to information security threats shall be collected\n                                                                                               and analysed to produce threat intelligence. management\n                                                                                              Information security shall be integrated into project management.",
+      "original_text": "Information relating to information security threats shall be collected\n                                                                                               and analysed to produce threat intelligence.\n\nmanagement\n                                                                                              Information security shall be integrated into project management.\n\nother associated assets\n                                                                                           An inventory of information and other associated assets, including\n                                                                                           owners, shall be developed and maintained.\n\nand other associated assets\n                                                                                            Rules for the acceptable use and procedures for handling information and\n                                                                                            other associa",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be integrated into project management?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Threat intelligence              Control / 5.8       Information security in pro.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Threat intelligence              Control / 5.8       Information security in pro.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-017",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Return of assets                 Control / 5.12                                 ",
+      "plain_english": "Personnel and other interested parties as appropriate shall return all\n                                                                                               the organization’s assets in their possession upon change or termination\n                                                                                               of their employment, contract or agreement. © ISO/IEC 2022 – All r",
+      "original_text": "Personnel and other interested parties as appropriate shall return all\n                                                                                               the organization’s assets in their possession upon change or termination\n                                                                                               of their employment, contract or agreement.\n\n\n                                                    © ISO/IEC 2022 – All rights reserved                     ﻿                                                      11\n                                                    ﻿\n\fISO/IEC 27001:2022(E)\n\n\n\n                                                                                             Table A.1 (continued)\n\nInformation shall be classified according to the information security\n                                                                                           needs of the organization based on confidentiality, integrity, availability\n                    ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation return all\n                                                                                               the organizat?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Return of assets                 Control / 5.12                                 .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Return of assets                 Control / 5.12                                 .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-018",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.13",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Labelling of information        Control / 5.14                                  ",
+      "plain_english": "An appropriate set of procedures for information labelling shall be\n                                                                                           developed and implemented in accordance with the information clas-\n                                                                                           sification scheme adopted by the organization. Information transfer rules, procedur",
+      "original_text": "An appropriate set of procedures for information labelling shall be\n                                                                                           developed and implemented in accordance with the information clas-\n                                                                                           sification scheme adopted by the organization.\n\nInformation transfer rules, procedures, or agreements shall be in place\n                                                                                           for all types of transfer facilities within the organization and between\n                                                                                           the organization and other parties.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be\n                                                                                           developed and implemented?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Labelling of information        Control / 5.14                                  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Labelling of information        Control / 5.14                                  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-019",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Access control                  Control / 5.16                                  ",
+      "plain_english": "Rules to control physical and logical access to information and other\n                                                                                           associated assets shall be established and implemented based on busi-\n                                                                                           ness and information security requirements. The full life cycle of identities",
+      "original_text": "Rules to control physical and logical access to information and other\n                                                                                           associated assets shall be established and implemented based on busi-\n                                                                                           ness and information security requirements.\n\nThe full life cycle of identities shall be managed.\n\nAllocation and management of authentication information shall be\n                                                                                           controlled by a management process, including advising personnel on\n                                                                                           appropriate handling of authentication information.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be established and implemented based on busi-?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Access control                  Control / 5.16                                  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "access_control",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Access control                  Control / 5.16                                  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-020",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Access rights                   Control / 5.19                                  ",
+      "plain_english": "Access rights to information and other associated assets shall be\n                                                                                           provisioned, reviewed, modified and removed in accordance with the\n                                                                                           organization’s topic-specific policy on and rules for access control. --``,,,,,``````",
+      "original_text": "Access rights to information and other associated assets shall be\n                                                                                           provisioned, reviewed, modified and removed in accordance with the\n                                                                                           organization’s topic-specific policy on and rules for access control.\n\n\n\n\n       --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\nrelationships\n                                                                                            Processes and procedures shall be defined and implemented to manage\n                                                                                            the information security risks associated with the use of supplier’s\n                                                                                            products or services.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be defined and i?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Access rights                   Control / 5.19                                  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Access rights                   Control / 5.19                                  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-021",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.20",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Addressing information security Control / 5.21                                  ",
+      "plain_english": "Within supplier agreements\n                                                                                           Relevant information security requirements shall be established and\n                                                                                           agreed with each supplier based on the type of supplier relationship. in the information and commu-",
+      "original_text": "within supplier agreements\n                                                                                           Relevant information security requirements shall be established and\n                                                                                           agreed with each supplier based on the type of supplier relationship.\n\nin the information and commu-\n                                                                                            Processes and procedures shall be defined and implemented to manage\n                                                           nication technology (ICT) supply\n                                                                                            the information security risks associated with the ICT products and\n                                                           chain\n                                                                                            services supply chain.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be established and\n                                                                                           agreed wi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Addressing information security Control / 5.21                                  .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Addressing information security Control / 5.21                                  .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-022",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.22",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Monitoring, review and change Control / 5.23                                    ",
+      "plain_english": "Management of supplier services\n                                                                                           The organization shall regularly monitor, review, evaluate and manage\n                                                                                           change in supplier information security practices and service delivery. cloud services",
+      "original_text": "management of supplier services\n                                                                                           The organization shall regularly monitor, review, evaluate and manage\n                                                                                           change in supplier information security practices and service delivery.\n\ncloud services\n                                                                                           Processes for acquisition, use, management and exit from cloud services\n                                                                                           shall be established in accordance with the organization’s information\n                                                                                           security requirements.\n\nmanagement planning and prepa-\n                                                                                          The organization shall plan and prepare for managing information se",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation regularly monitor?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Monitoring, review and change Control / 5.23                                    .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "breach_notification",
+        "information_security",
+        "isms",
+        "iso27001",
+        "vendor_management"
+      ],
+      "tags": [
+        "audit_log",
+        "breach_notification",
+        "information_security",
+        "isms",
+        "iso27001",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Monitoring, review and change Control / 5.23                                    .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-023",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.25",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Assessment and decision on in- Control / 5.26      Response to information secur",
+      "plain_english": "Formation security events\n                                         The organization shall assess information security events and decide if\n                                         they are to be categorized as information security incidents. incidents\n                                           Information security incidents shall be responded to in accordance with",
+      "original_text": "formation security events\n                                         The organization shall assess information security events and decide if\n                                         they are to be categorized as information security incidents.\n\nincidents\n                                           Information security incidents shall be responded to in accordance with\n                                           the documented procedures.\n\ncurity incidents\n                                        Knowledge gained from information security incidents shall be used to\n                                        strengthen and improve the information security controls.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation assess information security events and decide if\n                                         they are to be categorized as?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Assessment and decision on in- Control / 5.26      Response to information secur.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Assessment and decision on in- Control / 5.26      Response to information secur.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-024",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.28",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Collection of evidence           Control / 5.29      Information security during",
+      "plain_english": "The organization shall establish and implement procedures for the iden-\n                                           tification, collection, acquisition and preservation of evidence related\n                                           to information security events. disruption\n                                      The organization shall plan how to maintain information security at an",
+      "original_text": "The organization shall establish and implement procedures for the iden-\n                                           tification, collection, acquisition and preservation of evidence related\n                                           to information security events.\n\ndisruption\n                                      The organization shall plan how to maintain information security at an\n                                      appropriate level during disruption.\n\ntinuity\n                                          ICT readiness shall be planned, implemented, maintained and tested\n                                          based on business continuity objectives and ICT continuity requirements.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation establish and implement procedures for the iden-\n                                           tification, collection, acq?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Collection of evidence           Control / 5.29      Information security during.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "incident_response",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "incident_response",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Collection of evidence           Control / 5.29      Information security during.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-025",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.31",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Legal, statutory, regulatory and Control / 5.32      Intellectual property right",
+      "plain_english": "Contractual requirements\n                                           Legal, statutory, regulatory and contractual requirements relevant to\n                                           information security and the organization’s approach to meet these\n                                           requirements shall be identified, documented and kept up to date. The organization shall implement appropriat",
+      "original_text": "contractual requirements\n                                           Legal, statutory, regulatory and contractual requirements relevant to\n                                           information security and the organization’s approach to meet these\n                                           requirements shall be identified, documented and kept up to date.\n\nThe organization shall implement appropriate procedures to protect\n                                           intellectual property rights.\n\nRecords shall be protected from loss, destruction, falsification, unau-\n\n\n\n\n                                                                                                                    --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                           thorized access and unauthorized release.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be identified, documented and kept up to date?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Legal, statutory, regulatory and Control / 5.32      Intellectual property right.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Legal, statutory, regulatory and Control / 5.32      Intellectual property right.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-026",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.34",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Privacy and protection of person- Control / 5.35      Independent review of info",
+      "plain_english": "Al identifiable information (PII)\n                                            The organization shall identify and meet the requirements regarding\n                                            the preservation of privacy and protection of PII according to applicable\n                                            laws and regulations and contractual requirements. tion security",
+      "original_text": "al identifiable information (PII)\n                                            The organization shall identify and meet the requirements regarding\n                                            the preservation of privacy and protection of PII according to applicable\n                                            laws and regulations and contractual requirements.\n\ntion security\n                                         The organization’s approach to managing information security and\n                                         its implementation including people, processes and technologies shall\n                                         be reviewed independently at planned intervals, or when significant\n                                         changes occur.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation identify and meet the requirements regarding\n                                            the preservation of privacy an?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Privacy and protection of person- Control / 5.35      Independent review of info.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001",
+        "personal_data"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001",
+        "personal_data"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Privacy and protection of person- Control / 5.35      Independent review of info.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-027",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "5.36",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Compliance with policies, rules Control / 5.37      Documented operating proce- ",
+      "plain_english": "And standards for information\n                                          Compliance with the organization’s information security policy, top-\n          security\n                                          ic-specific policies, rules and standards shall be regularly reviewed. dures\n                                      Operating procedures for information processing facilities shall be",
+      "original_text": "and standards for information\n                                          Compliance with the organization’s information security policy, top-\n          security\n                                          ic-specific policies, rules and standards shall be regularly reviewed.\n\ndures\n                                      Operating procedures for information processing facilities shall be\n                                      documented and made available to personnel who need them.\n\n\n\n\n© ISO/IEC 2022 – All rights reserved                      ﻿                                                       13\n﻿\n\fISO/IEC 27001:2022(E)\n\n\n\n                                           Table A.1 (continued)\n6      People controls",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be regularly reviewed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Compliance with policies, rules Control / 5.37      Documented operating proce- .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Compliance with policies, rules Control / 5.37      Documented operating proce- .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-028",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Screening                        Control",
+      "plain_english": "Background verification checks on all candidates to become personnel\n                                        shall be carried out prior to joining the organization and on an ongoing\n                                        basis taking into consideration applicable laws, regulations and ethics\n                                        and be proportional to the business requirements, the classificati",
+      "original_text": "Background verification checks on all candidates to become personnel\n                                        shall be carried out prior to joining the organization and on an ongoing\n                                        basis taking into consideration applicable laws, regulations and ethics\n                                        and be proportional to the business requirements, the classification of\n                                        the information to be accessed and the perceived risks.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be carried out prior to joining the organization and on an ongoing\n                                        basis taking?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Screening                        Control.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Screening                        Control.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-029",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.2",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Terms and conditions of em- Control / 6.3    Information security awareness, Con",
+      "plain_english": "Ployment\n                                   The employment contractual agreements shall state the personnel’s and\n                                   the organization’s responsibilities for information security. education and training\n                                       Personnel of the organization and relevant interested parties shall receive\n                                       appropriate",
+      "original_text": "ployment\n                                   The employment contractual agreements shall state the personnel’s and\n                                   the organization’s responsibilities for information security.\n\neducation and training\n                                       Personnel of the organization and relevant interested parties shall receive\n                                       appropriate information security awareness, education and training\n                                       and regular updates of the organization's information security policy,\n                                       topic-specific policies and procedures, as relevant for their job function.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation state the personnel’s and\n                                   the organization’s responsibilities for information securi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Terms and conditions of em- Control / 6.3    Information security awareness, Con.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Terms and conditions of em- Control / 6.3    Information security awareness, Con.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-030",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Disciplinary process             Control / 6.5    Responsibilities after termina",
+      "plain_english": "A disciplinary process shall be formalized and communicated to take\n                                        actions against personnel and other relevant interested parties who\n                                        have committed an information security policy violation. or change of employment\n                                          Information security responsibilities and duties that remain",
+      "original_text": "A disciplinary process shall be formalized and communicated to take\n                                        actions against personnel and other relevant interested parties who\n                                        have committed an information security policy violation.\n\nor change of employment\n                                          Information security responsibilities and duties that remain valid after\n                                          termination or change of employment shall be defined, enforced and\n                                          communicated to relevant personnel and other interested parties.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be formalized and communicated to take\n                                        actions against personnel and other rele?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Disciplinary process             Control / 6.5    Responsibilities after termina.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Disciplinary process             Control / 6.5    Responsibilities after termina.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-031",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Confidentiality or non-disclosure Control / 6.7    Remote working               ",
+      "plain_english": "Agreements\n                                         Confidentiality or non-disclosure agreements reflecting the organ-\n                                         ization’s needs for the protection of information shall be identified,\n                                         documented, regularly reviewed and signed by personnel and other\n                                         relevant interested pa",
+      "original_text": "agreements\n                                         Confidentiality or non-disclosure agreements reflecting the organ-\n                                         ization’s needs for the protection of information shall be identified,\n                                         documented, regularly reviewed and signed by personnel and other\n                                         relevant interested parties.\n\nSecurity measures shall be implemented when personnel are working\n                                        remotely to protect information accessed, processed or stored outside\n                                        the organization’s premises.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be identified,\n                                         documented, regularly reviewed and signed by personnel and othe?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Confidentiality or non-disclosure Control / 6.7    Remote working               .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Confidentiality or non-disclosure Control / 6.7    Remote working               .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-032",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "6.8",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Information security event re- Control / 7.1    Physical security perimeters    ",
+      "plain_english": "Porting\n                                      The organization shall provide a mechanism for personnel to report\n                                      observed or suspected information security events through appropriate\n                                      channels in a timely manner. 7      Physical controls\n\nSecurity perimeters shall be defined and used to protect areas that",
+      "original_text": "porting\n                                      The organization shall provide a mechanism for personnel to report\n                                      observed or suspected information security events through appropriate\n                                      channels in a timely manner.\n7      Physical controls\n\nSecurity perimeters shall be defined and used to protect areas that\n                                        contain information and other associated assets.\n\nSecure areas shall be protected by appropriate entry controls and\n                                        access points.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation provide a mechanism for personnel to report\n                                      observed or suspected information sec?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Information security event re- Control / 7.1    Physical security perimeters    .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Information security event re- Control / 7.1    Physical security perimeters    .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-033",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "7.3",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Securing offices, rooms and fa- Control / 7.4    Physical security monitoring   ",
+      "plain_english": "Cilities\n                                       Physical security for offices, rooms and facilities shall be designed and\n                                       implemented. Premises shall be continuously monitored for unauthorized physical\n                                        access.",
+      "original_text": "cilities\n                                       Physical security for offices, rooms and facilities shall be designed and\n                                       implemented.\n\nPremises shall be continuously monitored for unauthorized physical\n                                        access.\n\n\n\n\n                                                     --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n\n      \b﻿ © ISO/IEC 2022 – All rights reserved\n      \b﻿\n\f                                                                                    ISO/IEC 27001:2022(E)\n\n\n\n                                            Table A.1 (continued)\n\nenvironmental threats\n                                          Protection against physical and environmental threats, such as natural\n                                          disasters and other intentional or unintentional physical threats to\n                                          infrastructure shall be designed and implemented.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be designed and\n                                       implemented?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Securing offices, rooms and fa- Control / 7.4    Physical security monitoring   .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Securing offices, rooms and fa- Control / 7.4    Physical security monitoring   .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-034",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "7.6",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Working in secure areas         Control / 7.7       Clear desk and clear screen ",
+      "plain_english": "Security measures for working in secure areas shall be designed and\n                                          implemented. Clear desk rules for papers and removable storage media and clear\n                                          screen rules for information processing facilities shall be defined and",
+      "original_text": "Security measures for working in secure areas shall be designed and\n                                          implemented.\n\nClear desk rules for papers and removable storage media and clear\n                                          screen rules for information processing facilities shall be defined and\n\n\n\n\n                                                                                                                      --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                          appropriately enforced.\n\nEquipment shall be sited securely and protected.\n\nOff-site assets shall be protected.\n\nStorage media shall be managed through their life cycle of acquisition,\n                                          use, transportation and disposal in accordance with the organization’s\n                                          classification scheme and handling requirements.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be sited securely and protected?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Working in secure areas         Control / 7.7       Clear desk and clear screen .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Working in secure areas         Control / 7.7       Clear desk and clear screen .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-035",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "7.11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Supporting utilities            Control / 7.12      Cabling security            ",
+      "plain_english": "Information processing facilities shall be protected from power failures\n                                          and other disruptions caused by failures in supporting utilities. Cables carrying power, data or supporting information services shall\n                                          be protected from interception, interference or damage.",
+      "original_text": "Information processing facilities shall be protected from power failures\n                                          and other disruptions caused by failures in supporting utilities.\n\nCables carrying power, data or supporting information services shall\n                                          be protected from interception, interference or damage.\n\nEquipment shall be maintained correctly to ensure availability, integrity\n                                          and confidentiality of information.\n\nequipment\n                                       Items of equipment containing storage media shall be verified to en-\n                                       sure that any sensitive data and licensed software has been removed\n                                       or securely overwritten prior to disposal or re-use.\n8         Technological controls",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be protected from interception?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Supporting utilities            Control / 7.12      Cabling security            .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Supporting utilities            Control / 7.12      Cabling security            .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-036",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.1",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "User end point devices          Control / 8.2       Privileged access rights    ",
+      "plain_english": "Information stored on, processed by or accessible via user end point\n                                          devices shall be protected. The allocation and use of privileged access rights shall be restricted\n                                          and managed.",
+      "original_text": "Information stored on, processed by or accessible via user end point\n                                          devices shall be protected.\n\nThe allocation and use of privileged access rights shall be restricted\n                                          and managed.\n\nAccess to information and other associated assets shall be restricted in\n                                          accordance with the established topic-specific policy on access control.\n\nRead and write access to source code, development tools and software\n                                          libraries shall be appropriately managed.\n\n\n\n\n© ISO/IEC 2022 – All rights reserved                    ﻿                                                       15\n﻿\n\fISO/IEC 27001:2022(E)\n\n\n\n                                         Table A.1 (continued)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be protected?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: User end point devices          Control / 8.2       Privileged access rights    .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: User end point devices          Control / 8.2       Privileged access rights    .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-037",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.5",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Secure authentication           Control / 8.6    Capacity management            ",
+      "plain_english": "Secure authentication technologies and procedures shall be implemented\n                                       based on information access restrictions and the topic-specific policy\n                                       on access control. The use of resources shall be monitored and adjusted in line with current\n                                       and expected capacity requirements.",
+      "original_text": "Secure authentication technologies and procedures shall be implemented\n                                       based on information access restrictions and the topic-specific policy\n                                       on access control.\n\nThe use of resources shall be monitored and adjusted in line with current\n                                       and expected capacity requirements.\n\nProtection against malware shall be implemented and supported by\n                                       appropriate user awareness.\n\nnerabilities\n                                    Information about technical vulnerabilities of information systems in\n                                    use shall be obtained, the organization’s exposure to such vulnerabilities\n                                    shall be evaluated and appropriate measures shall be taken.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be implemented\n                                       based on information access restrictions and the topic-specific p?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Secure authentication           Control / 8.6    Capacity management            .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Secure authentication           Control / 8.6    Capacity management            .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-038",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Configuration management        Control / 8.10   Information deletion           ",
+      "plain_english": "Configurations, including security configurations, of hardware, software,\n                                       services and networks shall be established, documented, implemented,\n                                       monitored and reviewed. Information stored in information systems, devices or in any other\n                                       storage media shall be deleted when no longer req",
+      "original_text": "Configurations, including security configurations, of hardware, software,\n                                       services and networks shall be established, documented, implemented,\n                                       monitored and reviewed.\n\nInformation stored in information systems, devices or in any other\n                                       storage media shall be deleted when no longer required.\n\nData masking shall be used in accordance with the organization’s\n                                       topic-specific policy on access control and other related topic-specific\n                                       policies, and business requirements, taking applicable legislation into\n                                       consideration.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be established, documented, implemented,\n                                       monitored and reviewed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Configuration management        Control / 8.10   Information deletion           .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "access_control",
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Configuration management        Control / 8.10   Information deletion           .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-039",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Data leakage prevention         Control / 8.13   Information backup             ",
+      "plain_english": "Data leakage prevention measures shall be applied to systems, net-\n                                       works and any other devices that process, store or transmit sensitive\n\n\n\n\n                                                                                                                   --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                       information. Bac",
+      "original_text": "Data leakage prevention measures shall be applied to systems, net-\n                                       works and any other devices that process, store or transmit sensitive\n\n\n\n\n                                                                                                                   --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                       information.\n\nBackup copies of information, software and systems shall be maintained\n                                       and regularly tested in accordance with the agreed topic-specific policy\n                                       on backup.\n\ncessing facilities\n                                      Information processing facilities shall be implemented with redundancy\n                                      sufficient to meet availability requirements.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be applied to systems?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Data leakage prevention         Control / 8.13   Information backup             .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "governance",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Data leakage prevention         Control / 8.13   Information backup             .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-040",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.15",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Logging                         Control / 8.16   Monitoring activities          ",
+      "plain_english": "Logs that record activities, exceptions, faults and other relevant events\n                                       shall be produced, stored, protected and analysed. Networks, systems and applications shall be monitored for anomalous\n                                       behaviour and appropriate actions taken to evaluate potential infor-\n                                       mation security incid",
+      "original_text": "Logs that record activities, exceptions, faults and other relevant events\n                                       shall be produced, stored, protected and analysed.\n\nNetworks, systems and applications shall be monitored for anomalous\n                                       behaviour and appropriate actions taken to evaluate potential infor-\n                                       mation security incidents.\n\nThe clocks of information processing systems used by the organization\n                                       shall be synchronized to approved time sources.\n\n\n\n\n16     \b﻿ © ISO/IEC 2022 – All rights reserved\n       \b﻿\n\f                                                                                     ISO/IEC 27001:2022(E)\n\n\n\n                                             Table A.1 (continued)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be produced, stored, protected and analysed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Logging                         Control / 8.16   Monitoring activities          .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Logging                         Control / 8.16   Monitoring activities          .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-041",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.18",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Use of privileged utility programs Control / 8.19      Installation of software ",
+      "plain_english": "The use of utility programs that can be capable of overriding system\n                                           and application controls shall be restricted and tightly controlled. erational systems\n                                          Procedures and measures shall be implemented to securely manage\n                                          software installation on operational systems.",
+      "original_text": "The use of utility programs that can be capable of overriding system\n                                           and application controls shall be restricted and tightly controlled.\n\nerational systems\n                                          Procedures and measures shall be implemented to securely manage\n                                          software installation on operational systems.\n\nNetworks and network devices shall be secured, managed and controlled\n                                           to protect information in systems and applications.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be restricted and tightly controlled?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Use of privileged utility programs Control / 8.19      Installation of software .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Use of privileged utility programs Control / 8.19      Installation of software .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-042",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.21",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Security of network services     Control / 8.22      Segregation of networks    ",
+      "plain_english": "Security mechanisms, service levels and service requirements of network\n                                           services shall be identified, implemented and monitored. Groups of information services, users and information systems shall\n                                           be segregated in the organization’s networks.",
+      "original_text": "Security mechanisms, service levels and service requirements of network\n                                           services shall be identified, implemented and monitored.\n\nGroups of information services, users and information systems shall\n                                           be segregated in the organization’s networks.\n\nAccess to external websites shall be managed to reduce exposure to\n                                           malicious content.\n\n--``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n                                           Rules for the effective use of cryptography, including cryptographic key\n                                           management, shall be defined and implemented.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be identified, implemented and monitored?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Security of network services     Control / 8.22      Segregation of networks    .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Security of network services     Control / 8.22      Segregation of networks    .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-043",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.25",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Secure development life cycle    Control / 8.26      Application security requir",
+      "plain_english": "Rules for the secure development of software and systems shall be\n                                           established and applied. ments\n                                        Information security requirements shall be identified, specified and\n                                        approved when developing or acquiring applications.",
+      "original_text": "Rules for the secure development of software and systems shall be\n                                           established and applied.\n\nments\n                                        Information security requirements shall be identified, specified and\n                                        approved when developing or acquiring applications.\n\nengineering principles\n                                         Principles for engineering secure systems shall be established, docu-\n                                         mented, maintained and applied to any information system development\n                                         activities.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be\n                                           established and applied?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Secure development life cycle    Control / 8.26      Application security requir.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Secure development life cycle    Control / 8.26      Application security requir.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-044",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.28",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Secure coding                    Control / 8.29      Security testing in develop",
+      "plain_english": "Secure coding principles shall be applied to software development. and acceptance\n                                          Security testing processes shall be defined and implemented in the\n                                          development life cycle.",
+      "original_text": "Secure coding principles shall be applied to software development.\n\nand acceptance\n                                          Security testing processes shall be defined and implemented in the\n                                          development life cycle.\n\nThe organization shall direct, monitor and review the activities related\n                                           to outsourced system development.\n\nand production environments\n                                          Development, testing and production environments shall be separated\n                                          and secured.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be applied to software development?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Secure coding                    Control / 8.29      Security testing in develop.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001",
+        "vulnerability"
+      ],
+      "tags": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001",
+        "vulnerability"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Secure coding                    Control / 8.29      Security testing in develop.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-045",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.32",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Change management                Control / 8.33      Test information           ",
+      "plain_english": "Changes to information processing facilities and information systems\n                                           shall be subject to change management procedures. Test information shall be appropriately selected, protected and managed.",
+      "original_text": "Changes to information processing facilities and information systems\n                                           shall be subject to change management procedures.\n\nTest information shall be appropriately selected, protected and managed.\n\n\n\n© ISO/IEC 2022 – All rights reserved                     ﻿                                                      17\n﻿\n\fISO/IEC 27001:2022(E)\n\n\n\n                                         Table A.1 (continued)",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be subject to change management procedures?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Change management                Control / 8.33      Test information           .",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Change management                Control / 8.33      Test information           .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "ISO_27001_2022-046",
+      "framework_id": "ISO_27001_2022",
+      "section_ref": "8.34",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Protection of information sys- Control",
+      "plain_english": "Tems during audit testing\n                                      Audit tests and other assurance activities involving assessment of op-\n                                      erational systems shall be planned and agreed between the tester and\n                                      appropriate management. --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n\n\n\n18     \b﻿ © ISO/IEC 2022 – All rights rese",
+      "original_text": "tems during audit testing\n                                      Audit tests and other assurance activities involving assessment of op-\n                                      erational systems shall be planned and agreed between the tester and\n                                      appropriate management.\n\n\n\n\n                                                                                                               --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n\n\n\n18     \b﻿ © ISO/IEC 2022 – All rights reserved\n       \b﻿\n\f                                                                                                         ISO/IEC 27001:2022(E)\n\n\n\n                                                                        Bibliography\n\n                    [1]                ISO/IEC 27002:2022, Information security, cybersecurity and privacy protection — Information\n                                       security controls\n                    [2]                ISO/IEC 27003, Informatio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "web_app",
+          "mobile_app",
+          "saas",
+          "fintech",
+          "healthtech",
+          "ecommerce"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": null
+      },
+      "test_question": "Does your organisation be planned and agreed between the tester and\n                                      appropriate management?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Protection of information sys- Control.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "tags": [
+        "audit_log",
+        "information_security",
+        "isms",
+        "iso27001"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Protection of information sys- Control.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

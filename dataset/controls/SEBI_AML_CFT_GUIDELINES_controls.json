@@ -1,0 +1,2883 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "SEBI_AML_CFT_GUIDELINES",
+  "regulator": "SEBI",
+  "controls": [
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-001",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "MASTER",
+      "content_type": "DEFINITION",
+      "obligation_type": "recommended",
+      "title": "MASTER CIRCULAR",
+      "plain_english": "SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2024/78 June 06, 2024\n\nTo,\n1. All Intermediaries registered with SEBI under Section 12 of the\nSecurities and Exchange Board of India Act, 1992\n2.",
+      "original_text": "SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2024/78 June 06, 2024\n\nTo,\n1. All Intermediaries registered with SEBI under Section 12 of the\nSecurities and Exchange Board of India Act, 1992\n2. Stock Exchanges\n\nDear Sir/Madam,\n\nSubject: Guidelines on Anti-Money Laundering (AML) Standards and Combating\nthe Financing of Terrorism (CFT) /Obligations of Securities Market\nIntermediaries under the Prevention of Money Laundering Act, 2002 and Rules\nframed there under.\n\n1. The Prevention of Money Laundering Act, 2002 (“PMLA”) and the Prevention of\nMoney-Laundering (Maintenance of Records) Rules, 2005 (PML Rules’), as\namended from time to time and notified by the Government of India, mandate every\nreporting entity [which includes intermediaries registered under section 12 of the\nSecurities and Exchange Board of India Act, 1992 (SEBI Act) and stock\nexchanges], to adhere to client account opening procedures, maintain records and\nreport such transactions as prescribed therein to the relevant authorities. The PML",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation's documentation define 'MASTER CIRCULAR' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: MASTER CIRCULAR.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "info",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: MASTER CIRCULAR.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12",
+        "section 12"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-002",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 2]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 2]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n3. These guidelines shall also apply to the branches of the Stock Exchanges,\nregistered intermediaries, and their subsidiaries situated abroad, especially, in\ncountries which do not apply or insufficiently apply the recommendations made by\nthe Financial Action Task Force (FATF), to the extent local laws and regulations\npermit.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n3. These guidelines shall also apply to the branches of the Stock Exchanges,\nregistered intermediaries, and their subsidiaries situated abroad, especially, in\ncountries which do not apply or insufficiently apply the recommendations made by\nthe Financial Action Task Force (FATF), to the extent local laws and regulations\npermit. When the local applicable laws and regulations prohibit implementation of\nthese requirements, the same shall be brought to the notice of SEBI.\n\n4. SEBI has from time to time issued circulars/directives with regard to Know Your\nClient (KYC), Client Due Diligence (CDD), Anti-Money Laundering (AML) and\nCombating the Financing of Terrorism (CFT) specifying the minimum\nrequirements. It is emphasized that the registered intermediaries may, according\nto their requirements, specify additional disclosures to be made by clients to\naddress the concerns of money laundering and suspicious transactions\nundertaken b",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation also apply to the branches of the stock exchanges?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 2].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 2].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-003",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 3]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 3]",
+      "plain_english": "Gas] rete seat ate hoe ae\n\nSecurities and Exchange Board of India\n\nTable of Contents\n\nOVErVIOW........ssscscseecssescsseesssessseessessssessseesssssssecessecssecssussssesssesssuessseessesssusesseessvsssneesssessusessestseeessecssesssnees 4\nBackground\n\n \n\nPolicies and Procedures to Combat Money Laundering and Terrorist Financing........... 5\nEssential Principles: .......",
+      "original_text": "Gas] rete seat ate hoe ae\n\nSecurities and Exchange Board of India\n\nTable of Contents\n\nOVErVIOW........ssscscseecssescsseesssessseessessssessseesssssssecessecssecssussssesssesssuessseessesssusesseessvsssneesssessusessestseeessecssesssnees 4\nBackground\n\n \n\nPolicies and Procedures to Combat Money Laundering and Terrorist Financing........... 5\nEssential Principles: .......\n\n \n\n \n\nObligation to establish pol\nWritten Anti Money Laundering Procedures\nClient Due Diligence (CDD)\nClient identification procedure\n\n \n\n \n \n\nReliance on third party for carrying out Client Due Diligence (CDD)............cceee 18\nRisk Management ........ccccssccsssssscsssssessscssessessueesesessuesesaesousesaesesousessesesouseneneseusenenanees 19\nRisk-based Approach........escseesesssesesssssessessseseeessensassesesesesesscseseseseseaseusseseseseeeseneasasseeesueeasceseeaneeaies 19\n\n \n\nRisk Assessment\n\nMonitoring of Transactions...\n\n \n\nSuspicious Transaction Monitoring and Reporting. .........0..0.c ccs 21\n\nInformatio",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 3]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 3].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 3].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12A"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-004",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 4]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 4]",
+      "plain_english": "1. Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nOverview\nThe Directives as outlined below provide a general background and summary\n\nof the main provisions of the applicable anti-money laundering and anti-terrorist\nfinancing legislations in India.",
+      "original_text": "1.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nOverview\nThe Directives as outlined below provide a general background and summary\n\nof the main provisions of the applicable anti-money laundering and anti-terrorist\nfinancing legislations in India. They also provide guidance on the practical\nimplications of the Prevention of Money Laundering Act, 2002 (PMLA). The\nDirectives also set out the steps that a registered intermediary or its\nrepresentatives shall implement to discourage and to identify any money\nlaundering or terrorist financing activities.\n\nThese Directives are intended for use primarily by intermediaries registered\nunder Section 12 of the Securities and Exchange Board of India Act, 1992\n(SEBI Act), Stock Exchanges, Depositories and other recognised entities\nunder the SEBI Act and Regulations and rules thereunder. While it is\nrecognized that a “one-size-fits-all” approach may not be appropriate for the\nsecurities industry in India, each registered intermediar",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation implement to discourage and to identify any money\nlaundering or terrorist financing activities?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 4].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 4].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12",
+        "section 12"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-005",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "Section",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Section 12 of the SEBI Act and stock exchanges), shall have to adhere to the",
+      "plain_english": "Client account opening procedures, maintenance records and reporting of such\ntransactions as prescribed by the PMLA and rules notified there under. Page 4 of 37",
+      "original_text": "client account opening procedures, maintenance records and reporting of such\ntransactions as prescribed by the PMLA and rules notified there under.\n\nPage 4 of 37",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: section 12 of the sebi act and stock exchanges), shall have to adhere to the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Section 12 of the SEBI Act and stock exchanges), shall have to adhere to the.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: Section 12 of the SEBI Act and stock exchanges), shall have to adhere to the.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-006",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 5]",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 5]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nThe PML Rules empower SEBI to specify the information required to be\nmaintained by the intermediaries and the procedure, manner and form in which\nit is to be maintained. It also mandates the reporting entities to evolve an\ninternal mechanism having regard to any guidelines issued by the regulator for\ndetecting the transactions specifie",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nThe PML Rules empower SEBI to specify the information required to be\nmaintained by the intermediaries and the procedure, manner and form in which\nit is to be maintained. It also mandates the reporting entities to evolve an\ninternal mechanism having regard to any guidelines issued by the regulator for\ndetecting the transactions specified in the PML Rules and for furnishing\ninformation thereof, in such form as may be directed by SEBI.\n\n4. The PMLA inter alia provides that violating the prohibitions on manipulative and\ndeceptive devices, insider trading and substantial acquisition of securities or\ncontrol as provided in Section 12A read with Section 24 of the SEBI Act will be\ntreated as a scheduled offence under schedule B of the PMLA.\n\nPolicies and Procedures to Combat Money Laundering and Terrorist\nFinancing\n\nEssential Principles:\n5. These Directives have taken into account the requirements of the PMLA as\n\napplicable to the ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation avoid: [page 5]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 5].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 5].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12A",
+        "Section 24",
+        "Section 12"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-007",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 6]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 6]",
+      "plain_english": "7. Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nIf the host country does not permit the proper implementation of AML/CFT\n\nmeasures consistent with the home country requirements, financial groups\nshall be required to apply appropriate additional measures to manage the\n\nML/TF risks, and inform SEBI.",
+      "original_text": "7.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nIf the host country does not permit the proper implementation of AML/CFT\n\nmeasures consistent with the home country requirements, financial groups\nshall be required to apply appropriate additional measures to manage the\n\nML/TF risks, and inform SEBI.\n\nObligation to establish policies and procedures\n\nGlobal measures taken to combat drug trafficking, terrorism and other\n\norganized and serious crimes have all emphasized the need for financial\n\ninstitutions, including securities market intermediaries, to establish internal\nprocedures that effectively serve to prevent and impede money laundering and\n\nterrorist financing. The PMLA is in line with these measures and mandates that\nall registered intermediaries ensure the fulfilment of the aforementioned\n\nobligations.\n\nThe term “group\" shall have the same meaning assigned to it in clause (cba) of\nsub-rule (1) of Rule 2 of the PML Rules as amended from time to time. Groups\nshall ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be required to apply appropriate additional measures to manage the\n\nML/TF risks, and inform SEBI?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 6].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 6].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-008",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 7]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 7]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nc. adequate safeguards on the confidentiality and use of information\nexchanged, including safeguards to prevent tipping-off.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nc. adequate safeguards on the confidentiality and use of information\nexchanged, including safeguards to prevent tipping-off.\n\n11.To be in compliance with these obligations, the senior management of a\n\nvi.\n\nvii.\n\nregistered intermediary shall be fully committed to establishing appropriate\npolicies and procedures for the prevention of ML and TF and ensuring their\neffectiveness and compliance with all relevant legal and regulatory\nrequirements. The registered intermediaries shall:\n\nissue a statement of policies and procedures and implement, on a group\nbasis where applicable, for dealing with ML and TF reflecting the current\nstatutory and regulatory requirements;\n\nensure that the content of these Directives are understood by all staff\nmembers;\n\nregularly review the policies and procedures on the prevention of ML and\nTF to ensure their effectiveness. Further, in order to ensure the\neffectiveness of policies and procedures, the p",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be fully committed to establishing appropriate\npolicies and procedures for the prevention of ML and TF and ensuring the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 7].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 7].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-009",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 8]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 8]",
+      "plain_english": "Vi. vii.",
+      "original_text": "vi.\n\nvii.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\ntransactions, money and client records etc. whether in branches,\ndepartments or subsidiaries;\n\nClient acceptance policy and client due diligence measures, including\nrequirements for proper identification;\n\nMaintenance of records;\nCompliance with relevant statutory and regulatory requirements;\n\nCo-operation with the relevant law enforcement authorities, including the\ntimely disclosure of information;\n\nRole of internal audit or compliance function to ensure compliance with the\npolicies, procedures, and controls relating to the prevention of ML and TF,\nincluding the testing of the system for detecting suspected money\nlaundering transactions, evaluating and checking the adequacy of exception\nreports generated on large and/or irregular transactions, the quality of\nreporting of suspicious transactions and the level of awareness of front line\nstaff, of their responsibilities in this regard; and,\n\nThe internal audit func",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be independent, adequately resourced and\ncommensurate with the size of the business and operations, organization\nstruct?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 8].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 8].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-010",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 9]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 9]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nClient Due Diligence (CDD)\n\n14. Client Due Diligence means due diligence carried out on a client referred to in\n\nclause (ha) of sub-section (1) of section 2 of the PMLA using reliable and\n\nindependent sources of identification.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nClient Due Diligence (CDD)\n\n14. Client Due Diligence means due diligence carried out on a client referred to in\n\nclause (ha) of sub-section (1) of section 2 of the PMLA using reliable and\n\nindependent sources of identification.\n\n15. The CDD shall have regard to the money laundering and terrorist financing risks\n\nand the size of the business and shall include policies, controls and procedures,\n\napproved by the senior management, to enable the reporting entity to manage\n\nand mitigate the risk that have been identified either by the registered\n\nintermediary or through national risk assessment.\n\n16.The CDD measures comprise the following:\n\nObtaining sufficient information in order to identify persons who\nbeneficially own or control the securities account. Whenever it is\napparent that the securities acquired or maintained through an account\nare beneficially owned by a party other than the client, that party shall\nbe identified u",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation include policies?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 9].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 9].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "section 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-011",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 10]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 10]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nIdentifying beneficial ownership and control, that is, determine which\n\nindividual(s) ultimately own(s) or control(s) the client and/or the person\n\non whose behalf a transaction is being conducted.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nIdentifying beneficial ownership and control, i.e. determine which\n\nindividual(s) ultimately own(s) or control(s) the client and/or the person\n\non whose behalf a transaction is being conducted. The beneficial owner\n\nshall be determined as under-\n\na)\n\nb)\n\n9)\n\nwhere the client is a company, the beneficial owner is the natural\nperson(s), who, whether acting alone or together, or through one or\nmore juridical person, has a controlling ownership interest or who\nexercises control through other means.\n\nExplanation:- For the purpose of this sub-clause:-\n\ni. \"Controlling ownership interest\" means ownership of or\nentitlement to more than ten per cent of shares or capital or\nprofits of the company;\n\nii. \"Control\" shall include the right to appoint majority of the\ndirectors or to control the management or policy decisions\nincluding by virtue of their shareholding or management rights\nor shareholders’ agreements or voting agreements;\n\nw",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be determined as under-\n\na)\n\nb)\n\n9)\n\nwhere the client is a company, the beneficial owner is the natural\nperson(s), who,?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 10].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 10].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-012",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 11]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 11]",
+      "plain_english": "Sa3| ts setae ites as\n\nqd)\n\ne)\n\nf)\n\nh)\n\nSecurities and Exchange Board of India\n\nwhere no natural person is identified under (a) or (b) or (c) above, the\nbeneficial owner is the relevant natural person who holds the position\nof senior managing official;\n\nWhere the client is a trust, the identification of beneficial owner(s)\nshall include identification of the author of the trust, the trustee, the\nb",
+      "original_text": "Sa3| ts setae ites as\n\nqd)\n\ne)\n\nf)\n\nh)\n\nSecurities and Exchange Board of India\n\nwhere no natural person is identified under (a) or (b) or (c) above, the\nbeneficial owner is the relevant natural person who holds the position\nof senior managing official;\n\nWhere the client is a trust, the identification of beneficial owner(s)\nshall include identification of the author of the trust, the trustee, the\nbeneficiaries with ten per cent or more interest in the trust, settlor,\nprotector and any other natural person exercising ultimate effective\ncontrol over the trust through a chain of control or ownership; and\n\nwhere the client or the owner of the controlling interest is an entity\nlisted on a stock exchange in India, or it is an entity resident in\njurisdictions notified by the Central Government and listed on stock\nexchanges in such jurisdictions notified by the Central Government,\nor itis a subsidiary of such listed entities, it is not necessary to identify\nand verify the identity of any shareh",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation include identification of the author of the trust?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 11].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 11].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-013",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 12]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 12]",
+      "plain_english": "Vi. vii.",
+      "original_text": "vi.\n\nvii.\n\nviii.\n\nxi.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nVerify the identity of the beneficial owner of the client and/or the person\non whose behalf a transaction is being conducted, corroborating the\ninformation provided in relation to (iii);\n\nUnderstand the nature of business, ownership and control structure of\nthe client;\n\nConduct ongoing due diligence and scrutiny, i.e. perform ongoing\nscrutiny of the transactions and account throughout the course of the\nbusiness relationship to ensure that the transactions being conducted\nare consistent with the registered intermediary’s knowledge of the client,\nits business and risk profile, taking into account, where necessary, the\nclient's source of funds.\n\nRegistered intermediaries shall review the due diligence measures\nincluding verifying again the identity of the client and obtaining\ninformation on the purpose and intended nature of the business\nrelationship, as the case may be, when there are suspicions of mone",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation review the due diligence measures\nincluding verifying again the identity of the client and obtaining\ninformation on the?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 12].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 12].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-014",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 13]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 13]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n17.No transaction or account-based relationship shall be undertaken without\n\nfollowing the CDD procedure. Policy for acceptance of clients\n\n18.All registered intermediaries shall develop client acceptance policies and\n\nprocedures that aim to identify the types of clients that are likely to pose a higher\nthan average risk of ML or TF.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n17.No transaction or account-based relationship shall be undertaken without\n\nfollowing the CDD procedure.\n\nPolicy for acceptance of clients\n\n18.All registered intermediaries shall develop client acceptance policies and\n\nprocedures that aim to identify the types of clients that are likely to pose a higher\nthan average risk of ML or TF. By establishing such policies and procedures,\nthey will be in a better position to apply client due diligence on a risk sensitive\nbasis depending on the type of client business relationship or transaction. In a\nnutshell, the following safeguards are to be followed while accepting the clients:\n\nNo registered intermediary shall allow the opening of or keep any\nanonymous account or account in fictitious names or account on behalf of\nother persons whose identity has not been disclosed or cannot be verified;\n\nFactors of risk perception (in terms of monitoring suspicious transactions)\nof the client ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be undertaken without\n\nfollowing the CDD procedure?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 13].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 13].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "rule 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-015",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 14]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 14]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nnorms applicable to PEP as contained in the subsequent paragraph 20 of\nthe master circular shall also be applied to the accounts of the family\nmembers or close relatives / associates of PEPs;\n\nf) Clients in high risk countries. While dealing with clients from or situated in\nhigh risk countries or geographic areas or when providing deli",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nnorms applicable to PEP as contained in the subsequent paragraph 20 of\nthe master circular shall also be applied to the accounts of the family\nmembers or close relatives / associates of PEPs;\n\nf) Clients in high risk countries. While dealing with clients from or situated in\nhigh risk countries or geographic areas or when providing delivery of\nservices to clients through high risk countries or geographic areas i.e.\nplaces where existence or effectiveness of action against money\nlaundering or terror financing is suspected, registered intermediaries apart\nfrom being guided by the FATF statements that inter alia identify such\ncountries or geographic areas that do not or insufficiently apply the FATF\nRecommendations, published by the FATF on its website (www-fatf-\ngafi.org) from time to time, shall also independently access and consider\nother publicly available information along with any other information which\nthey may have acc",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation also be applied to the accounts of the family\nmembers or close relatives / associates of PEPs;\n\nf) Clients in high risk?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 14].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 14].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-016",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 15]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 15]",
+      "plain_english": "Vi. vii.",
+      "original_text": "vi.\n\nvii.\n\nviii.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nhaving regard to the requirements of Rule 9 of the PML Rules, Directives\nand Circulars issued by SEBI from time to time.\n\nEnsure that an account is not opened where the intermediary is unable to\napply appropriate CDD measures. This shall apply in cases where it is not\npossible to ascertain the identity of the client, or the information provided\nto the intermediary is suspected to be non - genuine, or there is perceived\nnon - co-operation of the client in providing full and complete information.\nThe registered intermediary shall not continue to do business with such a\nperson and file a suspicious activity report. It shall also evaluate whether\nthere is suspicious trading in determining whether to freeze or close the\naccount. The registered intermediary shall be cautious to ensure that it\ndoes not return securities or money that may be from suspicious trades.\nHowever, the registered intermediary shall consul",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation apply in cases where it is not\npossible to ascertain the identity of the client, or the information provided\nto the int?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 15].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 15].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 9"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-017",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 16]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 16]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nClient identification procedure\n19.The KYC policy shall clearly spell out the client identification procedure (CIP)\nto be carried out at different stages that is, while establishing the intermediary —\nclient relationship, while carrying out transactions for the client or when the\nintermediary has doubts regarding the veracity or the ad",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nClient identification procedure\n19.The KYC policy shall clearly spell out the client identification procedure (CIP)\nto be carried out at different stages i.e. while establishing the intermediary —\nclient relationship, while carrying out transactions for the client or when the\nintermediary has doubts regarding the veracity or the adequacy of previously\nobtained client identification data.\n\n20.Registered intermediaries shall be in compliance with the following\nrequirements while putting in place a CIP:\n\ni. All registered intermediaries shall proactively put in place appropriate risk\nmanagement systems to determine whether their client or potential client or\nthe beneficial owner of such client is a politically exposed person. Such\nprocedures shall include seeking relevant information from the client,\nreferring to publicly available information or accessing the commercial\nelectronic databases of PEPs.\n\nii. All registered interm",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation clearly spell out the client identification procedure (CIP)\nto be carried out at different stages i?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 16].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 16].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-018",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 17]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 17]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n21.SEBI has specified the minimum requirements relating to KYC for certain\nclasses of registered intermediaries from time to time. Taking into account the\nbasic principles enshrined in the KYC norms which have already been specified\nor which may be specified by SEBI from time to time, all registered\nintermediaries shall frame their own",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n21.SEBI has specified the minimum requirements relating to KYC for certain\nclasses of registered intermediaries from time to time. Taking into account the\nbasic principles enshrined in the KYC norms which have already been specified\nor which may be specified by SEBI from time to time, all registered\nintermediaries shall frame their own internal directives based on their\nexperience in dealing with their clients and legal requirements as per the\nestablished practices.\n\n22.Further, the intermediary shall conduct ongoing due diligence where it notices\ninconsistencies in the information provided. The underlying objective shall be\nto follow the requirements enshrined in the PMLA, SEBI Act and Regulations,\ndirectives and circulars issued thereunder so that the intermediary is aware of\nthe clients on whose behalf it is dealing.\n\n23. Every intermediary shall formulate and implement a CIP which shall incorporate\nthe requirements of t",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation conduct ongoing due diligence?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 17].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 17].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-019",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 18]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 18]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nimplemented by all registered intermediaries and non-compliance shall attract\nappropriate sanctions. Reliance on third party for carrying out Client Due Diligence (CDD)\n24.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nimplemented by all registered intermediaries and non-compliance shall attract\nappropriate sanctions.\n\nReliance on third party for carrying out Client Due Diligence (CDD)\n24. Registered intermediaries may rely on a third party for the purpose of -\n\ni. identification and verification of the identity of a client and\n\nii. | Determination of whether the client is acting on behalf of a beneficial owner,\nidentification of the beneficial owner and verification of the identity of the\nbeneficial owner. Such third party shall be regulated, supervised or\nmonitored for, and have measures in place for compliance with CDD and\nrecord-keeping requirements in line with the obligations under the PML Act.\n\n25.Such reliance shall be subject to the conditions that are specified in Rule 9 (2)\nof the PML Rules and shall be in accordance with the regulations and circulars/\nguidelines issued by SEBI from time to time. In terms of Rule 9(2) of PML\nRu",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation attract\nappropriate sanctions?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 18].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi",
+        "vendor_management"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 18].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 9",
+        "Rule 9(2)"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-020",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 19]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 19]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\nRisk Management\n\nRisk-based Approach\n\n26.Registered intermediaries shall apply a Risk Based Approach (RBA) for\nmitigation and management of the identified risk and should have policies\napproved by their senior management, controls and procedures in this regard. Further, the registered intermediaries shall monitor the implementation of t",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\nRisk Management\n\nRisk-based Approach\n\n26.Registered intermediaries shall apply a Risk Based Approach (RBA) for\nmitigation and management of the identified risk and should have policies\napproved by their senior management, controls and procedures in this regard.\nFurther, the registered intermediaries shall monitor the implementation of the\ncontrols and enhance them if necessary.\n\n27. It is generally recognized that certain clients may be of a higher or lower risk\ncategory depending on the circumstances such as the client’s background, type\nof business relationship or transaction etc. As such, the registered\nintermediaries shall apply each of the client due diligence measures on a risk\nsensitive basis. The basic principle enshrined in this approach is that the\nregistered intermediaries shall adopt an enhanced client due diligence process\nfor higher risk categories of clients. Conversely, a simplified client due diligence\nproce",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation apply a Risk Based Approach (RBA) for\nmitigation and management of the identified risk and should have policies\napprove?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 19].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "low",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 19].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-021",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 20]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 20]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nregularly and made available to competent authorities and self-regulating\nbodies, as and when required. 31.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nregularly and made available to competent authorities and self-regulating\nbodies, as and when required.\n\n31. The Stock Exchanges and registered intermediary shall identify and assess the\nML/TF risks that may arise in relation to the development of new products and\nnew business practices, including new delivery mechanisms, and the use of\nnew or developing technologies for both new and existing products. The Stock\nExchanges and registered intermediaries shall ensure:\n\na. To undertake the ML/TF risk assessments prior to the launch or use of such\nproducts, practices, services, technologies; and\nb. Adoption of a risk based approach to manage and mitigate the risks.\n\n32.The risk assessment shall also take into account any country specific\ninformation that is circulated by the Government of India and SEBI from time to\ntime, as well as, the updated list of individuals and entities who are subjected\nto sanction measures as required ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation identify and assess the\nML/TF risks that may arise in relation to the development of new products and\nnew business prac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 20].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 20].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-022",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 21]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 21]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\navailable to auditors and also to SEBI/stock exchanges/FIU-IND/ other relevant\nAuthorities, during audit, inspection or as and when required. 35.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\navailable to auditors and also to SEBI/stock exchanges/FIU-IND/ other relevant\nAuthorities, during audit, inspection or as and when required.\n\n35. The registered intermediaries shall apply client due diligence measures also to\nexisting clients on the basis of materiality and risk, and conduct due diligence\non such existing relationships appropriately. The extent of monitoring shall be\naligned with the risk category of the client.\n\n36.The intermediary shall ensure a record of the transactions is preserved and\nmaintained in terms of Section 12 of the PMLA and that transactions of a\nsuspicious nature or any other transactions notified under Section 12 of the Act\nare reported to the Director, FIU-IND. Suspicious transactions shall also be\nregularly reported to the higher authorities within the intermediary.\n\n37.Further, the compliance cell of the intermediary shall randomly examine a\nselection of transactions undertaken by clie",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation apply client due diligence measures also to\nexisting clients on the basis of materiality and risk, and conduct due dili?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 21].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 21].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12",
+        "Section 12"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-023",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 22]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 22]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\niii Clients based in high risk jurisdictions;\n\niv Substantial increases in business without apparent cause;\n\nv_ Clients transferring large sums of money to or from overseas locations with\ninstructions for payment in cash;\n\nvi Attempted transfer of investment proceeds to apparently unrelated third\nparties;\n\nvii Unusual transactions by C",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\niii Clients based in high risk jurisdictions;\n\niv Substantial increases in business without apparent cause;\n\nv_ Clients transferring large sums of money to or from overseas locations with\ninstructions for payment in cash;\n\nvi Attempted transfer of investment proceeds to apparently unrelated third\nparties;\n\nvii Unusual transactions by CSCs and businesses undertaken by offshore\nbanks/financial services.\n\n40.Any suspicious transaction shall be immediately notified to the\n\n41.\n\nDesignated/Principal Officer within the intermediary. The notification may be\ndone in the form of a detailed report with specific reference to the clients,\ntransactions and the nature /reason of suspicion. However, it shall be ensured\nthat there is continuity in dealing with the client as normal until told otherwise\nand the client shall not be told of the report/ suspicion. In exceptional\ncircumstances, consent may not be given to continue to operate the",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be immediately notified to the\n\n41?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 22].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "Rs,",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 22].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-024",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 23]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 23]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nmechanisms or systematic reporting of financial transactions, and applying\nenhanced due diligence while expanding business relationships with the\nidentified country or persons in that country etc. Record Management\n\nInformation to be maintained\n43.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nmechanisms or systematic reporting of financial transactions, and applying\nenhanced due diligence while expanding business relationships with the\nidentified country or persons in that country etc.\n\nRecord Management\n\nInformation to be maintained\n43. Registered Intermediaries are required to maintain and preserve the following\n\ninformation in respect of transactions referred to in Rule 3 of PML Rules:\n\ni. the nature of the transactions;\n\nii. the amount of the transaction and the currency in which it is denominated;\niii. the date on which the transaction was conducted; and\n\niv. the parties to the transaction.\n\nRecord Keeping\n44. Registered intermediaries shall ensure compliance with the record keeping\n\nrequirements contained in the SEBI Act, 1992, Rules and Regulations made\nthereunder, PMLA as well as other relevant legislation, Rules, Regulations,\nExchange Byelaws and Circulars.\n\n45.Registered Intermediaries shall maintain s",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation to maintain and preserve the following\n\ninformation in respect of transactions referred to in Rule 3 of PML Rules:\n\ni?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 23].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n45",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 23].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-025",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 24]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 24]",
+      "plain_english": "Gas] rete seat ate hoe ae\n\nSecurities and Exchange Board of India\n\nb. the form in which the funds were offered or withdrawn, for example,",
+      "original_text": "Gas] rete seat ate hoe ae\n\nSecurities and Exchange Board of India\n\nb. the form in which the funds were offered or withdrawn, e.g. cheques,\ndemand drafts etc.\n\nc. the identity of the person undertaking the transaction;\n\nd. the destination of the funds;\n\ne. the form of instruction and authority.\n\n47.Registered Intermediaries shall ensure that all client and transaction records\n\nand information are available on a timely basis to the competent investigating\n\nauthorities. Where required by the investigating authority, they shall retain\n\ncertain records, e.g. client identification, account files, and business\n\ncorrespondence, for periods which may exceed those required under the SEBI\n\nAct, Rules and Regulations framed thereunder PMLA, other relevant\n\nlegislations, Rules and Regulations or Exchange byelaws or circulars.\n\n48.More specifically, all the registered intermediaries shall put in place a system\n\nof maintaining proper record of the nature and value of transactions which has\n\nbeen pres",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that all client and transaction records\n\nand information are available on a timely basis to the competent invest?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 24].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs.\n\n48",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "audit_log",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 24].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-026",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 25]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 25]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nas demat account, security account maintained by the registered\nintermediary. 49.Where the registered entity does not have records of the identity of its existing\n\nclients, it shall obtain the records forthwith, failing which the registered\nintermediary shall close the account of the clients after giving due notice to the\nclient.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nas demat account, security account maintained by the registered\nintermediary.\n\n49.Where the registered entity does not have records of the identity of its existing\n\nclients, it shall obtain the records forthwith, failing which the registered\nintermediary shall close the account of the clients after giving due notice to the\nclient.\n\nExplanation: For this purpose, the expression “records of the identity of\nclients” shall include updated records of the identification date, account files\nand business correspondence and result of any analysis undertaken under\nRules 3 and 9 of the PML Rules.\n\nRetention of Records\n50.Registered intermediaries shall take appropriate steps to evolve an internal\n\n51.\n\nmechanism for proper maintenance and preservation of such records and\ninformation in a manner that allows easy and quick retrieval of data as and\nwhen requested by the competent authorities. Further, the records mentioned\nin Rule 3 of P",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation obtain the records forthwith?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 25].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 25].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 3"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-027",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "Rule",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Rule 9 of the PML Rules and such other additional requirements that it",
+      "plain_english": "Considers appropriate. Records evidencing the identity of its clients and\nbeneficial owners as well as account files and business correspondence shall\nbe maintained and preserved for a period of five years after the business\nrelationship between a client and intermediary has ended or the account has\nbeen closed, whichever is later.",
+      "original_text": "considers appropriate. Records evidencing the identity of its clients and\nbeneficial owners as well as account files and business correspondence shall\nbe maintained and preserved for a period of five years after the business\nrelationship between a client and intermediary has ended or the account has\nbeen closed, whichever is later.\n\n52. In situations where the records relate to on-going investigations or transactions\n\nwhich have been the subject of a suspicious transaction reporting, they shall\nbe retained until it is confirmed that the case has been closed.\n\n53.Registered Intermediaries shall maintain and preserve the records of\n\ninformation related to transactions, whether attempted or executed, which are\n\nPage 25 of 37",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be retained until it is confirmed that the case has been closed?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Rule 9 of the PML Rules and such other additional requirements that it.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: Rule 9 of the PML Rules and such other additional requirements that it.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-028",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 26]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 26]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nreported to the Director, FIU — IND, as required under Rules 7 and 8 of the PML\nRules, for a period of five years from the date of the transaction between the\nclient and the intermediary. Procedure for freezing of funds, financial assets or economic resources or\nrelated services\n54.The Stock exchanges and the registered intermediaries",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nreported to the Director, FIU — IND, as required under Rules 7 and 8 of the PML\nRules, for a period of five years from the date of the transaction between the\nclient and the intermediary.\n\nProcedure for freezing of funds, financial assets or economic resources or\nrelated services\n54.The Stock exchanges and the registered intermediaries shall ensure that in\n\nterms of Section 51A of the Unlawful Activities (Prevention) Act, 1967 (UAPA)\nand amendments thereto, they do not have any accounts in the name of\nindividuals/entities appearing in the lists of individuals and entities, suspected\nof having terrorist links, which are approved by and periodically circulated by\nthe United Nations Security Council (UNSC).\n\n55. In order to ensure expeditious and effective implementation of the provisions of",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that in\n\nterms of Section 51A of the Unlawful Activities (Prevention) Act, 1967 (UAPA)\nand amendments thereto, t?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 26].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 26].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 51A"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-029",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 27]",
+      "content_type": "PROHIBITION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 27]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n“(2) For prevention of financing by any person of any activity which is prohibited\nunder the WMD Act, or under the United Nations (Security Council) Act, 1947\nor any other relevant Act for the time being in force, or by an order issued under\nany such Act, in relation to weapons of mass destruction and their delivery\nsystems, the Centra",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n“(2) For prevention of financing by any person of any activity which is prohibited\nunder the WMD Act, or under the United Nations (Security Council) Act, 1947\nor any other relevant Act for the time being in force, or by an order issued under\nany such Act, in relation to weapons of mass destruction and their delivery\nsystems, the Central Government shall have power to—\n\n(a) Freeze, seize or attach funds or other financial assets or economic\nresources—\n(i) owned or controlled, wholly or jointly, directly or indirectly, by such\nperson; or\n(ii) held by or on behalf of, or at the direction of, such person; or\n(iii) | derived or generated from the funds or other assets owned or\ncontrolled, directly or indirectly, by such person;\n\n(b) prohibit any person from making funds, financial assets or economic\nresources or related services available for the benefit of persons related to\nany activity which is prohibited under the WMD Act, o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation avoid: [page 27]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 27].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 27].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "section\n7."
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-030",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 28]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 28]",
+      "plain_english": "(iii)\n\n(iv)\n\n(v)\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\ncarry out such transaction and shall immediately inform the transaction\ndetails with full particulars of the funds, financial assets or economic\nresources involved to the Central Nodal Officer (“CNO”), without delay. The details of the CNO are as under:\n\nThe Director",
+      "original_text": "(iii)\n\n(iv)\n\n(v)\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\ncarry out such transaction and shall immediately inform the transaction\ndetails with full particulars of the funds, financial assets or economic\nresources involved to the Central Nodal Officer (“CNO”), without delay.\nThe details of the CNO are as under:\n\nThe Director",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation immediately inform the transaction\ndetails with full particulars of the funds, financial assets or economic\nresources i?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 28].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 28].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-031",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "FIU-INDIA",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "FIU-INDIA",
+      "plain_english": "Tel.No.:011-23314458, 011-23314459 (FAX)\nEmail: dir@fiuindia.gov.in\n\nrun a check, on the given parameters, at the time of establishing a\nrelation with a client and on a periodic basis to verify whether individuals\nand entities in the Designated List are holding any funds, financial assets\nor economic resources or related services, in the form of bank accounts,\nstocks, insurance policies etc. In ca",
+      "original_text": "Tel.No.:011-23314458, 011-23314459 (FAX)\nEmail: dir@fiuindia.gov.in\n\nrun a check, on the given parameters, at the time of establishing a\nrelation with a client and on a periodic basis to verify whether individuals\nand entities in the Designated List are holding any funds, financial assets\nor economic resources or related services, in the form of bank accounts,\nstocks, insurance policies etc. In case, the clients’ particulars match with\nthe particulars of Designated List, stock exchanges and registered\nintermediaries shall immediately inform full particulars of the funds,\nfinancial assets or economic resources or related services held in the\nform of bank accounts, stocks or insurance policies etc., held on their\nbooks to the CNO, without delay;\n\nsend a copy of the communication, mentioned in paragraphs 59(ii) and\n59(ii) above, without delay, to the Nodal Officer of SEBI. The\ncommunication shall be sent to SEBI through post and through email\n(sebi_uapa@sebi.gov.in) to the Nodal Officer o",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation immediately inform full particulars of the funds?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: FIU-INDIA.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: FIU-INDIA.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-032",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 29]",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "[PAGE 29]",
+      "plain_english": "—. S55) ardia ofayfs saitx fafa até\nue Securities and Exchange Board of India\n\nunder the purview of Section 12A (2)(a) or Section 12A(2)(b) of the WMD\nAct;\n\n(vi) file a Suspicious Transaction Report (STR) with the FIU-IND covering all\ntransactions in the accounts, covered under paragraphs 59(ii) and (iii)\nabove, carried through or attempted through.",
+      "original_text": "—.\nS55) ardia ofayfs saitx fafa até\nue Securities and Exchange Board of India\n\nunder the purview of Section 12A (2)(a) or Section 12A(2)(b) of the WMD\nAct;\n\n(vi) file a Suspicious Transaction Report (STR) with the FIU-IND covering all\ntransactions in the accounts, covered under paragraphs 59(ii) and (iii)\nabove, carried through or attempted through.\n\n60. Upon the receipt of the information above, the CNO would cause a verification\n\n61.\n\nto be conducted by the appropriate authorities to ensure that the\nindividuals/entities identified are the ones in the Designated List and the funds,\nfinancial assets or economic resources or related services, reported are in\nrespect of the designated individuals/entities. In case, the results of the\nverification indicate that the assets are owned by, or are held for the benefit of,\nthe designated individuals/entities, an order to freeze these assets under",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have a documented process for: [page 29]?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 29].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 29].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12A",
+        "Section 12A(2)(b)"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-033",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "section",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "section 12A would be issued by the CNO and be conveyed to the concerned",
+      "plain_english": "Reporting entity so that any individual or entity may be prohibited from making\nany funds, financial assets or economic resources or related services available\nfor the benefit of the designated individuals/entities. Reporting entities shall also comply with the provisions regarding exemptions\nfrom the above orders of the CNO and inadvertent freezing of accounts, as may\nbe applicable.",
+      "original_text": "reporting entity so that any individual or entity may be prohibited from making\nany funds, financial assets or economic resources or related services available\nfor the benefit of the designated individuals/entities.\n\nReporting entities shall also comply with the provisions regarding exemptions\nfrom the above orders of the CNO and inadvertent freezing of accounts, as may\nbe applicable.\n\nList of Designated Individuals/ Entities\n\n62.The Ministry of Home Affairs, in pursuance of Section 35(1) of UAPA 1967,\n\ndeclares the list of individuals/entities, from time to time, who are designated\nas 'Terrorists'. The registered intermediaries shall take note of such lists of\ndesignated individualsferrorists, as and when communicated by SEBI.\n\n63.All orders under section 35 (1) and 51A of UAPA relating to funds, financial\n\nassets or economic resources or related services, circulated by SEBI from time\nto time shall be taken note of for compliance.\n\nPage 29 of 37",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation also comply with the provisions regarding exemptions\nfrom the above orders of the CNO and inadvertent freezing of accou?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: section 12A would be issued by the CNO and be conveyed to the concerned.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: section 12A would be issued by the CNO and be conveyed to the concerned.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 35(1)",
+        "section 35"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-034",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 30]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 30]",
+      "plain_english": "S55) anda gfayfa six fafraa até\n\nSecurities and Exchange Board of India\n\n64. An updated list of individuals and entities which are subject to various sanction\nmeasures such as freezing of assets/accounts, denial of financial services etc.,\nas approved by the Security Council Committee established under various\nUnited Nations' Security Council",
+      "original_text": "S55) anda gfayfa six fafraa até\n\nSecurities and Exchange Board of India\n\n64. An updated list of individuals and entities which are subject to various sanction\nmeasures such as freezing of assets/accounts, denial of financial services etc.,\nas approved by the Security Council Committee established pursuant to various\nUnited Nations' Security Council Resolutions (UNSCRs) can be accessed at its\nwebsite at https://press.un.org/en/content/press-release. The details of the lists\n\n \n\nare as under:\n\ni. The “ISIL (Da’esh) & Al-Qaida Sanctions List’, which includes names of\nindividuals and entities associated with the Al-Qaida. The updated ISIL &\nAl-Qaida Sanctions List is available at:\nhttps:/Avww.un.org/securitycouncil/sanctions/1267/press-releases ;\n\n \n\nii. The list issued by United Security Council Resolutions 1718 of designated\nIndividuals and Entities linked to Democratic People's Republic of Korea\nwww.un.org/securitycouncil/sanctions/1718/press-releases.\n\n \n\n65. Registered intermediaries ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation continuously scan all existing accounts to ensure that no\naccount is held by or linked to any of the entities or indivi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 30].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 30].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-035",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 31]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 31]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\ncarried through or attempted in the accounts covered under the list of\ndesignated individuals/entities under Section 35 (1) and 51A of UAPA. 69.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\ncarried through or attempted in the accounts covered under the list of\ndesignated individuals/entities under Section 35 (1) and 51A of UAPA.\n\n69. Full details of accounts bearing resemblance with any of the individuals/entities\nin the list shall immediately be intimated to the Central [designated] Nodal\nOfficer for the UAPA, at Fax No.011-23092551 and also conveyed over\ntelephone No. 011-23092548. The particulars apart from being sent by post\nshall necessarily be conveyed on email id: jsctcr-mha@gov.in.\n\n70. The Stock exchanges and the registered intermediaries shall also send a copy\nof the communication mentioned above to the UAPA Nodal Officer of the\nState/UT where the account is held and to SEBI and FIU-IND, without delay.\nThe communication shall be sent to SEBI through post and through email\n(sebi_uapa@sebi.gov.in) to the UAPA nodal officer of SEBI, Deputy General\nManager, Division of FATF, Market Intermediaries Regulat",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation necessarily be conveyed on email id: jsctcr-mha@gov?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 31].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 31].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 35"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-036",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 32]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 32]",
+      "plain_english": "S55) anda gfayfa six fafraa até\n\nSecurities and Exchange Board of India\n\nprecluded from having legitimate trade and business transactions with the\ncountries and jurisdictions mentioned in the FATF statements. Reporting to Financial Intelligence Unit-India\n73.In terms of the PML Rules, registered intermediaries are required to report\n\ninformation relating to cash and suspicious transactions to the",
+      "original_text": "S55) anda gfayfa six fafraa até\n\nSecurities and Exchange Board of India\n\nprecluded from having legitimate trade and business transactions with the\ncountries and jurisdictions mentioned in the FATF statements.\n\nReporting to Financial Intelligence Unit-India\n73.In terms of the PML Rules, registered intermediaries are required to report\n\ninformation relating to cash and suspicious transactions to the Director,\nFinancial Intelligence Unit-India (FIU-IND) at the following address:\n\nDirector, FIU-IND,\n\nFinancial Intelligence Unit - India\n\n6th Floor, Tower-2, Jeevan Bharati Building,\n\nConnaught Place, New Delhi-110001, INDIA\n\nTelephone : 91-11-23314429, 23314459\n91-11-23319793(Helpdesk) Email:helpdesk @fiuindia.gov.in\n(For FiNnet and general queries)\n\nctrcell @fiuindia.gov.in\n\n(For Reporting Entity / Principal Officer registration related queries)\ncomplaints @fiuindia.gov.in\n\nWebsite: http://fiuindia.gov.in\n\n74.Registered intermediaries shall carefully go through all the reporting\nrequirement",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation to report\n\ninformation relating to cash and suspicious transactions to the Director,\nFinancial Intelligence Unit-India?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 32].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 32].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-037",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 33]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 33]",
+      "plain_english": "Vi. vii.",
+      "original_text": "vi.\n\nvii.\n\nviii.\n\nSa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nThe Cash Transaction Report (CTR) (wherever applicable) for each month\nshall be submitted to FIU-IND by 15th of the succeeding month;\n\nThe Suspicious Transaction Report (STR) shall be submitted within 7 days of\narriving at a conclusion that any transaction, whether cash or non-cash, or a\nseries of transactions integrally connected are of suspicious nature. The\nPrincipal Officer shall on being satisfied that the transaction is suspicious,\nfurnish the information promptly in writing by fax or by electronic mail to the\nDirector in respect of transactions referred to in clause (D) of sub-rule (1) of",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be submitted to fiu-ind by 15th of the succeeding month?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 33].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 7 days",
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 33].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-038",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "rule",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "rule 3 of the PML Rules. The Principal Officer shall record his reasons for",
+      "plain_english": "Treating any transaction or a series of transactions as suspicious. It shall be\nensured that there is no undue delay in arriving at such a conclusion;\n\nThe Non Profit Organization Transaction Reports (NTRs) for each shall be\nsubmitted to FIU-IND by 15\" of the succeeding month;\n\nThe Principal Officer will be responsible for timely submission of CTR, STR\nand NTR to FIU-IND;\n\nUtmost confidentiality s",
+      "original_text": "treating any transaction or a series of transactions as suspicious. It shall be\nensured that there is no undue delay in arriving at such a conclusion;\n\nThe Non Profit Organization Transaction Reports (NTRs) for each shall be\nsubmitted to FIU-IND by 15\" of the succeeding month;\n\nThe Principal Officer will be responsible for timely submission of CTR, STR\nand NTR to FIU-IND;\n\nUtmost confidentiality shall be maintained in filing of CTR, STR and NTR to",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be maintained in filing of ctr?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: rule 3 of the PML Rules. The Principal Officer shall record his reasons for.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: rule 3 of the PML Rules. The Principal Officer shall record his reasons for.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-039",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "FIU-IND;",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "FIU-IND;",
+      "plain_english": "No NIL reporting needs to be made to FIU-IND in case there are no cash/\nsuspicious/non-profit organization transactions to be reported;\n\n“Non-profit organization” means any entity or organisation, constituted for\nreligious or charitable purposes referred to in clause (15) of section 2 of the\nIncome-tax Act, 1961 (43 of 1961), that is registered as a trust or a society\nunder the Societies Registrat",
+      "original_text": "No NIL reporting needs to be made to FIU-IND in case there are no cash/\nsuspicious/non-profit organization transactions to be reported;\n\n“Non-profit organization” means any entity or organisation, constituted for\nreligious or charitable purposes referred to in clause (15) of section 2 of the\nIncome-tax Act, 1961 (43 of 1961), that is registered as a trust or a society\nunder the Societies Registration Act, 1860 (21 of 1860) or any similar State\nlegislation or a Company registered under the section 8 of the Companies Act,\n2013 (18 of 2013);\n\nEvery registered intermediary, its Directors, officers and all employees shall\nensure that the fact of maintenance referred to in Rule 3 of PML Rules and\nfurnishing of information to the Director is kept confidential.\n\nProvided that nothing in this rule shall inhibit sharing of information under Rule\n3A of PML Rules of any analysis of transactions and activities which appear\nunusual, if any such analysis has been done.\n\nPage 33 of 37",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation ensure that the fact of maintenance referred to in Rule 3 of PML Rules and\nfurnishing of information to the Director is?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: FIU-IND;.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: FIU-IND;.",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "section 2",
+        "section 8",
+        "Rule 3",
+        "Rule\n3A"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-040",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 34]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 34]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n75. Registered Intermediaries shall not put any restrictions on operations in the\naccounts where an STR has been made.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\n75. Registered Intermediaries shall not put any restrictions on operations in the\naccounts where an STR has been made. Registered intermediaries and their\ndirectors, officers and employees (permanent and temporary) shall be\nprohibited from disclosing (“tipping off’) the fact that a STR or related\ninformation is being reported or provided to the FIU-IND. This prohibition on\ntipping off extends not only to the filing of the STR and/ or related information\nbut even before, during and after the submission of an STR. Thus, it shall be\nensured that there is no tipping off to the client at any level.\n\nIt is clarified that the registered intermediaries, irrespective of the amount of\ntransaction and/or the threshold limit envisaged for predicate offences specified\nin part B of Schedule of PMLA, 2002, shall file STR if they have reasonable\ngrounds to believe that the transactions involve proceeds of crime.\n\nIt is further clarified th",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation not put any restrictions on operations in the\naccounts where an STR has been made?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 34].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs,",
+        "type": "fine"
+      },
+      "severity": "critical",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 34].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 2"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-041",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 35]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 35]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nPrincipal Officer means an officer designated by a registered intermediary;\nProvided that such officer shall be an officer at the management level. 77.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nPrincipal Officer means an officer designated by a registered intermediary;\nProvided that such officer shall be an officer at the management level.\n\n77. Appointment of a Designated Director: In addition to the existing requirement\nof designation of a Principal Officer, the registered intermediaries shall also\ndesignate a person as a ‘Designated Director’. In terms of Rule 2 (ba) of the\nPML Rules, the definition of a Designated Director reads as under:\n\n“Designated director means a person designated by the reporting entity to\nensure overall compliance with the obligations imposed under chapter IV of the\nAct and the Rules and includes —\n\na) the Managing Director or a Whole-Time Director duly authorized\nby the Board of Directors if the reporting entity is a company,\n\nb) the managing partner if the reporting entity is a partnership firm,\nc) the proprietor if the reporting entity is a proprietorship firm,\n\nd) the managing truste",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation be an officer at the management level?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 35].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 35].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Rule 2",
+        "Section 13"
+      ]
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-042",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 36]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 36]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nHiring and Training of Employees and Investor Education\n\n80.Hiring of Employees: The registered intermediaries shall have adequate\n\n81. screening procedures in place to ensure high standards when hiring\nemployees.",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nHiring and Training of Employees and Investor Education\n\n80.Hiring of Employees: The registered intermediaries shall have adequate\n\n81.\n\nscreening procedures in place to ensure high standards when hiring\nemployees. They shall identify the key positions within their own organization\nstructures having regard to the risk of money laundering and terrorist financing\nand the size of their business and ensure the employees taking up such key\npositions are suitable and competent to perform their duties.\n\nTraining of Employees: The registered intermediaries shall have an ongoing\nemployee training programme so that the members of the staff are adequately\ntrained in AML and CFT procedures. Training requirements shall have specific\nfocuses for frontline staff, back office staff, compliance staff, risk management\nstaff and staff dealing with new clients. It is crucial that all those concerned fully\nunderstand the rationale behind these ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation have adequate\n\n81?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 36].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "investment_adviser",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 36].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "SEBI_AML_CFT_GUIDELINES-043",
+      "framework_id": "SEBI_AML_CFT_GUIDELINES",
+      "regulator": "SEBI",
+      "section_ref": "[PAGE 37]",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "[PAGE 37]",
+      "plain_english": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nAppendix\n\nThe following Circulars shall stand rescinded from the date of issuance of this\nCircular\n\n1. SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2023/091 dated June 16, 2023 -\nAmendment to the Guidelines on Anti-Money Laundering (AML) Standards and\nCombating the Financing of Terrorism (CFT) /Obligations of Securities Market\nIntermediaries under",
+      "original_text": "Sa3| ts setae ites as\n\nSecurities and Exchange Board of India\n\nAppendix\n\nThe following Circulars shall stand rescinded from the date of issuance of this\nCircular\n\n1. SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2023/091 dated June 16, 2023 -\nAmendment to the Guidelines on Anti-Money Laundering (AML) Standards and\nCombating the Financing of Terrorism (CFT) /Obligations of Securities Market\nIntermediaries under the Prevention of Money-laundering Act, 2002 and Rules\nframed there under.\n\n2. SEBI/HO/MIRSD/SEC-FATF/P/CIR/2023/0170 dated October 13, 2023 -\nAmendment to the Guidelines on Anti-Money Laundering (AML) Standards and\nCombating the Financing of Terrorism (CFT) /Obligations of Securities Market\nIntermediaries under the Prevention of Money-laundering Act, 2002 and Rules\nframed there under.\n\n3. SEBI/HO/MIRSD/SEC-5/P/CIR/2023/062 dated April 26, 2023 - Procedure for\nimplementation of Section 12A of the Weapons of Mass Destruction and their\nDelivery Systems (Prohibition of Unlawful Activities) Act, ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "has_indian_users": true,
+        "handles_personal_data": false,
+        "conditional_flag": null
+      },
+      "test_question": "Does your organisation stand rescinded from the date of issuance of this\nCircular\n\n1?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: [PAGE 37].",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "tags": [
+        "aml",
+        "cft",
+        "governance",
+        "kyc",
+        "sebi"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner for: [PAGE 37].",
+        "Draft or update the relevant policy document.",
+        "Collect evidence of implementation."
+      ],
+      "cross_references": [
+        "Section 12A"
+      ]
+    }
+  ]
+}

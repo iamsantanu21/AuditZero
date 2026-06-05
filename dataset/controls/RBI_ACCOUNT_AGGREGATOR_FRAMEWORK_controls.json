@@ -1,0 +1,2187 @@
+{
+  "schema_version": "2.0",
+  "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+  "regulator": "RBI",
+  "controls": [
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-001",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "4",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The provisions contained in the following directions, where not contradictory to",
+      "plain_english": "Contents of these Directions, shall be applicable to an NBFC-AA:\n\n   (1) Reserve Bank of India (Non-Banking Financial Companies - Registration,\n       Exemptions and Framework for Scale Based Regulation) Directions, 2025. (2) Paragraphs 8, 10 to 13, 17(1) and 18 of Reserve Bank of India (Non-Banking\n       Financial Companies - Governance) Directions, 2025.",
+      "original_text": "contents of these Directions, shall be applicable to an NBFC-AA:\n\n   (1) Reserve Bank of India (Non-Banking Financial Companies - Registration,\n       Exemptions and Framework for Scale Based Regulation) Directions, 2025.\n\n   (2) Paragraphs 8, 10 to 13, 17(1) and 18 of Reserve Bank of India (Non-Banking\n       Financial Companies - Governance) Directions, 2025. It may be noted that the\n       provisions of paragraphs 12, 13, 17(1) and 18 shall be applicable to NBFC-\n       AA, despite the categorization of NBFC-AA as NBFCs-BL under SBR\n       Framework.\n\n   (3) Reserve Bank of India (Non-Banking Financial Companies – Financial\n       Statements: Presentation and Disclosures) Directions, 2025 except provisions\n       contained in paragraphs 13 to 15 and paragraph 20.\n\n\n\f   (4) Reserve Bank of India (Non-Banking Financial Companies– Acquisition of\n      Shareholding or Control) Directions, 2025 except paragraphs 6(3) and 6(4).\n\n   (5) Reserve Bank of India (Non-Banking Financial Companie",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be applicable to an NBFC-AA:\n\n   (1) Reserve Bank of India (Non-Banking Financial Companies - Registration,\n       Exem?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The provisions contained in the following directions, where not contradictory to.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The provisions contained in the following directions, where not contradictory to.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-002",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "5",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "Notwithstanding the above, the instructions contained in these Directions shall ",
+      "plain_english": "Applicable to an NBFC-AA in addition and not in substitution to the other relevant\ninstructions contained in the directions mentioned in paragraph 4 above. D.",
+      "original_text": "applicable to an NBFC-AA in addition and not in substitution to the other relevant\ninstructions contained in the directions mentioned in paragraph 4 above.\n\nD. Regulatory Structure under Scale Based Regulation for NBFCs\n\nspecified in Reserve Bank of India (Non-Banking Financial Companies – Registration,\nExemptions and Framework for Scale Based Regulation) Directions, 2025.\n\nE. Scope",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: notwithstanding the above, the instructions contained in these directions shall ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding the above, the instructions contained in these Directions shall .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding the above, the instructions contained in these Directions shall .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-003",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "8",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "In these directions unless the context otherwise requires,",
+      "plain_english": "(1)   ‘Account Aggregator’ means a non-banking financial company as notified\n            under in sub-clause (iii) of clause (f) of section 45-I of the Act, that\n            undertakes the business of an account aggregator, for a fee or otherwise,\n            as defined at paragraph 8(4) of these directions. (2)   ‘bank’ means -\n\n            a) a banking company; or\n\n            b) a corresponding",
+      "original_text": "(1)   ‘Account Aggregator’ means a non-banking financial company as notified\n            under in sub-clause (iii) of clause (f) of section 45-I of the Act, that\n            undertakes the business of an account aggregator, for a fee or otherwise,\n            as defined at paragraph 8(4) of these directions.\n\n\n\n\f(2)   ‘bank’ means -\n\n            a) a banking company; or\n\n            b) a corresponding new bank; or\n\n            c) the State Bank of India; or\n\n            d) a subsidiary bank; or\n\n            e) such other bank which the Reserve Bank may, by\n              notification, specify for the purposes of these\n              directions; and\n\n            f) a co-operative bank as defined under clause (cci) of\n              section 5 read with section 56 of the Banking\n              Regulation Act, 1949 (10 of 1949);\n\n(3)   ‘Banking company’ means a banking company as defined in clause (c) of\n      section 5 of the Banking Regulation Act, 1949 (10 of 1949);\n\n(4)   ‘business of an a",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'In these directions unless the context otherwise requires,' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In these directions unless the context otherwise requires,.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "breach_notification",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "breach_notification",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Add 'In these directions unless the context otherwise requires,' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": [
+        "section 45",
+        "section 5",
+        "section 56",
+        "section 5",
+        "section 3"
+      ]
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-004",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "9",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Words or expressions used in these directions but not defined herein but defined",
+      "plain_english": "In the Act, shall have the same meaning as assigned to them under the Act. Any other\nwords or expressions not defined in the Act, shall have the same meaning assigned\nto them in the Companies Act, 2013.",
+      "original_text": "in the Act, shall have the same meaning as assigned to them under the Act. Any other\nwords or expressions not defined in the Act, shall have the same meaning assigned\nto them in the Companies Act, 2013.\n\n\n\n\n\f              Chapter-II – Role of Board of Directors and Registration\n\nA. Role of Board of Directors",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have the same meaning as assigned to them under the act?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Words or expressions used in these directions but not defined herein but defined.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Words or expressions used in these directions but not defined herein but defined.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-005",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "10",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The NBFC-AA shall put in place Board approved policies and establish periodic",
+      "plain_english": "Review mechanisms to ensure sound processes and systems. An illustrative list of\nsuch policies to be approved by the Board or its Committee(s) is provided below.",
+      "original_text": "review mechanisms to ensure sound processes and systems. An illustrative list of\nsuch policies to be approved by the Board or its Committee(s) is provided below. The\nspecific aspects to be addressed in these policies are detailed in the relevant\nparagraphs of these Directions.\n\n  (1) Policy for handling / disposal of customer grievances / complaints.\n\n  (2) Pricing of Services.\n\n  (3) Policy for ascertaining the fit and proper criteria of the directors / managing\n      director/ CEO at the time of appointment, and on a continuing basis.\n\nB. Registration",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the nbfc-aa shall put in place board approved policies and establish periodic?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The NBFC-AA shall put in place Board approved policies and establish periodic.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The NBFC-AA shall put in place Board approved policies and establish periodic.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-006",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "11",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The registration requirements for an NBFC-AA shall be as under:",
+      "plain_english": "(1) No entity other than a company shall undertake the business of an Account\n      Aggregator. (2) No company shall commence or carry on the business of an Account\n      Aggregator without obtaining a certificate of registration from the Reserve\n      Bank.",
+      "original_text": "(1) No entity other than a company shall undertake the business of an Account\n      Aggregator.\n\n   (2) No company shall commence or carry on the business of an Account\n      Aggregator without obtaining a certificate of registration from the Reserve\n      Bank.\n\n          Provided that, entities being regulated by other financial sector regulators\n          and aggregating only those accounts relating to the financial information\n          pertaining to customers of that particular sector will be excluded from the\n          above registration requirement.\n\n   (3) Every company seeking registration with the Reserve Bank as an NBFC-AA\n      shall have a net owned fund of not less than rupees two crore, or such higher\n      amount as the Reserve Bank may specify.\n\n          Provided that, those companies not having a Net Owned Fund of minimum\n          of Rupees two crore at the time of seeking registration, shall meet the Net\n\n\n\n\f          Owned Fund criteria within the period of validi",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation undertake the business of an Account\n      Aggregator?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The registration requirements for an NBFC-AA shall be as under:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The registration requirements for an NBFC-AA shall be as under:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-007",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "12",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The process of registration as an NBFC-AA is as under:",
+      "plain_english": "(1) Every company seeking registration as an NBFC-AA shall make an application\n      for registration on the PRAVAAH portal to the Department of Regulation,\n      Mumbai of the Reserve Bank, in the form specified by the Reserve Bank for\n      the purpose. (2) The Reserve Bank for the purpose of considering the application for\n      registration shall require to be satisfied that the following cond",
+      "original_text": "(1) Every company seeking registration as an NBFC-AA shall make an application\n      for registration on the PRAVAAH portal to the Department of Regulation,\n      Mumbai of the Reserve Bank, in the form specified by the Reserve Bank for\n      the purpose.\n\n   (2) The Reserve Bank for the purpose of considering the application for\n      registration shall require to be satisfied that the following conditions are\n      fulfilled:-\n\n           (i)      The company has the necessary resources and wherewithal to offer\n           such services to customers.\n\n           (ii)     The company has the adequate capital structure to undertake the\n           business of an account aggregator.\n\n           (iii) The promoters of the company are fit and proper.\n\n           (iv) The general character of the management or proposed management\n           of the company are not prejudicial to the public interest.\n\n           (v)      The company has a plan for a robust Information Technology system.\n\n     ",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation make an application\n      for registration on the PRAVAAH portal to the Department of Regulation,\n      Mumbai of the R?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The process of registration as an NBFC-AA is as under:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The process of registration as an NBFC-AA is as under:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-008",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "13",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The companies seeking Certification of Registration as an NBFC-AA shall refer",
+      "plain_english": "To the instructions as prescribed in paragraphs 47 and 48 of Reserve Bank of India\n(Non-Banking Financial Companies – Registration, Exemptions and Framework for\nScale Based Regulation) Directions, 2025. Chapter-III – Scope of Activities\n\nA.",
+      "original_text": "to the instructions as prescribed in paragraphs 47 and 48 of Reserve Bank of India\n(Non-Banking Financial Companies – Registration, Exemptions and Framework for\nScale Based Regulation) Directions, 2025.\n\n\n\n\n\f                         Chapter-III – Scope of Activities\n\nA. Duties and Responsibilities of an NBFC-AA",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the companies seeking certification of registration as an nbfc-aa shall refer?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The companies seeking Certification of Registration as an NBFC-AA shall refer.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The companies seeking Certification of Registration as an NBFC-AA shall refer.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-009",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "14",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The duties and responsibilities of an NBFC-AA are as under:",
+      "plain_english": "(1) NBFC-AA shall provide services to a customer based on the customer’s\n     explicit consent. (2) NBFC-AA shall ensure that the providing of services to a customer shall be\n     backed by appropriate agreements/ authorisations between the NBFC-AA, the\n     customer and the Financial Information Providers.",
+      "original_text": "(1) NBFC-AA shall provide services to a customer based on the customer’s\n     explicit consent.\n\n     (2) NBFC-AA shall ensure that the providing of services to a customer shall be\n     backed by appropriate agreements/ authorisations between the NBFC-AA, the\n     customer and the Financial Information Providers.\n\n     (3) NBFC-AA shall not support transactions by customers.\n\n     (4) NBFC-AA shall ensure appropriate mechanisms for proper customer\n     identification.\n\n     (5) NBFC-AA shall share information as referred to under paragraph 8(4) only\n     with the customer to whom it relates or any other financial information user as\n     authorised by the customer in accordance with the terms of the consent provided\n     by the customer.\n\n     (6) NBFC-AA shall not undertake any other business other than the business of\n     account aggregator. Deployment of investible surplus by an NBFC-AA in\n     instruments, not for trading, shall however be permitted.\n\n     (7) No financial informa",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not support transactions by customers?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The duties and responsibilities of an NBFC-AA are as under:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Signed contract / data processing agreement",
+          "type": "contract",
+          "mandatory": false
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "vendor_management"
+      ],
+      "tags": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "vendor_management"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The duties and responsibilities of an NBFC-AA are as under:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-010",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "17",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The consent of the customer obtained by the NBFC-AA shall be a standardised",
+      "plain_english": "Consent artefact which shall contain the following details, namely: —\n\n       (1) identity of the customer and optional contact information;\n\n       (2) the nature of the financial information requested;\n\n       (3) purpose of collecting such information;\n\n       (4) the identity of the recipients of the information, if any;\n\n       (5) URL or other address to which notification needs to be sent e",
+      "original_text": "consent artefact which shall contain the following details, namely: —\n\n       (1) identity of the customer and optional contact information;\n\n       (2) the nature of the financial information requested;\n\n       (3) purpose of collecting such information;\n\n       (4) the identity of the recipients of the information, if any;\n\n       (5) URL or other address to which notification needs to be sent every time\n            the consent artefact is used to access information\n\n       (6) Consent creation date, expiry date, identity and signature/ digital\n            signature of the NBFC-AA; and\n\n       (7) any other attribute as may be prescribed by the Reserve Bank.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation contain the following details?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The consent of the customer obtained by the NBFC-AA shall be a standardised.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "breach_notification",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "breach_notification",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The consent of the customer obtained by the NBFC-AA shall be a standardised.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-011",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "19",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "At the time of obtaining consent, the NBFC-AA shall inform the customer of all /",
+      "plain_english": "Necessary attributes to be contained in the consent artefact as per paragraph 17\nabove and the right of the customer to file complaints with relevant authorities in case\nof non-redressal of grievances. obtain information that is rendered accessible by a consent artefact, including the\n\n\n\fability to revoke consent to obtain parts of such information.",
+      "original_text": "necessary attributes to be contained in the consent artefact as per paragraph 17\nabove and the right of the customer to file complaints with relevant authorities in case\nof non-redressal of grievances.\n\nobtain information that is rendered accessible by a consent artefact, including the\n\n\n\fability to revoke consent to obtain parts of such information. Upon revocation, a fresh\nconsent artefact shall be shared with the Financial Information provider.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be shared with the financial information provider?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: At the time of obtaining consent, the NBFC-AA shall inform the customer of all /.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "critical",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: At the time of obtaining consent, the NBFC-AA shall inform the customer of all /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-012",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "21",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "An electronic consent artefact shall be capable of being logged, audited and / 2",
+      "plain_english": "Verified. C.",
+      "original_text": "verified.\n\nC. Sharing of financial information by Financial Information Providers upon\nvalid consent artefact being presented\n\nwith an NBFC-AA on being presented a valid consent artefact by an NBFC-AA in\naccordance with paragraphs 15 to 21.\n\nshall verify:\n\n                (1) validity of consent\n\n                (2) specified dates and usage; and\n\n                (3) the credentials of the NBFC-AA\n                   through appropriate means.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'An electronic consent artefact shall be capable of being logged, audited and / 2' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: An electronic consent artefact shall be capable of being logged, audited and / 2.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Add 'An electronic consent artefact shall be capable of being logged, audited and / 2' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-013",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "26",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "To enable these data flows, the Financial Information Providers shall:",
+      "plain_english": "(1) implement interfaces that will allow an NBFC-AA to submit consent artefacts,\n   and authenticate each other, and would enable secure flow of financial information\n   to the NBFC-AA;\n\n   (2) adopt means to verify the consent including digital signatures, if any, contained\n   in the consent artefact;\n\n   (3) implement means to digitally sign the financial information that is shared by\n   them ab",
+      "original_text": "(1) implement interfaces that will allow an NBFC-AA to submit consent artefacts,\n   and authenticate each other, and would enable secure flow of financial information\n   to the NBFC-AA;\n\n   (2) adopt means to verify the consent including digital signatures, if any, contained\n   in the consent artefact;\n\n   (3) implement means to digitally sign the financial information that is shared by\n   them about the customers;\n\n\n\f  (4) maintain a log of all information sharing requests and the actions performed by\n  them pursuant to such requests and submit the same to the NBFC-AA.\n\nD. Use of information by NBFC-AA and Financial Information User",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'To enable these data flows, the Financial Information Providers shall:' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: To enable these data flows, the Financial Information Providers shall:.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Add 'To enable these data flows, the Financial Information Providers shall:' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-014",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "27",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Where financial information has been provided by a Financial Information",
+      "plain_english": "Provider to an NBFC-AA for transferring to a Financial Information User with the\ncustomer's explicit consent, the NBFC-AA shall:\n\n  (1) verify the identity of the Financial Information User; and, if verified,\n\n  (2) securely transfer the customer’s information to the intended recipient in\n  accordance with the terms of the consent artefact.",
+      "original_text": "Provider to an NBFC-AA for transferring to a Financial Information User with the\ncustomer's explicit consent, the NBFC-AA shall:\n\n  (1) verify the identity of the Financial Information User; and, if verified,\n\n  (2) securely transfer the customer’s information to the intended recipient in\n  accordance with the terms of the consent artefact.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation :\n\n  (1) verify the identity of the Financial Information User; and, if verified,\n\n  (2) securely transfer the customer’?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Where financial information has been provided by a Financial Information.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Where financial information has been provided by a Financial Information.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-015",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "28",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Where financial information has been provided by a Financial Information / 29. W",
+      "plain_english": "Provider to an NBFC-AA for transferring to the customer or to a Financial Information\nUser, it shall not be used or disclosed by an NBFC-AA or the Financial Information\nUser except as may be specified in the consent artefact. E.",
+      "original_text": "Provider to an NBFC-AA for transferring to the customer or to a Financial Information\nUser, it shall not be used or disclosed by an NBFC-AA or the Financial Information\nUser except as may be specified in the consent artefact.\n\nE. Joining the Account Aggregator Ecosystem as Financial Information User\n\necosystem, regulated entities of the Reserve Bank joining the Account Aggregator\necosystem as Financial Information User shall necessarily join as Financial\nInformation Provider also, if they hold the specified financial information and fall under\nthe definition of Financial Information Provider.\n\nF. Data Security",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not be used or disclosed by an NBFC-AA or the Financial Information\nUser except as may be specified in the consent arte?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Where financial information has been provided by a Financial Information / 29. W.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Where financial information has been provided by a Financial Information / 29. W.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-016",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "30",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "NBFC-AA shall adhere to the following:",
+      "plain_english": "(1) Business of an Account Aggregator will be entirely Information Technology\n     (IT) driven. NBFC-AA shall adopt required IT framework and interfaces to ensure\n     secure data flows from the Financial Information Providers to its own systems\n     and onwards to the Financial Information Users.",
+      "original_text": "(1) Business of an Account Aggregator will be entirely Information Technology\n     (IT) driven. NBFC-AA shall adopt required IT framework and interfaces to ensure\n     secure data flows from the Financial Information Providers to its own systems\n     and onwards to the Financial Information Users.\n\n     (2) NBFC-AA shall not request or store customer credentials (like passwords,\n     PINs, private keys) which may be used for authenticating customers to the\n     Financial Information providers. Access by an NBFC-AA to customer’s\n     information shall only be based on consent-based authorisation.\n\f     (3) The technology should also be scalable to cover any other financial\n     information or Financial Information Provider as may be specified by the Reserve\n     Bank in future.\n\n     (4) There shall be adequate safeguards built in its IT systems to ensure that it is\n     protected against unauthorised access, alteration, destruction, disclosure or\n     dissemination of records and data.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation not request or store customer credentials (like passwords?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall adhere to the following:.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "access_control",
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall adhere to the following:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-017",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "32",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "The NBFC-AA consolidates financial information of a customer held with different",
+      "plain_english": "Financial entities under different financial sector regulators. In order to ensure that\nmovement of data among different financial entities, spread across financial sector\nregulators adopting different IT systems and interfaces is secured, duly authorised,\nsmooth and seamless, a set of core technical specifications for the participants of the\nAA ecosystem have been framed by Reserve Bank Informati",
+      "original_text": "financial entities under different financial sector regulators. In order to ensure that\nmovement of data among different financial entities, spread across financial sector\nregulators adopting different IT systems and interfaces is secured, duly authorised,\nsmooth and seamless, a set of core technical specifications for the participants of the\nAA ecosystem have been framed by Reserve Bank Information Technology Private\nLimited (ReBIT), and published the same on its website (www.rebit.org.in).",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the nbfc-aa consolidates financial information of a customer held with different?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The NBFC-AA consolidates financial information of a customer held with different.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The NBFC-AA consolidates financial information of a customer held with different.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-018",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "33",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "All regulated entities of the Reserve Bank, acting either as NBFC-AA or Financia",
+      "plain_english": "Information Providers or Financial Information Users are expected to adopt the\ntechnical specifications published by ReBIT, as updated from time to time. Application Programming Interfaces (API).",
+      "original_text": "Information Providers or Financial Information Users are expected to adopt the\ntechnical specifications published by ReBIT, as updated from time to time.\n\nApplication Programming Interfaces (API). It shall be the responsibility of the NBFC-\nAA to ensure that its IT systems have all features necessary to carry out its functions\nstrictly in conformity with these Directions as updated from time to time.\n\nI. Rights of the customer",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be the responsibility of the NBFC-\nAA to ensure that its IT systems have all features necessary to carry out its functi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: All regulated entities of the Reserve Bank, acting either as NBFC-AA or Financia.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: All regulated entities of the Reserve Bank, acting either as NBFC-AA or Financia.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-019",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "35",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "An NBFC-AA shall enable the customer to access a record of the consents / 36. An",
+      "plain_english": "Provided by him and the Financial Information Users with whom the information has\nbeen shared. performing the business of account aggregator explicitly requested by the customer.",
+      "original_text": "provided by him and the Financial Information Users with whom the information has\nbeen shared.\n\nperforming the business of account aggregator explicitly requested by the customer.\n\nJ. Customer Grievance\n\nof customer grievances/ complaints. It shall have a dedicated setup to address\ncustomer grievances/ complaints.\n\ntime and in such manner as provided for in its Board approved policy, but in any case\nnot beyond a period of one month from its receipt.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": true,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a dedicated setup to address\ncustomer grievances/ complaints?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: An NBFC-AA shall enable the customer to access a record of the consents / 36. An.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: An NBFC-AA shall enable the customer to access a record of the consents / 36. An.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-020",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "39",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "At the operational level, NBFC-AA shall display the following information",
+      "plain_english": "Prominently, for the benefit of customers, on the website and at the place/s of\nbusiness:\n\n   (1) the name and contact details (Telephone / Mobile nos. as also email address)\n   of the Grievance Redressal Officer who can be approached by the public for\n   resolution of complaints against the company.",
+      "original_text": "prominently, for the benefit of customers, on the website and at the place/s of\nbusiness:\n\n   (1) the name and contact details (Telephone / Mobile nos. as also email address)\n   of the Grievance Redressal Officer who can be approached by the public for\n   resolution of complaints against the company.\n\n   (2) that if the complaint / dispute is not redressed within a period of one month,\n   the customer may appeal to the Reserve Bank.\n\nK. Reserve Bank – Integrated Ombudsman Scheme, 2021",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: at the operational level, nbfc-aa shall display the following information?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: At the operational level, NBFC-AA shall display the following information.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: At the operational level, NBFC-AA shall display the following information.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-021",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "40",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "NBFCs covered under the Reserve Bank – Integrated Ombudsman Scheme, 2021 / 41. A",
+      "plain_english": "(RBIOS, 2021) shall comply with the directions provided under the said Scheme. L.",
+      "original_text": "(RBIOS, 2021) shall comply with the directions provided under the said Scheme.\n\n\n\fL. Pricing\n\nservices. Pricing of services will be in strict conformity with the internal guidelines\nadopted by the NBFC-AA which need to be transparent and available in public\ndomain.\n\n\n\n\n\f                        Chapter-IV – Corporate Governance\n\nand evaluating its controls, systems, procedures and safeguards. The integrity of the\nIT systems shall be maintained at all times and all necessary precautions taken to\nensure that the records are not lost, destroyed or tampered with.\n\nA. Experience of the Board",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation comply with the directions provided under the said scheme?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFCs covered under the Reserve Bank – Integrated Ombudsman Scheme, 2021 / 41. A.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFCs covered under the Reserve Bank – Integrated Ombudsman Scheme, 2021 / 41. A.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-022",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "43",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "NBFC-AA shall comply with the provisions of paragraph 8 of Reserve Bank of / 44.",
+      "plain_english": "India (Non-Banking Financial Companies - Governance) Directions, 2025. B.",
+      "original_text": "India (Non-Banking Financial Companies - Governance) Directions, 2025.\n\nB. Audit Committee\n\nof India (Non-Banking Financial Companies - Governance) Directions, 2025.\n\nC. Nomination Committee\n\nmembers of its Board of Directors to ensure 'fit and proper' status of proposed/\nexisting directors. The Nomination Committee shall be formed as prescribed in\nparagraph 18 of Reserve Bank of India (Non-Banking Financial Companies -\nGovernance) Directions, 2025.\n\nD. Risk Management Committee",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be formed as prescribed in\nparagraph 18 of Reserve Bank of India (Non-Banking Financial Companies -\nGovernance) Directi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall comply with the provisions of paragraph 8 of Reserve Bank of / 44..",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "audit_log",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall comply with the provisions of paragraph 8 of Reserve Bank of / 44..",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-023",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "46",
+      "content_type": "DEFINITION",
+      "obligation_type": "informational",
+      "title": "NBFC-AA shall establish a well-documented risk management framework which",
+      "plain_english": "Shall include\n\n(1) A sound and robust technology risk management framework;\n\n(2) Strengthening system security, reliability, resiliency, and recoverability; and\n\n(3) Deploying strong authentication to protect access to customer data and systems.",
+      "original_text": "shall include\n\n(1) A sound and robust technology risk management framework;\n\n(2) Strengthening system security, reliability, resiliency, and recoverability; and\n\n(3) Deploying strong authentication to protect access to customer data and systems.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation's documentation define 'NBFC-AA shall establish a well-documented risk management framework which' consistently with this framework?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall establish a well-documented risk management framework which.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Add 'NBFC-AA shall establish a well-documented risk management framework which' to your internal compliance glossary with the definition from this section."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-024",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "47",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "To manage the integrated risk and evaluate overall risks faced, an NBFC-AA shall",
+      "plain_english": "Form a Risk Management Committee either at the Board or executive level, consisting\nof not less than three members of its Board of Directors. The Risk Management\nCommittee shall:\n\n  (1) give due consideration to factors such as reputation, customer confidence,\n  consequential impact and legal implications, with regard to investment in controls\n\n\f  and security measures for computer systems, networ",
+      "original_text": "form a Risk Management Committee either at the Board or executive level, consisting\nof not less than three members of its Board of Directors. The Risk Management\nCommittee shall:\n\n  (1) give due consideration to factors such as reputation, customer confidence,\n  consequential impact and legal implications, with regard to investment in controls\n\n\f  and security measures for computer systems, networks, data centres, operations\n  and backup facilities.\n\n  (2) have oversight of technology risks and ensure that the organisation’s IT function\n  is capable of supporting its business strategies and objectives.\n\nE. Fit and Proper Criteria",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation :\n\n  (1) give due consideration to factors such as reputation, customer confidence,\n  consequential impact and legal imp?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: To manage the integrated risk and evaluate overall risks faced, an NBFC-AA shall.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: To manage the integrated risk and evaluate overall risks faced, an NBFC-AA shall.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-025",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "48",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "NBFC-AA shall:",
+      "plain_english": "(1) ensure that a policy is put in place with the approval of the Board of Directors\n  for ascertaining the fit and proper criteria of the directors / managing director / CEO\n  at the time of appointment, and on a continuing basis. The policy on the fit and\n  proper criteria shall be on the lines of the Directions as prescribed in paragraphs 12\n  and 13 of Reserve Bank of India (Non-Banking Financ",
+      "original_text": "(1) ensure that a policy is put in place with the approval of the Board of Directors\n  for ascertaining the fit and proper criteria of the directors / managing director / CEO\n  at the time of appointment, and on a continuing basis. The policy on the fit and\n  proper criteria shall be on the lines of the Directions as prescribed in paragraphs 12\n  and 13 of Reserve Bank of India (Non-Banking Financial Companies - Governance)\n  Directions, 2025.\n\n  (2) furnish to the Reserve Bank an annual statement on change of directors /\n  managing director / CEO duly certified by the Statutory Auditors that fit and proper\n  criteria in selection of the directors has been followed. The statement must reach\n  the Regional Office of the Reserve Bank within 15 days of the close of the year.\n\nF. Disclosure Requirements",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be on the lines of the Directions as prescribed in paragraphs 12\n  and 13 of Reserve Bank of India (Non-Banking Financi?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall:.",
+        "No evidence of implementation or assigned owner for this requirement.",
+        "No designated officer/role found in org chart or appointment records."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": true,
+        "value": "within 15 days",
+        "trigger_event": "appointment"
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall:.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-026",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "49",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "NBFC-AA shall comply with the disclosure requirements specified in Reserve",
+      "plain_english": "Bank of India (Non-Banking Financial Companies – Financial Statements:\nPresentation and Disclosures) Directions, 2025, except provisions contained in\nparagraphs 13 to 15 and paragraph 20. These disclosures are in addition to and not\nin substitution of the disclosure requirements specified under other laws, regulations,\nor accounting and financial reporting standards.",
+      "original_text": "Bank of India (Non-Banking Financial Companies – Financial Statements:\nPresentation and Disclosures) Directions, 2025, except provisions contained in\nparagraphs 13 to 15 and paragraph 20. These disclosures are in addition to and not\nin substitution of the disclosure requirements specified under other laws, regulations,\nor accounting and financial reporting standards. More comprehensive disclosures\nthan the minimum required are encouraged, especially if such disclosures\nsignificantly aid in the understanding of the financial position and performance.\n\nG. Requirement to obtain prior approval of the Reserve Bank for acquisition or\n   transfer of control of NBFC-AA",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: nbfc-aa shall comply with the disclosure requirements specified in reserve?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall comply with the disclosure requirements specified in Reserve.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall comply with the disclosure requirements specified in Reserve.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-027",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "50",
+      "content_type": "RIGHT",
+      "obligation_type": "informational",
+      "title": "The prior written permission of the Reserve Bank shall be required for an NBFC-",
+      "plain_english": "AA for -\n\n\f  (1) Any takeover or acquisition of control or any change in the shareholding as\n  prescribed in paragraphs 6(1) and 6(2) of Reserve Bank of India (Non-Banking\n  Financial Companies– Acquisition of Shareholding or Control) Directions, 2025. (2) Any change in shareholding that will give the acquirer a right to nominate a\n  director.",
+      "original_text": "AA for -\n\n\f  (1) Any takeover or acquisition of control or any change in the shareholding as\n  prescribed in paragraphs 6(1) and 6(2) of Reserve Bank of India (Non-Banking\n  Financial Companies– Acquisition of Shareholding or Control) Directions, 2025.\n\n  (2) Any change in shareholding that will give the acquirer a right to nominate a\n  director.\n\n  (3) Any change in directors and / or Management, as prescribed in paragraph 10\n  of Reserve Bank of India (Non-Banking Financial Companies - Governance)\n  Directions, 2025.\n\nG.1 Application for prior approval",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Do your users have a functioning mechanism to exercise their right related to: the prior written permission of the reserve bank shall be required for an nbfc-?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The prior written permission of the Reserve Bank shall be required for an NBFC-.",
+        "Users have no functional mechanism to exercise this right."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The prior written permission of the Reserve Bank shall be required for an NBFC-.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-028",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "51",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "In respect of prior approval as per requirement in paragraphs 50(1) and 50(2)",
+      "plain_english": "Above, an NBFC-AA shall comply with the instructions as prescribed in paragraph 7\nof Reserve Bank of India (Non-Banking Financial Companies– Acquisition of\nShareholding or Control) Directions, 2025. In respect of prior approval as per\nrequirement in paragraph 50(3) above, an NBFC-AA shall refer to the instructions as\nprescribed in paragraph 11 of Reserve Bank of India (Non-Banking Financial\nCompan",
+      "original_text": "above, an NBFC-AA shall comply with the instructions as prescribed in paragraph 7\nof Reserve Bank of India (Non-Banking Financial Companies– Acquisition of\nShareholding or Control) Directions, 2025. In respect of prior approval as per\nrequirement in paragraph 50(3) above, an NBFC-AA shall refer to the instructions as\nprescribed in paragraph 11 of Reserve Bank of India (Non-Banking Financial\nCompanies– Governance) Directions, 2025.\n\nG.2 Public notice about change in control / management",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation comply with the instructions as prescribed in paragraph 7\nof Reserve Bank of India (Non-Banking Financial Companies– Ac?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: In respect of prior approval as per requirement in paragraphs 50(1) and 50(2).",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: In respect of prior approval as per requirement in paragraphs 50(1) and 50(2).",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-029",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "52",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "NBFC-AA shall comply with the provisions of paragraphs 8 to 10 of Reserve Bank /",
+      "plain_english": "Of India (Non-Banking Financial Companies– Acquisition of Shareholding or Control)\nDirections, 2025. G.3 Information with respect to change of address, directors, auditors, etc.",
+      "original_text": "of India (Non-Banking Financial Companies– Acquisition of Shareholding or Control)\nDirections, 2025.\n\nG.3 Information with respect to change of address, directors, auditors, etc. to\nbe submitted\n\nas prescribed in paragraphs 6 and 7 of Reserve Bank of India (Non-Banking Financial\nCompanies – Miscellaneous) Directions, 2025.\n\nG.4 Investment from FATF non-compliant jurisdictions",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: nbfc-aa shall comply with the provisions of paragraphs 8 to 10 of reserve bank /?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall comply with the provisions of paragraphs 8 to 10 of Reserve Bank /.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Audit log / system log",
+          "type": "log",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": true,
+        "amount_inr": 0,
+        "description": "rs, ",
+        "type": "fine"
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall comply with the provisions of paragraphs 8 to 10 of Reserve Bank /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-030",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "54",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "NBFC-AA shall ensure compliance to the instructions as prescribed in paragraphs ",
+      "plain_english": "11 to 13 of Reserve Bank of India (Non-Banking Financial Companies– Acquisition of\nShareholding or Control) Directions, 2025. Chapter-V – Miscellaneous Instructions\n\nA.",
+      "original_text": "11 to 13 of Reserve Bank of India (Non-Banking Financial Companies– Acquisition of\nShareholding or Control) Directions, 2025.\n\f                     Chapter-V – Miscellaneous Instructions\n\nA. Declaration of dividends\n\nFinancial Companies – Prudential Norms on Declaration of Dividends) Directions,\n2025.\n\nB. Managing Risks and Code of Conduct in Outsourcing of Financial Services\nby NBFC-AA.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: nbfc-aa shall ensure compliance to the instructions as prescribed in paragraphs ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall ensure compliance to the instructions as prescribed in paragraphs .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall ensure compliance to the instructions as prescribed in paragraphs .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-031",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "56",
+      "content_type": "PROCEDURE",
+      "obligation_type": "recommended",
+      "title": "NBFC-AA shall conduct a self-assessment of their existing outsourcing / 57. The ",
+      "plain_english": "Arrangements and bring these in line with the instructions as prescribed in Reserve\nBank of India (Non-Banking Financial Companies – Managing Risks in Outsourcing)\nDirections, 2025. C.",
+      "original_text": "arrangements and bring these in line with the instructions as prescribed in Reserve\nBank of India (Non-Banking Financial Companies – Managing Risks in Outsourcing)\nDirections, 2025.\n\nC. Returns\n\nNBFC-AA as deemed fit.\n\nD. Supervision\n\nofficers or employees or other persons, of any NBFC-AA and at any intervals as it\ndeems fit.\n\nE. Exemptions",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: nbfc-aa shall conduct a self-assessment of their existing outsourcing / 57. the ?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: NBFC-AA shall conduct a self-assessment of their existing outsourcing / 57. The .",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        },
+        {
+          "name": "Appointment letter / org chart",
+          "type": "document",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: NBFC-AA shall conduct a self-assessment of their existing outsourcing / 57. The .",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-032",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "59",
+      "content_type": "EXEMPTION",
+      "obligation_type": "informational",
+      "title": "The Reserve Bank may, if it considers necessary for avoiding any hardship or for",
+      "plain_english": "Any other just and sufficient reason, grant extension of time to comply with or exempt\nany company or class of companies or all companies, from all or any of the provisions\nof these guidelines either generally or for any specified period, subject to such\nconditions as the Reserve Bank may impose.",
+      "original_text": "any other just and sufficient reason, grant extension of time to comply with or exempt\nany company or class of companies or all companies, from all or any of the provisions\nof these guidelines either generally or for any specified period, subject to such\nconditions as the Reserve Bank may impose.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation have a documented process for: the reserve bank may, if it considers necessary for avoiding any hardship or for?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Reserve Bank may, if it considers necessary for avoiding any hardship or for.",
+        "No record of the control being tested or audited."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "medium",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Reserve Bank may, if it considers necessary for avoiding any hardship or for.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-033",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "60",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "The Reserve Bank can give any clarification in respect of the above directions /",
+      "plain_english": "And such clarification shall be treated as part of these directions. The directions can\nbe amended by the Reserve Bank from time to time.",
+      "original_text": "and such clarification shall be treated as part of these directions. The directions can\nbe amended by the Reserve Bank from time to time.\n\n\n\n\n\f                        Chapter-VI – Repeal and Other Provisions\n\nA. Repeal and saving\n\nguidelines relating to Non-Banking Financial Companies – Account Aggregators stand\nrepealed, as communicated vide circular DOR.RRC.REC.302/33-01-010/2025-26\ndated November 28, 2025. The Directions, instructions and guidelines repealed prior\nto the issuance of these Directions shall continue to remain repealed.",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be treated as part of these directions?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: The Reserve Bank can give any clarification in respect of the above directions /.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: The Reserve Bank can give any clarification in respect of the above directions /.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-034",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "62",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "Notwithstanding such repeal, any action taken or purported to have been taken,",
+      "plain_english": "Or initiated under the repealed Directions, instructions, or guidelines shall continue to\nbe governed by the provisions of it. All approvals or acknowledgments granted\nunder these repealed lists shall be deemed as governed by these Directions.",
+      "original_text": "or initiated under the repealed Directions, instructions, or guidelines shall continue to\nbe governed by the provisions thereof. All approvals or acknowledgments granted\nunder these repealed lists shall be deemed as governed by these Directions. Further,\nthe repeal of these directions, instructions, or guidelines shall not in any way\nprejudicially affect:\n\n         (1)    any right, obligation or liability acquired, accrued, or incurred thereunder;\n\n         (2)    any, penalty, forfeiture, or punishment incurred in respect of any\n         contravention committed thereunder;\n\n         (3)    any investigation, legal proceeding, or remedy in respect of any such\n         right, privilege, obligation, liability, penalty, forfeiture, or punishment as\n         aforesaid; and any such investigation, legal proceedings or remedy may be\n         instituted, continued, or enforced and any such penalty, forfeiture or punishment\n         may be imposed as if those directions, instructions, or guid",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be deemed as governed by these directions?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: Notwithstanding such repeal, any action taken or purported to have been taken,.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "tags": [
+        "access_control",
+        "account_aggregator",
+        "consent",
+        "data_sharing"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: Notwithstanding such repeal, any action taken or purported to have been taken,.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    },
+    {
+      "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-035",
+      "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+      "section_ref": "64",
+      "content_type": "OBLIGATION",
+      "obligation_type": "mandatory",
+      "title": "For the purpose of giving effect to the provisions of these Directions or in ord",
+      "plain_english": "Remove any difficulties in the application or interpretation of the provisions of these\nDirections, the RBI may, if it considers necessary, issue necessary clarifications in\n\n\n\frespect of any matter covered in this and the interpretation of any provision of these\nDirections given by the RBI shall be final and binding. (J P Sharma)\nChief General Manager",
+      "original_text": "remove any difficulties in the application or interpretation of the provisions of these\nDirections, the RBI may, if it considers necessary, issue necessary clarifications in\n\n\n\frespect of any matter covered herein and the interpretation of any provision of these\nDirections given by the RBI shall be final and binding.\n\n\n\n\n(J P Sharma)\nChief General Manager",
+      "llm_enhance": false,
+      "applies_to": {
+        "product_types": [
+          "fintech"
+        ],
+        "handles_personal_data": false,
+        "handles_children_data": false,
+        "has_indian_users": true
+      },
+      "test_question": "Does your organisation be final and binding?",
+      "gap_indicators": [
+        "No documented policy or procedure addresses: For the purpose of giving effect to the provisions of these Directions or in ord.",
+        "No evidence of implementation or assigned owner for this requirement."
+      ],
+      "evidence_required": [
+        {
+          "name": "Internal policy document",
+          "type": "policy_doc",
+          "mandatory": true
+        }
+      ],
+      "timeline": {
+        "exists": false,
+        "value": null,
+        "trigger_event": null
+      },
+      "penalty": {
+        "exists": false,
+        "amount_inr": 0,
+        "description": null,
+        "type": null
+      },
+      "severity": "high",
+      "keywords": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "tags": [
+        "account_aggregator",
+        "consent",
+        "data_sharing",
+        "governance"
+      ],
+      "remediation_steps": [
+        "Assign a responsible owner (DPO/CISO/Legal) for this control: For the purpose of giving effect to the provisions of these Directions or in ord.",
+        "Draft or update the relevant policy document to explicitly address this requirement.",
+        "Implement the technical or process change required."
+      ],
+      "cross_references": []
+    }
+  ]
+}

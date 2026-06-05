@@ -1,0 +1,2602 @@
+[
+  {
+    "overlap_id": "OVL-001",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 7,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-002",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 7,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-003",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 7,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-004",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-379",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 7,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-379 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-005",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-370",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 7,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-370 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-006",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-007",
+    "control_ids": [
+      "DPDP_ACT_2023-004",
+      "DPDP_RULES_2025-031"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-004 and DPDP_RULES_2025-031 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-008",
+    "control_ids": [
+      "DPDP_ACT_2023-004",
+      "RBI_KYC_MASTER_DIRECTIONS-045"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-004 and RBI_KYC_MASTER_DIRECTIONS-045 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-009",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "PMLA_AML_CFT-023"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and PMLA_AML_CFT-023 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "PMLA_AML_CFT"
+  },
+  {
+    "overlap_id": "OVL-010",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-296"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-296 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-011",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-013"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-013 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-012",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-236"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-236 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-013",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-288"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-288 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-014",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-392"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-392 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-015",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-010",
+      "RBI_KYC_MASTER_DIRECTIONS-014"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-010 and RBI_KYC_MASTER_DIRECTIONS-014 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-016",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-010",
+      "RBI_KYC_MASTER_DIRECTIONS-021"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-010 and RBI_KYC_MASTER_DIRECTIONS-021 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-017",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-015",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-100"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-015 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-100 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-018",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-024",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-024 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-019",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-025",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-025 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-020",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-025",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-236"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-025 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-236 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-021",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-025",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-288"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-025 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-288 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-022",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-025",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-359"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-025 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-359 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-023",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-025",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-392"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-025 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-392 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-024",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-025",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-026",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-027",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-028",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-029",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "RBI_CYBERSECURITY_FRAMEWORK-046"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and RBI_CYBERSECURITY_FRAMEWORK-046 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-030",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-031",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-032",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-025",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-025 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-033",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-027",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-027 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-034",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-027",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-027 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-035",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-029",
+      "PCI_DSS_V4-352"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-029 and PCI_DSS_V4-352 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-036",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-029",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-029 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-037",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-029",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-029 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-038",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-029",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-029 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-039",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-182",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-182 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-040",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-182",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-182 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-041",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-317",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-317 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-042",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-317",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-317 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-043",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318",
+      "PCI_DSS_V4-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-318 and PCI_DSS_V4-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-044",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-318 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-045",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-318 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-046",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-047",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-048",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327",
+      "RBI_CYBERSECURITY_FRAMEWORK-046"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 and RBI_CYBERSECURITY_FRAMEWORK-046 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-049",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-050",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-051",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-052",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "PCI_DSS_V4-054"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and PCI_DSS_V4-054 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-053",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "PCI_DSS_V4-328"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and PCI_DSS_V4-328 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-054",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-055",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-056",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "PCI_DSS_V4-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and PCI_DSS_V4-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-057",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "PCI_DSS_V4-072"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and PCI_DSS_V4-072 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-058",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-059",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-060",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "RBI_KYC_MASTER_DIRECTIONS-022"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and RBI_KYC_MASTER_DIRECTIONS-022 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-061",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-363",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-363 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-062",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-364",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-364 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-063",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-379",
+      "PCI_DSS_V4-072"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-379 and PCI_DSS_V4-072 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-064",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-380",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-380 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-065",
+    "control_ids": [
+      "PCI_DSS_V4-002",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-002 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-066",
+    "control_ids": [
+      "PCI_DSS_V4-002",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-002 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-067",
+    "control_ids": [
+      "PCI_DSS_V4-010",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-010 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-068",
+    "control_ids": [
+      "PCI_DSS_V4-020",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-017"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-020 and RBI_IT_OUTSOURCING_DIRECTIONS-017 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-069",
+    "control_ids": [
+      "PCI_DSS_V4-072",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-072 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-070",
+    "control_ids": [
+      "PCI_DSS_V4-328",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-328 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-071",
+    "control_ids": [
+      "PCI_DSS_V4-330",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-330 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-072",
+    "control_ids": [
+      "PCI_DSS_V4-330",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-330 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-073",
+    "control_ids": [
+      "PCI_DSS_V4-352",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-352 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-074",
+    "control_ids": [
+      "PCI_DSS_V4-352",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-352 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-075",
+    "control_ids": [
+      "PMLA_AML_CFT-023",
+      "RBI_KYC_MASTER_DIRECTIONS-056"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PMLA_AML_CFT-023 and RBI_KYC_MASTER_DIRECTIONS-056 — check each framework's specific requirements",
+    "framework_a": "PMLA_AML_CFT",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-076",
+    "control_ids": [
+      "RBI_CYBERSECURITY_FRAMEWORK-050",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-018"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both RBI_CYBERSECURITY_FRAMEWORK-050 and RBI_IT_OUTSOURCING_DIRECTIONS-018 — check each framework's specific requirements",
+    "framework_a": "RBI_CYBERSECURITY_FRAMEWORK",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-077",
+    "control_ids": [
+      "RBI_CYBERSECURITY_FRAMEWORK-050",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both RBI_CYBERSECURITY_FRAMEWORK-050 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "RBI_CYBERSECURITY_FRAMEWORK",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-078",
+    "control_ids": [
+      "RBI_IT_OUTSOURCING_DIRECTIONS-017",
+      "RBI_KYC_MASTER_DIRECTIONS-022"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both RBI_IT_OUTSOURCING_DIRECTIONS-017 and RBI_KYC_MASTER_DIRECTIONS-022 — check each framework's specific requirements",
+    "framework_a": "RBI_IT_OUTSOURCING_DIRECTIONS",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-079",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-080",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-361",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-361 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-081",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "PCI_DSS_V4-354"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and PCI_DSS_V4-354 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-082",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-362",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-362 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-083",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-365",
+      "PCI_DSS_V4-014"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-365 and PCI_DSS_V4-014 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-084",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-365",
+      "RBI_CYBERSECURITY_FRAMEWORK-051"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-365 and RBI_CYBERSECURITY_FRAMEWORK-051 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-085",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-365",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-365 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-086",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-365",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-365 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-087",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-365",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-365 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-088",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-370",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-370 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-089",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-370",
+      "PCI_DSS_V4-354"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-370 and PCI_DSS_V4-354 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-090",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-370",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-370 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-091",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-379",
+      "PCI_DSS_V4-354"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-379 and PCI_DSS_V4-354 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-092",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-387",
+      "PCI_DSS_V4-014"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-387 and PCI_DSS_V4-014 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-093",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-387",
+      "PCI_DSS_V4-330"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-387 and PCI_DSS_V4-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-094",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-387",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-387 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-095",
+    "control_ids": [
+      "PCI_DSS_V4-014",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-014 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-096",
+    "control_ids": [
+      "PCI_DSS_V4-330",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-330 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-097",
+    "control_ids": [
+      "PCI_DSS_V4-341",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-341 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-098",
+    "control_ids": [
+      "PCI_DSS_V4-341",
+      "RBI_CYBERSECURITY_FRAMEWORK-051"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-341 and RBI_CYBERSECURITY_FRAMEWORK-051 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-099",
+    "control_ids": [
+      "PCI_DSS_V4-354",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-029"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-354 and RBI_IT_OUTSOURCING_DIRECTIONS-029 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-100",
+    "control_ids": [
+      "PCI_DSS_V4-354",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both PCI_DSS_V4-354 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "PCI_DSS_V4",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-101",
+    "control_ids": [
+      "RBI_CYBERSECURITY_FRAMEWORK-051",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both RBI_CYBERSECURITY_FRAMEWORK-051 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "RBI_CYBERSECURITY_FRAMEWORK",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-102",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-382",
+      "PCI_DSS_V4-130"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-382 and PCI_DSS_V4-130 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-103",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-382",
+      "RBI_CYBERSECURITY_FRAMEWORK-051"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-382 and RBI_CYBERSECURITY_FRAMEWORK-051 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-104",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-382",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-382 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-105",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-386",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-032"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-386 and RBI_IT_OUTSOURCING_DIRECTIONS-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-106",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-382",
+      "PCI_DSS_V4-337"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-382 and PCI_DSS_V4-337 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-107",
+    "control_ids": [
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-383",
+      "PCI_DSS_V4-354"
+    ],
+    "shared_keywords": 6,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_CYBER_SECURITY_GUIDELINES_2023-383 and PCI_DSS_V4-354 — check each framework's specific requirements",
+    "framework_a": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-108",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "GDPR_2018-183"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and GDPR_2018-183 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "GDPR_2018"
+  },
+  {
+    "overlap_id": "OVL-109",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-110",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-010"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-010 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-111",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-017"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-017 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-112",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-027"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-027 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-113",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-179"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-179 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-114",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-324"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-324 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-115",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-327"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-327 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-116",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-117",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "PCI_DSS_V4-315"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and PCI_DSS_V4-315 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-118",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_CYBERSECURITY_FRAMEWORK-046"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_CYBERSECURITY_FRAMEWORK-046 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-119",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_CYBERSECURITY_FRAMEWORK-050"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_CYBERSECURITY_FRAMEWORK-050 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-120",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-121",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-122",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-018"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_IT_OUTSOURCING_DIRECTIONS-018 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-123",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_KYC_MASTER_DIRECTIONS-014"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_KYC_MASTER_DIRECTIONS-014 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-124",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_KYC_MASTER_DIRECTIONS-042"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_KYC_MASTER_DIRECTIONS-042 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-125",
+    "control_ids": [
+      "CERT_IN_DIRECTIONS_2022-001",
+      "RBI_KYC_MASTER_DIRECTIONS-056"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both CERT_IN_DIRECTIONS_2022-001 and RBI_KYC_MASTER_DIRECTIONS-056 — check each framework's specific requirements",
+    "framework_a": "CERT_IN_DIRECTIONS_2022",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-126",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-127",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-128",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-236"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-236 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-129",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-288"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-288 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-130",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-318 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-131",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-392"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-392 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-132",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "IRDAI_WEB_AGGREGATOR_REGS_2017-077"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and IRDAI_WEB_AGGREGATOR_REGS_2017-077 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_WEB_AGGREGATOR_REGS_2017"
+  },
+  {
+    "overlap_id": "OVL-133",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-134",
+    "control_ids": [
+      "COMPANIES_ACT_2013-203",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-020"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-203 and RBI_IT_OUTSOURCING_DIRECTIONS-020 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-135",
+    "control_ids": [
+      "COMPANIES_ACT_2013-205",
+      "IRDAI_AML_CFT_GUIDELINES-006"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-205 and IRDAI_AML_CFT_GUIDELINES-006 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_AML_CFT_GUIDELINES"
+  },
+  {
+    "overlap_id": "OVL-136",
+    "control_ids": [
+      "COMPANIES_ACT_2013-205",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-205 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-137",
+    "control_ids": [
+      "COMPANIES_ACT_2013-250",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-250 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-138",
+    "control_ids": [
+      "COMPANIES_ACT_2013-250",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-018"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-250 and RBI_IT_OUTSOURCING_DIRECTIONS-018 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-139",
+    "control_ids": [
+      "COMPANIES_ACT_2013-648",
+      "GDPR_2018-021"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-648 and GDPR_2018-021 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "GDPR_2018"
+  },
+  {
+    "overlap_id": "OVL-140",
+    "control_ids": [
+      "COMPANIES_ACT_2013-648",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-648 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-141",
+    "control_ids": [
+      "COMPANIES_ACT_2013-680",
+      "GDPR_2018-021"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-680 and GDPR_2018-021 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "GDPR_2018"
+  },
+  {
+    "overlap_id": "OVL-142",
+    "control_ids": [
+      "COMPANIES_ACT_2013-680",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-680 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-143",
+    "control_ids": [
+      "COMPANIES_ACT_2013-701",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-701 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-144",
+    "control_ids": [
+      "COMPANIES_ACT_2013-701",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-018"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both COMPANIES_ACT_2013-701 and RBI_IT_OUTSOURCING_DIRECTIONS-018 — check each framework's specific requirements",
+    "framework_a": "COMPANIES_ACT_2013",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-145",
+    "control_ids": [
+      "DPDP_ACT_2023-004",
+      "DPDP_RULES_2025-006"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-004 and DPDP_RULES_2025-006 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-146",
+    "control_ids": [
+      "DPDP_ACT_2023-004",
+      "DPDP_RULES_2025-022"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-004 and DPDP_RULES_2025-022 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-147",
+    "control_ids": [
+      "DPDP_ACT_2023-004",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-004 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-148",
+    "control_ids": [
+      "DPDP_ACT_2023-005",
+      "DPDP_RULES_2025-010"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-005 and DPDP_RULES_2025-010 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-149",
+    "control_ids": [
+      "DPDP_ACT_2023-005",
+      "DPDP_RULES_2025-031"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-005 and DPDP_RULES_2025-031 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-150",
+    "control_ids": [
+      "DPDP_ACT_2023-006",
+      "DPDP_RULES_2025-031"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_ACT_2023-006 and DPDP_RULES_2025-031 — check each framework's specific requirements",
+    "framework_a": "DPDP_ACT_2023",
+    "framework_b": "DPDP_RULES_2025"
+  },
+  {
+    "overlap_id": "OVL-151",
+    "control_ids": [
+      "DPDP_RULES_2025-031",
+      "RBI_KYC_MASTER_DIRECTIONS-045"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both DPDP_RULES_2025-031 and RBI_KYC_MASTER_DIRECTIONS-045 — check each framework's specific requirements",
+    "framework_a": "DPDP_RULES_2025",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-152",
+    "control_ids": [
+      "GDPR_2018-021",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-021 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-153",
+    "control_ids": [
+      "GDPR_2018-021",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-317"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-021 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-317 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-154",
+    "control_ids": [
+      "GDPR_2018-021",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-353"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-021 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-353 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-155",
+    "control_ids": [
+      "GDPR_2018-183",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-183 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-156",
+    "control_ids": [
+      "GDPR_2018-183",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-027"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-183 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-027 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-157",
+    "control_ids": [
+      "GDPR_2018-183",
+      "PCI_DSS_V4-002"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-183 and PCI_DSS_V4-002 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "PCI_DSS_V4"
+  },
+  {
+    "overlap_id": "OVL-158",
+    "control_ids": [
+      "GDPR_2018-183",
+      "RBI_CYBERSECURITY_FRAMEWORK-052"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both GDPR_2018-183 and RBI_CYBERSECURITY_FRAMEWORK-052 — check each framework's specific requirements",
+    "framework_a": "GDPR_2018",
+    "framework_b": "RBI_CYBERSECURITY_FRAMEWORK"
+  },
+  {
+    "overlap_id": "OVL-159",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-330"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-330 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-160",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "PMLA_AML_CFT-065"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and PMLA_AML_CFT-065 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "PMLA_AML_CFT"
+  },
+  {
+    "overlap_id": "OVL-161",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "RBI_KYC_MASTER_DIRECTIONS-014"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and RBI_KYC_MASTER_DIRECTIONS-014 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-162",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "RBI_KYC_MASTER_DIRECTIONS-019"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and RBI_KYC_MASTER_DIRECTIONS-019 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-163",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "RBI_KYC_MASTER_DIRECTIONS-021"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and RBI_KYC_MASTER_DIRECTIONS-021 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-164",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "RBI_KYC_MASTER_DIRECTIONS-026"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and RBI_KYC_MASTER_DIRECTIONS-026 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-165",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-005",
+      "RBI_KYC_MASTER_DIRECTIONS-057"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-005 and RBI_KYC_MASTER_DIRECTIONS-057 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-166",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-167",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-168",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-357"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-357 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-169",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-170",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "RBI_KYC_MASTER_DIRECTIONS-047"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and RBI_KYC_MASTER_DIRECTIONS-047 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-171",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-006",
+      "RBI_KYC_MASTER_DIRECTIONS-056"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-006 and RBI_KYC_MASTER_DIRECTIONS-056 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-172",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-002"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-173",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-174",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-023"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-023 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-175",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-109"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-109 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-176",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-113"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-113 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-177",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-236"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-236 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-178",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-288"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-288 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-179",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-391"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-391 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-180",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-392"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-392 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-181",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "PMLA_AML_CFT-023"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and PMLA_AML_CFT-023 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "PMLA_AML_CFT"
+  },
+  {
+    "overlap_id": "OVL-182",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-008",
+      "RBI_KYC_MASTER_DIRECTIONS-056"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-008 and RBI_KYC_MASTER_DIRECTIONS-056 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_KYC_MASTER_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-183",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-002"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-002 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-184",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-007"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-007 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-185",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-014"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-014 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-186",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-023"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-023 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-187",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-025"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-025 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-188",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-029"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-029 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-189",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-030"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-030 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-190",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-285"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-285 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-191",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-287"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-287 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-192",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-296"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-296 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-193",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-312"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-312 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-194",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-318 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-195",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-359"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-359 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-196",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-376"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-376 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-197",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "IRDAI_CYBER_SECURITY_GUIDELINES_2023-391"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and IRDAI_CYBER_SECURITY_GUIDELINES_2023-391 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "IRDAI_CYBER_SECURITY_GUIDELINES_2023"
+  },
+  {
+    "overlap_id": "OVL-198",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-009",
+      "RBI_IT_OUTSOURCING_DIRECTIONS-015"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-009 and RBI_IT_OUTSOURCING_DIRECTIONS-015 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "RBI_IT_OUTSOURCING_DIRECTIONS"
+  },
+  {
+    "overlap_id": "OVL-199",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-010",
+      "PMLA_AML_CFT-032"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-010 and PMLA_AML_CFT-032 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "PMLA_AML_CFT"
+  },
+  {
+    "overlap_id": "OVL-200",
+    "control_ids": [
+      "IRDAI_AML_CFT_GUIDELINES-010",
+      "PMLA_AML_CFT-065"
+    ],
+    "shared_keywords": 5,
+    "overlap_type": "complementary",
+    "resolution": "both required",
+    "combined_requirement": "Satisfy both IRDAI_AML_CFT_GUIDELINES-010 and PMLA_AML_CFT-065 — check each framework's specific requirements",
+    "framework_a": "IRDAI_AML_CFT_GUIDELINES",
+    "framework_b": "PMLA_AML_CFT"
+  }
+]

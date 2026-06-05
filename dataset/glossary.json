@@ -1,0 +1,1876 @@
+{
+  "generated_at": "2026-06-05T11:21:51.755758",
+  "total_terms": 136,
+  "terms": [
+    {
+      "term": "A list of all third-party service providers    12.8.1.a Examine policies and pro",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "(TPSPs) with which account data is shared or that     that processes are defined to maintain a list of     and defines the organization’s extended attack\n could affect the security of account data is          TPSPs, including a description for each of the       surface. maintained, including a description for each of the   services provided, for all TPSPs with whom\n services provided.",
+          "section_ref": "12.8.1",
+          "control_id": "PCI_DSS_V4-312"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "A penetration testing methodology is defined,     11.4.1 Examine documentation a",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Documented, and implemented by the entity, and           personnel to verify that the penetration-testing   access to cardholder data and then to exfiltrate\n includes:                                                methodology defined, documented, and               that data. As such, entities need to test their\n •   Industry-accepted penetration testing                implemented by the entity in",
+          "section_ref": "11.4.1",
+          "control_id": "PCI_DSS_V4-272"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Access to system components and data is managed via an access control system(s).",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Overview\n\n Unauthorized individuals may gain access to critical data or systems due to ineffective access control rules and definitions. To ensure critical\n data can only be accessed by authorized personnel, systems and processes must be in place to limit access based on need to know and\n according to job responsibilities.",
+          "section_ref": "7.3",
+          "control_id": "PCI_DSS_V4-147"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Additional requirement for service                3.6.1.1 Additional testing pro",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Providers only: A documented description of the           provider assessments only: Interview               algorithms, protocols, and cryptographic keys used to\n cryptographic architecture is maintained that             responsible personnel and examine documentation    protect stored account data, as well as the devices that\n includes:                                                 to verify t",
+          "section_ref": "3.6.1.1",
+          "control_id": "PCI_DSS_V4-079"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Additional requirement for service              3.7.9 Additional testing procedu",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Providers only: Where a service provider shares       provider assessments only: If the service           prevent keys from being mismanaged or disclosed to\n cryptographic keys with its customers for             provider shares cryptographic keys with its         unauthorized entities. transmission or storage of account data, guidance     customers for transmission or storage of account\n on secure",
+          "section_ref": "3.7.9",
+          "control_id": "PCI_DSS_V4-092"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Additional requirement for service              8.3.10 Additional testing proced",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Providers only: If passwords/passphrases are           provider assessments only: If                         failure if compromised. Therefore, in these\n used as the only authentication factor for customer    passwords/passphrases are used as the only            implementations, controls are needed to minimize\n user access to cardholder data (that is, , in any single-   authentication factor for c",
+          "section_ref": "8.3.10",
+          "control_id": "PCI_DSS_V4-183"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Additional requirement for service           12.4.2.1 Additional testing procedu",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Providers only: Reviews conducted in accordance       service provider assessments only: Examine       performed on an ongoing basis. These reviews\n with Requirement 12.4.2 are documented to include:    documentation from the reviews conducted in      can also be used to verify that appropriate\n •   Results of the reviews.",
+          "section_ref": "12.4.2.1",
+          "control_id": "PCI_DSS_V4-299"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Additional requirement for service           12.5.2.1.a Additional testing proce",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Providers only: PCI DSS scope is documented and       service provider assessments only: Examine           can provide an entry point that can be exploited to\n confirmed by the entity at least once every six       documented results of scope reviews and interview    then compromise multiple other entities. Service\n months and upon significant change to the in-scope    personnel to verify that revi",
+          "section_ref": "12.5.2.1",
+          "control_id": "PCI_DSS_V4-304"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "After section 73, the following section shall be inserted, namely: —",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "Proof as to verification of digital signature. '73A.",
+          "section_ref": "11",
+          "control_id": "IT_ACT_2000-102"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "All the articles of Table F in Schedule I annexed to the Companies Act, 2013 sha",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "With these articles and to apply to the company. TABLE - H\n\n               ARTICLES OF ASSOCIATION OF A COMPANY LIMITED BY GUARANTEE AND NOT\n                                      HAVING SHARE CAPITAL\n                                                    Interpretation\n     I.",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-606"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "All user access to query repositories of stored   7.2.6.a Examine policies and p",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Cardholder data is restricted as follows:               interview personnel to verify processes are defined     breaches. Limiting such access to administrators\n •   Via applications or other programmatic methods,     for granting user access to query repositories of       reduces the risk of such access being abused by\n     with access and allowed actions based on user       stored cardholder dat",
+          "section_ref": "7.2.6",
+          "control_id": "PCI_DSS_V4-157"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "An access control model is defined and            7.2.1.a Examine documented pol",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Includes granting access as follows:                    procedures and interview personnel to verify the     control philosophy supports a consistent and\n •   Appropriate access depending on the entity’s        access control model is defined in accordance with   uniform way of allocating access and reduces the\n     business and access needs. all elements specified in this requirement.",
+          "section_ref": "7.2.1",
+          "control_id": "PCI_DSS_V4-150"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "An electronic consent artefact shall be capable of being logged, audited and / 2",
+      "definitions": [
+        {
+          "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+          "definition": "Verified. C.",
+          "section_ref": "21",
+          "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-012"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "An established process is implemented for    12.8.3.a Examine policies and proce",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Engaging TPSPs, including proper due diligence      that processes are defined for engaging TPSPs,       engagement, helps ensure that a TPSP is\n prior to engagement. including proper due diligence prior to              thoroughly vetted internally by an entity prior to\n                                                     engagement.",
+          "section_ref": "12.8.3",
+          "control_id": "PCI_DSS_V4-313"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "An incident response plan exists and is           12.10.1.a Examine the incident",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Ready to be activated in the event of a suspected or      verify that the plan exists and includes at least the   understood by the parties responsible, confusion\n confirmed security incident. The plan includes, but is    elements specified in this requirement.",
+          "section_ref": "12.10.1",
+          "control_id": "PCI_DSS_V4-317"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "An up-to-date list of POI devices is        9.5.1.1.a Examine the list of POI de",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Maintained, including:                              includes all elements specified in this requirement. supposed to be and quickly identify if a device is\n •   Make and model of the device.",
+          "section_ref": "9.5.1.1",
+          "control_id": "PCI_DSS_V4-224"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Annex SL.",
+      "definitions": [
+        {
+          "framework_id": "ISO_27001_2022",
+          "definition": "This common approach defined in the Annex SL will be useful for those organizations that choose to\noperate a single management system that meets the requirements of two or more management system\nstandards. --``,,,,,``````,,,,,`,`,`,`,,`,-`-`,,`,,`,`,,`---\n\n© ISO/IEC 2022 – All rights reserved                                  ﻿                                         v\n\f--``,,,,,``````,,,,,`,`,`,`,",
+          "section_ref": "Annex SL (Part 1)",
+          "control_id": "ISO_27001_2022-005"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Any form of recording including, but not limited to, taking screenshots and pict",
+      "definitions": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "definition": "Recording audio or video is strictly prohibited, except with prior written consent of myself, the\n      RMP, and the Hospital or Service Provider. my care that I may have with other medical practitioners.",
+          "section_ref": "9",
+          "control_id": "TELEMEDICINE_GUIDELINES_2020-074"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Any system components that are not at risk for    5.2.3.a Examine documented pol",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Malware are evaluated periodically to include the       procedures to verify that a process is defined for    malware. However, industry trends for malware can\n following:                                              periodic evaluations of any system components         change quickly, so it is important for organizations\n •   A documented list of all system components not      that are not at ris",
+          "section_ref": "5.2.3",
+          "control_id": "PCI_DSS_V4-109"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Appointment of director elected by small shareholders.—A listed company may have",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Director elected by such small shareholders in such manner and with such terms and conditions as may be\nprescribed. Explanation.—For the purposes of this section “small shareholders” means a shareholder holding\nshares of nominal value of not more than twenty thousand rupees or such other sum as may be prescribed.",
+          "section_ref": "151",
+          "control_id": "COMPANIES_ACT_2013-219"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Authentication of electronic records.",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "(1) Subject to the provisions of this section any subscriber may authenticate an\nelectronic record by affixing his digital signature. (2) The authentication of the electronic record shall be effected by the use of\nasymmetric crypto system and hash function which envelop and transform the initial\nelectronic record into another electronic record.",
+          "section_ref": "3",
+          "control_id": "IT_ACT_2000-004"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "BUSINESS PLAN",
+      "definitions": [
+        {
+          "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+          "definition": "1. Proposed business plan & means of achieving the same.",
+          "section_ref": "3.",
+          "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-047"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "CONSULTATION BETWEEN PATIENT AND RMPs / 1.    First Consultation: Patient with R",
+      "definitions": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "definition": "Specifically, this section details with the key elements of the process of teleconsultation to be used in\n      the First consultation and Follow-up consultations between a patient and an RMP. In these 2 situations, the patient initiates telemedicine consultation and thereby consent is implied\n\n1.1.",
+          "section_ref": "4.1",
+          "control_id": "TELEMEDICINE_GUIDELINES_2020-046"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Calling for information from Data Fiduciary or intermediary. — (1) The Central G",
+      "definitions": [
+        {
+          "framework_id": "DPDP_RULES_2025",
+          "definition": "For such purposes of the Act as are specified in Seventh Schedule, acting through the corresponding\nauthorised person specified in the said Schedule, require any Data Fiduciary or intermediary to furnish such\ninformation as may be called for, within the specified period as may be given in such. (2) Where the disclosure of furnishing of information as referred to in sub-rule (1) is likely to prejud",
+          "section_ref": "23",
+          "control_id": "DPDP_RULES_2025-022"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Chapter 1: About the Handbook",
+      "definitions": [
+        {
+          "framework_id": "LABOUR_CODES_2020",
+          "definition": "The Second National Commission on Labour (2002) had recommended, inter-\nalia, that the existing Labour Laws should be broadly grouped into four or five\nLabour Codes on functional basis. Accordingly, Ministry of Labour and\nEmployment, after extensive consultations with the stakeholders, rationalized,\nsimplified and amalgamated the relevant provisions of the labour laws in four\ncodes.",
+          "section_ref": "Chapter 1",
+          "control_id": "LABOUR_CODES_2020-001"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Clause (A) omitted by Notification No S.O. 4822(E), dated 12th September, 2018 (",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "SCHEDULE VI\n                                      (See sections 55 and 186)\n    The term “infrastructural projects” or “infrastructural facilities” includes the following projects\nor activities:—\n        (1) Transportation (including inter modal transportation), includes the following:—\n            (a) roads, national highways, state highways, major district roads, other district roads\n        and",
+          "section_ref": "1 (Part 1)",
+          "control_id": "COMPANIES_ACT_2013-742"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Combating Financing of Terrorism",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "(a) In terms of PMLA Rules, suspicious transaction should include, among other things,\ntransactions which give rise to a reasonable ground of suspicion that these may\ninvolve financing of the activities relating to terrorism. Banks are, therefore, advised to\ndevelop suitable mechanism through appropriate policy framework for enhanced\nmonitoring of accounts suspected of having terrorist links and s",
+          "section_ref": "2.13 (Part 1)",
+          "control_id": "PMLA_AML_CFT-022"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Customer Identification Procedure (CIP)",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "(a) The policy approved by the Board of banks should clearly spell out the Customer\nIdentification Procedure to be carried out at different stages that is, while establishing a\nbanking relationship, carrying out a financial transaction or when the bank has a doubt\nabout the authenticity/veracity or the adequacy of the previously obtained customer\nidentification data.",
+          "section_ref": "2.4 (Part 1)",
+          "control_id": "PMLA_AML_CFT-009"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Customer Identification Requirements – Indicative Guidelines",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "Explanation : Control through other means can be exercised through\n                  voting rights, agreement, arrangements, etc. (iii)    Where no natural person is identified under (i) or (ii) above, the identity\n          of the relevant natural person who holds the position of senior managing\n          official.",
+          "section_ref": "2.5 (Part 2)",
+          "control_id": "PMLA_AML_CFT-013"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Cyber           Cyber resilience is ability to continuously deliver the intended",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Resilience      outcome despite adverse cyber events. Well-functioning cyber\n        program         security management program consistent with cyber resilience best\n                        practices shall be in place and verified through supervisory review.",
+          "section_ref": "3.2",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-318"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Data / 2. Personal Data – any data/ applications other than / 1.   Smart Phone –",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Classification       1. Corporate Data – means applications and data belonging\n                                    to Organizationor its affiliates, including but not limited\n                                    to emails, calendar, contact data, corporate applications,\n                                    documents, images etc.",
+          "section_ref": "3.7.1.1",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-166"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Data security     1.    Remote data wipe: Devices enrolled under this policy sha",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Be configured for remote erase capability through\n                                  appropriate means such as an MDM software\n\n‘Security Policies: Cryptographic Controls.’\n\nmaintain a list of applications that are to be denied system\n                                  access and shall prevent them from installing or running.",
+          "section_ref": "3.7.2.2",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-170"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Definition of Customer",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "For the purpose of KYC policy, a ‘Customer’ is defined as:\n\n\n   • a person or entity that maintains an account and/or has a business relationship\n      with the bank;\n\n   • one on whose behalf the account is maintained (that is, the beneficial owner);\n\n\n   • beneficiaries of transactions conducted by professional intermediaries, such as\n      Stock Brokers, Chartered Accountants, Solicitors etc.",
+          "section_ref": "1.2",
+          "control_id": "PMLA_AML_CFT-005"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Definitions",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "(1) In this Act, unless the context otherwise requires, —\n            (a) \"access\" with its grammatical variations and cognate expressions means gaining\n     entry into, instructing or communicating with the logical, arithmetical, or memory function\n     resources of a computer, computer system or computer network;\n            (b) \"addressee\" means a person who is intended by the originator to rec",
+          "section_ref": "2 (Part 1)",
+          "control_id": "IT_ACT_2000-003"
+        },
+        {
+          "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+          "definition": "Ii. 23\n                  Correspondent Banking: Correspondent banking is the provision of banking\n             services by one bank (the “correspondent bank”) to another bank (the\n             “respondent bank”).",
+          "section_ref": "3 (Part 4)",
+          "control_id": "RBI_KYC_MASTER_DIRECTIONS-010"
+        },
+        {
+          "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+          "definition": "Xv. 28\n                  Shell Bank” means a bank that has no physical presence in the country in\n             which it is incorporated and licensed, and which is unaffiliated with a regulated\n             financial group that is subject to effective consolidated supervision.",
+          "section_ref": "3 (Part 5)",
+          "control_id": "RBI_KYC_MASTER_DIRECTIONS-011"
+        },
+        {
+          "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+          "definition": "M. Unique transaction reference number: Unique transaction reference\n                     number refers to a combination of letters, numbers or symbols,\n                     determined by the payment service provider, in accordance with the\n                     protocols of the payment and settlement system or messaging system\n                     used for the wire transfer.",
+          "section_ref": "3 (Part 6)",
+          "control_id": "RBI_KYC_MASTER_DIRECTIONS-012"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Definitions — (1) In these rules, unless the context otherwise requires,--",
+      "definitions": [
+        {
+          "framework_id": "IT_RULES_2011",
+          "definition": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n   (b) \"Communication link” means a connection between a hyperlink or graphical element\n         (button, drawing, image) and one or more such items in the same or different\n         electronic document where upon clicking on a hyperlinked item, the user is\n         automatically transferred to the other end of the hyperlink whic",
+          "section_ref": "2",
+          "control_id": "IT_RULES_2011-001"
+        },
+        {
+          "framework_id": "IT_RULES_2011",
+          "definition": "(a) \"Act\" means the Information Technology Act, 2000 (21 of 2000);\n     (b) \"Appropriate Government\" means the Central Government or the State Government\n             or an Union Territory Administration;\n       (c) \"Cyber Cafe\" means cyber cafe as defined in clause (na) of sub-section (1) of\n             section 2 of the Act;\n       (d) \"computer resource\" means a computer resource as defined in",
+          "section_ref": "2",
+          "control_id": "IT_RULES_2011-004"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Definitions.—In this Act, unless the context otherwise requires,—",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(1) “abridged prospectus” means a memorandum containing such salient features of a prospectus as\n   may be specified by the Securities and Exchange Board by making regulations in this behalf;\n       (2) “accounting standards” means the standards of accounting or any addendum to it for\n   companies or class of companies referred to in section 133;\n       (3) “alter” or “alteration” includes the m",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-009"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Definitions.—In this Chapter, unless the context otherwise requires,—",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(a) “Chairperson” means the Chairperson of the Appellate Tribunal;\n         (b) “Judicial Member” means a member of the Tribunal or the Appellate Tribunal appointed as\n     such and includes the President or the Chairperson, as the case may be;\n         (c) “Member” means a member, whether Judicial or Technical of the Tribunal or the Appellate\n     Tribunal and includes the President or the Chairp",
+          "section_ref": "407",
+          "control_id": "COMPANIES_ACT_2013-492"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Definitions: In these regulations, unless the context requires otherwise—",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017",
+          "definition": "(a)    “Act” means the Insurance Act, 1938 (4 of 1938) as amended from time to time. (b) “Agreement” for the purpose of these regulations means an agreement entered into between an Insurance Web\n    Aggregator and an Insurer;\n(c)     “Authorised Verifier” for the purpose of these Regulations is a person employed by the Insurance Web Aggregator\n        or a Tele-marketer for insurance solicitation",
+          "section_ref": "2",
+          "control_id": "IRDAI_WEB_AGGREGATOR_REGS_2017-001"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Dormant company.—(1) Where a company is formed and registered under this Act for",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Project or to hold an asset or intellectual property and has no significant accounting transaction, such a\ncompany or an inactive company may make an application to the Registrar in such manner as may be\nprescribed for obtaining the status of a dormant company. Explanation.—For the purposes of this section,—\n          (i) “inactive company” means a company which has not been carrying on any busine",
+          "section_ref": "455",
+          "control_id": "COMPANIES_ACT_2013-546"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "EN                              Official Journal of the European Union",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(22) ‘supervisory authority concerned’ means a supervisory authority which is concerned by the processing of personal\n          data because:\n\n           (a) the controller or processor is established on the territory of the Member State of that supervisory authority;\n\n           (b) data subjects residing in the Member State of that supervisory authority are substantially affected or likely to be",
+          "section_ref": "4.5.2016",
+          "control_id": "GDPR_2018-049"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "EN                            Official Journal of the European Union",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Household activities could include correspondence and the holding of addresses, or social networking and online\n            activity undertaken within the context of such activities. However, this Regulation applies to controllers or\n            processors which provide the means for processing personal data for such personal or household activities.",
+          "section_ref": "4.5.2016 (Part 2)",
+          "control_id": "GDPR_2018-003"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "EN                           Official Journal of the European Union",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(d) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a\n         third party;\n\n     (e) the recipients or categories of recipients of the personal data, if any;\n\n     (f) where applicable, the fact that the controller intends to transfer personal data to a third country or international\n         organisation and the existence or ab",
+          "section_ref": "4.5.2016",
+          "control_id": "GDPR_2018-074"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "EN                          Official Journal of the European Union",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "The main establishment. The main establishment of a controller in the Union should be determined according to\n            objective criteria and should imply the effective and real exercise of management activities determining the main\n            decisions as to the purposes and means of processing through stable arrangements.",
+          "section_ref": "4.5.2016 (Part 1)",
+          "control_id": "GDPR_2018-006"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(40)   In order for processing to be lawful, personal data should be processed on the basis of the consent of the data\n            subject concerned or some other legitimate basis, laid down by law, either in this Regulation or in other Union or\n\fL 119/8             EN                             Official Journal of the European Union                                        4.5.2016\n\n             M",
+          "section_ref": "4.5.2016 (Part 2)",
+          "control_id": "GDPR_2018-007"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "A person who consented to data processing as a child, and did not fully understand the risks, has the right to request erasure of that data even after reaching adulthood.",
+          "section_ref": "4.5.2016 (Part 1)",
+          "control_id": "GDPR_2018-015"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "With Article 47 of the Charter if the data subject considers that his or her rights under this Regulation are\n            infringed or where the supervisory authority does not act on a complaint, partially or wholly rejects or dismisses\n            a complaint or does not act where such action is necessary to protect the rights of the data subject. The investi­\n            gation following a compl",
+          "section_ref": "4.5.2016 (Part 2)",
+          "control_id": "GDPR_2018-032"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "When personal data is processed for archiving purposes in the public interest, GDPR applies, but appropriate safeguards must be in place.",
+          "section_ref": "4.5.2016 (Part 2)",
+          "control_id": "GDPR_2018-040"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(b) the qualifications and eligibility conditions required to be appointed as member of each supervisory authority;\n\n     (c) the rules and procedures for the appointment of the member or members of each supervisory authority;\n\n     (d) the duration of the term of the member or members of each supervisory authority of no less than four years, except\n         for the first appointment after 24 May",
+          "section_ref": "4.5.2016",
+          "control_id": "GDPR_2018-189"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "EN                         Official Journal of the European Union",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(121) The general conditions for the member or members of the supervisory authority should be laid down by law in\n           each Member State and should in particular provide that those members are to be appointed, by means of a\n           transparent procedure, either by the parliament, government or the head of State of the Member State on the\n           basis of a proposal from the government,",
+          "section_ref": "4.5.2016 (Part 3)",
+          "control_id": "GDPR_2018-027"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Each supervisory authority shall facilitate the submission of complaints referre",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Measures such as a complaint submission form which can also be completed electronically, without excluding other\n     means of communication. applicable, for the data protection officer.",
+          "section_ref": "2",
+          "control_id": "GDPR_2018-195"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Each supervisory authority shall have all of the following investigative powers:",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(a) to order the controller and the processor, and, where applicable, the controller's or the processor's representative to\n         provide any information it requires for the performance of its tasks;\n\n     (b) to carry out investigations in the form of data protection audits;\n\n     (c) to carry out a review on certifications issued under A",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-196"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Evaluation    of   Organization shall evaluate the Cloud service providers’ virt",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Cloud Service      hardening guidelines and policies and evaluate the third-party gap\n        Provider           assessment against technology risk assessment checklist. This includes\n        virtualization     but not limited to:\n        environment        a.",
+          "section_ref": "3.6.1",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-309"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Follow-up Consult: Patient with RMP",
+      "definitions": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "definition": "In a follow-up consultation, as the RMP-patient interaction has already taken place for the specific\n      medical condition being followed-up and the RMP comprehends the context well with previous\n      records available, it allows for a more definitive and secure interaction between the RMP and the\n      patient. 2.1.",
+          "section_ref": "2",
+          "control_id": "TELEMEDICINE_GUIDELINES_2020-051"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "For each PCI DSS requirement that specifies      12.3.1 Examine documented polic",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Completion of a targeted risk analysis, the analysis    procedures to verify a process is defined for          based on the risk to the entity’s environment. is documented and includes:                             performing targeted risk analyses for each PCI         Performing this risk analysis according to a\n •   Identification of the assets being protected.",
+          "section_ref": "12.3.1",
+          "control_id": "PCI_DSS_V4-292"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Functions of company secretary.—(1) The functions of the company secretary shall",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(a) to report to the Board about compliance with the provisions of this Act, the rules made\n     under it and other laws applicable to the company;\n          (b) to ensure that the company complies with the applicable secretarial standards;\n          (c) to discharge such other duties as may be prescribed. Explanation.—For the purpose of this section, the expression “secretarial standards” means",
+          "section_ref": "205",
+          "control_id": "COMPANIES_ACT_2013-285"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "I agree to the Terms and Conditions and Privacy Policy and any other published p",
+      "definitions": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "definition": "With me by the RMP/mentioned in the website of the RMP, Hospital or Service Provider. I have read and understood the information regarding the use of telemedicine provided above\n      (or) the information regarding the use of telemedicine provided above has been read out and\n      explained to me in a language that I fully understand, and I am willing to undergo this\n      innovative means for my",
+          "section_ref": "14",
+          "control_id": "TELEMEDICINE_GUIDELINES_2020-075"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "IS              1.   A managed process shall be developed and maintained for / 2",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Consideration        business continuity throughout the organization that\n               in BCM               addresses the information security requirements needed for\n                                    the organization’s business continuity. developed and implemented in order to maintain or restore\n                                    business operations in the required time scales following",
+          "section_ref": "3.3.2",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-221"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "In the context of the use of information society services, and notwithstanding D",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Subject may exercise his or her right to object by automated means using technical specifications.",
+          "section_ref": "5",
+          "control_id": "GDPR_2018-095"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "In these directions unless the context otherwise requires,",
+      "definitions": [
+        {
+          "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+          "definition": "(1)   ‘Account Aggregator’ means a non-banking financial company as notified\n            under in sub-clause (iii) of clause (f) of section 45-I of the Act, that\n            undertakes the business of an account aggregator, for a fee or otherwise,\n            as defined at paragraph 8(4) of these directions. (2)   ‘bank’ means -\n\n            a) a banking company; or\n\n            b) a corresponding",
+          "section_ref": "8",
+          "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-003"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Incident         1. All incidents reported shall be recorded along with details",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Recording and         mandated by the IS team, which shall include (but not\n            classification        limited to):\n                                           Source of the incident – user reported or through\n                                            monitoring mechanism\n                                           Impacted information asset(s)\n                                        ",
+          "section_ref": "3.2",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-183"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Incident response procedures are in place,      12.10.7.a Examine documented inc",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Defined Approach Requirements                         Defined Approach Testing Procedures                 Purpose\n                                                                                                           POS POI termination points, including but not\n A2.1.2 Additional requirement for service             A2.1.2 Additional testing procedure for service     limited to service provide",
+          "section_ref": "12.10.7 (Part 5)",
+          "control_id": "PCI_DSS_V4-329"
+        },
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Defined Approach Requirements                         Defined Approach Testing Procedures                    Purpose\n                                                                                                              A formal compliance program allows an\n A3.1.2 A formal PCI DSS compliance program is in      A3.1.2.a Examine information security policies and     organization to monitor t",
+          "section_ref": "12.10.7 (Part 7)",
+          "control_id": "PCI_DSS_V4-331"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Ins. by Act 29 of 2020, s. 52 (w.e.f. 11-2-2021).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Operative society registered under any other law for the time being in force, which has, subsequent to\nits formation, extended any of its objects to more than one State by enlisting the participation of persons\nor by extending any of its activities outside the State, whether directly or indirectly or through an\ninstitution of which it is a constituent;\n\n     (d) “limited return” means the maximum",
+          "section_ref": "1 (Part 1)",
+          "control_id": "COMPANIES_ACT_2013-444"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Interpretation.—For the purposes of the foregoing provisions of this Chapter,—",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(a) the expression “certified” means certified in the prescribed manner to be a true copy or a correct\n     translation;\n         (b) the expression “director”, in relation to a foreign company, includes any person in accordance\n     with whose directions or instructions the Board of Directors of the company is accustomed to act; and\n          (c) the expression “place of business” includes a shar",
+          "section_ref": "386",
+          "control_id": "COMPANIES_ACT_2013-469"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Investigation into affairs of company.—(1) Where the Central Government is of th",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "That it is necessary to investigate into the affairs of a company,—\n        (a) on the receipt of a report of the Registrar or inspector under section 208;\n        (b) on intimation of a special resolution passed by a company that the affairs of the company ought\n    to be investigated; or\n        (c) in public interest,\nit may order an investigation into the affairs of the company. (2) Where an o",
+          "section_ref": "210",
+          "control_id": "COMPANIES_ACT_2013-291"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Key management policies and procedures are        3.7.8.a Examine the documented",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Implemented to include that cryptographic key           policies and procedures for keys used for           understand and accept the responsibilities. An annual\n custodians formally acknowledge (in writing or          protection of stored account data and verify that   reaffirmation can help remind key custodians of their\n electronically) that they understand and accept their   they define acknow",
+          "section_ref": "3.7.8",
+          "control_id": "PCI_DSS_V4-091"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "MASTER CIRCULAR",
+      "definitions": [
+        {
+          "framework_id": "SEBI_AML_CFT_GUIDELINES",
+          "definition": "SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2024/78 June 06, 2024\n\nTo,\n1. All Intermediaries registered with SEBI under Section 12 of the\nSecurities and Exchange Board of India Act, 1992\n2.",
+          "section_ref": "MASTER",
+          "control_id": "SEBI_AML_CFT_GUIDELINES-001"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Management review inputs",
+      "definitions": [
+        {
+          "framework_id": "ISO_27001_2022",
+          "definition": "The management review shall include consideration of:\n                                                    a)   the status of actions from previous management reviews;\n                                                    b) changes in external and internal issues that are relevant to the information security management\n                                                       system;",
+          "section_ref": "9.3.2",
+          "control_id": "ISO_27001_2022-012"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Merger or amalgamation of company with foreign company.—(1) The provisions of th",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Chapter unless otherwise provided under any other law for the time being in force, shall apply mutatis\n\n\fmutandis to schemes of mergers and amalgamations between companies registered under this Act and\ncompanies incorporated in the jurisdictions of such countries as may be notified from time to time by the\nCentral Government:\n    Provided that the Central Government may make rules, in consultation",
+          "section_ref": "234",
+          "control_id": "COMPANIES_ACT_2013-325"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Monitoring of Transactions",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "(a) Ongoing monitoring is an essential element of effective KYC procedures. Banks\ncan effectively control and reduce their risk only if they have an understanding of the\nnormal and reasonable activity of the customer so that they have the means of\nidentifying transactions that fall outside the regular pattern of activity.",
+          "section_ref": "2.8",
+          "control_id": "PMLA_AML_CFT-018"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "NBFC-AA shall establish a well-documented risk management framework which",
+      "definitions": [
+        {
+          "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+          "definition": "Shall include\n\n(1) A sound and robust technology risk management framework;\n\n(2) Strengthening system security, reliability, resiliency, and recoverability; and\n\n(3) Deploying strong authentication to protect access to customer data and systems.",
+          "section_ref": "46",
+          "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-023"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "PAN is masked when displayed (the BIN and last",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "3.4.1.a Examine documented policies and                card receipts, paper reports, etc. can result in this data\nfour digits are the maximum number of digits to be       procedures for masking the display of PANs to\ndisplayed), such that only personnel with a legitimate                                                          being obtained by unauthorized individuals and used",
+          "section_ref": "3.4.1",
+          "control_id": "PCI_DSS_V4-069"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "PCI DSS scope is documented and                   12.5.2.a Examine documented re",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Confirmed by the entity at least once every 12           reviews and interview personnel to verify that the   aligned with changing business objectives, and\n months and upon significant change to the in-scope       reviews are performed:                               therefore that security controls are protecting all\n environment. At a minimum, the scoping validation        •   At least once ever",
+          "section_ref": "12.5.2",
+          "control_id": "PCI_DSS_V4-302"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "POWER TO RELAX STRICT ENFORCEMENT OF THE REGULATIONS",
+      "definitions": [
+        {
+          "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+          "definition": "Exemption from enforcement of the regulations in special cases. 28A.",
+          "section_ref": "POWER",
+          "control_id": "SEBI_INVESTMENT_ADVISER_REGS_2013-036"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Penalty for damage to computer, computer system, etc.",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "If any person without permission of the owner or any other person who is incharge of a\ncomputer, computer system or computer network, —\n              (a) accesses or secures access to such computer, computer system or computer network;\n\f              (b) downloads, copies or extracts any data, computer data base or information\n        from such computer, computer system or computer network includi",
+          "section_ref": "43",
+          "control_id": "IT_ACT_2000-041"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Personnel receive security awareness            12.6.3.a Examine security awaren",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Training as follows:                                   records to verify that personnel attend security    security and that they understand their role in\n •   Upon hire and at least once every 12 months. awareness training upon hire and at least once      protecting the organization.",
+          "section_ref": "12.6.3",
+          "control_id": "PCI_DSS_V4-308"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Power to compromise or make arrangements with creditors and members.—(1) Where a",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Compromise or arrangement is proposed—\n\n\f    (a) between a company and its creditors or any class of them; or\n    (b) between a company and its members or any class of them,\nthe Tribunal may, on the application of the company or of any creditor or member of the company, or in\nthe case of a company which is being wound up, of the liquidator,1[appointed under this Act or under the\nInsolvency and Ban",
+          "section_ref": "230",
+          "control_id": "COMPANIES_ACT_2013-316"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Power to make rules by Central Government in respect of digital signature.",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "The Central Government may, for the purposes of this Act, by rules, prescribe—\n            (a) the type of digital signature;\n            (b) the manner and format in which the digital signature shall be affixed;\n            (c) the manner or procedure which facilitates identification of the person\n      affixing the digital signature;\n            (d) control processes and procedures to ensure ade",
+          "section_ref": "10",
+          "control_id": "IT_ACT_2000-011"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Preamble",
+      "definitions": [
+        {
+          "framework_id": "DPDP_ACT_2023",
+          "definition": "(q) “Member” means a Member of the Board and includes the Chairperson;\n           (r) “notification” means a notification published in the Official Gazette and the\n      expressions “notify” and “notified” shall be construed accordingly;\n            (s) “person” includes—\n                  (i) an individual;\n                  (ii) a Hindu undivided family;\n                  (iii) a company;",
+          "section_ref": "Preamble (Part 2)",
+          "control_id": "DPDP_ACT_2023-001"
+        },
+        {
+          "framework_id": "ISO_27001_2022",
+          "definition": "INTERNATIONAL                                            ISO/IEC\nSTANDARD                                                  27001\n\n                                                                Third edition\n                                                                     2022-10\n\n\n\n\nInformation security, cybersecurity\nand privacy protection — Information\nsecurity management systems —\nRequirem",
+          "section_ref": "Preamble",
+          "control_id": "ISO_27001_2022-001"
+        },
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "MINISTRY OF LAW, JUSTICE AND COMPANY\n                 AFFAIRS (Legislative Department)\n                New Delhi, the 9th June, 2000/Jyaistha 19, 1922 (Saka)\n  The following Act of Parliament received the assent of the President on the 9th\nJune, 2000, and is hereby published for general information:—\n               THE INFORMATION TECHNOLOGY ACT, 2000\n                          (No. 21 OF 2000)",
+          "section_ref": "Preamble",
+          "control_id": "IT_ACT_2000-001"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Preferential payments.—(1) In a winding up, subject to the provisions of section",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "[(7) Sections 326 and 327 shall not be applicable in the event of liquidation under the Insolvency and\nBankruptcy Code, 2016 (31 of 2016).]\n    Explanation.—For the purposes of this section,—\n        (a) the expression “accrued holiday remuneration” includes, in relation to any person, all sums\n    which, by virtue either of his contract of employment or of any enactment including any order made o",
+          "section_ref": "327 (Part 3)",
+          "control_id": "COMPANIES_ACT_2013-387"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Privileged   1.   Privileged user accounts are accounts with administrative",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "User              access to applications, operating systems, network devices,\n      Accounts          databases components and other information systems\n                        enabling a user to modify system configurations including\n                        metadata, user records and other functions and override\n                        security and controls within the system to which",
+          "section_ref": "3.5",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-091"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Provisions as to expert’s consent and allotment.—(1) No person shall issue, circ",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Distribute in India any prospectus offering for subscription in securities of a company incorporated or to be\nincorporated outside India, whether the company has or has not been established, or when formed will or\nwill not establish, a place of business in India,—\n        (a) if, where the prospectus includes a statement purporting to be made by an expert, he has not\n    given, or has before deliv",
+          "section_ref": "388",
+          "control_id": "COMPANIES_ACT_2013-472"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Public offer and private placement.—(1) A public company may issue securities—",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(a) to public through prospectus (in this referred to as “public offer”) by complying with the\n     provisions of this Part; or\n          (b) through private placement by complying with the provisions of Part II of this Chapter; or\n          (c) through a rights issue or a bonus issue in accordance with the provisions of this Act and in case\n     of a listed company or a company which intends to g",
+          "section_ref": "23",
+          "control_id": "COMPANIES_ACT_2013-047"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "RACI Matrix              Responsible        Accountable    Consulted         Inf",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Asset Owner   IS,         IT Risk         IT,              Business\n              Security       Management   Department,            IS,\n              Operation      Team         Asset Owner\n              Team\n\n\n\n\n\fPolicy No.:    2.2\nPolicy Name:   2.2. Asset Management\n\n\n1              Purpose             To define practices for identification and cataloguing of Information",
+          "section_ref": "3.6",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-058"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "RACI Matrix              Responsible     Accountable     Consulted        Inform",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Legal team      CISO            Risk, Audit & Executive\n                                               (Information    Compliance       management\n                                               Security)       team\n\n\n\n\n\fPolicy No.:            2.18\nPolicy Name:           2.18 Situational Awareness\n\n\n\n\n1     PURPOSE                     Situational awareness refers to the Organization’s understanding",
+          "section_ref": "3.4",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-290"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "RACI Matrix      Responsible        Accountable     Consulted      Informed",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Business\n                       Administration     IS team                        Employees\n                                                          Function\n\n\n\n\n\fPolicy No.:      2.16\nPolicy Name:     2.16 Monitoring, Logging and Assessment\n\n\n\n       1       PURPOSE           To define the Organization desired practices regarding monitoring,\n                                 auditing and assessme",
+          "section_ref": "3.5",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-270"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "RACI Matrix   Responsible     Accountable          Consulted      Informed",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Change          IT                   Risk           Business\n                    Requestor                            Management     Users\n                                                         Team\n\n\n\n\n\f      Policy No.:     2.10\n\n\n      Policy Name:    2.10 Incident and problem management\n\n\n 1          PURPOSE            An Incident is defined as the occurrence of any exceptional",
+          "section_ref": "3.5",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-178"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Read access to audit logs files is limited to   10.3.1 Interview system administ",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Those with a job-related need. examine system configurations and privileges to        those with a valid business need.",
+          "section_ref": "10.3.1",
+          "control_id": "PCI_DSS_V4-241"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal da",
+      "definitions": [
+        {
+          "framework_id": "DPDP_RULES_2025",
+          "definition": "Under its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\nthe minimum, —\n    (a) appropriate data security measures, such as securing of personal data through encryption,\n        obfuscation, masking or the use of virtual tokens mapped to that per",
+          "section_ref": "6",
+          "control_id": "DPDP_RULES_2025-006"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Requirement 1.2.4.",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "•   Identifying all locations where account data is                                                           entity can consider creating a table or\n     stored, processed, and transmitted, including but                                                         spreadsheet that includes the following\n     not limited to: 1) any locations outside of the",
+          "section_ref": "Requirement 1",
+          "control_id": "PCI_DSS_V4-303"
+        },
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "A3.2.1.b Examine documented results of scope\n •   Identifying all locations where account data is        reviews occurring at least once every three months   entity can consider creating a table or\n     stored, processed, and transmitted, including but      to verify that scoping validation includes all       spreadsheet that includes the following\n     not limited to 1) any locations outside of t",
+          "section_ref": "Requirement 1 (Part 1)",
+          "control_id": "PCI_DSS_V4-333"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Requirement 12.10.1.                                  Requirement 12.10.1.",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Familiar with the plan. Customized Approach Objective                                                                                Good Practice\n                                                                                                              The test of the incident response plan can include\n The incident response plan is kept current and",
+          "section_ref": "Requirement 12",
+          "control_id": "PCI_DSS_V4-319"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Requirement 12.8.",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Payment Card Industry Data Security Standard: Requirements and Testing Procedures, v4.0.1                                                    June 2024\n©2006 - 2024 PCI Security Standards Council, LLC. All Rights Reserved.",
+          "section_ref": "Requirement 12 (Part 9)",
+          "control_id": "PCI_DSS_V4-020"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Requirement 6.2.4 and support customized approach for Requirements 6.3 and 6.5,",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Index Token              A random value from a table of random values that corresponds to a given PAN. Interactive Login        The process of an individual providing authentication credentials to directly log into an application or system account.",
+          "section_ref": "Requirement 6 (Part 4)",
+          "control_id": "PCI_DSS_V4-354"
+        },
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Personnel                Full-time and part-time employees, temporary employees, contractors, and consultants with security responsibilities for protecting\n                          account data or that can impact the security of cardholder data and/or sensitive authentication data. See Visitor.",
+          "section_ref": "Requirement 6 (Part 6)",
+          "control_id": "PCI_DSS_V4-356"
+        },
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Sensitive Area           A sensitive area is typically a subset of the CDE and is any area that houses systems considered critical to the CDE. This includes\n                          data centers, server rooms, back-office rooms at retail locations, and any area that concentrates or aggregates cardholder data\n                          storage, processing, or transmission.",
+          "section_ref": "Requirement 6 (Part 7)",
+          "control_id": "PCI_DSS_V4-357"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Requirement 8.3.1 before access is granted.",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Using one factor twice (for example, using two\n                                                                                                             separate passwords) is not considered multi-\n                                                                                                             factor authentication. (continued on next page)\n\n\n\n\nPayment Card Industry Data Security St",
+          "section_ref": "Requirement 8",
+          "control_id": "PCI_DSS_V4-189"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Right to apply under section 241.—(1) The following members of a company shall h",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Right to apply under section 241, namely:—\n        (a) in the case of a company having a share capital, not less than one hundred members of the\n    company or not less than one-tenth of the total number of its members, whichever is less, or any member\n    or members holding not less than one-tenth of the issued share capital of the company, subject to the\n    condition that the applicant or appli",
+          "section_ref": "244",
+          "control_id": "COMPANIES_ACT_2013-339"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "SCOPE",
+      "definitions": [
+        {
+          "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+          "definition": ". • These guidelines are designed to serve as an aid and tool to enable RMPs to offer\n                access to medical and health services to patients in remote locations and vulnerable\n                populations.",
+          "section_ref": "1.2",
+          "control_id": "TELEMEDICINE_GUIDELINES_2020-002"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "SECTION 2 - AUDIT CHECKLIST",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+          "definition": "Data Security (PR.DS):   Are there processes for media formatting? Auditors\nNo                             Area                                            Audit                              Observation\n                                                                            Questionnaire",
+          "section_ref": "Section 2 (Part 8)",
+          "control_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023-375"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Scope and applicability – This covers tele-marketing and distance marketing acti",
+      "definitions": [
+        {
+          "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017",
+          "definition": "Insurance Web Aggregator at the stages including offer and conclusion of sale. a) Tele-marketing and Distance marketing includes every activity of solicitation and sale of insurance products\n           through the following modes:\n                 (i)      Voice mode, which includes telephone-calling;\n                 (ii)     Short Messaging service (SMS);\n                 (iii)    Electronic mod",
+          "section_ref": "1",
+          "control_id": "IRDAI_WEB_AGGREGATOR_REGS_2017-068"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Secret and private keys used to protect       3.6.1.2.a Examine documented proce",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Stored account data are stored in one (or more) of    verify it is defined that cryptographic keys used to   the exposure of stored account data. Storing keys\n the following forms at all times:                     encrypt/decrypt stored account data must exist         separately means they are stored such that if the\n •   Encrypted with a key-encrypting key that is at    only in one (or more) of t",
+          "section_ref": "3.6.1.2",
+          "control_id": "PCI_DSS_V4-080"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Section 51A of the Unlawful Activities (Prevention) Act, 1967 (UAPA) reads as un",
+      "definitions": [
+        {
+          "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+          "definition": "\"51A. For the prevention of, and for coping with terrorist activities, the Central\n      Government shall have power to —\n\n      a) freeze, seize or attach funds and other financial assets or economic\n         resources held by, on behalf of or at the direction of the individuals or entities\n         listed in the Schedule to the Order, or any other person engaged in or\n         suspected to be en",
+          "section_ref": "Section 51A",
+          "control_id": "RBI_KYC_MASTER_DIRECTIONS-060"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Secure digital signature.",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "If, by application of a security procedure agreed to by the parties concerned, it can\nbe verified that a digital signature, at the time it was affixed, was—\n             (a) unique to the subscriber affixing it;\n              (b) capable of identifying such subscriber;\n              (c) created in a manner or using a means under the exclusive control of the\n       subscriber and is linked to the e",
+          "section_ref": "15",
+          "control_id": "IT_ACT_2000-016"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Security awareness training includes            12.6.3.1 Examine security awaren",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Awareness of threats and vulnerabilities that could      content to verify it includes all elements specified in   and social engineering attempts is essential to\n impact the security of cardholder data and/or            this requirement. minimizing the probability of successful attacks.",
+          "section_ref": "12.6.3.1",
+          "control_id": "PCI_DSS_V4-309"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Security awareness training includes           12.6.3.2 Examine security awarene",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Awareness about the acceptable use of end-user          content to verify it includes awareness about   personnel will understand their responsibilities\n technologies in accordance with Requirement             acceptable use of end-user technologies in      and how these impact the security of an\n 12.2.1. accordance with Requirement 12.2.1.",
+          "section_ref": "12.6.3.2",
+          "control_id": "PCI_DSS_V4-310"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Security procedure.",
+      "definitions": [
+        {
+          "framework_id": "IT_ACT_2000",
+          "definition": "The Central Government shall for the purposes of this Act prescribe the security\n procedure having regard to commercial circumstances prevailing at the time when the\n procedure was used, including—\n           (a) the nature of the transaction;\n           (b) the level of sophistication of the parties with reference to their\n      technological capacity;\n            (c) the volume of similar transa",
+          "section_ref": "16",
+          "control_id": "IT_ACT_2000-017"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Software development personnel working on          6.2.2.a Examine software deve",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Bespoke and custom software are trained at least         to verify that processes are defined for training of   Requirement 6.2.4, will help minimize the number of\n once every 12 months as follows:                         software development personnel developing              security vulnerabilities introduced through poor\n •   On software security relevant to their job           bespoke and cust",
+          "section_ref": "6.2.2",
+          "control_id": "PCI_DSS_V4-125"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subject to the provisions of the Act,—",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(i) A chief executive officer, manager, company secretary or chief financial officer may be appointed by the\n    Board for such term, at such remuneration and upon such conditions as it may thinks fit; and any chief executive\n    officer, manager, company secretary or chief financial officer so appointed may be removed by means of are\n    solution of the Board;\n        (ii) A director may be appoi",
+          "section_ref": "77",
+          "control_id": "COMPANIES_ACT_2013-598"
+        },
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(i) A chief executive officer, manager, company secretary or chief financial officer may be appointed by the\n     Board for such term, at such remuneration and upon such conditions as it thinks fit; and any chief executive\n     officer, manager, company secretary or chief financial officer so appointed may be removed by means of a\n     resolution of the Board. (ii) A director may be appointed as c",
+          "section_ref": "28",
+          "control_id": "COMPANIES_ACT_2013-615"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "Subs. by Act 1 of 2018, s. 2, for “and securities premium account” (w.e.f. 9-2-2",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "In such proceedings without objecting to the same, or where such contravention had taken place with\n       his consent or connivance;\n          (vii) in respect of the issue or transfer of any shares of a company, the share transfer agents,\n       registrars and merchant bankers to the issue or transfer;\n      (61) “Official Liquidator” means an Official Liquidator appointed under sub-section (1)",
+          "section_ref": "1",
+          "control_id": "COMPANIES_ACT_2013-015"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subs. by Notification No. G.S.R. 261(E), dated 31st March 2014 for “promoting pr",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "2014). Explanation.— For the purposes of this item, the term ‘slum area’ shall mean any area declared as\n    such by the Central Government or any State Government or any other competent authority under any\n    law for the time being in force.]\n          [(xii) disaster management, including relief, rehabilitation and reconstruction activities.]",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-744"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subs. by Notification No. S.O. 4822(E), dated 12th September, 2018, for “remuner",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Under Section II” (w.e.f. 12-9-2018).",
+          "section_ref": "4",
+          "control_id": "COMPANIES_ACT_2013-738"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subs. by s. 2, ibid., for “Provided further that” (w.e.f. 2-11-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(44) “Global Depository Receipt” means any instrument in the form of a depository receipt, by\n   whatever name called, created by a foreign depository outside India and authorised by a company\n   making an issue of such depository receipts;\n      (45) “Government company” means any company in which not less than fifty-one per cent. of the\n   paid-up share capital is held by the Central Government,",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-013"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subs. by s. 2, ibid., for “total share capital” (w.e.f. 7-5-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(88) “sweat equity shares” means such equity shares as are issued by a company to its directors or\n   employees at a discount or for consideration, other than cash, for providing their know-how or making\n   available rights in the nature of intellectual property rights or value additions, by whatever name called;\n      (89) “total voting power”, in relation to any matter, means the total number of",
+          "section_ref": "5",
+          "control_id": "COMPANIES_ACT_2013-019"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Subs. by s. 61, ibid., for section 185 (w.e.f. 7-5-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "The loan or guarantee or security is proposed to be utilised by the recipient of the loan or guarantee or\n   security and any other relevant fact; and\n      (b) the loans are utilised by the borrowing company for its principal business activities. Explanation.—For the purposes of this sub-section, the expression “any person in whom any of the\ndirector of the company is interested” means—\n      (a)",
+          "section_ref": "3",
+          "control_id": "COMPANIES_ACT_2013-258"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Such testing shall also include testing of crisis communication to customers and",
+      "definitions": [
+        {
+          "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+          "definition": "Other internal and external stakeholders, reputation management. Adequate capacity\n\n\n\n\f                                 भारतीय ररज़र्व बैंक\n_________________________ RESERVE BANK OF INDIA_____________________\n                                    www.rbi.org.in\n                                   Annex to Circular on Cyber Security Framework in Banks\n     shall be planned and maintained, in considerat",
+          "section_ref": "19.6",
+          "control_id": "RBI_CYBERSECURITY_FRAMEWORK-042"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Suspected and confirmed security incidents that could impact the CDE are respond",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Overview\n\n The organization’s overall information security policy sets the tone for the whole entity and informs personnel what is expected of them. All\n personnel should be aware of the sensitivity of cardholder data and their responsibilities for protecting it.",
+          "section_ref": "12.10",
+          "control_id": "PCI_DSS_V4-286"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "System clocks and time are synchronized       10.6.1 Examine system configuratio",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Using time-synchronization technology. verify that time-synchronization technology is    clocks are not properly synchronized, it can be\n                                                      implemented and kept current.",
+          "section_ref": "10.6.1",
+          "control_id": "PCI_DSS_V4-252"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Taking into account the state of the art, the cost of implementation and the nat",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the\n     processing, the controller shall, both at the time of the determination of the means for processing and at the time of the\n     processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are\n     designed to implement d",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-104"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The Board shall collate all certification mechanisms and data protection seals a",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Make them publicly available by any appropriate means. Article 43\n\n\n                                                            Certification bodies",
+          "section_ref": "8",
+          "control_id": "GDPR_2018-160"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The Commission may, by means of implementing acts, specify the format and proced",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Referred to in this Article and the arrangements for the exchange of information by electronic means between\n     supervisory authorities, and between supervisory authorities and the Board, in particular the standardised format\n     referred to in paragraph 6 of this Article. Those implementing acts shall be adopted in accordance with the examination\n     procedure referred to in Article 93(2).",
+          "section_ref": "9",
+          "control_id": "GDPR_2018-214"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The Commission shall ensure appropriate publicity for the approved codes which h",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "General validity in accordance with paragraph 9. them publicly available by way of appropriate means.",
+          "section_ref": "10",
+          "control_id": "GDPR_2018-153"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The Explanation subs. by Act 1 of 2018, s. 2 (w.e.f. 7-5-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(i) all sums of money received and expended by a company and matters in relation to which the\n         receipts and expenditure take place;\n             (ii) all sales and purchases of goods and services by the company;\n             (iii) the assets and liabilities of the company; and\n            (iv) the items of cost as may be prescribed under section 148 in the case of a company which",
+          "section_ref": "1",
+          "control_id": "COMPANIES_ACT_2013-010"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The Proviso ins. by s. 2, ibid. (w.e.f. 9-2-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(38) “expert” includes an engineer, a valuer, a chartered accountant, a company secretary, a cost\n    accountant and any other person who has the power or authority to issue a certificate in pursuance of\n    any law for the time being in force;\n       (39) “financial institution” includes a scheduled bank, and any other financial institution defined or\n    notified under the Reserve Bank of India",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-012"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The binding corporate rules referred to in paragraph 1 shall specify at least:",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(a) the structure and contact details of the group of undertakings, or group of enterprises engaged in a joint economic\n         activity and of each of its members;\n\n     (b) the data transfers or set of transfers, including the categories of personal data, the type of processing and its\n         purposes, the type of data subjects affected and the identification of the third country or countries",
+          "section_ref": "2",
+          "control_id": "GDPR_2018-178"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The controller shall take appropriate measures to provide any information referr",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Any communication under Articles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent,\n     intelligible and easily accessible form, using clear and plain language, in particular for any information addressed\n     specifically to a child. The information shall be provided in writing, or by other means, including, where appropriate, by\n     electronic means.",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-066"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The data subject shall have the right to receive the personal data concerning hi",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Data subjects have the right to receive their personal data in a structured, machine-readable format and to transfer it to another controller (data portability).",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-091"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The obligations referred to in paragraphs 1 and 2 shall not apply to an enterpri",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Fewer than 250 persons unless the processing it carries out is likely to result in a risk to the rights and freedoms of\n     data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in\n     Article 9(1) or personal data relating to criminal convictions and offences referred to in Article 10. Article 31",
+          "section_ref": "5",
+          "control_id": "GDPR_2018-118"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The requested supervisory authority shall inform the requesting supervisory auth",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "May be, of the progress of the measures taken in order to respond to the request. The requested supervisory authority\n     shall provide reasons for any refusal to comply with a request under paragraph 4.",
+          "section_ref": "5",
+          "control_id": "GDPR_2018-212"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The secretariat shall be responsible in particular for:",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(a) the day-to-day business of the Board;\n\n     (b) communication between the members of the Board, its Chair and the Commission;\n\n     (c) communication with other institutions and the public;\n\n     (d) the use of electronic means for the internal and external communication;\n\n     (e) the translation of relevant information;\n\n     (f) the preparation and follow-up of the meetings of the Board;",
+          "section_ref": "6",
+          "control_id": "GDPR_2018-244"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The words “of five lakh rupees or such higher paid-up capital,” omitted by Act 2",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "(B) not less than fifty-one per cent. of the paid-up share capital is held or controlled by the Central\n        Government or by any State Government or Governments or partly by the Central Government and\n        partly by one or more State Governments;\n       (73) “recognised stock exchange” means a recognised stock exchange as defined in clause (f) of\n    section 2 of the Securities Contracts (R",
+          "section_ref": "2",
+          "control_id": "COMPANIES_ACT_2013-017"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "The words “the limits laid down in” omitted by ibid., (w.e..f 12-9-2018).",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "III. Other information:\n\n          (1) Reasons of loss or inadequate profits\n          (2) Steps taken or proposed to be taken for improvement\n          (3) Expected increase in productivity and profits in measurable terms\n        IV.",
+          "section_ref": "3",
+          "control_id": "COMPANIES_ACT_2013-737"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "This Regulation applies to the processing of personal data by a controller not e",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Place where Member State law applies by virtue of public international law. Article 4\n\n                                                             Definitions\n\n     For the purposes of this Regulation:\n\n       (1) ‘personal data’ means any information relating to an identified or identifiable natural person (‘data subject’); an\n           identifiable natural person is one who can be identified,",
+          "section_ref": "3 (Part 1)",
+          "control_id": "GDPR_2018-047"
+        },
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "(a) as regards a controller with establishments in more than one Member State, the place of its central adminis­\n               tration in the Union, unless the decisions on the purposes and means of the processing of personal data are\n               taken in another establishment of the controller in the Union and the latter establishment has the power to\n               have such decisions implem",
+          "section_ref": "3 (Part 2)",
+          "control_id": "GDPR_2018-048"
+        }
+      ],
+      "conflicts": true,
+      "conflict_note": "Same term defined in multiple frameworks"
+    },
+    {
+      "term": "This Regulation lays down rules relating to the protection of natural persons wi",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Personal data and rules relating to the free movement of personal data. protection of personal data.",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-043"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "To enable these data flows, the Financial Information Providers shall:",
+      "definitions": [
+        {
+          "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+          "definition": "(1) implement interfaces that will allow an NBFC-AA to submit consent artefacts,\n   and authenticate each other, and would enable secure flow of financial information\n   to the NBFC-AA;\n\n   (2) adopt means to verify the consent including digital signatures, if any, contained\n   in the consent artefact;\n\n   (3) implement means to digitally sign the financial information that is shared by\n   them ab",
+          "section_ref": "26",
+          "control_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK-013"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Training is provided for personnel in POI       9.5.1.3.a Review training materi",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Environments to be aware of attempted tampering         POI environments to verify they include all            devices. or replacement of POI devices, and includes:            elements specified in this requirement.",
+          "section_ref": "9.5.1.3",
+          "control_id": "PCI_DSS_V4-227"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Voting through electronic means.—The Central Government may prescribe the class",
+      "definitions": [
+        {
+          "framework_id": "COMPANIES_ACT_2013",
+          "definition": "Of companies and manner in which a member may exercise his right to vote by the electronic means.",
+          "section_ref": "108",
+          "control_id": "COMPANIES_ACT_2013-148"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "When consulting the supervisory authority pursuant to paragraph 1, the controlle",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Controllers must consult the supervisory authority before processing where a DPIA indicates high risk, providing full details of the intended processing.",
+          "section_ref": "3",
+          "control_id": "GDPR_2018-136"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Where personal data are transferred to a third country or to an international or",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "When transferring personal data internationally, data subjects have the right to be informed of the safeguards in place for that transfer.",
+          "section_ref": "2",
+          "control_id": "GDPR_2018-083"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Where personal data have not been obtained from the data subject, the controller",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "With the following information:\n\n     (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;\n\n     (b) the contact details of the data protection officer, where applicable;\n\n     (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;\n\n     (d) the categories of persona",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-077"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Where two or more controllers jointly determine the purposes and means of proces",
+      "definitions": [
+        {
+          "framework_id": "GDPR_2018",
+          "definition": "Controllers. They shall in a transparent manner determine their respective responsibilities for compliance with the\n     obligations under this Regulation, in particular as regards the exercising of the rights of the data subject and their\n     respective duties to provide the information referred to in Articles 13 and 14, by means of an arrangement between\n     them unless, and in so far as, the",
+          "section_ref": "1",
+          "control_id": "GDPR_2018-105"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Wire Transfer",
+      "definitions": [
+        {
+          "framework_id": "PMLA_AML_CFT",
+          "definition": "(a) Banks use wire transfers as an expeditious method for transferring funds between\nbank accounts. Wire transfers include transactions occurring within the national\nboundaries of a country or from one country to another.",
+          "section_ref": "2.16 (Part 1)",
+          "control_id": "PMLA_AML_CFT-027"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "Wireless environments are configured and managed securely.",
+      "definitions": [
+        {
+          "framework_id": "PCI_DSS_V4",
+          "definition": "Overview\n\n Malicious individuals, both external and internal to an entity, often use default passwords and other vendor default settings to compromise\n systems. These passwords and settings are well known and are easily determined via public information.",
+          "section_ref": "2.3",
+          "control_id": "PCI_DSS_V4-045"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "[PAGE 28]",
+      "definitions": [
+        {
+          "framework_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024",
+          "definition": "S=3) cscre\n\n9. ISO 27001 certification\"!",
+          "section_ref": "[PAGE 28]",
+          "control_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024-069"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    },
+    {
+      "term": "[PAGE 65]",
+      "definitions": [
+        {
+          "framework_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024",
+          "definition": "S=3)\n\nCSCRF\n\n \n\n \n\n‘services include necessary software solutions hosted at the service providers” own and\n(or third-party infrastructure. This could lead to business functions becoming more and\n‘more dependent on the service providers.",
+          "section_ref": "[PAGE 65]",
+          "control_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024-123"
+        }
+      ],
+      "conflicts": false,
+      "conflict_note": null
+    }
+  ]
+}
