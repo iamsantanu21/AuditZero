@@ -1,0 +1,1221 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-06-08",
+  "description": "Maps industry verticals and sub-types to applicable compliance frameworks. Use this file to filter all_controls.json for a specific product profile.",
+  "usage": {
+    "step_1": "Identify your vertical (e.g. 'fintech') and sub_type (e.g. 'lending')",
+    "step_2": "Collect framework_ids from: base_requirements + vertical.frameworks + sub_type.frameworks",
+    "step_3": "Filter all_controls.json where control.framework_id is in your collected set",
+    "step_4": "Sort by applicability priority: mandatory > conditional > recommended",
+    "mapping_key": "framework_id values exactly match keys in all_controls.json and per-framework files in dataset/controls/"
+  },
+
+  "base_requirements": {
+    "description": "These frameworks apply to EVERY Indian digital product regardless of vertical",
+    "applies_when": "has_indian_users = true OR incorporated_in_india = true",
+    "frameworks": [
+      {
+        "framework_id": "DPDP_ACT_2023",
+        "applicability": "mandatory",
+        "reason": "Applies to all Digital Data Fiduciaries processing personal data of Indian residents",
+        "priority": 1
+      },
+      {
+        "framework_id": "DPDP_RULES_2025",
+        "applicability": "mandatory",
+        "reason": "Operational rules under DPDP Act — consent, breach notification, DPIA requirements",
+        "priority": 2
+      },
+      {
+        "framework_id": "IT_ACT_2000",
+        "applicability": "mandatory",
+        "reason": "Base cybercrime and electronic records law for all Indian digital businesses",
+        "priority": 3
+      },
+      {
+        "framework_id": "IT_RULES_2011",
+        "applicability": "mandatory",
+        "reason": "Sensitive personal data rules apply to any body corporate handling SPDI",
+        "priority": 4
+      },
+      {
+        "framework_id": "CERT_IN_DIRECTIONS_2022",
+        "applicability": "mandatory",
+        "reason": "6-hour cyber incident reporting obligation applies to all Indian companies",
+        "priority": 5
+      },
+      {
+        "framework_id": "COMPANIES_ACT_2013",
+        "applicability": "mandatory",
+        "reason": "Applies to all companies incorporated in India — governance, accounts, directors",
+        "priority": 6
+      },
+      {
+        "framework_id": "LABOUR_CODES_2020",
+        "applicability": "conditional",
+        "condition": "has_employees = true",
+        "reason": "Applies to any entity with employees — wages, safety, social security, industrial relations",
+        "priority": 7
+      },
+      {
+        "framework_id": "ISO_27001_2022",
+        "applicability": "recommended",
+        "reason": "Information security baseline — recommended for all digital products handling user data",
+        "priority": 8
+      }
+    ]
+  },
+
+  "cross_border_requirements": {
+    "description": "Additional frameworks triggered by geographic user base",
+    "eu_users": {
+      "applies_when": "has_eu_users = true",
+      "frameworks": [
+        {
+          "framework_id": "GDPR_2018",
+          "applicability": "mandatory",
+          "reason": "Mandatory for any product processing personal data of EU/EEA residents",
+          "priority": 1
+        }
+      ]
+    }
+  },
+
+  "payment_card_requirement": {
+    "description": "Triggered by handling card payment data, independent of vertical",
+    "applies_when": "handles_card_payment_data = true",
+    "frameworks": [
+      {
+        "framework_id": "PCI_DSS_V4",
+        "applicability": "mandatory",
+        "reason": "Required for all entities storing, processing, or transmitting cardholder data",
+        "priority": 1
+      }
+    ]
+  },
+
+  "verticals": {
+
+    "fintech": {
+      "label": "Financial Technology",
+      "description": "Apps and platforms operating in financial services — payments, lending, banking, investments, insurance",
+      "tags": ["payments", "banking", "lending", "wealth", "insurance", "crypto", "neobank"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+            "reason": "KYC/Customer Due Diligence mandatory for all RBI-regulated and financial entities",
+            "priority": 1
+          },
+          {
+            "framework_id": "PMLA_AML_CFT",
+            "reason": "Anti-Money Laundering obligations apply to all financial businesses",
+            "priority": 2
+          },
+          {
+            "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+            "reason": "RBI cybersecurity baseline for all regulated financial entities",
+            "priority": 3
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+            "condition": "outsources_it_functions = true",
+            "reason": "Applies when an RBI-regulated entity outsources IT/technology functions",
+            "priority": 4
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "ISO 27001 certification is expected by enterprise banking clients and auditors",
+            "priority": 5
+          }
+        ]
+      },
+      "sub_types": {
+        "payment_gateway": {
+          "label": "Payment Gateway / Payment Aggregator",
+          "description": "Platforms that process, route, or aggregate online/offline payments",
+          "examples": ["Razorpay", "PayU", "Cashfree", "Paytm PG"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "PCI_DSS_V4",
+                "reason": "Mandatory for all entities in the card data environment",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "KYC for merchant onboarding and transaction monitoring",
+                "priority": 2
+              },
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "reason": "AML transaction monitoring and STR reporting",
+                "priority": 3
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "lending": {
+          "label": "Digital Lending / NBFC / Loan Platform",
+          "description": "Apps offering personal loans, BNPL, business loans, or credit lines",
+          "examples": ["KreditBee", "MoneyTap", "Slice", "Progcap"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "RBI_DIGITAL_LENDING_2025",
+                "reason": "Directly governs digital lending platforms and Lending Service Providers",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "KYC/CDD mandatory for borrower onboarding",
+                "priority": 2
+              },
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "reason": "AML obligations for loan disbursals and repayments",
+                "priority": 3
+              }
+            ],
+            "conditional": [
+              {
+                "framework_id": "PCI_DSS_V4",
+                "condition": "processes_card_repayments = true",
+                "reason": "Required if repayments processed via card",
+                "priority": 4
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "neobank": {
+          "label": "Neobank / Digital Bank",
+          "description": "Digital-first banking products, savings accounts, current accounts via partnership with scheduled banks",
+          "examples": ["Fi Money", "Jupiter", "Niyo", "Freo"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "Full KYC mandatory for account opening",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+                "reason": "Cybersecurity framework for banking platforms",
+                "priority": 2
+              },
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "reason": "AML transaction monitoring for banking operations",
+                "priority": 3
+              },
+              {
+                "framework_id": "PCI_DSS_V4",
+                "reason": "Card issuance and processing compliance",
+                "priority": 4
+              }
+            ],
+            "conditional": [
+              {
+                "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+                "condition": "uses_third_party_core_banking = true",
+                "reason": "Applies when core banking or IT services are outsourced",
+                "priority": 5
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "wealthtech": {
+          "label": "Wealthtech / Investment Platform",
+          "description": "Mutual fund platforms, stock brokers, robo-advisors, algo trading apps",
+          "examples": ["Zerodha", "Groww", "Smallcase", "INDmoney"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024",
+                "reason": "Cybersecurity framework mandatory for all SEBI-registered intermediaries",
+                "priority": 1
+              },
+              {
+                "framework_id": "SEBI_AML_CFT_GUIDELINES",
+                "reason": "AML/CFT obligations for all SEBI-registered market participants",
+                "priority": 2
+              },
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "KYC for investor onboarding in regulated investment products",
+                "priority": 3
+              },
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "reason": "AML reporting for securities transactions",
+                "priority": 4
+              }
+            ],
+            "conditional": [
+              {
+                "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013",
+                "condition": "provides_investment_advice = true",
+                "reason": "Mandatory if platform provides personalized investment advice",
+                "priority": 5
+              },
+              {
+                "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025",
+                "condition": "offers_algo_or_api_trading = true",
+                "reason": "Mandatory for platforms offering algorithmic or API-based trading",
+                "priority": 6
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "account_aggregator": {
+          "label": "Account Aggregator / Financial Data Platform",
+          "description": "Platforms operating as AA, FIP, or FIU in the RBI Account Aggregator ecosystem",
+          "examples": ["Setu AA", "Perfios", "Finvu", "CAMSFinServ"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK",
+                "reason": "Core regulatory framework for AA/FIP/FIU entities",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "KYC for customer consent and identity verification",
+                "priority": 2
+              },
+              {
+                "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+                "reason": "Cybersecurity obligations for RBI-regulated AA entities",
+                "priority": 3
+              }
+            ],
+            "conditional": [],
+            "recommended": [
+              {
+                "framework_id": "ISO_27001_2022",
+                "reason": "Strong signal of trust for financial data intermediaries",
+                "priority": 4
+              }
+            ]
+          }
+        },
+        "crypto_web3": {
+          "label": "Crypto / Web3 / Virtual Digital Assets",
+          "description": "Crypto exchanges, VDA service providers, NFT platforms, DeFi apps",
+          "examples": ["CoinDCX", "WazirX", "CoinSwitch", "Mudrex"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "reason": "VDA service providers are now reporting entities under PMLA",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+                "reason": "KYC requirements for VDA user onboarding",
+                "priority": 2
+              }
+            ],
+            "conditional": [
+              {
+                "framework_id": "PCI_DSS_V4",
+                "condition": "accepts_card_payments = true",
+                "reason": "Required if platform accepts card purchases",
+                "priority": 3
+              }
+            ],
+            "recommended": [
+              {
+                "framework_id": "ISO_27001_2022",
+                "reason": "Security certification expected by institutional clients",
+                "priority": 4
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    "insurtech": {
+      "label": "Insurance Technology",
+      "description": "Digital insurance products, distribution platforms, and insurance intermediaries",
+      "tags": ["insurance", "health-insurance", "motor-insurance", "term-life", "web-aggregator"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+            "reason": "Cybersecurity baseline mandatory for all IRDAI-regulated insurers",
+            "priority": 1
+          },
+          {
+            "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+            "reason": "AML/CFT obligations for insurance entities",
+            "priority": 2
+          },
+          {
+            "framework_id": "PMLA_AML_CFT",
+            "reason": "AML obligations extend to insurance intermediaries",
+            "priority": 3
+          },
+          {
+            "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+            "reason": "KYC for policyholder onboarding",
+            "priority": 4
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017",
+            "condition": "operates_as_web_aggregator = true",
+            "reason": "Mandatory for insurance comparison / web aggregator platforms",
+            "priority": 5
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {
+        "insurance_company": {
+          "label": "Insurance Company / Insurer",
+          "description": "Direct insurers (life, general, health)",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023",
+                "reason": "Direct compliance obligation for licensed insurers",
+                "priority": 1
+              },
+              {
+                "framework_id": "IRDAI_AML_CFT_GUIDELINES",
+                "reason": "AML program mandatory for insurers",
+                "priority": 2
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "insurance_aggregator": {
+          "label": "Insurance Web Aggregator / Comparison Platform",
+          "description": "Platforms that compare and sell policies from multiple insurers",
+          "examples": ["PolicyBazaar", "Coverfox", "Acko", "Digit"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017",
+                "reason": "Core regulation for web aggregator license and operations",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "healthtech": {
+      "label": "Health Technology",
+      "description": "Digital health platforms, telemedicine, medical records, wellness, diagnostics, medtech devices",
+      "tags": ["telemedicine", "ehr", "diagnostics", "wellness", "fitness", "medtech", "pharma"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "reason": "Health data is Sensitive Personal Data — highest protection tier under DPDP",
+            "priority": 1
+          },
+          {
+            "framework_id": "IT_RULES_2011",
+            "reason": "Health records are SPDI requiring explicit consent and security",
+            "priority": 2
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+            "condition": "provides_medical_consultation = true",
+            "reason": "Mandatory for any telemedicine / remote doctor consultation platform",
+            "priority": 3
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "Security certification for health data custodians — expected by hospitals and enterprise clients",
+            "priority": 4
+          }
+        ]
+      },
+      "sub_types": {
+        "telemedicine": {
+          "label": "Telemedicine / Online Doctor Consultation",
+          "description": "Platforms connecting patients with doctors via video, chat, or audio",
+          "examples": ["Practo", "1mg", "Apollo 247", "Mfine"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "TELEMEDICINE_GUIDELINES_2020",
+                "reason": "Primary regulation governing telemedicine practice in India",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "health_records": {
+          "label": "Electronic Health Records / PHR Platform",
+          "description": "Platforms storing, managing, or sharing patient health records",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IT_RULES_2011",
+                "reason": "Health records classified as SPDI requiring strict security and consent",
+                "priority": 1
+              },
+              {
+                "framework_id": "DPDP_ACT_2023",
+                "reason": "Health data requires Significant Data Fiduciary treatment",
+                "priority": 2
+              }
+            ],
+            "conditional": [
+              {
+                "framework_id": "GDPR_2018",
+                "condition": "has_eu_users = true",
+                "reason": "Health data is special category data under GDPR — highest protection tier",
+                "priority": 3
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "wellness_fitness": {
+          "label": "Wellness / Fitness / Mental Health App",
+          "description": "Apps tracking fitness, nutrition, sleep, mental health",
+          "examples": ["HealthifyMe", "Cult.fit", "Wysa", "Mindhouse"],
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "IT_RULES_2011",
+                "condition": "collects_health_or_biometric_data = true",
+                "reason": "Biometric and health data classified as SPDI",
+                "priority": 1
+              }
+            ],
+            "recommended": [
+              {
+                "framework_id": "ISO_27001_2022",
+                "reason": "Security baseline for sensitive health data",
+                "priority": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    "edtech": {
+      "label": "Education Technology",
+      "description": "Online learning platforms, test-prep, upskilling, school management software",
+      "tags": ["online-learning", "lms", "test-prep", "school-erp", "coding-bootcamp", "edtech"],
+      "frameworks": {
+        "mandatory": [],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "collects_data_of_minors = true",
+            "reason": "Processing data of children requires verifiable parental consent under DPDP — significant compliance burden",
+            "priority": 1
+          },
+          {
+            "framework_id": "GDPR_2018",
+            "condition": "has_eu_users = true",
+            "reason": "GDPR Article 8 applies strict age-verification for processing children's data",
+            "priority": 2
+          },
+          {
+            "framework_id": "PCI_DSS_V4",
+            "condition": "handles_card_payment_data = true",
+            "reason": "Required for course fee payment processing",
+            "priority": 3
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "Required for B2B institutional contracts with schools and universities",
+            "priority": 4
+          }
+        ]
+      },
+      "sub_types": {
+        "k12_platform": {
+          "label": "K-12 Learning / School Platform",
+          "description": "Platforms serving school children (ages 5-18)",
+          "examples": ["BYJU'S", "Vedantu", "WhiteHat Jr", "Toppr"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "DPDP_ACT_2023",
+                "reason": "Children's data classification under DPDP requires explicit parental consent mechanisms",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "upskilling_platform": {
+          "label": "Upskilling / Professional Learning Platform",
+          "description": "Platforms serving adult learners for professional development",
+          "examples": ["Unacademy", "upGrad", "Simplilearn", "Coursera India"],
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "GDPR_2018",
+                "condition": "has_eu_users = true",
+                "reason": "GDPR for learner data if serving EU users",
+                "priority": 1
+              }
+            ],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "ecommerce": {
+      "label": "E-Commerce / Online Retail",
+      "description": "Online marketplaces, D2C brands, social commerce, and retail platforms",
+      "tags": ["marketplace", "d2c", "social-commerce", "grocery-delivery", "fashion", "electronics"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+            "reason": "Mandatory for all e-commerce entities selling to Indian consumers — listing, returns, grievances",
+            "priority": 1
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "PCI_DSS_V4",
+            "condition": "processes_card_payments_directly = true",
+            "reason": "Required if platform handles card data directly (not via a PG)",
+            "priority": 2
+          },
+          {
+            "framework_id": "PMLA_AML_CFT",
+            "condition": "operates_marketplace_with_high_value_goods = true",
+            "reason": "High-value marketplace transactions may trigger PMLA reporting",
+            "priority": 3
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {
+        "marketplace": {
+          "label": "Online Marketplace",
+          "description": "Platform listing multiple sellers — inventory not owned by platform",
+          "examples": ["Meesho", "Amazon India", "Flipkart", "Nykaa"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+                "reason": "Marketplace-specific obligations: seller listing, grievance officer, returns",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "d2c_brand": {
+          "label": "Direct-to-Consumer (D2C) Brand",
+          "description": "Brand selling own products directly via website or app",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+                "reason": "D2C brands are e-commerce entities under the rules",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "quick_commerce": {
+          "label": "Quick Commerce / Hyperlocal Delivery",
+          "description": "10-30 minute delivery platforms",
+          "examples": ["Blinkit", "Zepto", "Swiggy Instamart", "BigBasket BB Now"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020",
+                "reason": "Delivery SLA, return, and grievance obligations apply",
+                "priority": 1
+              },
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "reason": "Gig worker and delivery partner employment classification obligations",
+                "priority": 2
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "saas": {
+      "label": "Software as a Service (SaaS)",
+      "description": "B2B and B2C cloud software products — productivity, CRM, ERP, developer tools, analytics",
+      "tags": ["b2b-saas", "enterprise-software", "crm", "erp", "developer-tools", "analytics", "infrastructure"],
+      "frameworks": {
+        "mandatory": [],
+        "conditional": [
+          {
+            "framework_id": "GDPR_2018",
+            "condition": "has_eu_customers_or_processes_eu_data = true",
+            "reason": "SaaS processing EU customer or end-user data must comply with GDPR as a data processor",
+            "priority": 1
+          },
+          {
+            "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+            "condition": "provides_it_services_to_rbi_regulated_entities = true",
+            "reason": "SaaS vendors contracted by banks/NBFCs must comply with RBI outsourcing directions",
+            "priority": 2
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "ISO 27001 is the primary trust signal for enterprise B2B sales — required in most enterprise procurement",
+            "priority": 1
+          }
+        ]
+      },
+      "sub_types": {
+        "fintech_saas": {
+          "label": "SaaS for Financial Services",
+          "description": "Software sold to banks, NBFCs, insurance companies",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS",
+                "reason": "Mandatory for IT service providers to RBI-regulated entities",
+                "priority": 1
+              },
+              {
+                "framework_id": "RBI_CYBERSECURITY_FRAMEWORK",
+                "reason": "Security requirements flow down to critical IT vendors",
+                "priority": 2
+              }
+            ],
+            "conditional": [],
+            "recommended": [
+              {
+                "framework_id": "ISO_27001_2022",
+                "reason": "Certification expected in all bank vendor RFPs",
+                "priority": 3
+              }
+            ]
+          }
+        },
+        "healthtech_saas": {
+          "label": "SaaS for Healthcare",
+          "description": "Software sold to hospitals, clinics, pharma companies",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IT_RULES_2011",
+                "reason": "Health records processed on behalf of hospitals = SPDI obligations",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "hr_saas": {
+          "label": "HR / Payroll SaaS",
+          "description": "HRMS, payroll, recruitment software",
+          "examples": ["Darwinbox", "Keka", "greytHR", "Zoho People"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "reason": "Payroll and HR platforms must embed labour code compliance for clients",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "developer_platform": {
+          "label": "Developer Tools / API Platform",
+          "description": "APIs, SDKs, developer infrastructure",
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "GDPR_2018",
+                "condition": "api_processes_personal_data_of_eu_users = true",
+                "reason": "API platforms acting as data processors under GDPR must sign DPAs",
+                "priority": 1
+              }
+            ],
+            "recommended": [
+              {
+                "framework_id": "ISO_27001_2022",
+                "reason": "Required for enterprise API integrations and SOC 2 readiness",
+                "priority": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    "hrtech": {
+      "label": "HR Technology",
+      "description": "Recruitment platforms, workforce management, payroll, employee benefits, gig economy",
+      "tags": ["recruitment", "payroll", "workforce", "benefits", "gig-economy", "staffing"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "LABOUR_CODES_2020",
+            "reason": "Core labour law compliance — wages, safety, social security, industrial relations",
+            "priority": 1
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "processes_employee_or_candidate_personal_data = true",
+            "reason": "Employee and candidate data is personal data under DPDP",
+            "priority": 2
+          },
+          {
+            "framework_id": "PCI_DSS_V4",
+            "condition": "processes_salary_card_payments = true",
+            "reason": "Required for salary card or expense card programs",
+            "priority": 3
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {
+        "recruitment_platform": {
+          "label": "Recruitment / Job Portal",
+          "description": "Job boards, recruitment automation, ATS platforms",
+          "examples": ["Naukri", "LinkedIn India", "Instahyre", "Cutshort"],
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "DPDP_ACT_2023",
+                "condition": "collects_resume_or_candidate_data = true",
+                "reason": "Candidate resumes and profiles are personal data requiring consent",
+                "priority": 1
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "gig_platform": {
+          "label": "Gig / Freelance Marketplace",
+          "description": "Platforms connecting businesses with gig workers or freelancers",
+          "examples": ["Taskmo", "Apna", "WorkIndia", "Awign"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "reason": "Gig worker classification, platform aggregator obligations under Code on Social Security",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "payroll_platform": {
+          "label": "Payroll / Compensation Platform",
+          "description": "Payroll processing, TDS compliance, PF/ESI management",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "reason": "Wage Code compliance for payroll calculations, deductions, and timelines",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "logistics": {
+      "label": "Logistics & Supply Chain",
+      "description": "Last-mile delivery, fleet management, freight, warehousing, supply chain software",
+      "tags": ["delivery", "fleet", "freight", "warehousing", "supply-chain", "trucking"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "LABOUR_CODES_2020",
+            "reason": "Delivery workers and drivers classified as gig workers under Code on Social Security",
+            "priority": 1
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "tracks_location_of_individuals = true",
+            "reason": "Location tracking of delivery partners and customers = personal data processing",
+            "priority": 2
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "Required for B2B enterprise logistics contracts",
+            "priority": 3
+          }
+        ]
+      },
+      "sub_types": {
+        "last_mile_delivery": {
+          "label": "Last-Mile Delivery Platform",
+          "description": "Consumer-facing or B2B package delivery",
+          "examples": ["Delhivery", "Shadowfax", "Dunzo", "Porter"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "reason": "Rider classification and social security contributions",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "freight_platform": {
+          "label": "Freight / B2B Logistics Platform",
+          "description": "Truck booking, cargo management, freight brokerage",
+          "examples": ["Blackbuck", "Rivigo", "FarEye", "Locus"],
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "LABOUR_CODES_2020",
+                "condition": "employs_drivers_or_helpers = true",
+                "reason": "Driver employment and safety obligations",
+                "priority": 1
+              }
+            ],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "media_entertainment": {
+      "label": "Media & Entertainment",
+      "description": "OTT streaming, gaming, news, podcasts, social media, creator economy",
+      "tags": ["ott", "streaming", "gaming", "news", "podcast", "social-media", "creator-economy"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "IT_RULES_2011",
+            "reason": "Intermediary liability, content takedown, and grievance rules apply to all online platforms",
+            "priority": 1
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "platform_has_minors_as_users = true",
+            "reason": "Significant Data Fiduciary classification likely — parental consent for children",
+            "priority": 2
+          },
+          {
+            "framework_id": "GDPR_2018",
+            "condition": "has_eu_users = true",
+            "reason": "Cookie consent, data subject rights, DPO appointment may be required",
+            "priority": 3
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {
+        "ott_platform": {
+          "label": "OTT / Video Streaming Platform",
+          "description": "Video streaming services with subscription or ad-supported models",
+          "examples": ["Hotstar", "Zee5", "SonyLIV", "MX Player"],
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IT_RULES_2011",
+                "reason": "OTT platforms are significant social media intermediaries under IT Rules 2021",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        },
+        "gaming": {
+          "label": "Gaming / Real-Money Gaming",
+          "description": "Mobile games, casual games, fantasy sports, real-money skill games",
+          "examples": ["Dream11", "MPL", "Winzo", "Nazara"],
+          "frameworks": {
+            "mandatory": [],
+            "conditional": [
+              {
+                "framework_id": "PMLA_AML_CFT",
+                "condition": "involves_real_money = true",
+                "reason": "Real-money gaming platforms may be covered under PMLA reporting requirements",
+                "priority": 1
+              },
+              {
+                "framework_id": "PCI_DSS_V4",
+                "condition": "processes_card_deposits = true",
+                "reason": "Card payment processing for in-game purchases",
+                "priority": 2
+              }
+            ],
+            "recommended": []
+          }
+        },
+        "social_media": {
+          "label": "Social Media / Creator Platform",
+          "description": "Social networks, creator monetization, community platforms",
+          "frameworks": {
+            "mandatory": [
+              {
+                "framework_id": "IT_RULES_2011",
+                "reason": "Significant Social Media Intermediary rules — grievance officer, content moderation, traceability",
+                "priority": 1
+              }
+            ],
+            "conditional": [],
+            "recommended": []
+          }
+        }
+      }
+    },
+
+    "govtech": {
+      "label": "Government Technology / Civic Tech",
+      "description": "Platforms built for government clients, public sector, civic services",
+      "tags": ["government", "public-sector", "civic", "e-governance", "smart-city"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "CERT_IN_DIRECTIONS_2022",
+            "reason": "Critical information infrastructure — enhanced reporting obligations",
+            "priority": 1
+          },
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "reason": "Government data fiduciaries have specific obligations under DPDP",
+            "priority": 2
+          },
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "ISO 27001 certification mandatory in most government IT procurement",
+            "priority": 3
+          }
+        ],
+        "conditional": [],
+        "recommended": []
+      },
+      "sub_types": {}
+    },
+
+    "agritech": {
+      "label": "Agricultural Technology",
+      "description": "Farmer-facing apps, agri-marketplace, precision farming, supply chain for agriculture",
+      "tags": ["farmer", "agri-marketplace", "precision-farming", "crop-insurance", "rural-fintech"],
+      "frameworks": {
+        "mandatory": [],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "collects_farmer_personal_data = true",
+            "reason": "Farmer data (land records, income, identity) is personal data under DPDP",
+            "priority": 1
+          },
+          {
+            "framework_id": "RBI_KYC_MASTER_DIRECTIONS",
+            "condition": "provides_credit_or_insurance_to_farmers = true",
+            "reason": "Agri-credit and insurance products require KYC compliance",
+            "priority": 2
+          },
+          {
+            "framework_id": "PMLA_AML_CFT",
+            "condition": "handles_large_cash_transactions = true",
+            "reason": "Rural cash transaction reporting obligations",
+            "priority": 3
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {}
+    },
+
+    "proptech": {
+      "label": "Property Technology",
+      "description": "Real estate platforms, co-living, fractional ownership, property management",
+      "tags": ["real-estate", "co-living", "fractional-ownership", "property-management", "smart-building"],
+      "frameworks": {
+        "mandatory": [
+          {
+            "framework_id": "COMPANIES_ACT_2013",
+            "reason": "Real estate companies governed by Companies Act — additional RERA obligations outside this dataset",
+            "priority": 1
+          }
+        ],
+        "conditional": [
+          {
+            "framework_id": "PMLA_AML_CFT",
+            "condition": "facilitates_property_transactions = true",
+            "reason": "Real estate agents and property transaction platforms are reporting entities under PMLA",
+            "priority": 2
+          },
+          {
+            "framework_id": "PCI_DSS_V4",
+            "condition": "handles_card_payments_for_rent_or_purchase = true",
+            "reason": "Card payment processing for rent or property deposits",
+            "priority": 3
+          }
+        ],
+        "recommended": []
+      },
+      "sub_types": {}
+    },
+
+    "legaltech": {
+      "label": "Legal Technology",
+      "description": "Legal research, contract management, document automation, dispute resolution platforms",
+      "tags": ["legal-research", "contract-management", "dispute-resolution", "e-signature", "compliance-automation"],
+      "frameworks": {
+        "mandatory": [],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "stores_client_legal_documents = true",
+            "reason": "Legal documents contain highly sensitive personal data requiring enhanced protection",
+            "priority": 1
+          },
+          {
+            "framework_id": "GDPR_2018",
+            "condition": "has_eu_clients = true",
+            "reason": "Legal tech processing EU client data must comply with GDPR as a data processor",
+            "priority": 2
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "Security certification expected by law firm and enterprise legal clients",
+            "priority": 3
+          }
+        ]
+      },
+      "sub_types": {}
+    },
+
+    "deep_tech": {
+      "label": "Deep Tech / AI / IoT",
+      "description": "AI/ML platforms, IoT products, robotics, data analytics, computer vision, NLP",
+      "tags": ["ai", "ml", "iot", "robotics", "computer-vision", "nlp", "data-analytics"],
+      "frameworks": {
+        "mandatory": [],
+        "conditional": [
+          {
+            "framework_id": "DPDP_ACT_2023",
+            "condition": "trains_models_on_personal_data = true",
+            "reason": "AI training on personal data requires consent, purpose limitation, and data minimization",
+            "priority": 1
+          },
+          {
+            "framework_id": "IT_RULES_2011",
+            "condition": "collects_biometric_data = true",
+            "reason": "Facial recognition, fingerprints, voice prints = SPDI under IT Rules",
+            "priority": 2
+          },
+          {
+            "framework_id": "CERT_IN_DIRECTIONS_2022",
+            "condition": "operates_critical_infrastructure = true",
+            "reason": "IoT in critical sectors (power, water, transport) triggers CERT-In obligations",
+            "priority": 3
+          },
+          {
+            "framework_id": "GDPR_2018",
+            "condition": "processes_eu_personal_data_for_ml = true",
+            "reason": "GDPR Article 22 — automated decision-making and profiling restrictions",
+            "priority": 4
+          }
+        ],
+        "recommended": [
+          {
+            "framework_id": "ISO_27001_2022",
+            "reason": "Required for enterprise AI product deals and government AI deployments",
+            "priority": 5
+          }
+        ]
+      },
+      "sub_types": {}
+    }
+
+  },
+
+  "framework_registry": {
+    "description": "Quick reference: all 25 framework IDs in this dataset with their domain and regulator",
+    "frameworks": [
+      { "framework_id": "DPDP_ACT_2023", "name": "Digital Personal Data Protection Act 2023", "regulator": "MeitY", "domain": "data_privacy" },
+      { "framework_id": "DPDP_RULES_2025", "name": "DPDP Rules 2025", "regulator": "MeitY", "domain": "data_privacy" },
+      { "framework_id": "IT_ACT_2000", "name": "Information Technology Act 2000", "regulator": "MeitY", "domain": "cybersecurity_law" },
+      { "framework_id": "IT_RULES_2011", "name": "IT (Reasonable Security Practices) Rules 2011", "regulator": "MeitY", "domain": "data_security" },
+      { "framework_id": "CERT_IN_DIRECTIONS_2022", "name": "CERT-In Directions 2022", "regulator": "CERT-In", "domain": "incident_reporting" },
+      { "framework_id": "COMPANIES_ACT_2013", "name": "Companies Act 2013", "regulator": "MCA", "domain": "corporate_governance" },
+      { "framework_id": "LABOUR_CODES_2020", "name": "Labour Codes 2020", "regulator": "Ministry of Labour", "domain": "employment" },
+      { "framework_id": "RBI_KYC_MASTER_DIRECTIONS", "name": "RBI KYC Master Directions", "regulator": "RBI", "domain": "kyc_aml" },
+      { "framework_id": "RBI_DIGITAL_LENDING_2025", "name": "RBI Digital Lending Guidelines 2025", "regulator": "RBI", "domain": "lending" },
+      { "framework_id": "RBI_CYBERSECURITY_FRAMEWORK", "name": "RBI Cybersecurity Framework", "regulator": "RBI", "domain": "cybersecurity" },
+      { "framework_id": "RBI_IT_OUTSOURCING_DIRECTIONS", "name": "RBI IT Outsourcing Directions", "regulator": "RBI", "domain": "outsourcing" },
+      { "framework_id": "RBI_ACCOUNT_AGGREGATOR_FRAMEWORK", "name": "RBI Account Aggregator Framework", "regulator": "RBI", "domain": "data_sharing" },
+      { "framework_id": "PMLA_AML_CFT", "name": "PMLA AML/CFT Rules", "regulator": "FIU-IND / FinMin", "domain": "kyc_aml" },
+      { "framework_id": "SEBI_CYBERSECURITY_FRAMEWORK_2024", "name": "SEBI Cybersecurity Framework 2024", "regulator": "SEBI", "domain": "cybersecurity" },
+      { "framework_id": "SEBI_AML_CFT_GUIDELINES", "name": "SEBI AML/CFT Guidelines", "regulator": "SEBI", "domain": "kyc_aml" },
+      { "framework_id": "SEBI_INVESTMENT_ADVISER_REGS_2013", "name": "SEBI Investment Adviser Regulations 2013", "regulator": "SEBI", "domain": "investment_advisory" },
+      { "framework_id": "SEBI_ALGO_TRADING_CIRCULAR_2025", "name": "SEBI Algo Trading Circular 2025", "regulator": "SEBI", "domain": "trading" },
+      { "framework_id": "IRDAI_CYBER_SECURITY_GUIDELINES_2023", "name": "IRDAI Cyber Security Guidelines 2023", "regulator": "IRDAI", "domain": "cybersecurity" },
+      { "framework_id": "IRDAI_AML_CFT_GUIDELINES", "name": "IRDAI AML/CFT Guidelines", "regulator": "IRDAI", "domain": "kyc_aml" },
+      { "framework_id": "IRDAI_WEB_AGGREGATOR_REGS_2017", "name": "IRDAI Web Aggregator Regulations 2017", "regulator": "IRDAI", "domain": "insurance_distribution" },
+      { "framework_id": "TELEMEDICINE_GUIDELINES_2020", "name": "Telemedicine Practice Guidelines 2020", "regulator": "MoH&FW / NMC", "domain": "healthcare" },
+      { "framework_id": "CONSUMER_PROTECTION_ECOMMERCE_RULES_2020", "name": "Consumer Protection (E-Commerce) Rules 2020", "regulator": "DPIIT / MoCA", "domain": "consumer_protection" },
+      { "framework_id": "PCI_DSS_V4", "name": "PCI DSS v4.0", "regulator": "PCI SSC", "domain": "payment_security" },
+      { "framework_id": "ISO_27001_2022", "name": "ISO/IEC 27001:2022", "regulator": "ISO / BSI", "domain": "information_security" },
+      { "framework_id": "GDPR_2018", "name": "EU General Data Protection Regulation 2018", "regulator": "EU DPAs", "domain": "data_privacy" }
+    ]
+  }
+}
