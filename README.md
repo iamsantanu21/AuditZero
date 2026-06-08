@@ -210,6 +210,120 @@ Every control in the dataset follows this schema:
 
 ---
 
+## Industry Vertical → Framework Map
+
+`dataset/industry_framework_map.json` maps every product category to its applicable compliance frameworks. All verticals also inherit the **base requirements** (DPDP Act, IT Act, IT Rules, CERT-In, Companies Act) which apply to every Indian digital product.
+
+### 💸 Fintech — Financial Technology
+*Sub-types: Payment Gateway · Lending · Neobank · Wealthtech · Account Aggregator · Crypto/Web3*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | RBI KYC Master Directions · PMLA AML/CFT · RBI Cybersecurity Framework |
+| Conditional | RBI IT Outsourcing Directions *(if outsourcing IT)* |
+| Recommended | ISO 27001:2022 |
+
+### 🛡️ Insurtech — Insurance Technology
+*Sub-types: Insurance Company · Insurance Web Aggregator*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | IRDAI Cyber Security Guidelines · IRDAI AML/CFT · PMLA AML/CFT · RBI KYC |
+| Conditional | IRDAI Web Aggregator Regs *(if operating as web aggregator)* |
+
+### 🏥 Healthtech — Health Technology
+*Sub-types: Telemedicine · Health Records · Wellness & Fitness*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | DPDP Act 2023 · IT Rules 2011 |
+| Conditional | Telemedicine Guidelines 2020 *(if offering doctor consultations)* |
+| Recommended | ISO 27001:2022 |
+
+### 🎓 Edtech — Education Technology
+*Sub-types: K-12 Platform · Upskilling / Professional Learning*
+
+| Applicability | Frameworks |
+|---|---|
+| Conditional | DPDP Act 2023 *(if collecting children's data)* · GDPR 2018 *(if EU users)* · PCI DSS v4 *(if processing payments)* |
+| Recommended | ISO 27001:2022 |
+
+### 🛒 E-Commerce / Online Retail
+*Sub-types: Marketplace · D2C Brand · Quick Commerce*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | Consumer Protection (E-Commerce) Rules 2020 |
+| Conditional | PCI DSS v4 *(if handling card data directly)* · PMLA AML/CFT *(if high-value marketplace)* |
+
+### ☁️ SaaS — Software as a Service
+*Sub-types: Fintech SaaS · Healthtech SaaS · HR SaaS · Developer Platform*
+
+| Applicability | Frameworks |
+|---|---|
+| Conditional | GDPR 2018 *(if EU customers)* · RBI IT Outsourcing Directions *(if serving RBI-regulated entities)* |
+| Recommended | ISO 27001:2022 |
+
+### 👥 HRtech — HR Technology
+*Sub-types: Recruitment Platform · Gig Platform · Payroll Platform*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | Labour Codes 2020 |
+| Conditional | DPDP Act 2023 *(if processing employee/candidate data)* · PCI DSS v4 *(if salary card programs)* |
+
+### 🚚 Logistics & Supply Chain
+*Sub-types: Last-Mile Delivery · Freight Platform*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | Labour Codes 2020 |
+| Conditional | DPDP Act 2023 *(if tracking individual locations)* |
+| Recommended | ISO 27001:2022 |
+
+### 🎬 Media & Entertainment
+*Sub-types: OTT Platform · Gaming · Social Media*
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | IT Rules 2011 *(intermediary / SSMI obligations)* |
+| Conditional | DPDP Act 2023 *(if platform has minors)* · GDPR 2018 *(if EU users)* |
+
+### 🏛️ Govtech — Government Technology
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | CERT-In Directions 2022 · DPDP Act 2023 · ISO 27001:2022 |
+
+### 🌾 Agritech — Agricultural Technology
+
+| Applicability | Frameworks |
+|---|---|
+| Conditional | DPDP Act 2023 *(if collecting farmer data)* · RBI KYC *(if providing agri-credit)* · PMLA AML/CFT *(if large cash transactions)* |
+
+### 🏠 Proptech — Property Technology
+
+| Applicability | Frameworks |
+|---|---|
+| Mandatory | Companies Act 2013 |
+| Conditional | PMLA AML/CFT *(if facilitating property transactions)* · PCI DSS v4 *(if handling card payments)* |
+
+### ⚖️ Legaltech — Legal Technology
+
+| Applicability | Frameworks |
+|---|---|
+| Conditional | DPDP Act 2023 *(if storing legal documents)* · GDPR 2018 *(if EU clients)* |
+| Recommended | ISO 27001:2022 |
+
+### 🤖 Deep Tech / AI / IoT
+
+| Applicability | Frameworks |
+|---|---|
+| Conditional | DPDP Act 2023 *(if training on personal data)* · IT Rules 2011 *(if biometric data)* · CERT-In Directions *(if critical infrastructure)* · GDPR 2018 *(if EU personal data)* |
+| Recommended | ISO 27001:2022 |
+
+---
+
 ## How to Use This Dataset
 
 ### 1. Identify applicable frameworks by industry vertical
