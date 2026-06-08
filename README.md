@@ -104,6 +104,9 @@ Content types:
 
 Glossary terms       :   136
 Searchable tags      :    62
+
+Industry verticals   :    14  (fintech, healthtech, edtech, ecommerce, saas, hrtech, logistics, ...)
+Sub-types            :    28  (payment_gateway, lending, neobank, wealthtech, telemedicine, ...)
 ```
 
 ---
@@ -125,7 +128,8 @@ Compliances/
 │
 └── dataset/                           # ← Compliance engine knowledge base
     ├── all_controls.json              # MASTER FILE — all 2,865 controls merged
-    ├── framework_selector.json        # Maps product profile → applicable frameworks
+    ├── framework_selector.json        # Maps product profile → applicable frameworks (condition-based rules)
+    ├── industry_framework_map.json    # Maps industry vertical + sub-type → applicable frameworks
     ├── tags_index.json                # Tag → [control_ids] inverted index
     ├── glossary.json                  # 136 legal term definitions
     ├── dataset_stats.json             # Counts and coverage statistics
@@ -208,7 +212,41 @@ Every control in the dataset follows this schema:
 
 ## How to Use This Dataset
 
-### 1. Select applicable frameworks for a product
+### 1. Identify applicable frameworks by industry vertical
+
+Query `dataset/industry_framework_map.json` using your product's vertical and sub-type:
+
+```python
+import json
+
+imap    = json.load(open("dataset/industry_framework_map.json"))
+controls = json.load(open("dataset/all_controls.json"))["controls"]
+
+# Step 1 — collect framework IDs for your product
+# e.g. a lending fintech with Indian + EU users
+base_ids     = [f["framework_id"] for f in imap["base_requirements"]["frameworks"]
+                if f["applicability"] == "mandatory"]
+eu_ids       = [f["framework_id"] for f in imap["cross_border_requirements"]["eu_users"]["frameworks"]]
+vertical_ids = [f["framework_id"] for f in imap["verticals"]["fintech"]["frameworks"]["mandatory"]]
+subtype_ids  = [f["framework_id"] for f in imap["verticals"]["fintech"]["sub_types"]["lending"]["frameworks"]["mandatory"]]
+
+applicable = set(base_ids + eu_ids + vertical_ids + subtype_ids)
+
+# Step 2 — filter controls
+my_controls = [c for c in controls if c["framework_id"] in applicable]
+print(f"Applicable frameworks : {len(applicable)}")
+print(f"Controls to check     : {len(my_controls)}")
+```
+
+**Output for a lending fintech (India + EU):**
+```
+Applicable frameworks : 11
+Controls to check     : 872
+```
+
+---
+
+### 2. Select applicable frameworks for a product (condition-based rules)
 
 Query `dataset/framework_selector.json` with the product's profile:
 
@@ -247,7 +285,7 @@ for fw in applicable:
 
 ---
 
-### 2. Run a gap check on a specific framework
+### 3. Run a gap check on a specific framework
 
 ```python
 import json
@@ -265,7 +303,7 @@ for control in fw_controls["controls"]:
 
 ---
 
-### 3. Search by tag
+### 4. Search by tag
 
 ```python
 import json
@@ -285,7 +323,7 @@ for cid in consent_controls:
 
 ---
 
-### 4. Get penalty exposure for a product
+### 5. Get penalty exposure for a product
 
 ```python
 import json
